@@ -1,57 +1,24 @@
 #include <stdio.h>
 
 #include "array_generator.h"
+#include "sorting.h"
 
-const int ARR_SIZE = 10000;
-
-
-void swap(int* a, int* b)
+int main(int argc, void** argv)
 {
-  int c = *a;
-  *a = *b;
-  *b = c;
-}
-
-void insertion_sort(int arr[], int n)
-{
-    printf("%s : %d\n", __FUNCTION__, n);
-    int i,j;
-    for(i = 1; i < n; i++)
+    if(argc < 4)
     {
-        j = i;
-        while( (j > 0) && (arr[j] < arr[j-1]) )
-        {
-            swap(&arr[j], &arr[j-1]);
-            j--;
-        }
+        printf("Usage: %s filename array_size algo_type\n", (char*)argv[0]);
+        return 1;
     }
-}
+    int size = atoi(argv[2]);
+    int* arr = file2arr(argv[1], size);
+    //insertion_sort(arr, size);
+    selection_sort(arr, size);
 
-void selection_sort(int arr[], int n)
-{
-    printf("%s : %d\n", __FUNCTION__, n);
-    int i, j;
-    int min;
-    for(i = 0; i < n; i++)
+    int i;
+    for(i = 0; i < size; i++)
     {
-        min = i;
-        for(j = i + 1; j < n; j++)
-            if(arr[j] < arr[min]) min = j;
-        swap(&arr[i], &arr[min]);
+        //printf("[%d] : %d\n", i, arr[i]);
     }
-}
-
-void main()
-{
-  int* arr = rand_array(ARR_SIZE);
-  //int* arr = best_case_array(ARR_SIZE);
-  //int* arr = worst_case_array(ARR_SIZE);
-  //insertion_sort(arr, ARR_SIZE);
-  selection_sort(arr, ARR_SIZE);
-
-  int i;
-  for(i = 0; i < 5; i++)
-    {
-      printf("[%d] : %d\n", i, arr[i]);
-    }
+    return 0;
 }

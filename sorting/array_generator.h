@@ -8,5 +8,9 @@ int* best_case_array(const int size);
 
 int* worst_case_array(const int size);
 
+void arr2file(const int arr[], const int size, const char* fname);
+
+int* file2arr(const char* file_name, const int size);
+
 
 #endif
