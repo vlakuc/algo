@@ -1,6 +1,7 @@
 /* llsort.c. Sort 1 or more lines of text.
  * Usage: llsort <infile> <outfile> <optional sort column>
  * Sort column - defaults to 1.
+ * http://www.drdobbs.com/database/efficiently-sorting-linked-lists/184410973?pgno=1
  */
 #include <stdio.h>
 #include <stdlib.h>
@@ -90,6 +91,13 @@ int LT_comp(void *a, void *b) {
   char *q=((MyNode*)b)->sortPointer;
   return (strcmp(p,q) < 0);            /* True if a<b */
 }
+
+int LT_int_comp(void *a, void *b) {
+  int p = atoi(((MyNode*)a)->sortPointer);
+  int q = atoi(((MyNode*)b)->sortPointer);
+  return p < q;            /* True if a<b */
+}
+
 int main (int argc,char **argv)
 {
   FILE *infile, *outfile;
@@ -146,7 +154,7 @@ int main (int argc,char **argv)
   fclose(infile);
 
   printf("Sorting: %s by column %ld\n",infn, sort_column+1);
-  Sort((void**)&list, LT_comp);
+  Sort((void**)&list, LT_int_comp);
 
   /* Send the sorted data to the output file. */
   p = list;
