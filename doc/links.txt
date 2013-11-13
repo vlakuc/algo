@@ -1,1 +1,4 @@
 https://sentinel2.luxoft.com/svn/repos/LOEWE_SL22/
+https://sentinel2.luxoft.com/sen/files/LOEWE_SL22/toolchain/toolchain-i686-linux%2Bstlinux-2.4.tar.bz2
+https://sentinel2.luxoft.com/sen/files/LOEWE_SL22/toolchain/toolchain-i686-linux%2Bstlinux-2.4-v2.tar.bz2
+https://sentinel2.luxoft.com/sen/files/LOEWE_SL22/toolchain/toolchain-i686-linux%2Bstlinux-2.4-v3.tar.bz2
