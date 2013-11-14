@@ -2,4 +2,7 @@ https://sentinel2.luxoft.com/svn/repos/LOEWE_SL22/
 https://sentinel2.luxoft.com/sen/files/LOEWE_SL22/toolchain/toolchain-i686-linux%2Bstlinux-2.4.tar.bz2
 https://sentinel2.luxoft.com/sen/files/LOEWE_SL22/toolchain/toolchain-i686-linux%2Bstlinux-2.4-v2.tar.bz2
 https://sentinel2.luxoft.com/sen/files/LOEWE_SL22/toolchain/toolchain-i686-linux%2Bstlinux-2.4-v3.tar.bz2
+svn co https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL1/develop/stabilization1_pvr SL1_develop_stabilization1_pvr
+svn co https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40 codebase2011_V2.3.X_CW40_VANILLA
+svn co https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_stab_CW44 codebase2011_V2.3.X_V2.3.X_stab_CW44
 qemu -M pc -cpu qemu32  -smp 4 -hda debian.img -m 1024
