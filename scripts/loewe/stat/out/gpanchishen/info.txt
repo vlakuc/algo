@@ -1,0 +1,226 @@
+------------------------------------------------------------------------
+r382145 | gpanchishen | 2013-10-04 15:28:21 +0400 (Пт., 04 окт. 2013) | 21 lines
+
+Software update of smart feature board
+-----
+Header: System
+-----
+Polarion-ID: SL2-13918
+-----
+Variant: sl200
+-----
+API-modification: No
+-----
+Internal documentation: Software update of smart feature board
+-----
+External documentation: Software update of smart feature board
+-----
+Verfication platform: sl200
+-----
+Merge to: trunk
+-----
+Reviewed by: Kotov V. [Luxoft], Trenkin O. [Luxoft]
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r382162 | gpanchishen | 2013-10-04 15:57:36 +0400 (Пт., 04 окт. 2013) | 21 lines
+
+Software update of smart feature board
+-----
+Header: System
+-----
+Polarion-ID: SL2-13918
+-----
+Variant: sl200
+-----
+API-modification: No
+-----
+Internal documentation: Software update of smart feature board
+-----
+External documentation: Software update of smart feature board 	
+-----
+Verfication platform: sl200
+-----
+Merge to: trunk
+-----
+Reviewed by: Kotov V. [Luxoft], Trenkin O. [Luxoft]
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r382218 | gpanchishen | 2013-10-04 17:08:20 +0400 (Пт., 04 окт. 2013) | 21 lines
+
+Software update of smart feature board
+-----
+Header: System
+-----
+Polarion-ID: SL2-13918
+-----
+Variant: sl200
+-----
+API-modification: No
+-----
+Internal documentation: Software update of smart feature board
+-----
+External documentation: Software update of smart feature board
+-----
+Verfication platform: sl200
+-----
+Merge to: trunk
+-----
+Reviewed by: Kotov V. [Luxoft]
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r382419 | gpanchishen | 2013-10-07 17:57:46 +0400 (Пн., 07 окт. 2013) | 38 lines
+
+Software update of smart feature board 	
+
+-----
+
+Header: System
+
+-----
+
+Polarion-ID: SL2-13918
+
+-----
+
+Variant: sl200
+
+-----
+
+API-modification: No
+
+-----
+
+Internal documentation: Software update of smart feature board
+
+-----
+
+External documentation: Software update of smart feature board
+
+-----
+
+Verfication platform: sl200
+
+-----
+
+Merge to: trunk
+
+-----
+
+Reviewed by: Kotov Valery (Luxoft)
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r384629 | gpanchishen | 2013-10-11 16:51:47 +0400 (Пт., 11 окт. 2013) | 38 lines
+
+Software update of smart feature board 	
+
+-----
+
+Header: System
+
+-----
+
+Polarion-ID: SL2-13918
+
+-----
+
+Variant: sl200
+
+-----
+
+API-modification: No
+
+-----
+
+Internal documentation: Software update of smart feature board
+
+-----
+
+External documentation: Software update of smart feature board
+
+-----
+
+Verfication platform: sl200
+
+-----
+
+Merge to: trunk
+
+-----
+
+Reviewed by: Kotov Valery (Luxoft)
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r398223 | gpanchishen | 2013-11-22 13:46:52 +0400 (Пт., 22 нояб. 2013) | 21 lines
+
+Network state check on startup
+-----
+Header: Network state check on startup
+-----
+Polarion-ID: SL2-14943
+-----
+Variant: SL220
+-----
+API-modification: No
+-----
+Internal documentation: Network state check on startup
+-----
+External documentation: -
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: V. Kotov [Luxoft]
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408011 | gpanchishen | 2014-01-24 18:13:40 +0400 (Пт., 24 янв. 2014) | 38 lines
+
+Remoterec App
+
+-----
+
+Header: remoterec
+
+-----
+
+Polarion-ID: 
+
+-----
+
+Variant: SL-220
+
+-----
+
+API-modification: No
+
+-----
+
+Internal documentation: remoterec frame application
+
+-----
+
+External documentation: remoterec frame application
+
+-----
+
+Verfication platform: SL-220
+
+-----
+
+Merge to: trunk
+
+-----
+
+Reviewed by: 
+
+------------------------------------------------------------------------

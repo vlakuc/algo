@@ -1,0 +1,3424 @@
+------------------------------------------------------------------------
+r374634 | riedelin | 2013-09-10 17:40:11 +0400 (Вт., 10 сент. 2013) | 19 lines
+
+Default value for pre-record time changed from 2 to 1 min.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-3566
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Default value for pre-record time changed from 2 to 1 min.
+-----
+External documentation: Default value for pre-record time changed from 2 to 1 min.
+-----
+Verification platform: SL210
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r375224 | riedelin | 2013-09-11 21:19:47 +0400 (Ср., 11 сент. 2013) | 19 lines
+
+Audio unmute for HDR timeshift also requested, if no audioInSync info received.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-3854
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Audio unmute for HDR timeshift also requested, if no audioInSync info received.
+-----
+External documentation: Audio unmute for HDR timeshift also requested, if no audioInSync info received.
+-----
+Verification platform: SL210
+-----
+Merge to: 
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r375615 | riedelin | 2013-09-12 16:03:52 +0400 (Чт., 12 сент. 2013) | 19 lines
+
+Switch on of sound projector from night update mode corrected.
+-----
+Header: System
+-----
+Polarion-ID: SL2-14347, SL2-14348
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Switch on of sound projector from night update mode corrected.
+-----
+External documentation: Switch on of sound projector from night update mode corrected.
+-----
+Verification platform: SL220
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r375763 | riedelin | 2013-09-12 18:25:52 +0400 (Чт., 12 сент. 2013) | 19 lines
+
+New timings added to mode table (Rev. 365556 merged).
+-----
+Header: Video
+-----
+Polarion-ID: SL2-10008, SL2-11358, SL2-12035, SL2-13331, SL2-12928
+-----
+Variant: SL22x
+-----
+API-modification: No
+-----
+Internal documentation: New timings added to mode table.
+-----
+External documentation:
+-----
+Verification platform: SL220 
+-----
+Merge to: 
+-----
+Reviewed by: murrma
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376224 | riedelin | 2013-09-13 17:08:17 +0400 (Пт., 13 сент. 2013) | 19 lines
+
+Registry handling for energy efficiency resp. quick start mode added.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-3877, SSL1-3799
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Registry handling for energy efficiency resp. quick start mode added.
+-----
+External documentation: Registry handling for energy efficiency resp. quick start mode added.
+-----
+Verification platform: SL210
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376394 | riedelin | 2013-09-16 13:12:52 +0400 (Пн., 16 сент. 2013) | 19 lines
+
+Evaluation of network rules for age-related lock while DR archive playback corrected.
+-----
+Header: System
+-----
+Polarion-ID: SL2-10786
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Evaluation of network rules for age-related lock while DR archive playback corrected.
+-----
+External documentation: Evaluation of network rules for age-related lock while DR archive playback corrected.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376436 | riedelin | 2013-09-16 14:01:19 +0400 (Пн., 16 сент. 2013) | 19 lines
+
+Evaluation of network rules for age-related lock while DR archive playback corrected.
+-----
+Header: System
+-----
+Polarion-ID: SL2-10786
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Evaluation of network rules for age-related lock while DR archive playback corrected.
+-----
+External documentation: Evaluation of network rules for age-related lock while DR archive playback corrected.
+-----
+Verification platform: SL220
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376600 | riedelin | 2013-09-16 19:33:45 +0400 (Пн., 16 сент. 2013) | 19 lines
+
+Evaluation of network rules for age-related lock while DR archive playback corrected.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-3987
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Evaluation of network rules for age-related lock while DR archive playback corrected.
+-----
+External documentation: Evaluation of network rules for age-related lock while DR archive playback corrected.
+-----
+Verification platform: SL210
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376888 | riedelin | 2013-09-17 15:27:30 +0400 (Вт., 17 сент. 2013) | 19 lines
+
+Evaluation of country information for parental rating while playback corrected.
+-----
+Header: System
+-----
+Polarion-ID: SL2-14524
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Evaluation of country information for parental rating while playback corrected.
+-----
+External documentation: Evaluation of country information for parental rating while playback corrected.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376922 | riedelin | 2013-09-17 16:18:57 +0400 (Вт., 17 сент. 2013) | 19 lines
+
+Evaluation of country information for parental rating while playback corrected.
+-----
+Header: System
+-----
+Polarion-ID: SL2-14524
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Evaluation of country information for parental rating while playback corrected.
+-----
+External documentation: Evaluation of country information for parental rating while playback corrected.
+-----
+Verification platform: SL220
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376972 | riedelin | 2013-09-17 17:17:02 +0400 (Вт., 17 сент. 2013) | 19 lines
+
+Evaluation of country information for parental rating while playback corrected.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-3873
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Evaluation of country information for parental rating while playback corrected.
+-----
+External documentation: Evaluation of country information for parental rating while playback corrected.
+-----
+Verification platform: SL210
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r377628 | riedelin | 2013-09-19 12:30:01 +0400 (Чт., 19 сент. 2013) | 19 lines
+
+Country rules for parental lock corrected for location Italy.
+-----
+Header: System
+-----
+Polarion-ID: SL2-14527
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Country rules for parental lock corrected for location Italy.
+-----
+External documentation: Country rules for parental lock corrected for location Italy.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r377648 | riedelin | 2013-09-19 12:56:34 +0400 (Чт., 19 сент. 2013) | 19 lines
+
+Country rules for parental lock corrected for location Italy.
+-----
+Header: System
+-----
+Polarion-ID: SL2-14527
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Country rules for parental lock corrected for location Italy.
+-----
+External documentation: Country rules for parental lock corrected for location Italy.
+-----
+Verification platform: SL220
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r377665 | riedelin | 2013-09-19 13:19:24 +0400 (Чт., 19 сент. 2013) | 19 lines
+
+Country rules for parental lock corrected for location Italy.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-4033
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Country rules for parental lock corrected for location Italy.
+-----
+External documentation: Country rules for parental lock corrected for location Italy.
+-----
+Verification platform: SL210
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r377880 | riedelin | 2013-09-19 17:44:11 +0400 (Чт., 19 сент. 2013) | 19 lines
+
+Check of active K mode for no signal switch off corrected.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-3988
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Check of active K mode for no signal switch off corrected.
+-----
+External documentation: Check of active K mode for no signal switch off corrected.
+-----
+Verification platform: LE65x
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378189 | riedelin | 2013-09-20 17:13:44 +0400 (Пт., 20 сент. 2013) | 19 lines
+
+Handling of country and network rules for DVB charset and subtitles corrected.
+-----
+Header: System
+-----
+Polarion-ID: SL2-12219
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Handling of country and network rules for DVB charset and subtitles corrected.
+-----
+External documentation: Handling of country and network rules for DVB charset and subtitles corrected.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378203 | riedelin | 2013-09-20 17:44:52 +0400 (Пт., 20 сент. 2013) | 19 lines
+
+Handling of country and network rules for DVB charset and subtitles corrected.
+-----
+Header: System
+-----
+Polarion-ID: SL2-12219
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Handling of country and network rules for DVB charset and subtitles corrected.
+-----
+External documentation: Handling of country and network rules for DVB charset and subtitles corrected.
+-----
+Verification platform: SL220
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378214 | riedelin | 2013-09-20 18:11:06 +0400 (Пт., 20 сент. 2013) | 19 lines
+
+Handling of country and network rules for DVB charset and subtitles corrected.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-3869
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Handling of country and network rules for DVB charset and subtitles corrected.
+-----
+External documentation: Handling of country and network rules for DVB charset and subtitles corrected.
+-----
+Verification platform: SL210
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378443 | riedelin | 2013-09-23 13:47:50 +0400 (Пн., 23 сент. 2013) | 19 lines
+
+Handling of CEC audio info for sound component selection corrected.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-3750
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Handling of CEC audio info for sound component selection corrected.
+-----
+External documentation: Handling of CEC audio info for sound component selection corrected.
+-----
+Verification platform: SL210
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378491 | riedelin | 2013-09-23 15:41:44 +0400 (Пн., 23 сент. 2013) | 19 lines
+
+Handling of CEC audio info for sound component selection corrected.
+-----
+Header: System
+-----
+Polarion-ID: SL2-14576
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Handling of CEC audio info for sound component selection corrected.
+-----
+External documentation: Handling of CEC audio info for sound component selection corrected.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378512 | riedelin | 2013-09-23 16:16:47 +0400 (Пн., 23 сент. 2013) | 19 lines
+
+Handling of country rules for DVB settings corrected.
+-----
+Header: System
+-----
+Polarion-ID: SL2-12219
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Handling of country rules for DVB settings corrected.
+-----
+External documentation: Handling of country rules for DVB settings corrected.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378528 | riedelin | 2013-09-23 16:53:49 +0400 (Пн., 23 сент. 2013) | 19 lines
+
+Handling of country rules for DVB settings corrected.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-4068
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Handling of country rules for DVB settings corrected.
+-----
+External documentation: Handling of country rules for DVB settings corrected.
+-----
+Verification platform: SL210
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378529 | riedelin | 2013-09-23 16:54:26 +0400 (Пн., 23 сент. 2013) | 19 lines
+
+Handling of country rules for DVB settings corrected.
+-----
+Header: System
+-----
+Polarion-ID: SL2-12219
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Handling of country rules for DVB settings corrected.
+-----
+External documentation: Handling of country rules for DVB settings corrected.
+-----
+Verification platform: SL220
+-----
+Merge to:
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378551 | riedelin | 2013-09-23 17:23:21 +0400 (Пн., 23 сент. 2013) | 19 lines
+
+Parental lock handling for update of already checked event improved.
+-----
+Header: System
+-----
+Polarion-ID: SL2-14560
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Parental lock handling for update of already checked event improved.
+-----
+External documentation: Parental lock handling for update of already checked event improved.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378989 | riedelin | 2013-09-24 17:37:54 +0400 (Вт., 24 сент. 2013) | 19 lines
+
+Handling of country and network rules for DVB charset and subtitles corrected.
+-----
+Header: System
+-----
+Polarion-ID: SL2-12219
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Handling of country and network rules for DVB charset and subtitles corrected.
+-----
+External documentation: Handling of country and network rules for DVB charset and subtitles corrected.
+-----
+Verification platform: SL220
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r379033 | riedelin | 2013-09-24 18:35:11 +0400 (Вт., 24 сент. 2013) | 19 lines
+
+New model value for "no signal in main window" added.
+-----
+Header: System
+-----
+Polarion-ID: SL2-14595
+-----
+Variant: all
+-----
+API-modification: yes
+-----
+Internal documentation: New model value for "no signal in main window" added.
+-----
+External documentation: New model value for "no signal in main window" added.
+-----
+Verification platform: SL220
+-----
+Merge to:
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r379188 | riedelin | 2013-09-25 12:38:29 +0400 (Ср., 25 сент. 2013) | 19 lines
+
+Start of parental lock switch off timer corrected.
+-----
+Header: System
+-----
+Polarion-ID: SL2-13714
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Start of parental lock switch off timer corrected.
+-----
+External documentation: Start of parental lock switch off timer corrected.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r379462 | riedelin | 2013-09-25 18:22:00 +0400 (Ср., 25 сент. 2013) | 19 lines
+
+String for new software version(s) corrected.
+-----
+Header: System
+-----
+Polarion-ID: SL2-14444
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: String for new software version(s) corrected.
+-----
+External documentation: String for new software version(s) corrected.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r380505 | riedelin | 2013-09-27 17:33:42 +0400 (Пт., 27 сент. 2013) | 19 lines
+
+Activation of switch on channel in monitor mode corrected.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-3369
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Activation of switch on channel in monitor mode corrected.
+-----
+External documentation: Activation of switch on channel in monitor mode corrected.
+-----
+Verification platform: SL210
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r380699 | riedelin | 2013-09-30 12:57:06 +0400 (Пн., 30 сент. 2013) | 19 lines
+
+Activation of switch on channel in monitor mode corrected.
+-----
+Header: System
+-----
+Polarion-ID: SL2-14638
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Activation of switch on channel in monitor mode corrected.
+-----
+External documentation: Activation of switch on channel in monitor mode corrected.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r380914 | riedelin | 2013-09-30 18:21:54 +0400 (Пн., 30 сент. 2013) | 19 lines
+
+New model value for PIN definition while initial installation added.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-4092
+-----
+Variant: all
+-----
+API-modification: yes
+-----
+Internal documentation: New model value for PIN definition while initial installation added.
+-----
+External documentation: New model value for PIN definition while initial installation added.
+-----
+Verification platform: SL210
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r382368 | riedelin | 2013-10-07 16:45:06 +0400 (Пн., 07 окт. 2013) | 19 lines
+
+Screen off handling for SPDIF input in monitor mode corrected.
+-----
+Header: System
+-----
+Polarion-ID: SL2-14408
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Screen off handling for SPDIF input in monitor mode corrected.
+-----
+External documentation: Screen off handling for SPDIF input in monitor mode corrected.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r382396 | riedelin | 2013-10-07 17:09:22 +0400 (Пн., 07 окт. 2013) | 19 lines
+
+Initialisation of HOME screen in monitor mode corrected.
+-----
+Header: System
+-----
+Polarion-ID: SL2-14257
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Initialisation of HOME screen in monitor mode corrected.
+-----
+External documentation: Initialisation of HOME screen in monitor mode corrected.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r382420 | riedelin | 2013-10-07 18:00:32 +0400 (Пн., 07 окт. 2013) | 19 lines
+
+New model value for PIN definition while initial installation added. 
+-----
+Header: System
+-----
+Polarion-ID: SL2-14599
+-----
+Variant: all
+-----
+API-modification: yes
+-----
+Internal documentation: New model value for PIN definition while initial installation added. 
+-----
+External documentation: New model value for PIN definition while initial installation added. 
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r382442 | riedelin | 2013-10-07 19:04:32 +0400 (Пн., 07 окт. 2013) | 19 lines
+
+Rev. 382420 merged - New model value for PIN definition while initial installation added. 
+-----
+Header: System
+-----
+Polarion-ID: SL2-14599
+-----
+Variant: all
+-----
+API-modification: yes
+-----
+Internal documentation: New model value for PIN definition while initial installation added. 
+-----
+External documentation: New model value for PIN definition while initial installation added. 
+-----
+Verification platform: SL220
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r382840 | riedelin | 2013-10-08 17:54:09 +0400 (Вт., 08 окт. 2013) | 19 lines
+
+Quick start mode behaviour after power off changed for SHARP. 
+-----
+Header: System
+-----
+Polarion-ID: SSL1-4128
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Quick start mode behaviour after power off changed for SHARP. 
+-----
+External documentation: Quick start mode behaviour after power off changed for SHARP. 
+-----
+Verification platform: LE65x
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r383322 | riedelin | 2013-10-09 17:22:42 +0400 (Ср., 09 окт. 2013) | 19 lines
+
+Handling of CEC audio event for sound components improved.
+-----
+Header: System
+-----
+Polarion-ID: SL2-14738
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Handling of CEC audio event for sound components improved.
+-----
+External documentation: Handling of CEC audio event for sound components improved.
+-----
+Verification platform: SL220
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r383381 | riedelin | 2013-10-09 18:38:13 +0400 (Ср., 09 окт. 2013) | 19 lines
+
+Handling of CEC audio event for sound components improved.
+-----
+Header: System
+-----
+Polarion-ID: SL2-14748
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Handling of CEC audio event for sound components improved.
+-----
+External documentation: Handling of CEC audio event for sound components improved.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r384534 | riedelin | 2013-10-11 15:33:15 +0400 (Пт., 11 окт. 2013) | 19 lines
+
+Handling for 2M ISB hotel mode sound and video settings added.
+-----
+Header: System
+-----
+Polarion-ID: SL2-14769
+-----
+Variant: all
+-----
+API-modification: yes
+-----
+Internal documentation: Handling for 2M ISB hotel mode sound and video settings added.
+-----
+External documentation: Handling for 2M ISB hotel mode sound and video settings added.
+-----
+Verification platform: SL220
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r384648 | riedelin | 2013-10-11 17:41:13 +0400 (Пт., 11 окт. 2013) | 19 lines
+
+New model values for max. station number of 2M ISB hotel mode added.
+-----
+Header: System
+-----
+Polarion-ID: SL2-14777
+-----
+Variant: all
+-----
+API-modification: yes
+-----
+Internal documentation: New model values for max. station number of 2M ISB hotel mode added.
+-----
+External documentation: New model values for max. station number of 2M ISB hotel mode added.
+-----
+Verification platform: SL220
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r385419 | riedelin | 2013-10-15 12:26:15 +0400 (Вт., 15 окт. 2013) | 19 lines
+
+New model values for Orchestra 3D speaker levels added.
+-----
+Header: System
+-----
+Polarion-ID: SL2-12597
+-----
+Variant: all
+-----
+API-modification: yes
+-----
+Internal documentation: New model values for Orchestra 3D speaker levels added.
+-----
+External documentation: New model values for Orchestra 3D speaker levels added.
+-----
+Verification platform: SL220
+-----
+Merge to:
+-----
+Reviewed by: riedelin 
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r385463 | riedelin | 2013-10-15 13:18:35 +0400 (Вт., 15 окт. 2013) | 19 lines
+
+New sound and video settings for 2M ISB hotel mode used only for next start.
+-----
+Header: System
+-----
+Polarion-ID: SL2-14769
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: New sound and video settings for 2M ISB hotel mode used only for next start.
+-----
+External documentation: New sound and video settings for 2M ISB hotel mode used only for next start.
+-----
+Verification platform: SL220
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r385677 | riedelin | 2013-10-15 17:05:02 +0400 (Вт., 15 окт. 2013) | 19 lines
+
+Handling of volume and max. volume in 2M ISB hotel mode corrected.
+-----
+Header: System
+-----
+Polarion-ID: SL2-14769
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Handling of volume and max. volume in 2M ISB hotel mode corrected.
+-----
+External documentation: Handling of volume and max. volume in 2M ISB hotel mode corrected.
+-----
+Verification platform: SL220
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r385753 | riedelin | 2013-10-15 18:46:13 +0400 (Вт., 15 окт. 2013) | 19 lines
+
+Missing DCL item info for thumbnail cache media description added again.
+-----
+Header: System
+-----
+Polarion-ID: SL2-14826
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Missing DCL item info for thumbnail cache media description added again.
+-----
+External documentation: Missing DCL item info for thumbnail cache media description added again.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r385954 | riedelin | 2013-10-16 13:58:23 +0400 (Ср., 16 окт. 2013) | 19 lines
+
+Switch off timeout of parental lock changed for SHARP.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-4122
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Switch off timeout of parental lock changed for SHARP.
+-----
+External documentation: Switch off timeout of parental lock changed for SHARP.
+-----
+Verification platform: LE65x
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r386586 | riedelin | 2013-10-17 16:05:44 +0400 (Чт., 17 окт. 2013) | 19 lines
+
+Check of single station lock while timeshift playback corrected.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-3815
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Check of single station lock while timeshift playback corrected.
+-----
+External documentation: Check of single station lock while timeshift playback corrected.
+-----
+Verification platform: SL210
+-----
+Merge to: 
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r386642 | riedelin | 2013-10-17 16:56:38 +0400 (Чт., 17 окт. 2013) | 19 lines
+
+Check of single station lock while timeshift playback corrected.
+-----
+Header: System
+-----
+Polarion-ID: SL2-14878
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Check of single station lock while timeshift playback corrected.
+-----
+External documentation: Check of single station lock while timeshift playback corrected.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r386751 | riedelin | 2013-10-17 18:43:54 +0400 (Чт., 17 окт. 2013) | 19 lines
+
+Start of switch off timer for parental lock after switch on corrected. Timeout value changed to 60 seconds.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-4209
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Start of switch off timer for parental lock after switch on corrected. Timeout value changed to 60 seconds.
+-----
+External documentation: Start of switch off timer for parental lock after switch on corrected. Timeout value changed to 60 seconds.
+-----
+Verification platform: SL220
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r386754 | riedelin | 2013-10-17 18:47:26 +0400 (Чт., 17 окт. 2013) | 19 lines
+
+Timeout value changed back to 30 seconds.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-4209
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Timeout value changed back to 30 seconds.
+-----
+External documentation: Timeout value changed back to 30 seconds.
+-----
+Verification platform: SL210
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r386990 | riedelin | 2013-10-18 12:13:07 +0400 (Пт., 18 окт. 2013) | 19 lines
+
+Start of switch off timer for parental lock after switch on corrected.
+-----
+Header: System
+-----
+Polarion-ID: SL2-14884
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Start of switch off timer for parental lock after switch on corrected.
+-----
+External documentation: Start of switch off timer for parental lock after switch on corrected.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r387144 | riedelin | 2013-10-18 15:27:14 +0400 (Пт., 18 окт. 2013) | 19 lines
+
+Handling of CEC audio event for sound components improved.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-4227
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Handling of CEC audio event for sound components improved.
+-----
+External documentation: Handling of CEC audio event for sound components improved.
+-----
+Verification platform: SL210
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r387272 | riedelin | 2013-10-18 17:21:31 +0400 (Пт., 18 окт. 2013) | 19 lines
+
+Mute handling for sound via CEC audio amplifier improved.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-3995
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Mute handling for sound via CEC audio amplifier improved.
+-----
+External documentation: Mute handling for sound via CEC audio amplifier improved.
+-----
+Verification platform: SL210
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r387550 | riedelin | 2013-10-21 14:15:20 +0400 (Пн., 21 окт. 2013) | 19 lines
+
+Sound service calls reduced for station and sound component changes.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-3805
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Sound service calls reduced for station and sound component changes.
+-----
+External documentation: 
+-----
+Verification platform: SL210
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r389267 | riedelin | 2013-10-24 17:23:47 +0400 (Чт., 24 окт. 2013) | 19 lines
+
+Activation of quick start mode via energy efficiency corrected for SHARP.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-4268
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Activation of quick start mode via energy efficiency corrected for SHARP.
+-----
+External documentation: Activation of quick start mode via energy efficiency corrected for SHARP.
+-----
+Verification platform: LE65x
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r389638 | riedelin | 2013-10-25 13:57:48 +0400 (Пт., 25 окт. 2013) | 19 lines
+
+Handling of station change requests while switch on corrected.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-4198
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Handling of station change requests while switch on corrected.
+-----
+External documentation: Handling of station change requests while switch on corrected.
+-----
+Verification platform: SL210
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r389759 | riedelin | 2013-10-25 17:01:59 +0400 (Пт., 25 окт. 2013) | 19 lines
+
+Handling of station change requests while switch on corrected.
+-----
+Header: System
+-----
+Polarion-ID: SL2-14757
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Handling of station change requests while switch on corrected.
+-----
+External documentation: Handling of station change requests while switch on corrected.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r390189 | riedelin | 2013-10-28 18:00:20 +0400 (Пн., 28 окт. 2013) | 19 lines
+
+Current configuration of RS232 mode is also communicated after switch on.
+-----
+Header: System
+-----
+Polarion-ID: SL2-14888
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Current configuration of RS232 mode is also communicated after switch on.
+-----
+External documentation: Current configuration of RS232 mode is also communicated after switch on.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r390251 | riedelin | 2013-10-28 20:21:34 +0400 (Пн., 28 окт. 2013) | 19 lines
+
+Speakers connection info for Orchestra 3D corrected.
+-----
+Header: System
+-----
+Polarion-ID: SL2-14931
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Speakers connection info for Orchestra 3D corrected.
+-----
+External documentation: Speakers connection info for Orchestra 3D corrected.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r390569 | riedelin | 2013-10-29 16:59:46 +0400 (Вт., 29 окт. 2013) | 19 lines
+
+Picture format is independent from picture adjustment for SHARP now.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-2970
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Picture format is independent from picture adjustment for SHARP now.
+-----
+External documentation: Picture format is independent from picture adjustment for SHARP now.
+-----
+Verification platform: LE65x
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r390670 | riedelin | 2013-10-29 19:09:14 +0400 (Вт., 29 окт. 2013) | 19 lines
+
+Audio and video mute for hotel welcome screen added.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-4312
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Audio and video mute for hotel welcome screen added.
+-----
+External documentation: Audio and video mute for hotel welcome screen added.
+-----
+Verification platform: SL210
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r392029 | riedelin | 2013-11-04 20:00:51 +0400 (Пн., 04 нояб. 2013) | 19 lines
+
+Active GUI message closed, if system is switched off.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-4395
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Active GUI message closed, if system is switched off.
+-----
+External documentation: Active GUI message closed, if system is switched off.
+-----
+Verification platform: SL210
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r392211 | riedelin | 2013-11-05 13:18:52 +0400 (Вт., 05 нояб. 2013) | 19 lines
+
+Active GUI message closed, if system is switched off.
+-----
+Header: System
+-----
+Polarion-ID: SL2-15066
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Active GUI message closed, if system is switched off.
+-----
+External documentation: Active GUI message closed, if system is switched off.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r392256 | riedelin | 2013-11-05 13:57:54 +0400 (Вт., 05 нояб. 2013) | 19 lines
+
+Evaluation of GUI message result corrected.
+-----
+Header: System
+-----
+Polarion-ID: SL2-15066
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Evaluation of GUI message result corrected.
+-----
+External documentation: Active GUI message closed, if system is switched off.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r392306 | riedelin | 2013-11-05 15:04:40 +0400 (Вт., 05 нояб. 2013) | 19 lines
+
+Evaluation of GUI message result corrected.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-4395
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Evaluation of GUI message result corrected.
+-----
+External documentation: Active GUI message closed, if system is switched off.
+-----
+Verification platform: SL210
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r392981 | riedelin | 2013-11-06 20:44:18 +0400 (Ср., 06 нояб. 2013) | 19 lines
+
+Update of sound components list corrected, if no registry info is available yet.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-4408
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Update of sound components list corrected, if no registry info is available yet.
+-----
+External documentation: Update of sound components list corrected, if no registry info is available yet.
+-----
+Verification platform: LE65x
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r393120 | riedelin | 2013-11-07 12:48:00 +0400 (Чт., 07 нояб. 2013) | 19 lines
+
+Update of sound components list corrected, if no registry info is available yet.
+-----
+Header: System
+-----
+Polarion-ID: SL2-15091
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Update of sound components list corrected, if no registry info is available yet.
+-----
+External documentation: Update of sound components list corrected, if no registry info is available yet.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r393393 | riedelin | 2013-11-07 17:41:03 +0400 (Чт., 07 нояб. 2013) | 19 lines
+
+Nightupdate deactivated for "2M ISB" hotel mode.
+-----
+Header: System
+-----
+Polarion-ID: SL2-15096
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Nightupdate deactivated for "2M ISB" hotel mode.
+-----
+External documentation: Nightupdate deactivated for "2M ISB" hotel mode.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r393418 | riedelin | 2013-11-07 18:13:39 +0400 (Чт., 07 нояб. 2013) | 19 lines
+
+Rev. 393393 merged.
+-----
+Header: System
+-----
+Polarion-ID: SL2-15096
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Nightupdate deactivated for "2M ISB" hotel mode.
+-----
+External documentation: Nightupdate deactivated for "2M ISB" hotel mode.
+-----
+Verification platform: SL220
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r393535 | riedelin | 2013-11-07 20:20:56 +0400 (Чт., 07 нояб. 2013) | 19 lines
+
+Evaluation of Gracenote response for multiple used DVB triplets corrected.
+-----
+Header: System
+-----
+Polarion-ID: SL2-11676
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Evaluation of Gracenote response for multiple used DVB triplets corrected. Name validation check improved.
+-----
+External documentation: Evaluation of Gracenote response for multiple used DVB triplets corrected.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r393647 | riedelin | 2013-11-08 12:38:02 +0400 (Пт., 08 нояб. 2013) | 19 lines
+
+Rev. 393393 merged.
+-----
+Header: System
+-----
+Polarion-ID: SL2-15096
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Nightupdate deactivated for "2M ISB" hotel mode.
+-----
+External documentation: Nightupdate deactivated for "2M ISB" hotel mode.
+-----
+Verification platform: SL220
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r393852 | riedelin | 2013-11-08 16:43:46 +0400 (Пт., 08 нояб. 2013) | 19 lines
+
+Correction of sound via selection and sound components list improved, especially for CEC audio amplifier.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-3698, SSL1-4113
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Correction of sound via selection and sound components list improved, especially for CEC audio amplifier.
+-----
+External documentation: Correction of sound via selection and sound components list improved.
+-----
+Verification platform: SL210
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r393897 | riedelin | 2013-11-08 17:30:26 +0400 (Пт., 08 нояб. 2013) | 19 lines
+
+Behaviour for sound via / sound mode in case of switchable sound components after switch on corrected.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-4113
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Behaviour for sound via / sound mode in case of switchable sound components after switch on corrected.
+-----
+External documentation: Behaviour for sound via / sound mode in case of switchable sound components after switch on corrected.
+-----
+Verification platform: SL210
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r393940 | riedelin | 2013-11-08 18:25:54 +0400 (Пт., 08 нояб. 2013) | 19 lines
+
+Correction of sound via selection improved, especially for CEC audio amplifier.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-3698, SSL1-4113
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Correction of sound via selection improved, especially for CEC audio amplifier.
+-----
+External documentation: Correction of sound via selection improved.
+-----
+Verification platform: LE65x
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r393958 | riedelin | 2013-11-08 18:58:52 +0400 (Пт., 08 нояб. 2013) | 19 lines
+
+Sound service calls reduced for station and sound component changes.
+-----
+Header: System
+-----
+Polarion-ID: SL2-15124
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Sound service calls reduced for station and sound component changes.
+-----
+External documentation:
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r394306 | riedelin | 2013-11-11 16:28:09 +0400 (Пн., 11 нояб. 2013) | 19 lines
+
+Communication of sound mode improved.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-3698
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Communication of sound mode improved.
+-----
+External documentation: Communication of sound mode improved.
+-----
+Verification platform: SL210
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r394329 | riedelin | 2013-11-11 16:46:36 +0400 (Пн., 11 нояб. 2013) | 19 lines
+
+Correction of sound via selection and sound components list improved, especially for CEC audio amplifier.
+-----
+Header: System
+-----
+Polarion-ID: SL2-14564
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Correction of sound via selection and sound components list improved, especially for CEC audio amplifier.
+-----
+External documentation: Correction of sound via selection and sound components list improved.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r394463 | riedelin | 2013-11-11 19:37:25 +0400 (Пн., 11 нояб. 2013) | 19 lines
+
+Evaluation of tuner status for age-related lock corrected.
+-----
+Header: System
+-----
+Polarion-ID: SL2-15134
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Evaluation of tuner status for age-related lock corrected.
+-----
+External documentation: Evaluation of tuner status for age-related lock corrected.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r394486 | riedelin | 2013-11-11 20:19:01 +0400 (Пн., 11 нояб. 2013) | 19 lines
+
+Evaluation of tuner status for age-related lock corrected.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-4453
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Evaluation of tuner status for age-related lock corrected.
+-----
+External documentation: Evaluation of tuner status for age-related lock corrected.
+-----
+Verification platform: LE65x
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r394738 | riedelin | 2013-11-12 14:22:04 +0400 (Вт., 12 нояб. 2013) | 19 lines
+
+Switch off timer for parental lock PIN request is only started, if system is on.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-4476
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Switch off timer for parental lock PIN request is only started, if system is on.
+-----
+External documentation: Switch off timer for parental lock PIN request is only started, if system is on.
+-----
+Verification platform: SL210
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r394782 | riedelin | 2013-11-12 15:12:15 +0400 (Вт., 12 нояб. 2013) | 19 lines
+
+Switch off timer for parental lock PIN request is only started, if system is on.
+-----
+Header: System
+-----
+Polarion-ID: SL2-15169
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Switch off timer for parental lock PIN request is only started, if system is on.
+-----
+External documentation: Switch off timer for parental lock PIN request is only started, if system is on.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r394816 | riedelin | 2013-11-12 16:05:07 +0400 (Вт., 12 нояб. 2013) | 19 lines
+
+Switch off timer for parental lock PIN request is only started, if system is on.
+-----
+Header: System
+-----
+Polarion-ID: SL2-15169
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Switch off timer for parental lock PIN request is only started, if system is on.
+-----
+External documentation: Switch off timer for parental lock PIN request is only started, if system is on.
+-----
+Verification platform: SL220
+-----
+Merge to:
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r395638 | riedelin | 2013-11-14 13:07:02 +0400 (Чт., 14 нояб. 2013) | 19 lines
+
+Stop of EPG nightupdate corrected.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-4300
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Stop of EPG nightupdate is not signalled anymore before path was released.
+-----
+External documentation: Stop of EPG nightupdate corrected.
+-----
+Verification platform: SL210
+-----
+Merge to: 
+-----
+Reviewed by: prohaskajo
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r395671 | riedelin | 2013-11-14 13:53:35 +0400 (Чт., 14 нояб. 2013) | 19 lines
+
+Update of sound components list corrected, if no registry info is available yet.
+-----
+Header: System
+-----
+Polarion-ID: SL2-15091
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Update of sound components list corrected, if no registry info is available yet.
+-----
+External documentation: Update of sound components list corrected, if no registry info is available yet.
+-----
+Verification platform: SL220
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r395681 | riedelin | 2013-11-14 14:09:17 +0400 (Чт., 14 нояб. 2013) | 19 lines
+
+Initialisation for location of TV set depending on OSD language added for Slovak/Slovakia;
+-----
+Header: System
+-----
+Polarion-ID: SSL1-4516
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Initialisation for location of TV set depending on OSD language added for Slovak/Slovakia;
+-----
+External documentation: Initialisation for location of TV set depending on OSD language added for Slovak/Slovakia;
+-----
+Verification platform: SL210
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r395683 | riedelin | 2013-11-14 14:11:18 +0400 (Чт., 14 нояб. 2013) | 19 lines
+
+Evaluation of tuner status for age-related lock corrected.
+-----
+Header: System
+-----
+Polarion-ID: SL2-15134
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Evaluation of tuner status for age-related lock corrected.
+-----
+External documentation: Evaluation of tuner status for age-related lock corrected.
+-----
+Verification platform: SL220
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r395854 | riedelin | 2013-11-14 18:10:01 +0400 (Чт., 14 нояб. 2013) | 19 lines
+
+Age-related lock for network rule "block first" corrected.
+-----
+Header: System
+-----
+Polarion-ID: SL2-11905
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Age-related lock for network rule "block first" corrected.
+-----
+External documentation: Age-related lock for network rule "block first" corrected.
+-----
+Verification platform: SL220
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r395877 | riedelin | 2013-11-14 18:42:14 +0400 (Чт., 14 нояб. 2013) | 19 lines
+
+Age-related lock for network rule "block first" corrected.
+-----
+Header: System
+-----
+Polarion-ID: SL2-11905
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Age-related lock for network rule "block first" corrected.
+-----
+External documentation: Age-related lock for network rule "block first" corrected.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r395886 | riedelin | 2013-11-14 19:01:05 +0400 (Чт., 14 нояб. 2013) | 19 lines
+
+Age-related lock for network rule "block first" corrected.
+-----
+Header: System
+-----
+Polarion-ID: SL2-11905
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Age-related lock for network rule "block first" corrected.
+-----
+External documentation: Age-related lock for network rule "block first" corrected.
+-----
+Verification platform: SL220
+-----
+Merge to:
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r395899 | riedelin | 2013-11-14 19:28:28 +0400 (Чт., 14 нояб. 2013) | 19 lines
+
+Front speakers connection info for Orchestra 3D corrected.
+-----
+Header: System
+-----
+Polarion-ID: SL2-14931
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Front speakers connection info for Orchestra 3D corrected.
+-----
+External documentation: Front speakers connection info for Orchestra 3D corrected.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r395901 | riedelin | 2013-11-14 19:37:13 +0400 (Чт., 14 нояб. 2013) | 19 lines
+
+Front speakers connection info for Orchestra 3D corrected.
+-----
+Header: System
+-----
+Polarion-ID: SL2-14931
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Front speakers connection info for Orchestra 3D corrected.
+-----
+External documentation: Front speakers connection info for Orchestra 3D corrected.
+-----
+Verification platform: SL220
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r396151 | riedelin | 2013-11-15 16:37:27 +0400 (Пт., 15 нояб. 2013) | 19 lines
+
+Size calculation of trailer booking icon data  corrected.
+-----
+Header: System
+-----
+Polarion-ID: SL2-15210
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Size calculation of trailer booking icon data  corrected.
+-----
+External documentation: Size calculation of trailer booking icon data  corrected.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r396651 | riedelin | 2013-11-18 18:28:04 +0400 (Пн., 18 нояб. 2013) | 19 lines
+
+Headphone volume no longer limited to max. volume.
+-----
+Header: System
+-----
+Polarion-ID: SL2-15232
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Headphone volume no longer limited to max. volume.
+-----
+External documentation: Headphone volume no longer limited to max. volume.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r397179 | riedelin | 2013-11-20 12:13:38 +0400 (Ср., 20 нояб. 2013) | 19 lines
+
+Headphone volume no longer limited to max. volume.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-4517
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Headphone volume no longer limited to max. volume.
+-----
+External documentation: Headphone volume no longer limited to max. volume.
+-----
+Verification platform: SL210
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r397214 | riedelin | 2013-11-20 13:03:35 +0400 (Ср., 20 нояб. 2013) | 19 lines
+
+Size calculation of trailer booking icon data  corrected.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-4566
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Size calculation of trailer booking icon data  corrected.
+-----
+External documentation: Size calculation of trailer booking icon data  corrected.
+-----
+Verification platform: SL210
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r397234 | riedelin | 2013-11-20 13:37:41 +0400 (Ср., 20 нояб. 2013) | 19 lines
+
+Evaluation of active nightupdate info in BIZ improved.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-4300
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Evaluation of active nightupdate info in BIZ improved for station request after switch on. Check of system state for nightupdate start added to avoid restart in interactive state.
+-----
+External documentation: Evaluation of active nightupdate info in BIZ improved.
+-----
+Verification platform: SL210
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r397237 | riedelin | 2013-11-20 13:43:35 +0400 (Ср., 20 нояб. 2013) | 19 lines
+
+Evaluation of Gracenote response for multiple used DVB triplets corrected.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-4272
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Evaluation of Gracenote response for multiple used DVB triplets corrected. Name validation check improved.
+-----
+External documentation: Evaluation of Gracenote response for multiple used DVB triplets corrected.
+-----
+Verification platform: SL210
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r397394 | riedelin | 2013-11-20 16:01:57 +0400 (Ср., 20 нояб. 2013) | 19 lines
+
+New actions for reset nightupdate timestamps added.
+-----
+Header: System
+-----
+Polarion-ID: SL2-14605
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: New actions for reset nightupdate timestamps added.
+-----
+External documentation: New actions for reset nightupdate timestamps added.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r397413 | riedelin | 2013-11-20 16:27:20 +0400 (Ср., 20 нояб. 2013) | 19 lines
+
+Age-related lock for network rule "block first" corrected.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-4572
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Age-related lock for network rule "block first" corrected.
+-----
+External documentation: Age-related lock for network rule "block first" corrected.
+-----
+Verification platform: SL210
+-----
+Merge to:
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r397450 | riedelin | 2013-11-20 17:15:21 +0400 (Ср., 20 нояб. 2013) | 19 lines
+
+Merged rev. 397234 from "SL1/develop/stabilization1" into "/sl210/release/sl210_mp_cw47".
+-----
+Header: System
+-----
+Polarion-ID: SSL1-4300
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Evaluation of active nightupdate info in BIZ improved for station request after switch on. Check of system state for nightupdate start added to avoid restart in interactive state.
+-----
+External documentation: Evaluation of active nightupdate info in BIZ improved.
+-----
+Verification platform: SL210
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r397481 | riedelin | 2013-11-20 17:52:46 +0400 (Ср., 20 нояб. 2013) | 19 lines
+
+New actions for reset nightupdate timestamps added.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-4099
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: New actions for reset nightupdate timestamps added.
+-----
+External documentation: New actions for reset nightupdate timestamps added.
+-----
+Verification platform: SL210
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r397513 | riedelin | 2013-11-20 18:30:03 +0400 (Ср., 20 нояб. 2013) | 19 lines
+
+Evaluation of active nightupdate info in BIZ improved.
+-----
+Header: System
+-----
+Polarion-ID: SL2-15256
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Evaluation of active nightupdate info in BIZ improved for station request after switch on. Check of system state for nightupdate start added to avoid restart in interactive state.
+-----
+External documentation: Evaluation of active nightupdate info in BIZ improved.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r397898 | riedelin | 2013-11-21 17:56:01 +0400 (Чт., 21 нояб. 2013) | 19 lines
+
+Station request handling after fast restart of TV set corrected.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-4564
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Update of current active station URIs improved to avoid wrong decisions, that stations aren't requested again, although a stop of this station is currently pending.
+-----
+External documentation: Station request handling after fast restart of TV set corrected.
+-----
+Verification platform: LE65x
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r397924 | riedelin | 2013-11-21 18:24:41 +0400 (Чт., 21 нояб. 2013) | 19 lines
+
+Merged rev. 397394 from "SL2xx/release/V2.3.X_CW40" into "SL2xx/release/V2.3.X_stab_CW44".
+-----
+Header: System
+-----
+Polarion-ID: SL2-14605
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: New actions for reset nightupdate timestamps added.
+-----
+External documentation: New actions for reset nightupdate timestamps added.
+-----
+Verification platform: SL220
+-----
+Merge to: 
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r398250 | riedelin | 2013-11-22 14:09:03 +0400 (Пт., 22 нояб. 2013) | 19 lines
+
+Switch on station handling for wakeup reason WAKEUP_REASON_HDMI improved.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-4594
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Switch on station handling for wakeup reason WAKEUP_REASON_HDMI improved, if no request from CEC received.
+-----
+External documentation: Switch on station handling for wakeup reason WAKEUP_REASON_HDMI improved.
+-----
+Verification platform: SL210
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r398347 | riedelin | 2013-11-22 16:45:16 +0400 (Пт., 22 нояб. 2013) | 19 lines
+
+Switch on station handling for wakeup reason WAKEUP_REASON_HDMI improved.
+-----
+Header: System
+-----
+Polarion-ID: SL2-15277
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Switch on station handling for wakeup reason WAKEUP_REASON_HDMI improved, if no request from CEC received.
+-----
+External documentation: Switch on station handling for wakeup reason WAKEUP_REASON_HDMI improved.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399334 | riedelin | 2013-11-26 14:54:09 +0400 (Вт., 26 нояб. 2013) | 19 lines
+
+Possible restart of nightupdate after switch on removed. 
+-----
+Header: System
+-----
+Polarion-ID: SSL1-4300
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Possible restart of nightupdate after switch on removed. 
+-----
+External documentation: Possible restart of nightupdate after switch on removed. 
+-----
+Verification platform: SL210
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399379 | riedelin | 2013-11-26 16:16:15 +0400 (Вт., 26 нояб. 2013) | 19 lines
+
+Cancel of EPG nighupdate corrected.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-4634
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Cancel of EPG nighupdate corrected.
+-----
+External documentation: Cancel of EPG nighupdate corrected.
+-----
+Verification platform: LE65x / SL210
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399402 | riedelin | 2013-11-26 17:00:04 +0400 (Вт., 26 нояб. 2013) | 19 lines
+
+Merged rev. 398347 from "SL2xx/release/V2.3.X_CW40" into "SL2xx/release/V2.3.X_stab_CW44".
+-----
+Header: System
+-----
+Polarion-ID: SL2-15277
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Switch on station handling for wakeup reason WAKEUP_REASON_HDMI improved, if no request from CEC received.
+-----
+External documentation: Switch on station handling for wakeup reason WAKEUP_REASON_HDMI improved.
+-----
+Verification platform: SL220
+-----
+Merge to:
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399450 | riedelin | 2013-11-26 18:14:59 +0400 (Вт., 26 нояб. 2013) | 19 lines
+
+User hints for operation time and CEC disabled in hotel mode.
+-----
+Header: System
+-----
+Polarion-ID: SL2-15282
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: User hints for operation time and CEC disabled in hotel mode.
+-----
+External documentation: User hints for operation time and CEC disabled in hotel mode.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399459 | riedelin | 2013-11-26 18:37:55 +0400 (Вт., 26 нояб. 2013) | 19 lines
+
+Merged rev. 399450 from "SL2xx/release/V2.3.X_CW40" into "SL2xx/release/V2.3.X_stab_CW44".
+-----
+Header: System
+-----
+Polarion-ID: SL2-15282
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: User hints for operation time and CEC disabled in hotel mode.
+-----
+External documentation: User hints for operation time and CEC disabled in hotel mode.
+-----
+Verification platform: SL220
+-----
+Merge to: 
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399613 | riedelin | 2013-11-27 13:49:16 +0400 (Ср., 27 нояб. 2013) | 19 lines
+
+RS232 interface handling and switch on/off for SoundProjector corrected.
+-----
+Header: System
+-----
+Polarion-ID: SL2-15011, SL2-14290
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: RS232 interface handling and switch on/off for SoundProjector corrected.
+-----
+External documentation: RS232 interface handling and switch on/off for SoundProjector corrected.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399633 | riedelin | 2013-11-27 14:14:14 +0400 (Ср., 27 нояб. 2013) | 19 lines
+
+Merged rev. 399613 from "SL2xx/release/V2.3.X_CW40" into "SL2xx/release/V2.3.X_stab_CW44".
+-----
+Header: System
+-----
+Polarion-ID: SL2-15011, SL2-14290
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: RS232 interface handling and switch on/off for SoundProjector corrected.
+-----
+External documentation: RS232 interface handling and switch on/off for SoundProjector corrected.
+-----
+Verification platform: SL220
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399754 | riedelin | 2013-11-27 18:09:14 +0400 (Ср., 27 нояб. 2013) | 19 lines
+
+Switch off key handling improved for CEC devices.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-4579
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Switch off key handling improved for CEC devices.
+-----
+External documentation: Switch off key handling improved for CEC devices.
+-----
+Verification platform: LE65x
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399799 | riedelin | 2013-11-27 19:29:31 +0400 (Ср., 27 нояб. 2013) | 19 lines
+
+Nightupdate for DCM and software update disabled in hotel modes.
+-----
+Header: System
+-----
+Polarion-ID: SL2-15294
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Nightupdate for DCM and software update disabled in hotel modes.
+-----
+External documentation: Nightupdate for DCM and software update disabled in hotel modes.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399810 | riedelin | 2013-11-27 20:03:35 +0400 (Ср., 27 нояб. 2013) | 19 lines
+
+Merged rev. 399799 from "SL2xx/release/V2.3.X_CW40" into "SL2xx/release/V2.3.X_stab_CW44".
+-----
+Header: System
+-----
+Polarion-ID: SL2-15294
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Nightupdate for DCM and software update disabled in hotel modes.
+-----
+External documentation: Nightupdate for DCM and software update disabled in hotel modes.
+-----
+Verification platform: SL220
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401649 | riedelin | 2013-12-04 21:10:47 +0400 (Ср., 04 дек. 2013) | 19 lines
+
+Merged rev. 393535 from "SL2xx/release/V2.3.X_CW40" into "SL2xx/release/V2.3.X_stab_CW44".
+-----
+Header: System
+-----
+Polarion-ID: SL2-11676
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Evaluation of Gracenote response for multiple used DVB triplets corrected. Name validation check improved.
+-----
+External documentation: Evaluation of Gracenote response for multiple used DVB triplets corrected.
+-----
+Verification platform: SL220
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401871 | riedelin | 2013-12-05 17:31:32 +0400 (Чт., 05 дек. 2013) | 19 lines
+
+Merged rev. 397513 from "SL2xx/release/V2.3.X_CW40" into "SL2xx/release/V2.3.X_stab_CW44".
+-----
+Header: System
+-----
+Polarion-ID: SL2-15256, SL2-15330
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Evaluation of active nightupdate info in BIZ improved for station request after switch on. Check of system state for nightupdate start added to avoid restart in interactive state.
+-----
+External documentation: Evaluation of active nightupdate info in BIZ improved.
+-----
+Verification platform: SL220
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r402039 | riedelin | 2013-12-05 21:18:31 +0400 (Чт., 05 дек. 2013) | 19 lines
+
+O3D auto calibration start and result/error evaluation improved.
+-----
+Header: System
+-----
+Polarion-ID: SL2-15190
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: O3D auto calibration start and result/error evaluation improved.
+-----
+External documentation: O3D auto calibration start and result/error evaluation improved.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r402041 | riedelin | 2013-12-05 21:41:41 +0400 (Чт., 05 дек. 2013) | 19 lines
+
+Merged rev. 402039 from "SL2xx/release/V2.3.X_CW40" into "SL2xx/release/V2.3.X_stab_CW44".
+-----
+Header: System
+-----
+Polarion-ID: SL2-15190
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: O3D auto calibration start and result/error evaluation improved.
+-----
+External documentation: O3D auto calibration start and result/error evaluation improved.
+-----
+Verification platform: SL220
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404785 | riedelin | 2013-12-18 18:35:19 +0400 (Ср., 18 дек. 2013) | 19 lines
+
+New action for clear image cache added.
+-----
+Header: System
+-----
+Polarion-ID: SL2-15541
+-----
+Variant: all
+-----
+API-modification: yes
+-----
+Internal documentation: New action for clear image cache added.
+-----
+External documentation: New action for clear image cache added.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404805 | riedelin | 2013-12-18 19:28:40 +0400 (Ср., 18 дек. 2013) | 19 lines
+
+New action for clear image cache added.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-4717
+-----
+Variant: all
+-----
+API-modification: yes
+-----
+Internal documentation: New action for clear image cache added.
+-----
+External documentation: New action for clear image cache added.
+-----
+Verification platform: SL210
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404898 | riedelin | 2013-12-19 14:17:27 +0400 (Чт., 19 дек. 2013) | 19 lines
+
+Storage of personal video settings after an automatically picture adjustment change corrected.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-4731
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Storage of personal video settings after an automatically picture adjustment change corrected.
+-----
+External documentation: Storage of personal video settings after an automatically picture adjustment change corrected.
+-----
+Verification platform: SL210
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404928 | riedelin | 2013-12-19 17:01:37 +0400 (Чт., 19 дек. 2013) | 19 lines
+
+Storage of personal video settings after an automatically picture adjustment change corrected.
+-----
+Header: System
+-----
+Polarion-ID: SL2-15566
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Storage of personal video settings after an automatically picture adjustment change corrected.
+-----
+External documentation: Storage of personal video settings after an automatically picture adjustment change corrected.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404931 | riedelin | 2013-12-19 17:11:50 +0400 (Чт., 19 дек. 2013) | 19 lines
+
+Timeout for GUI message SL2_TVAPI_MESSAGE_ID_BROWSER_ERROR_PAGE_NOTLOAD added.
+-----
+Header: System
+-----
+Polarion-ID: SL2-14256
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Timeout for GUI message SL2_TVAPI_MESSAGE_ID_BROWSER_ERROR_PAGE_NOTLOAD added.
+-----
+External documentation: Timeout for GUI message SL2_TVAPI_MESSAGE_ID_BROWSER_ERROR_PAGE_NOTLOAD added.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405357 | riedelin | 2014-01-07 14:33:25 +0400 (Вт., 07 янв. 2014) | 19 lines
+
+Sound settings for use case "video" also used for AV stations, if screen is off.
+-----
+Header: System
+-----
+Polarion-ID: SL2-15576, SL2-15486, SL2-15244
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Sound settings for use case "video" instead of "audio" are used for AV stations, if screen is off.
+-----
+External documentation: Sound settings for use case "video" also used for AV stations, if screen is off.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405396 | riedelin | 2014-01-07 19:59:54 +0400 (Вт., 07 янв. 2014) | 19 lines
+
+Nightupdate for EPG/DCM/SSU deactivated, if any hotel mode is active.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-4637
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Nightupdate for EPG/DCM/SSU deactivated, if any hotel mode is active.
+-----
+External documentation: Nightupdate for EPG/DCM/SSU deactivated, if any hotel mode is active.
+-----
+Verification platform: SL210
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405794 | riedelin | 2014-01-09 20:10:46 +0400 (Чт., 09 янв. 2014) | 19 lines
+
+Wrong check of max. switch on volume after sound component change removed.
+-----
+Header: System
+-----
+Polarion-ID: SL2-14907
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Wrong check of max. switch on volume after sound component change removed.
+-----
+External documentation: Wrong check of max. switch on volume after sound component change removed.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405870 | riedelin | 2014-01-10 14:08:30 +0400 (Пт., 10 янв. 2014) | 19 lines
+
+Update of sound components list improved.
+-----
+Header: System
+-----
+Polarion-ID: SL2-15454
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Update of sound components list improved.
+-----
+External documentation: Update of sound components list improved.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405899 | riedelin | 2014-01-10 15:07:49 +0400 (Пт., 10 янв. 2014) | 19 lines
+
+Display of video ADC adjust status via GUI messages added.
+-----
+Header: System
+-----
+Polarion-ID: SL2-7530
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Display of video ADC adjust status via GUI messages added.
+-----
+External documentation: Display of video ADC adjust status via GUI messages added.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405934 | riedelin | 2014-01-10 17:02:50 +0400 (Пт., 10 янв. 2014) | 19 lines
+
+Update of DPLII mode conditions in BIZ corrected.
+-----
+Header: System
+-----
+Polarion-ID: SL2-15349
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Update of DPLII mode conditions in BIZ corrected.
+-----
+External documentation: Update of DPLII mode conditions in BIZ corrected.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405958 | riedelin | 2014-01-10 17:37:07 +0400 (Пт., 10 янв. 2014) | 19 lines
+
+Merged rev. 405357 from "SL2xx/release/V2.3.X_CW40" into "SL2xx/release/V2.3.X_stab_CW44".
+-----
+Header: System
+-----
+Polarion-ID: SL2-15244, SL2-15600
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Sound settings for use case "video" instead of "audio" are used for AV stations, if screen is off.
+-----
+External documentation: Sound settings for use case "video" also used for AV stations, if screen is off.
+-----
+Verification platform: SL220
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406274 | riedelin | 2014-01-13 17:58:46 +0400 (Пн., 13 янв. 2014) | 19 lines
+
+Merged rev. 405934 from "SL2xx/release/V2.3.X_CW40" into "SL2xx/release/V2.3.X_stab_CW44".
+-----
+Header: System
+-----
+Polarion-ID: SL2-15349
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Update of DPLII mode conditions in BIZ corrected.
+-----
+External documentation: Update of DPLII mode conditions in BIZ corrected.
+-----
+Verification platform: SL220
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406304 | riedelin | 2014-01-13 19:44:53 +0400 (Пн., 13 янв. 2014) | 19 lines
+
+Screen on/off handling in model-systemctrl improved.
+-----
+Header: System
+-----
+Polarion-ID: SL2-14875
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Screen on/off handling in model-systemctrl improved. Debug info added.
+-----
+External documentation: Screen on/off handling in model-systemctrl improved.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406306 | riedelin | 2014-01-13 20:05:52 +0400 (Пн., 13 янв. 2014) | 19 lines
+
+Merged rev. 406304 from "SL2xx/release/V2.3.X_CW40" into "branches/develop/feature/homecontrol_cw32".
+-----
+Header: System
+-----
+Polarion-ID: SL2-14875
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Screen on/off handling in model-systemctrl improved. Debug info added.
+-----
+External documentation: Screen on/off handling in model-systemctrl improved.
+-----
+Verification platform: SL220
+-----
+Merge to: 
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406407 | riedelin | 2014-01-14 14:35:13 +0400 (Вт., 14 янв. 2014) | 19 lines
+
+Initial installation wizard disabled, if any hotel mode is active.
+-----
+Header: System
+-----
+Polarion-ID: SL2-15334
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Initial installation wizard disabled, if any hotel mode active.
+-----
+External documentation: Initial installation wizard disabled, if any hotel mode active.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406488 | riedelin | 2014-01-14 18:54:10 +0400 (Вт., 14 янв. 2014) | 19 lines
+
+Sound mode info display while station change improved.
+-----
+Header: System
+-----
+Polarion-ID: SL2-13925
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Sound mode info display while station change improved.
+-----
+External documentation: Sound mode info display while station change improved.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406666 | riedelin | 2014-01-15 18:19:34 +0400 (Ср., 15 янв. 2014) | 21 lines
+
+Sound component behaviour while initial installation corrected.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-4746
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Sound component behaviour while initial installation corrected, if sound component wizard isn't supported.
+-----
+External documentation: Sound component behaviour while initial installation corrected.
+-----
+Verification platform: LE65x
+-----
+Merge to: 
+-----
+Source move/rename:  no
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406674 | riedelin | 2014-01-15 18:44:37 +0400 (Ср., 15 янв. 2014) | 21 lines
+
+Handling of volume change requests improved.
+-----
+Header: System
+-----
+Polarion-ID: SL2-10690, SL2-13314
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Handling of volume change requests improved.
+-----
+External documentation: Handling of volume change requests improved.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Source move/rename:  no
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406893 | riedelin | 2014-01-16 19:09:38 +0400 (Чт., 16 янв. 2014) | 21 lines
+
+New model values for number of stations marked for EPG data capture added.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-4370
+-----
+Variant: all
+-----
+API-modification: yes
+-----
+Internal documentation: New model values for number of stations marked for EPG data capture added.
+-----
+External documentation: New model values for number of stations marked for EPG data capture added.
+-----
+Verification platform: SL210
+-----
+Merge to: 
+-----
+Source move/rename:  no
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406906 | riedelin | 2014-01-16 19:53:04 +0400 (Чт., 16 янв. 2014) | 21 lines
+
+New model values for number of stations marked for EPG data capture added.
+-----
+Header: System
+-----
+Polarion-ID: SL2-15636
+-----
+Variant: all
+-----
+API-modification: yes
+-----
+Internal documentation: New model values for number of stations marked for EPG data capture added.
+-----
+External documentation: New model values for number of stations marked for EPG data capture added.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Source move/rename:  no
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407359 | riedelin | 2014-01-21 14:58:13 +0400 (Вт., 21 янв. 2014) | 21 lines
+
+performRegistration() for model dashboard corrected.
+-----
+Header: System
+-----
+Polarion-ID: SL2-15649
+-----
+Variant: all
+-----
+API-modification: yes
+-----
+Internal documentation: performRegistration() for model dashboard corrected.
+-----
+External documentation: Registration for location of TV set in model-dashboard corrected.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Source move/rename:  no
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407375 | riedelin | 2014-01-21 15:17:32 +0400 (Вт., 21 янв. 2014) | 21 lines
+
+Merged rev. 407359 from "SL2xx/release/V2.3.X_CW40" into "SL2xx/release/V2.3.X_stab_CW44".
+-----
+Header: System
+-----
+Polarion-ID: SL2-15649
+-----
+Variant: all
+-----
+API-modification: yes
+-----
+Internal documentation: performRegistration() for model dashboard corrected.
+-----
+External documentation: Registration for location of TV set in model-dashboard corrected.
+-----
+Verification platform: SL220
+-----
+Merge to: 
+-----
+Source move/rename:  no
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407518 | riedelin | 2014-01-22 17:22:28 +0400 (Ср., 22 янв. 2014) | 21 lines
+
+Handling of GUI messages for scrambled stations and CA conflict improved.
+-----
+Header: System
+-----
+Polarion-ID: SL2-12181
+-----
+Variant: all
+-----
+API-modification: yes
+-----
+Internal documentation: Handling of GUI messages for scrambled stations and CA conflict improved.
+-----
+External documentation: Handling of GUI messages for scrambled stations and CA conflict improved.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Source move/rename:  no
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407596 | riedelin | 2014-01-22 19:37:50 +0400 (Ср., 22 янв. 2014) | 19 lines
+
+Display of sound info  in TV status OSD improved.
+-----
+Header: System
+-----
+Polarion-ID: SL2-13925
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Display of sound info  in TV status OSD improved.
+-----
+External documentation: Display of sound info  in TV status OSD improved.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407796 | riedelin | 2014-01-23 17:26:47 +0400 (Чт., 23 янв. 2014) | 19 lines
+
+Display of sound info  in TV status OSD improved again.
+-----
+Header: System
+-----
+Polarion-ID: SL2-13925
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Display of sound info  in TV status OSD improved.
+-----
+External documentation: Display of sound info  in TV status OSD improved.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408013 | riedelin | 2014-01-24 18:24:55 +0400 (Пт., 24 янв. 2014) | 21 lines
+
+URL of default MediaNet items on HOME screen corrected.
+-----
+Header: System
+-----
+Polarion-ID: SL2-9884
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: URL of default MediaNet items on HOME screen corrected.
+-----
+External documentation: URL of default MediaNet items on HOME screen corrected.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Source move/rename:  no
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408018 | riedelin | 2014-01-24 18:36:44 +0400 (Пт., 24 янв. 2014) | 21 lines
+
+URL of default MediaNet items on HOME screen corrected.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-4764
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: URL of default MediaNet items on HOME screen corrected.
+-----
+External documentation: URL of default MediaNet items on HOME screen corrected.
+-----
+Verification platform: SL210
+-----
+Merge to: 
+-----
+Source move/rename:  no
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408134 | riedelin | 2014-01-27 19:18:41 +0400 (Пн., 27 янв. 2014) | 21 lines
+
+Tvservice status info, e.g. channel is encrypted, isn't displayed while full screen OSDs.
+-----
+Header: System
+-----
+Polarion-ID: SL2-3719
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Tvservice status info, e.g. channel is encrypted, isn't displayed while full screen OSDs (HOME screen, DR archive, ...)
+-----
+External documentation: Tvservice status info, e.g. channel is encrypted, isn't displayed while full screen OSDs.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Source move/rename:  no
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------

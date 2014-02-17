@@ -1,0 +1,1298 @@
+------------------------------------------------------------------------
+r372662 | hadi | 2013-09-04 11:47:50 +0400 (Ср., 04 сент. 2013) | 19 lines
+
+Set source every time when play audio clips (ST request).
+-----
+Header: Freeview
+-----
+Polarion-ID: SSL1-2142
+-----
+Variant: LE65X
+-----
+API-modification: No
+-----
+Internal documentation: Set source every time when play audio clips (ST request).
+-----
+External documentation: Set source every time when play audio clips (ST request).
+-----
+Verification platform: le650 debug
+-----
+Merge to: -
+-----
+Reviewed by: geisser
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r372697 | hadi | 2013-09-04 12:38:51 +0400 (Ср., 04 сент. 2013) | 19 lines
+
+Set source every time when play audio clips (ST request).
+-----
+Header: Freeview
+-----
+Polarion-ID: SL2-10962
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Set source every time when play audio clips (ST request).
+-----
+External documentation: Set source every time when play audio clips (ST request).
+-----
+Verification platform: SL220 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: geisser
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r375701 | hadi | 2013-09-12 17:30:45 +0400 (Чт., 12 сент. 2013) | 19 lines
+
+Set source every time when play audio clips and call "PlayerStop" before doing "PlayerSetSource" (ST requests).
+-----
+Header: Freeview
+-----
+Polarion-ID: SSL1-2001, SSL1-2004, SSL1-3073
+-----
+Variant: LE65X
+-----
+API-modification: No
+-----
+Internal documentation: Set source every time when play audio clips and call "PlayerStop" before doing "PlayerSetSource" (ST requests).
+-----
+External documentation: Set source every time when play audio clips and call "PlayerStop" before doing "PlayerSetSource" (ST requests).
+-----
+Verification platform: le650 debug
+-----
+Merge to: -
+-----
+Reviewed by: prohaska
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r375702 | hadi | 2013-09-12 17:30:46 +0400 (Чт., 12 сент. 2013) | 19 lines
+
+Set source every time when play audio clips and call "PlayerStop" before doing "PlayerSetSource" (ST requests).
+-----
+Header: Freeview
+-----
+Polarion-ID: SSL1-2001, SSL1-2004, SSL1-3073
+-----
+Variant: LE65X
+-----
+API-modification: No
+-----
+Internal documentation: Set source every time when play audio clips and call "PlayerStop" before doing "PlayerSetSource" (ST requests).
+-----
+External documentation: Set source every time when play audio clips and call "PlayerStop" before doing "PlayerSetSource" (ST requests).
+-----
+Verification platform: le650 debug
+-----
+Merge to: -
+-----
+Reviewed by: prohaska
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376851 | hadi | 2013-09-17 13:56:45 +0400 (Вт., 17 сент. 2013) | 19 lines
+
+Component tag handling modified.
+-----
+Header: Freeview
+-----
+Polarion-ID: SSL1-2001, SSL1-2004, SSL1-3073
+-----
+Variant: LE65X
+-----
+API-modification: No
+-----
+Internal documentation: Component tag handling modified.
+-----
+External documentation: Component tag handling modified.
+-----
+Verification platform: le650 debug
+-----
+Merge to: -
+-----
+Reviewed by: forkel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376852 | hadi | 2013-09-17 13:56:45 +0400 (Вт., 17 сент. 2013) | 19 lines
+
+Component tag handling modified.
+-----
+Header: Freeview
+-----
+Polarion-ID: SSL1-2001, SSL1-2004, SSL1-3073
+-----
+Variant: LE65X
+-----
+API-modification: No
+-----
+Internal documentation: Component tag handling modified.
+-----
+External documentation: Component tag handling modified.
+-----
+Verification platform: le650 debug
+-----
+Merge to: -
+-----
+Reviewed by: forkel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376900 | hadi | 2013-09-17 15:42:19 +0400 (Вт., 17 сент. 2013) | 19 lines
+
+Component tag  and audio clip handling ("PlayerSetSource") revised.
+-----
+Header: Freeview
+-----
+Polarion-ID: SL2-14522
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Component tag  and audio clip handling ("PlayerSetSource") revised.
+-----
+External documentation: Component tag  and audio clip handling ("PlayerSetSource") revised.
+-----
+Verification platform: SL220 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: forkel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378053 | hadi | 2013-09-20 12:50:00 +0400 (Пт., 20 сент. 2013) | 19 lines
+
+NDT: Fix for "no audio" and  "random system crashes".
+-----
+Header: Freeview
+-----
+Polarion-ID: SSL1-2001, SSL1-2004, SSL1-3073
+-----
+Variant: LE65X
+-----
+API-modification: No
+-----
+Internal documentation: NDT: Fix for "no audio" and  "random system crashes".
+-----
+External documentation: NDT: Fix for "no audio" and  "random system crashes".
+-----
+Verification platform: le650 debug
+-----
+Merge to: -
+-----
+Reviewed by: forkel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378054 | hadi | 2013-09-20 12:50:09 +0400 (Пт., 20 сент. 2013) | 19 lines
+
+NDT: Fix for "no audio" and  "random system crashes".
+-----
+Header: Freeview
+-----
+Polarion-ID: SSL1-2001, SSL1-2004, SSL1-3073
+-----
+Variant: LE65X
+-----
+API-modification: No
+-----
+Internal documentation: NDT: Fix for "no audio" and  "random system crashes".
+-----
+External documentation: NDT: Fix for "no audio" and  "random system crashes".
+-----
+Verification platform: le650 debug
+-----
+Merge to: -
+-----
+Reviewed by: forkel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378168 | hadi | 2013-09-20 16:37:38 +0400 (Пт., 20 сент. 2013) | 19 lines
+
+NDT: Fix for issues "no audio" and "system crashes".
+-----
+Header: Freeview
+-----
+Polarion-ID: SL2-14522
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: NDT: Fix for issues "no audio" and "system crashes".
+-----
+External documentation: NDT: Fix for issues "no audio" and "system crashes".
+-----
+Verification platform: SL220 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378475 | hadi | 2013-09-23 15:13:36 +0400 (Пн., 23 сент. 2013) | 19 lines
+
+NDT: Fix for "IC streaming".
+-----
+Header: Freeview
+-----
+Polarion-ID: SSL1-2004, SSL1-3073
+-----
+Variant: LE65X
+-----
+API-modification: No
+-----
+Internal documentation: NDT004A/B: Fix for "IC streaming".
+-----
+External documentation: NDT: Fix for "IC streaming".
+-----
+Verification platform: le650 debug
+-----
+Merge to: -
+-----
+Reviewed by: prohaska
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378494 | hadi | 2013-09-23 15:47:05 +0400 (Пн., 23 сент. 2013) | 19 lines
+
+NDT: Fix for issue "IC streaming".
+-----
+Header: Freeview
+-----
+Polarion-ID: SL2-14522
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: NDT: Fix for issue "IC streaming".
+-----
+External documentation: NDT: Fix for issue "IC streaming".
+-----
+Verification platform: SL220 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: forkel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378894 | hadi | 2013-09-24 15:45:48 +0400 (Вт., 24 сент. 2013) | 19 lines
+
+rpc tvservice/videoinfo: pid added (used by hotel mode).
+-----
+Header: Hotel
+-----
+Polarion-ID: SL2-12104
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: NDT: rpc tvservice/videoinfo: pid added (used by hotel mode).
+-----
+External documentation: NDT: rpc tvservice/videoinfo: pid added (used by hotel mode).
+-----
+Verification platform: SL220 debug
+-----
+Merge to: -
+-----
+Reviewed by: forkel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r379306 | hadi | 2013-09-25 15:25:42 +0400 (Ср., 25 сент. 2013) | 19 lines
+
+rpc tvservice: teletextinfo/request added (used by hotel mode).
+-----
+Header: Hotel
+-----
+Polarion-ID: SL2-12104
+
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: rpc tvservice: teletextinfo/request added (used by hotel mode).
+-----
+External documentation: rpc tvservice: teletextinfo/request added (used by hotel mode).
+-----
+Verification platform: SL220 debug
+-----
+Merge to: -
+-----
+Reviewed by: forkel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r379723 | hadi | 2013-09-26 12:33:43 +0400 (Чт., 26 сент. 2013) | 19 lines
+
+rpc tvservice: general info (audio,video,subtitle,teletext) request introduced (used by hotel model).
+-----
+Header: Hotel
+-----
+Polarion-ID: SL2-12104
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: rpc tvservice: general info (audio,video,subtitle,teletext) request introduced (used by hotel model).
+-----
+External documentation: NDT: rpc tvservice: general info (audio,video,subtitle,teletext) request introduced (used by hotel model).
+-----
+Verification platform: SL220 debug
+-----
+Merge to: -
+-----
+Reviewed by: forkel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r383763 | hadi | 2013-10-10 13:09:28 +0400 (Чт., 10 окт. 2013) | 19 lines
+
+NDT, ICS: Handle "StreamStopped" event.
+-----
+Header: Freeview
+-----
+Polarion-ID: SSL1-4147
+-----
+Variant: LE65X
+-----
+API-modification: No
+-----
+Internal documentation: NDT, ICS: Handle "StreamStopped" event.
+-----
+External documentation: NDT, ICS: Handle "StreamStopped" event.
+-----
+Verification platform: le650 debug
+-----
+Merge to: -
+-----
+Reviewed by: prohaska
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r383764 | hadi | 2013-10-10 13:09:43 +0400 (Чт., 10 окт. 2013) | 19 lines
+
+NDT, ICS: Handle "StreamStopped" event.
+-----
+Header: Freeview
+-----
+Polarion-ID: SSL1-4147
+-----
+Variant: LE65X
+-----
+API-modification: No
+-----
+Internal documentation: NDT, ICS: Handle "StreamStopped" event.
+-----
+External documentation: NDT, ICS: Handle "StreamStopped" event.
+-----
+Verification platform: le650 debug
+-----
+Merge to: -
+-----
+Reviewed by: prohaska
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r383883 | hadi | 2013-10-10 14:17:47 +0400 (Чт., 10 окт. 2013) | 19 lines
+
+Injector: reset subscribe flag in unsubscribe method.
+-----
+Header: Freeview
+-----
+Polarion-ID: SSL1-4147
+-----
+Variant: LE65X
+-----
+API-modification: No
+-----
+Internal documentation: Injector: Injector: reset subscribe flag in unsubscribe method.
+-----
+External documentation: Injector: Injector: reset subscribe flag in unsubscribe method.
+-----
+Verification platform: le650 debug
+-----
+Merge to: -
+-----
+Reviewed by: prohaska
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r383939 | hadi | 2013-10-10 16:02:15 +0400 (Чт., 10 окт. 2013) | 19 lines
+
+NDT, ICS:  STBSP_PlayerStop before doing STBSP_PlayerSetSource.
+-----
+Header: Freeview
+-----
+Polarion-ID: SSL1-4147
+-----
+Variant: LE65X
+-----
+API-modification: No
+-----
+Internal documentation: NDT, ICS:  STBSP_PlayerStop before doing STBSP_PlayerSetSource.
+-----
+External documentation: NDT, ICS:  STBSP_PlayerStop before doing STBSP_PlayerSetSource.
+-----
+Verification platform: le650 debug
+-----
+Merge to: -
+-----
+Reviewed by: prohaska
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r384113 | hadi | 2013-10-10 18:26:23 +0400 (Чт., 10 окт. 2013) | 19 lines
+
+NDT, ICS:  stop injection and release buffer before calling releaseInjector().
+-----
+Header: Freeview
+-----
+Polarion-ID: SSL1-4147
+-----
+Variant: LE65X
+-----
+API-modification: No
+-----
+Internal documentation: NDT, ICS:  stop injection and release buffer before calling releaseInjector().
+-----
+External documentation: NDT, ICS:  stop injection and release buffer before calling releaseInjector().
+-----
+Verification platform: le650 debug
+-----
+Merge to: -
+-----
+Reviewed by: prohaska
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r385537 | hadi | 2013-10-15 14:54:36 +0400 (Вт., 15 окт. 2013) | 19 lines
+
+ICS: Injector buffer handling modified. LoShell commands introduced.
+-----
+Header: Freeview
+-----
+Polarion-ID: SSL1-4181
+-----
+Variant: LE65X
+-----
+API-modification: No
+-----
+Internal documentation: ICS: Injector buffer handling modified. LoShell commands introduced.
+-----
+External documentation: Injector: ICS: Injector buffer handling modified. LoShell commands introduced.
+-----
+Verification platform: le650 debug
+-----
+Merge to: -
+-----
+Reviewed by: vazquez
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r387529 | hadi | 2013-10-21 13:29:28 +0400 (Пн., 21 окт. 2013) | 19 lines
+
+ICS: Component tag handling modified( sid, cache and debug messages).
+-----
+Header: Freeview
+-----
+Polarion-ID: SSL1-4164
+-----
+Variant: LE65X
+-----
+API-modification: No
+-----
+Internal documentation: ICS: Component tag handling modified( sid, cache and debug messages).
+-----
+External documentation: Injector: ICS: Component tag handling modified( sid, cache and debug messages).
+-----
+Verification platform: le650 debug
+-----
+Merge to: -
+-----
+Reviewed by: prohaska
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r387588 | hadi | 2013-10-21 15:25:53 +0400 (Пн., 21 окт. 2013) | 19 lines
+
+Subtitle: Increased threshold for "Freerun"-mode.
+-----
+Header: Freeview
+-----
+Polarion-ID: SSL1-4164
+-----
+Variant: LE65X
+-----
+API-modification: No
+-----
+Internal documentation: Subtitle: Increased threshold for "Freerun"-mode.
+-----
+External documentation: Subtitle: Increased threshold for "Freerun"-mode.
+-----
+Verification platform: le650 debug
+-----
+Merge to: -
+-----
+Reviewed by: prohaska
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r387664 | hadi | 2013-10-21 17:07:58 +0400 (Пн., 21 окт. 2013) | 19 lines
+
+MME : Start subtitle always with "forceRestart=true" (stop and restart subtitle).
+-----
+Header: Freeview
+-----
+Polarion-ID: SSL1-4164
+-----
+Variant: LE65X
+-----
+API-modification: No
+-----
+Internal documentation: MME : Start subtitle always with "forceRestart=true" (stop and restart subtitle).
+-----
+External documentation: MME : Start subtitle always with "forceRestart=true" (stop and restart subtitle).
+-----
+Verification platform: le650 debug
+-----
+Merge to: -
+-----
+Reviewed by: prohaska
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r388326 | hadi | 2013-10-22 18:41:04 +0400 (Вт., 22 окт. 2013) | 19 lines
+
+ICS: Set pids to invalid when stream device is stopped.
+-----
+Header: Freeview
+-----
+Polarion-ID: SSL1-4162
+-----
+Variant: LE65X
+-----
+API-modification: No
+-----
+Internal documentation: Set pids to invalid when stream device is stopped.
+-----
+External documentation: Set pids to invalid when stream device is stopped.
+-----
+Verification platform: le650 debug
+-----
+Merge to: -
+-----
+Reviewed by: prohaska
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r388332 | hadi | 2013-10-22 18:46:08 +0400 (Вт., 22 окт. 2013) | 19 lines
+
+ICS: Set pids to invalid when stream device is stopped. Disable parsing of pids.
+-----
+Header: Freeview
+-----
+Polarion-ID: SSL1-4162
+-----
+Variant: LE65X
+-----
+API-modification: No
+-----
+Internal documentation: Set pids to invalid when stream device is stopped. Disable parsing of pids.
+-----
+External documentation: Set pids to invalid when stream device is stopped. Disable parsing of pids.
+-----
+Verification platform: le650 debug
+-----
+Merge to: -
+-----
+Reviewed by: prohaska
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r388779 | hadi | 2013-10-23 18:03:48 +0400 (Ср., 23 окт. 2013) | 19 lines
+
+Component tag handling modified (pending request).
+-----
+Header: Freeview
+-----
+Polarion-ID: SSL1-4162
+-----
+Variant: LE65X
+-----
+API-modification: No
+-----
+Internal documentation: Component tag handling modified (pending request).
+-----
+External documentation: Component tag handling modified (pending request).
+-----
+Verification platform: le650 debug
+-----
+Merge to: -
+-----
+Reviewed by: puschgu
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r390967 | hadi | 2013-10-30 16:06:44 +0400 (Ср., 30 окт. 2013) | 19 lines
+
+ICS and Trick Modes: subtitle handling adapted.
+-----
+Header: Freeview
+-----
+Polarion-ID: SSL1-4162
+-----
+Variant: LE65X
+-----
+API-modification: No
+-----
+Internal documentation: ICS and Trick Modes: subtitle handling adapted.
+-----
+External documentation: ICS and Trick Modes: subtitle handling adapted.
+-----
+Verification platform: le650 debug
+-----
+Merge to: -
+-----
+Reviewed by: puschgu
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r391909 | hadi | 2013-11-04 17:02:10 +0400 (Пн., 04 нояб. 2013) | 19 lines
+
+TrailerBooking: MHEG transitions (interruptible, non-interruptible) modified for non-destructive service tune.
+-----
+Header: DR+, Freeview
+-----
+Polarion-ID: SL2-14240, SL2-14242
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: TrailerBooking: MHEG transitions (interruptible, non-interruptible) modified for non-destructive service tune.
+-----
+External documentation: NDT: TrailerBooking: MHEG transitions (interruptible, non-interruptible) modified for non-destructive service tune.
+-----
+Verification platform: SL220 debug
+-----
+Merge to: trunk
+-----
+Reviewed by:  prohaska
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r393085 | hadi | 2013-11-07 12:00:26 +0400 (Чт., 07 нояб. 2013) | 19 lines
+
+Section acquisition: Improved handling of multiple sections (change of last section number and version).
+-----
+Header: DVB Networks
+-----
+Polarion-ID: SL2-14218
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Section acquisition: Improved handling of multiple sections (change of last section number and version).
+-----
+External documentation: Section acquisition: Improved handling of multiple sections (change of last section number and version).
+-----
+Verification platform: SL220 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: prohaska
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r394850 | hadi | 2013-11-12 17:07:24 +0400 (Вт., 12 нояб. 2013) | 19 lines
+
+MME/Freeview: Filter handling modified to avoid possible resource leaks.
+-----
+Header: DVB Networks
+-----
+Polarion-ID: SL2-14676
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: MME/Freeview: Filter handling modified to avoid possible resource leaks.
+-----
+External documentation: MME/Freeview: Filter handling modified to avoid possible resource leaks.
+-----
+Verification platform: SL220 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: prohaska
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r394930 | hadi | 2013-11-12 18:46:39 +0400 (Вт., 12 нояб. 2013) | 19 lines
+
+Freeview/MME: Filter handling improved to avoid possible (small) memory leaks.
+-----
+Header: Freeview
+-----
+Polarion-ID: SSL1-4507
+-----
+Variant: LE65X
+-----
+API-modification: No
+-----
+Internal documentation: Freeview/MME: Filter handling improved to avoid possible (small) memory leaks.
+-----
+External documentation: Freeview/MME: Filter handling improved to avoid possible (small) memory leaks.
+-----
+Verification platform: le650 debug
+-----
+Merge to: -
+-----
+Reviewed by: prohaska
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r395201 | hadi | 2013-11-13 14:26:16 +0400 (Ср., 13 нояб. 2013) | 19 lines
+
+MME/HbbTV: Delete interfaces when closed to avoid memory leaks.
+-----
+Header: DVB Networks
+-----
+Polarion-ID: SL2-15183
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: MME/HbbTV: Delete interfaces when closed to avoid memory leaks.
+-----
+External documentation: MME/HbbTV: Delete interfaces when closed to avoid memory leaks.
+-----
+Verification platform: SL220 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: prohaska
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r395521 | hadi | 2013-11-13 20:29:50 +0400 (Ср., 13 нояб. 2013) | 19 lines
+
+Freeview/MME:  Filter handling improved to avoid possible crash (fast zapping).
+-----
+Header: Freeview
+-----
+Polarion-ID: SSL1-4507
+-----
+Variant: LE65X
+-----
+API-modification: No
+-----
+Internal documentation:  Filter handling improved to avoid possible crash (fast zapping).
+-----
+External documentation:  Filter handling improved to avoid possible crash (fast zapping).
+-----
+Verification platform: le650 debug
+-----
+Merge to: -
+-----
+Reviewed by: puschgu
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r395523 | hadi | 2013-11-13 20:33:48 +0400 (Ср., 13 нояб. 2013) | 19 lines
+
+Freeview/MME:  Filter handling improved to avoid possible crash (fast zapping).
+-----
+Header: Freeview
+-----
+Polarion-ID: SSL1-4521
+-----
+Variant: LE65X
+-----
+API-modification: No
+-----
+Internal documentation:  Filter handling improved to avoid possible crash (fast zapping).
+-----
+External documentation:  Filter handling improved to avoid possible crash (fast zapping).
+-----
+Verification platform: le650 debug
+-----
+Merge to: -
+-----
+Reviewed by: puschgu
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r395524 | hadi | 2013-11-13 20:38:43 +0400 (Ср., 13 нояб. 2013) | 19 lines
+
+MME/Freeview: Filter handling modified to avoid possible crash (fast zapping).
+-----
+Header: DVB Networks
+-----
+Polarion-ID: SL2-14676
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: MME/Freeview: Filter handling modified to avoid possible crash (fast zapping).
+-----
+External documentation: MME/Freeview: Filter handling modified to avoid possible crash (fast zapping).
+-----
+Verification platform: SL220 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: puschgu
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r395553 | hadi | 2013-11-14 10:41:28 +0400 (Чт., 14 нояб. 2013) | 19 lines
+
+MME/Freeview: Filter handling modified to avoid possible resource leaks.
+-----
+Header: DVB Networks
+-----
+Polarion-ID: SL2-14676
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: MME/Freeview: Filter handling modified to avoid possible resource leaks.
+-----
+External documentation: MME/Freeview: Filter handling modified to avoid possible resource leaks.
+-----
+Verification platform: SL220 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: puschgu
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r396517 | hadi | 2013-11-18 15:01:53 +0400 (Пн., 18 нояб. 2013) | 19 lines
+
+MME/Freeview: Filter handling modified to avoid possible resource leaks.
+-----
+Header: DVB Networks
+-----
+Polarion-ID: SL2-14676
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: MME/Freeview: Filter handling modified to avoid possible resource leaks.
+-----
+External documentation: MME/Freeview: Filter handling modified to avoid possible resource leaks.
+-----
+Verification platform: SL220 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: prohaska
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r396537 | hadi | 2013-11-18 15:43:46 +0400 (Пн., 18 нояб. 2013) | 19 lines
+
+MME/Freeview: Tabs removed :(
+-----
+Header: DVB Networks
+-----
+Polarion-ID: SL2-14676
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Tabs removed :(
+-----
+External documentation: Tabs removed :(
+-----
+Verification platform: SL220 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: prohaska
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r396674 | hadi | 2013-11-18 18:48:01 +0400 (Пн., 18 нояб. 2013) | 19 lines
+
+EIT cache: Section acquisition handling modified (avoid possible filter leaks in section acquisition map).
+-----
+Header: DVB Networks
+-----
+Polarion-ID: SL2-14676
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: EIT cache: Section acquisition handling modified (avoid possible filter leaks in section acquisition map).
+-----
+External documentation: EIT cache: Section acquisition handling modified (avoid possible filter leaks in section acquisition map).
+-----
+Verification platform: SL220 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: puschgu
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r396844 | hadi | 2013-11-19 11:50:01 +0400 (Вт., 19 нояб. 2013) | 19 lines
+
+MME/HbbTv: Release interfaces when closed.
+-----
+Header: DVB
+-----
+Polarion-ID: SSL1-4514
+-----
+Variant: LE65X
+-----
+API-modification: No
+-----
+Internal documentation: MME/HbbTv: Release interfaces when closed (avoid memory leaks).
+-----
+External documentation: MME/HbbTv: Release interfaces when closed.
+-----
+Verification platform: le650 debug
+-----
+Merge to: -
+-----
+Reviewed by: prohaska
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r396859 | hadi | 2013-11-19 12:27:06 +0400 (Вт., 19 нояб. 2013) | 19 lines
+
+Stop section filters always to avoid possible resource leaks.
+-----
+Header: DVB
+-----
+Polarion-ID: SSL1-4549
+-----
+Variant: LE65X
+-----
+API-modification: No
+-----
+Internal documentation: MME/HbbTv: Stop section filters always to avoid possible resource leaks (section acquisition map).
+-----
+External documentation: MME/HbbTv: Stop section filters always to avoid possible resource leaks.
+-----
+Verification platform: le650 debug
+-----
+Merge to: -
+-----
+Reviewed by: prohaska
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r396871 | hadi | 2013-11-19 12:39:57 +0400 (Вт., 19 нояб. 2013) | 19 lines
+
+Trace warning when all section filters are in use.
+-----
+Header: DVB Networks
+-----
+Polarion-ID: SL2-14676
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Trace warning when all section filters are in use.
+-----
+External documentation: Trace warning when all section filters are in use.
+-----
+Verification platform: SL220 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: prohaska
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399651 | hadi | 2013-11-27 14:34:48 +0400 (Ср., 27 нояб. 2013) | 19 lines
+
+Signalling and monitoring of default authority prepared.
+-----
+Header: DVB Networks
+-----
+Polarion-ID: SL2-15302
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Signalling and monitoring of default authority prepared.
+-----
+External documentation: Signalling and monitoring of default authority prepared.
+-----
+Verification platform: SL220 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: puschgu
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400281 | hadi | 2013-11-29 11:08:44 +0400 (Пт., 29 нояб. 2013) | 19 lines
+
+Freeview/MME:  check whether subtitle has been stopped by client or by user
+-----
+Header: Freeview
+-----
+Polarion-ID: SSL1-4416
+-----
+Variant: LE65X
+-----
+API-modification: No
+-----
+Internal documentation:  check whether subtitle has been stopped by client or by user
+-----
+External documentation:  check whether subtitle has been stopped by client or by user
+-----
+Verification platform: le650 debug
+-----
+Merge to: -
+-----
+Reviewed by: puschgu
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400288 | hadi | 2013-11-29 11:20:56 +0400 (Пт., 29 нояб. 2013) | 19 lines
+
+Freeview/MME: check whether subtitle has been stopped by client or by user
+-----
+Header: DVB Networks
+-----
+Polarion-ID: SL2-9283
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Freeview/MME: check whether subtitle has been stopped by client or by user
+-----
+External documentation: Freeview/MME: check whether subtitle has been stopped by client or by user
+-----
+Verification platform: SL220 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: puschgu
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403270 | hadi | 2013-12-11 12:24:38 +0400 (Ср., 11 дек. 2013) | 19 lines
+
+Freeview/MME:  Send a "subtitle changed" event to the engine only when subtitle settings has changed.
+-----
+Header: Freeview
+-----
+Polarion-ID: SSL1-4708
+-----
+Variant: LE65X
+-----
+API-modification: No
+-----
+Internal documentation:   Send a "subtitle changed" event to the engine only when subtitle settings has changed.
+-----
+External documentation:   Send a "subtitle changed" event to the engine only when subtitle settings has changed.
+-----
+Verification platform: le650 debug
+-----
+Merge to: -
+-----
+Reviewed by: puschgu
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403277 | hadi | 2013-12-11 12:43:53 +0400 (Ср., 11 дек. 2013) | 19 lines
+
+Freeview/MME:  Send a "subtitle changed" event to the engine only when subtitle settings has changed.
+-----
+Header: Freeview
+-----
+Polarion-ID: SSL1-4708
+-----
+Variant: LE65X
+-----
+API-modification: No
+-----
+Internal documentation:   Send a "subtitle changed" event to the engine only when subtitle settings has changed.
+-----
+External documentation:   Send a "subtitle changed" event to the engine only when subtitle settings has changed.
+-----
+Verification platform: le650 debug
+-----
+Merge to: -
+-----
+Reviewed by: puschgu
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403282 | hadi | 2013-12-11 12:53:10 +0400 (Ср., 11 дек. 2013) | 19 lines
+
+Send a "subtitle changed" event to the engine only when subtitle settings has changed.
+-----
+Header: DVB Networks
+-----
+Polarion-ID: SL2-15436
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Send a "subtitle changed" event to the engine only when subtitle settings has changed.
+-----
+External documentation: Send a "subtitle changed" event to the engine only when subtitle settings has changed.
+-----
+Verification platform: SL220 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: puschgu
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406460 | hadi | 2014-01-14 17:18:42 +0400 (Вт., 14 янв. 2014) | 19 lines
+
+PmtHub: Stop section filter if PMT has no more clients.
+-----
+Header: DVB Networks
+-----
+Polarion-ID: SL2-15629
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: PmtHub: Stop section filter if PMT has no more clients.
+-----
+External documentation: PmtHub: Stop section filter if PMT has no more clients.
+-----
+Verification platform: SL220 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: puschgu
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407402 | hadi | 2014-01-21 17:24:36 +0400 (Вт., 21 янв. 2014) | 19 lines
+
+SDT/Service name updates: Wrap possible database updates into a transaction to accelerate service list update.
+-----
+Header: DVB Networks
+-----
+Polarion-ID: SL2-15531
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: SDT/Service name updates: Wrap possible database updates into a transaction to accelerate service list update.
+-----
+External documentation: SDT/Service name updates: Wrap possible database updates into a transaction to accelerate service list update.
+-----
+Verification platform: SL220 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: puschgu
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408121 | hadi | 2014-01-27 17:54:07 +0400 (Пн., 27 янв. 2014) | 21 lines
+
+Wrong dual mono audio track selection fixed (calculateAudioPurpose()).
+-----
+Header: DVB Networks
+-----
+Polarion-ID: SL2-15673
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Wrong dual mono audio track selection fixed (calculateAudioPurpose()).
+-----
+External documentation: Wrong dual mono audio track selection fixed (calculateAudioPurpose()).
+-----
+Verification platform: SL220 debug
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: schmittk
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408168 | hadi | 2014-01-28 12:42:38 +0400 (Вт., 28 янв. 2014) | 21 lines
+
+Wrong dual mono audio track selection fixed.
+-----
+Header: Freeview
+-----
+Polarion-ID: SSL1-4759
+-----
+Variant: sl210
+-----
+API-modification: No
+-----
+Internal documentation:   Wrong dual mono audio track selection fixed.
+-----
+External documentation:   Wrong dual mono audio track selection fixed.
+-----
+Verification platform: sl210 debug
+-----
+Merge to: -
+-----
+Source move/rename: no
+-----
+Reviewed by: schmittk
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r410493 | hadi | 2014-02-12 18:05:54 +0400 (Ср., 12 февр. 2014) | 21 lines
+
+ST media player signals  STBSP_PLAYER_EVENT_END_OF_STREAM instead of STBSP_PLAYER_EVENT_END_OF_PLAYBACK when play has ended.
+-----
+Header: DVB Networks
+-----
+Polarion-ID: SL2-14684
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation:  ST media player signals  STBSP_PLAYER_EVENT_END_OF_STREAM instead of STBSP_PLAYER_EVENT_END_OF_PLAYBACK when play has ended.
+-----
+External documentation: ST media player signals  STBSP_PLAYER_EVENT_END_OF_STREAM instead of STBSP_PLAYER_EVENT_END_OF_PLAYBACK when play has ended.
+-----
+Verification platform: SL220 debug
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: prohaska
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r410573 | hadi | 2014-02-13 13:03:40 +0400 (Чт., 13 февр. 2014) | 21 lines
+
+Freeview: Workaround for short audio samples ("drum machine", SPDIF instead of I2S).
+-----
+Header: DVB Networks
+-----
+Polarion-ID: SL2-14684
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation:  Freeview: Workaround for short audio samples ("drum machine"). We are using SPDIF instead of I2S).
+-----
+External documentation: Freeview: Workaround for short audio samples ("drum machine", SPDIF instead of I2S).
+-----
+Verification platform: SL220 debug
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: puschgu
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r410590 | hadi | 2014-02-13 14:27:46 +0400 (Чт., 13 февр. 2014) | 21 lines
+
+Compile error fixed (return value ignored).
+-----
+Header: DVB Networks
+-----
+Polarion-ID: SL2-14684
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation:  Compile error fixed (return value ignored).
+-----
+External documentation: Compile error fixed (return value ignored).
+-----
+Verification platform: SL220 debug
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: puschgu
+------------------------------------------------------------------------

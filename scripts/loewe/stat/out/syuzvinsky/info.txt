@@ -1,0 +1,56 @@
+------------------------------------------------------------------------
+r410406 | syuzvinsky | 2014-02-12 15:11:03 +0400 (Ср., 12 февр. 2014) | 23 lines
+
+Refactored IPC for servicemode and mpctrl.
+-----
+Header: System
+-----
+Polarion-ID: SL2-15637, SL2-15699, SL2-14610
+-----
+Variant: sl2
+-----
+API-modification: no
+-----
+Internal documentation:
+Refactored IPC for servicemode and mpctrl.
+-----
+External documentation:
+-----
+Verfication platform: sl220
+-----
+Merge to:
+-----
+Source move/rename: no
+-----
+Reviewed by: 
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r410640 | syuzvinsky | 2014-02-13 18:20:35 +0400 (Чт., 13 февр. 2014) | 25 lines
+
+Refactor cec RPC using rpc code generator.
+Add svn:ignore property for generated code.
+-----
+Header: System
+-----
+Polarion-ID: SL2-15699, SL2-15637, SL2-14610
+-----
+Variant: sl2
+-----
+API-modification: no
+-----
+Internal documentation:
+Refactor cec RPC using rpc code generator.
+Add svn:ignore property for generated code.
+-----
+External documentation:
+-----
+Verfication platform: sl220
+-----
+Merge to:
+-----
+Source move/rename: no
+-----
+Reviewed by: 
+
+------------------------------------------------------------------------

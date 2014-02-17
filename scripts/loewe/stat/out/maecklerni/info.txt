@@ -1,0 +1,3237 @@
+------------------------------------------------------------------------
+r372437 | maecklerni | 2013-09-03 16:13:34 +0400 (Вт., 03 сент. 2013) | 22 lines
+
+Retrieve ARC Status from driver
+-----
+Header: CEC
+-----
+Polarion-ID: SSL1-3031
+-----
+Variant: SL21x, LE65X
+-----
+API-modification: No
+-----
+Internal documentation: 
+Retrieve ARC Status from driver
+-----
+External documentation: 
+Retrieve ARC Status from driver
+-----
+Verification platform: le650 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r372440 | maecklerni | 2013-09-03 16:18:08 +0400 (Вт., 03 сент. 2013) | 22 lines
+
+Do not send ARC close after system audio mode off
+-----
+Header: CEC
+-----
+Polarion-ID: SSL1-3031
+-----
+variant: le650
+-----
+API-modification: No
+-----
+Internal documentation: 
+Do not send ARC close after system audio mode off
+-----
+External documentation: 
+Do not send ARC close after system audio mode off
+-----
+Verification platform: le650 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r372503 | maecklerni | 2013-09-03 18:04:42 +0400 (Вт., 03 сент. 2013) | 22 lines
+
+Correct system state handling and audio device support
+-----
+Header: CEC
+-----
+Polarion-ID: SSL1-3031
+-----
+Variant: LE65X
+-----
+API-modification: No
+-----
+Internal documentation: 
+Correct system state handling and audio device support
+-----
+External documentation: 
+Correct system state handling and audio device support
+-----
+Verification platform: le650 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r372650 | maecklerni | 2013-09-04 11:31:33 +0400 (Ср., 04 сент. 2013) | 22 lines
+
+Unblock RC for AIS first screen
+-----
+Header: CEC
+-----
+Polarion-ID: SSL1-3520
+-----
+variant: LE650
+-----
+API-modification: No
+-----
+Internal documentation: 
+Unblock RC for AIS first screen
+-----
+External documentation: 
+Unblock RC for AIS first screen
+-----
+Verification platform: le650 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r372756 | maecklerni | 2013-09-04 13:29:26 +0400 (Ср., 04 сент. 2013) | 20 lines
+
+Merge latest renderer state
+-----
+Header: UPnP
+-----
+Polarion-ID: SSL1-3814
+-----
+variant: le65x
+-----
+API-modification: No
+-----
+Internal documentation: Merge latest renderer state
+-----
+External documentation: Merge latest renderer state
+-----
+Verification platform: le650 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r372767 | maecklerni | 2013-09-04 13:34:26 +0400 (Ср., 04 сент. 2013) | 20 lines
+
+Only send CEC request to audio when an audio device is connected
+-----
+Header: CEC
+-----
+Polarion-ID: SSL1-3031
+-----
+variant: le650
+-----
+API-modification: No
+-----
+Internal documentation: Only send CEC request to audio when an audio device is connected
+-----
+External documentation: Only send CEC request to audio when an audio device is connected
+-----
+Verification platform: le650 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r373010 | maecklerni | 2013-09-04 19:19:05 +0400 (Ср., 04 сент. 2013) | 20 lines
+
+Fix HDMI SPD Text reading
+-----
+Header: CEC
+-----
+Polarion-ID: SSL1-569, SSL1-1918
+-----
+variant: LE650, SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Fix HDMI SPD Text reading
+-----
+External documentation: Fix HDMI SPD Text reading
+-----
+Verification platform: le650 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r373710 | maecklerni | 2013-09-06 13:29:57 +0400 (Пт., 06 сент. 2013) | 20 lines
+
+Save and update audio status between CEC menu changes
+-----
+Header: CEC
+-----
+Polarion-ID: SSL1-2138
+-----
+variant: LE650
+-----
+API-modification: No
+-----
+Internal documentation: Save and update audio status between CEC menu changes
+-----
+External documentation: Save and update audio status between CEC menu changes
+-----
+Verification platform: LE650 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r374537 | maecklerni | 2013-09-10 15:22:31 +0400 (Вт., 10 сент. 2013) | 20 lines
+
+Separate sharp and loewe renderer configuration
+-----
+Header: UPnP
+-----
+Polarion-ID: SSL1-3822
+-----
+variant: LE650, SL2XX
+-----
+API-modification: No
+-----
+Internal documentation: Separate sharp and loewe renderer configuration
+-----
+External documentation: Separate sharp and loewe renderer configuration
+-----
+Verification platform: le650 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r374610 | maecklerni | 2013-09-10 17:04:48 +0400 (Вт., 10 сент. 2013) | 24 lines
+
+Fix favourte issue with Twonky
+-----
+Header: UPnP
+-----
+Polarion-ID: SSL1-3846	
+-----
+Variant: SL210
+-----
+API-modification: No
+-----
+Internal documentation: 
+- Update filter for browse request
+- use refID instead of itemID for the media
+-----
+External documentation: 
+- Update filter for browse request
+- use refID instead of itemID for the media
+-----
+Verification platform: SL210
+-----
+Merge to: -
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r374694 | maecklerni | 2013-09-10 18:51:30 +0400 (Вт., 10 сент. 2013) | 20 lines
+
+merge commit from 2.1_CW16 
+-----
+Header: CEC
+-----
+Polarion-ID: -
+-----
+variant: SL220
+-----
+API-modification: No
+-----
+Internal documentation: merge commit from 2.1_CW16 
+-----
+External documentation: merge commit from 2.1_CW16 
+-----
+Verification platform: SL220 debug
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r374910 | maecklerni | 2013-09-11 12:44:22 +0400 (Ср., 11 сент. 2013) | 20 lines
+
+Fix Screen state handling
+-----
+Header: CEC
+-----
+Polarion-ID: SSL1-3284
+-----
+variant: SL210
+-----
+API-modification: No
+-----
+Internal documentation: Fix Screen state handling
+-----
+External documentation: Fix Screen state handling
+-----
+Verification platform: SL210 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r375062 | maecklerni | 2013-09-11 15:37:40 +0400 (Ср., 11 сент. 2013) | 22 lines
+
+Merge r371326, r371395, r372437, r372440, r372503, r372650, r372767, r373010, r373710, r374537, r374910 from stab1 to V2.1_CW16
+-----
+Header: CEC
+-----
+Polarion-ID: SL2-14337, SL2-10722
+-----
+Variant: SL220
+-----
+API-modification: No
+-----
+Internal documentation: 
+Merge r371326, r371395, r372437, r372440, r372503, r372650, r372767, r373010, r373710, r374537, r374910 from stab1 to V2.1_CW16
+-----
+External documentation: 
+Merge revisions from stab1 to V2.1_CW16
+-----
+Verification platform: SL220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r375149 | maecklerni | 2013-09-11 18:01:46 +0400 (Ср., 11 сент. 2013) | 22 lines
+
+Don't switch off last active playback device if it's the amplifier
+-----
+Header: CEC
+-----
+Polarion-ID: SSL1-3696
+-----
+Variant: SL210
+-----
+API-modification: No
+-----
+Internal documentation: 
+Don't switch off last active playback device if it's the amplifier
+-----
+External documentation: 
+Don't switch off last active playback device if it's the amplifier
+-----
+Verification platform: sl210 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r375689 | maecklerni | 2013-09-12 17:18:08 +0400 (Чт., 12 сент. 2013) | 20 lines
+
+Correct restart of renderer on sl2xx
+-----
+Header: UPnP
+-----
+Polarion-ID: SSL1-3814
+-----
+variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: Correct restart of renderer on sl2xx
+-----
+External documentation: Correct restart of renderer on sl2xx
+-----
+Verification platform: sl210 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r375692 | maecklerni | 2013-09-12 17:19:36 +0400 (Чт., 12 сент. 2013) | 20 lines
+
+Correct restart of renderer on sl2xx
+-----
+Header: UPnP
+-----
+Polarion-ID: SL2-9715
+-----
+variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: Correct restart of renderer on sl2xx
+-----
+External documentation: Correct restart of renderer on sl2xx
+-----
+Verification platform: sl210 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376182 | maecklerni | 2013-09-13 16:06:34 +0400 (Пт., 13 сент. 2013) | 22 lines
+
+Add static port for renderer
+-----
+Header: UPnP
+-----
+Polarion-ID: SSL1-3814
+-----
+Variant: le650
+-----
+API-modification: No
+-----
+Internal documentation: 
+Add static port for renderer
+-----
+External documentation: 
+Add static port for renderer
+-----
+Verification platform: LE650 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376202 | maecklerni | 2013-09-13 16:29:40 +0400 (Пт., 13 сент. 2013) | 20 lines
+
+Update dvbmain.PI.txt
+-----
+Header: UPnP
+-----
+Polarion-ID: SL2-9715
+-----
+variant: SL2XX, LE650
+-----
+API-modification: No
+-----
+Internal documentation: Update dvbmain.PI.txt
+-----
+External documentation: Update dvbmain.PI.txt
+-----
+Verification platform: sl210 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376211 | maecklerni | 2013-09-13 16:51:02 +0400 (Пт., 13 сент. 2013) | 20 lines
+
+Update DLNA profile
+-----
+Header: UPnP
+-----
+Polarion-ID: SSL1-3954
+-----
+variant: SL2XX, LE650
+-----
+API-modification: No
+-----
+Internal documentation: Update DLNA profile
+-----
+External documentation: Update DLNA profile
+-----
+Verification platform: sl210 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376345 | maecklerni | 2013-09-16 11:43:00 +0400 (Пн., 16 сент. 2013) | 21 lines
+
+
+Only send CEC request to audio when an audio device is connected
+-----
+Header: CEC
+-----
+Polarion-ID: SSL1-3031
+-----
+variant: sl210
+-----
+API-modification: No
+-----
+Internal documentation: Only send CEC request to audio when an audio device is connected
+-----
+External documentation: Only send CEC request to audio when an audio device is connected
+-----
+Verification platform: sl210 debug
+-----
+Merge to: -
+-----
+Reviewed by: weggenti
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376425 | maecklerni | 2013-09-16 13:43:08 +0400 (Пн., 16 сент. 2013) | 20 lines
+
+Use relaese Awox binaries
+-----
+Header: UPnP
+-----
+Polarion-ID: SSL1-3969
+-----
+variant: SL210, LE650
+-----
+API-modification: No
+-----
+Internal documentation: Use relaese Awox binaries
+-----
+External documentation: Use relaese Awox binaries
+-----
+Verification platform: sl210 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376452 | maecklerni | 2013-09-16 14:43:14 +0400 (Пн., 16 сент. 2013) | 20 lines
+
+Update DLNA profile
+-----
+Header: UPnP
+-----
+Polarion-ID: SSL1-3954
+-----
+variant: SL2XX, LE650
+-----
+API-modification: No
+-----
+Internal documentation: Update DLNA profile
+-----
+External documentation: Update DLNA profile
+-----
+Verification platform: sl210 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376494 | maecklerni | 2013-09-16 16:05:01 +0400 (Пн., 16 сент. 2013) | 20 lines
+
+Remove logging for awox
+-----
+Header: UPnP
+-----
+Polarion-ID: SSL1-3969
+-----
+variant: SL2XX, LE650
+-----
+API-modification: No
+-----
+Internal documentation: Remove logging for awox
+-----
+External documentation: Remove logging for awox
+-----
+Verification platform: sl210 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376537 | maecklerni | 2013-09-16 16:55:40 +0400 (Пн., 16 сент. 2013) | 23 lines
+
+Don't switch off last active playback device if it's the amplifier - Merge from stab1
+-----
+Header: CEC
+-----
+Polarion-ID: SL2-14516
+-----
+Variant: SL220
+-----
+API-modification: No
+-----
+Internal documentation: 
+Don't switch off last active playback device if it's the amplifier
+-----
+External documentation: 
+Don't switch off last active playback device if it's the amplifier
+-----
+Verification platform: sl220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376580 | maecklerni | 2013-09-16 18:14:51 +0400 (Пн., 16 сент. 2013) | 20 lines
+
+Update Renderer state from stab1
+-----
+Header: UPnP
+-----
+Polarion-ID: SL2-9715
+-----
+variant: SL220
+-----
+API-modification: No
+-----
+Internal documentation: Update Renderer state from stab1
+-----
+External documentation: Update Renderer state from stab1
+-----
+Verification platform: sl220 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376926 | maecklerni | 2013-09-17 16:20:33 +0400 (Вт., 17 сент. 2013) | 22 lines
+
+CEC Audio device startup depends now on system states
+-----
+Header: UPnP
+-----
+Polarion-ID: SL2-14337
+-----
+variant: SL220
+-----
+API-modification: No
+-----
+Internal documentation:
+CEC Audio device startup depends now on system states
+-----
+External documentation:
+CEC Audio device startup depends now on system states
+-----
+Verification platform: SL220
+-----
+Merge to: -
+-----
+Reviewed by: weggenti
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376946 | maecklerni | 2013-09-17 16:50:19 +0400 (Вт., 17 сент. 2013) | 22 lines
+
+Update position by seek
+-----
+Header: UPnP
+-----
+Polarion-ID: SSL1-3814
+-----
+variant: SL210
+-----
+API-modification: No
+-----
+Internal documentation: 
+Update position by seek
+-----
+External documentation:
+Update position by seek
+-----
+Verification platform: sl210 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376952 | maecklerni | 2013-09-17 16:53:50 +0400 (Вт., 17 сент. 2013) | 22 lines
+
+Update seek position
+-----
+Header: UPnP
+-----
+Polarion-ID: SL2-9715
+-----
+variant: SL2XX
+-----
+API-modification: No
+-----
+Internal documentation:
+Update seek position
+-----
+External documentation:
+Update seek position
+-----
+Verification platform: sl220 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r377450 | maecklerni | 2013-09-18 16:17:31 +0400 (Ср., 18 сент. 2013) | 20 lines
+
+Correct fforward and fbackward handling
+-----
+Header: CEC
+-----
+Polarion-ID: SSL1-3553
+-----
+variant: SL21X, LE650
+-----
+API-modification: No
+-----
+Internal documentation: Correct fforward and fbackward handling
+-----
+External documentation: Correct fforward and fbackward handling
+-----
+Verification platform: sl210 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r377454 | maecklerni | 2013-09-18 16:19:09 +0400 (Ср., 18 сент. 2013) | 20 lines
+
+Correct fforward and fbackward handling
+-----
+Header: CEC
+-----
+Polarion-ID: SSL1-3553
+-----
+variant: SL21X, LE650
+-----
+API-modification: No
+-----
+Internal documentation: Correct fforward and fbackward handling
+-----
+External documentation: Correct fforward and fbackward handling
+-----
+Verification platform: sl210 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r379263 | maecklerni | 2013-09-25 13:49:18 +0400 (Ср., 25 сент. 2013) | 20 lines
+
+Volume and mute handling updated
+-----
+Header: CEC
+-----
+Polarion-ID: SSL1-4083, SSL1-4082
+-----
+variant: SL2XX, LE650
+-----
+API-modification: No
+-----
+Internal documentation: Volume and mute handling updated
+-----
+External documentation: Volume and mute handling updated
+-----
+Verification platform: sl210 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r379369 | maecklerni | 2013-09-25 16:42:12 +0400 (Ср., 25 сент. 2013) | 20 lines
+
+Update DLNA Logo
+-----
+Header: UPnP
+-----
+Polarion-ID: SSL1-3814
+-----
+variant:  LE650
+-----
+API-modification: No
+-----
+Internal documentation: Update DLNA logo
+-----
+External documentation: Update DLNA logo
+-----
+Verification platform: sl210 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r382425 | maecklerni | 2013-10-07 18:14:23 +0400 (Пн., 07 окт. 2013) | 20 lines
+
+If soundprojector is connected, no audio event will be send to biz
+-----
+Header: CEC
+-----
+Polarion-ID: SL2-14290, SL2-14348
+-----
+variant: SL2XX
+-----
+API-modification: No
+-----
+Internal documentation: If soundprojector is connected, no audio event will be send to biz
+-----
+External documentation: If soundprojector is connected, no audio event will be send to biz
+-----
+Verification platform: sl220 debug
+-----
+Merge to: -
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r382427 | maecklerni | 2013-10-07 18:26:29 +0400 (Пн., 07 окт. 2013) | 20 lines
+
+If soundprojector is connected, no audio event will be send to biz
+-----
+Header: CEC
+-----
+Polarion-ID: SL2-14290, SL2-14348
+-----
+variant: SL2XX
+-----
+API-modification: No
+-----
+Internal documentation: If soundprojector is connected, no audio event will be send to biz
+-----
+External documentation: If soundprojector is connected, no audio event will be send to biz
+-----
+Verification platform: sl220 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r382570 | maecklerni | 2013-10-08 11:43:22 +0400 (Вт., 08 окт. 2013) | 20 lines
+
+Remove deadlock in cec 
+-----
+Header: CEC
+-----
+Polarion-ID: SL2-14348
+-----
+variant: SL22X
+-----
+API-modification: No
+-----
+Internal documentation: Remove deadlock in cec 
+-----
+External documentation: Remove deadlock in cec 
+-----
+Verification platform: SL220 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r382681 | maecklerni | 2013-10-08 13:54:54 +0400 (Вт., 08 окт. 2013) | 20 lines
+
+Remove debug output
+-----
+Header: CEC
+-----
+Polarion-ID: SL2-14348
+-----
+variant: SL22X
+-----
+API-modification: No
+-----
+Internal documentation: Remove debug output
+-----
+External documentation: Remove debug output
+-----
+Verification platform: sl220 debug
+-----
+Merge to: -
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r382682 | maecklerni | 2013-10-08 13:56:20 +0400 (Вт., 08 окт. 2013) | 20 lines
+
+Remove debug output
+-----
+Header: CEC
+-----
+Polarion-ID: SL2-14348
+-----
+variant: SL22X
+-----
+API-modification: No
+-----
+Internal documentation: Remove debug output
+-----
+External documentation: Remove debug output
+-----
+Verification platform: sl220 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r382745 | maecklerni | 2013-10-08 15:50:46 +0400 (Вт., 08 окт. 2013) | 20 lines
+
+Fix Soundprojector connection state 
+-----
+Header: CEC
+-----
+Polarion-ID: SL2-14348
+-----
+variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: Fix Soundprojector connection state 
+-----
+External documentation: Fix Soundprojector connection state 
+-----
+Verification platform: sl220 debug
+-----
+Merge to: -
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r382749 | maecklerni | 2013-10-08 15:53:48 +0400 (Вт., 08 окт. 2013) | 20 lines
+
+Fix soundprojector connection state	
+-----
+Header: CEC
+-----
+Polarion-ID: SL2-14348
+-----
+variant: SL2XX
+-----
+API-modification: No
+-----
+Internal documentation: Fix soundprojector connection state	
+-----
+External documentation: Fix soundprojector connection state	
+-----
+Verification platform: sl220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r383298 | maecklerni | 2013-10-09 17:01:09 +0400 (Ср., 09 окт. 2013) | 20 lines
+
+Fix CEC AV Receiver slow control 
+-----
+Header: CEC
+-----
+Polarion-ID: SL2-14672
+-----
+variant: SL2XX
+-----
+API-modification: No
+-----
+Internal documentation: Fix CEC AV Receiver slow control 
+-----
+External documentation: Fix CEC AV Receiver slow control 
+-----
+Verification platform: sl220 final
+-----
+Merge to: -
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r383300 | maecklerni | 2013-10-09 17:05:58 +0400 (Ср., 09 окт. 2013) | 20 lines
+
+Fix CEC AV Receiver slow control 
+-----
+Header: CEC
+-----
+Polarion-ID: SL2-14672
+-----
+variant: SL2XX
+-----
+API-modification: No
+-----
+Internal documentation: Fix CEC AV Receiver slow control 
+-----
+External documentation: Fix CEC AV Receiver slow control 
+-----
+Verification platform: sl220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r383615 | maecklerni | 2013-10-10 11:38:25 +0400 (Чт., 10 окт. 2013) | 20 lines
+
+Request Audio Device Name if it's not present
+-----
+Header: CEC
+-----
+Polarion-ID: SL2-14554
+-----
+variant: SL2XX
+-----
+API-modification: No
+-----
+Internal documentation: Request Audio Device Name if it's not present
+-----
+External documentation: Request Audio Device Name if it's not present
+-----
+Verification platform: sl220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r383897 | maecklerni | 2013-10-10 15:08:00 +0400 (Чт., 10 окт. 2013) | 20 lines
+
+Do not save registry before/while going into standby
+-----
+Header: CEC
+-----
+Polarion-ID: SL2-14727
+-----
+variant: SL2XX
+-----
+API-modification: No
+-----
+Internal documentation: Do not save registry before/while going into standby
+-----
+External documentation: Do not save registry before/while going into standby
+-----
+Verification platform: sl220 final
+-----
+Merge to: -
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r384558 | maecklerni | 2013-10-11 15:49:10 +0400 (Пт., 11 окт. 2013) | 20 lines
+
+t save registry before/while going into standby
+-----
+Header: CEC
+-----
+Polarion-ID: SL2-14727
+-----
+variant: SL2XX
+-----
+API-modification: No
+-----
+Internal documentation: Do not save registry before/while going into standby
+-----
+External documentation: Do not save registry before/while going into standby
+-----
+Verification platform: sl220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r384627 | maecklerni | 2013-10-11 16:51:29 +0400 (Пт., 11 окт. 2013) | 20 lines
+
+Fix mutex deadlock and soundprojector sound
+-----
+Header: CEC
+-----
+Polarion-ID: SL2-14290
+-----
+variant: SL2XX
+-----
+API-modification: No
+-----
+Internal documentation: Fix mutex deadlock and soundprojector sound
+-----
+External documentation: Fix mutex deadlock and soundprojector sound
+-----
+Verification platform: sl220 final
+-----
+Merge to: -
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r384630 | maecklerni | 2013-10-11 16:52:40 +0400 (Пт., 11 окт. 2013) | 20 lines
+
+Fix mutex deadlock and soundprojector sound
+-----
+Header: CEC
+-----
+Polarion-ID: SL2-14290
+-----
+variant: SL2XX
+-----
+API-modification: No
+-----
+Internal documentation: Fix mutex deadlock and soundprojector sound
+-----
+External documentation: Fix mutex deadlock and soundprojector sound
+-----
+Verification platform: sl220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r385130 | maecklerni | 2013-10-14 17:59:09 +0400 (Пн., 14 окт. 2013) | 20 lines
+
+Bass and Treble can now be adjusted on Mediavision 3D
+-----
+Header: CEC
+-----
+Polarion-ID: SL2-14550
+-----
+variant: SL2XX
+-----
+API-modification: No
+-----
+Internal documentation: Bass and Treble can now be adjusted on Mediavision 3D
+-----
+External documentation: Bass and Treble can now be adjusted on Mediavision 3D
+-----
+Verification platform: sl220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r385592 | maecklerni | 2013-10-15 15:49:44 +0400 (Вт., 15 окт. 2013) | 20 lines
+
+Bass and Treble can now be adjusted on Mediavision 3D
+-----
+Header: CEC
+-----
+Polarion-ID: SL2-14550
+-----
+variant: SL2XX
+-----
+API-modification: No
+-----
+Internal documentation: Bass and Treble can now be adjusted on Mediavision 3D
+-----
+External documentation: Bass and Treble can now be adjusted on Mediavision 3D
+-----
+Verification platform: sl220 final
+-----
+Merge to: -
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r390607 | maecklerni | 2013-10-29 17:44:50 +0400 (Вт., 29 окт. 2013) | 20 lines
+
+Remove CEC bug from Quickstart 
+-----
+Header: CEC
+-----
+Polarion-ID: SSL1-4258
+-----
+variant: SL2XX, LE65X
+-----
+API-modification: No
+-----
+Internal documentation: Remove CEC bug from Quickstart 	
+-----
+External documentation: Remove CEC bug from Quickstart 
+-----
+Verification platform: le650 final
+-----
+Merge to: -
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r390608 | maecklerni | 2013-10-29 17:48:15 +0400 (Вт., 29 окт. 2013) | 20 lines
+
+merge from stab1 : Remove CEC bug from Quickstart 
+-----
+Header: CEC
+-----
+Polarion-ID: SSL1-4258
+-----
+variant: SL2XX, LE65X
+-----
+API-modification: No
+-----
+Internal documentation: Remove CEC bug from Quickstart 	
+-----
+External documentation: Remove CEC bug from Quickstart 
+-----
+Verification platform: le650 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r390687 | maecklerni | 2013-10-29 19:26:49 +0400 (Вт., 29 окт. 2013) | 20 lines
+
+Enable start of the renderer via vendor factory
+-----
+Header: UPnP
+-----
+Polarion-ID: SSL1-4278
+-----
+variant: LE65X
+-----
+API-modification: No
+-----
+Internal documentation: Enable start of the renderer via vendor factory
+-----
+External documentation: Enable start of the renderer via vendor factory
+-----
+Verification platform: le650 final
+-----
+Merge to: -
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r391068 | maecklerni | 2013-10-30 17:43:34 +0400 (Ср., 30 окт. 2013) | 20 lines
+
+Activate passthrough even if already on hdmi
+-----
+Header: CEC
+-----
+Polarion-ID: SSL1-3562
+-----
+variant: SL2XX, LE650
+-----
+API-modification: No
+-----
+Internal documentation: Activate passthrough even if already on hdmi
+-----
+External documentation: Activate passthrough even if already on hdmi
+-----
+Verification platform: sl210 final
+-----
+Merge to: -
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r391072 | maecklerni | 2013-10-30 17:45:58 +0400 (Ср., 30 окт. 2013) | 20 lines
+
+Merge from stab1: Activate passthrough even if already on hdmi
+-----
+Header: CEC
+-----
+Polarion-ID: SSL1-3562
+-----
+variant: SL2XX, LE650
+-----
+API-modification: No
+-----
+Internal documentation: Activate passthrough even if already on hdmi
+-----
+External documentation: Activate passthrough even if already on hdmi
+-----
+Verification platform: sl210 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r391109 | maecklerni | 2013-10-30 18:39:54 +0400 (Ср., 30 окт. 2013) | 20 lines
+
+Only send auto standby to audio device
+-----
+Header: CEC
+-----
+Polarion-ID: SSL1-4275
+-----
+variant: SL2XX, LE65X
+-----
+API-modification: No
+-----
+Internal documentation: Only send auto standby to audio device
+-----
+External documentation: Only send auto standby to audio device	
+-----
+Verification platform: sl210 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r391110 | maecklerni | 2013-10-30 18:40:59 +0400 (Ср., 30 окт. 2013) | 20 lines
+
+Merge from stab1: Only send auto standby to audio device
+-----
+Header: CEC
+-----
+Polarion-ID: SSL1-4275
+-----
+variant: SL2XX, LE65X
+-----
+API-modification: No
+-----
+Internal documentation: Only send auto standby to audio device
+-----
+External documentation: Only send auto standby to audio device	
+-----
+Verification platform: sl210 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r391324 | maecklerni | 2013-10-31 13:25:18 +0400 (Чт., 31 окт. 2013) | 20 lines
+
+Remove unpluged device from cec device list
+-----
+Header: CEC
+-----
+Polarion-ID: SSL1-3848
+-----
+variant: SL210, LE650
+-----
+API-modification: No
+-----
+Internal documentation: Remove unpluged device from cec device list
+-----
+External documentation: Remove unpluged device from cec device list
+-----
+Verification platform: sl210 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r391486 | maecklerni | 2013-10-31 18:54:01 +0400 (Чт., 31 окт. 2013) | 20 lines
+
+Handling of station change requests while switch on corrected.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-4288
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Handling of station change requests while switch on corrected.
+-----
+External documentation: Handling of station change requests while switch on corrected.
+-----
+Verification platform: SL210
+-----
+Merge to: -
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r392784 | maecklerni | 2013-11-06 15:16:52 +0400 (Ср., 06 нояб. 2013) | 20 lines
+
+Fix makefile problem
+-----
+Header: CEC
+-----
+Polarion-ID: SSL1-3822	
+-----
+variant: ALL
+-----
+API-modification: No
+-----
+Internal documentation: Fix makefile problem
+-----
+External documentation: Fix makefile problem
+-----
+Verification platform: sl220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r392905 | maecklerni | 2013-11-06 18:44:18 +0400 (Ср., 06 нояб. 2013) | 20 lines
+
+Speed up cec startup 	
+-----
+Header: CEC
+-----
+Polarion-ID: SSL1-1853
+-----
+variant: LE650, SL210
+-----
+API-modification: No
+-----
+Internal documentation: Speed up cec startup 
+-----
+External documentation: Speed up cec startup 
+-----
+Verification platform: le65x
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r393231 | maecklerni | 2013-11-07 14:09:06 +0400 (Чт., 07 нояб. 2013) | 20 lines
+
+Revert changes from item
+-----
+Header: CEC
+-----
+Polarion-ID: SSL1-1853
+-----
+variant: SL2XX
+-----
+API-modification: No
+-----
+Internal documentation: Revert changes from item
+-----
+External documentation: Revert changes from item	
+-----
+Verification platform: le650
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r393421 | maecklerni | 2013-11-07 18:16:55 +0400 (Чт., 07 нояб. 2013) | 24 lines
+
+Fix unplug behavior with quickstart
+-----
+Header: CEC
+-----
+Polarion-ID: SSL1-4407, SSL1-3848. SSL1-4409
+-----
+variant: le650, SL210
+-----
+API-modification: No
+-----
+Internal documentation: 
+Fix unplug behavior with quickstart
+Fix redirect sound to tv after unplug
+-----
+External documentation: 
+Fix unplug behavior with quickstart
+Fix redirect sound to tv after unplug
+-----
+Verification platform: le650 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r394000 | maecklerni | 2013-11-08 19:57:30 +0400 (Пт., 08 нояб. 2013) | 20 lines
+
+Remove shutdown via TV key for sharp
+-----
+Header: CEC
+-----
+Polarion-ID: SSL1-4461
+-----
+variant: le650
+-----
+API-modification: No
+-----
+Internal documentation: Remove shutdown via TV key for sharp
+-----
+External documentation: Remove shutdown via TV key for sharp
+-----
+Verification platform: le650
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r394870 | maecklerni | 2013-11-12 17:36:54 +0400 (Вт., 12 нояб. 2013) | 20 lines
+
+Fix mediavision 3d sound settings for sl210
+-----
+Header: CEC
+-----
+Polarion-ID: SSL1-4004
+-----
+variant: SL21X
+-----
+API-modification: No
+-----
+Internal documentation: Fix mediavision 3d sound settings for sl210
+-----
+External documentation: Fix mediavision 3d sound settings for sl210
+-----
+Verification platform: sl210 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r394949 | maecklerni | 2013-11-12 19:03:19 +0400 (Вт., 12 нояб. 2013) | 20 lines
+
+Fix wrong typo
+-----
+Header: CEC
+-----
+Polarion-ID: SSL1-4004
+-----
+variant: SL21X
+-----
+API-modification: No
+-----
+Internal documentation: Fix mediavision 3d sound settings for sl210
+-----
+External documentation: Fix mediavision 3d sound settings for sl210
+-----
+Verification platform: sl210 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r395621 | maecklerni | 2013-11-14 12:43:26 +0400 (Чт., 14 нояб. 2013) | 20 lines
+
+Add renderer control in GUI
+-----
+Header: DLNA
+-----
+Polarion-ID: SL2-13713, SL2-15052
+-----
+variant: SL2XX
+-----
+API-modification: Yes
+-----
+Internal documentation: Add renderer control in GUI
+-----
+External documentation: Add renderer control in GUI
+-----
+Verification platform: sl220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r395941 | maecklerni | 2013-11-14 21:15:45 +0400 (Чт., 14 нояб. 2013) | 20 lines
+
+Support of DLNA Flag added
+-----
+Header: DLNA
+-----
+Polarion-ID: SSL1-4513
+-----
+variant: SL2XX
+-----
+API-modification: No
+-----
+Internal documentation: Support of DLNA Flag added
+-----
+External documentation: Support of DLNA Flag added
+-----
+Verification platform: le650
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r395943 | maecklerni | 2013-11-14 21:18:31 +0400 (Чт., 14 нояб. 2013) | 20 lines
+
+Add DLNA flag support
+-----
+Header: DLNA
+-----
+Polarion-ID: SL2-15206
+-----
+variant: SL2XX
+-----
+API-modification: No
+-----
+Internal documentation: Add DLNA flag support
+-----
+External documentation: Add DLNA flag support
+-----
+Verification platform: sl220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r396568 | maecklerni | 2013-11-18 16:39:12 +0400 (Пн., 18 нояб. 2013) | 20 lines
+
+Don't update sound via while going to standby
+-----
+Header: CEC
+-----
+Polarion-ID: SSL1-4407
+-----
+variant: SL2XX
+-----
+API-modification: No
+-----
+Internal documentation: Don't update sound via while going to standby
+-----
+External documentation: Don't update sound via while going to standby
+-----
+Verification platform: le650 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r396569 | maecklerni | 2013-11-18 16:40:53 +0400 (Пн., 18 нояб. 2013) | 20 lines
+
+Kill renderer in active standby
+-----
+Header: UPNP
+-----
+Polarion-ID: SSL1-4508
+-----
+variant: LE650
+-----
+API-modification: No
+-----
+Internal documentation: Kill renderer in active standby
+-----
+External documentation: Kill renderer in active standby
+-----
+Verification platform: le650 
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r397112 | maecklerni | 2013-11-19 19:28:36 +0400 (Вт., 19 нояб. 2013) | 20 lines
+
+Update the renderer for the certification	
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4563
+-----
+variant: le650
+-----
+API-modification: No
+-----
+Internal documentation: Update the renderer for the certification	
+-----
+External documentation: Update the renderer for the certification	
+-----
+Verification platform: le650 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r397510 | maecklerni | 2013-11-20 18:27:08 +0400 (Ср., 20 нояб. 2013) | 20 lines
+
+Fix low-byte seek
+-----
+Header: CEC
+-----
+Polarion-ID: SSL1-4563
+-----
+variant: le650
+-----
+API-modification: No
+-----
+Internal documentation: Fix low-byte seek
+-----
+External documentation: Fix low-byte seek
+-----
+Verification platform: le650 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r397549 | maecklerni | 2013-11-20 19:09:22 +0400 (Ср., 20 нояб. 2013) | 20 lines
+
+Fix low-byte seek -- And check DLNA_FLAGS=2xx
+-----
+Header: CEC
+-----
+Polarion-ID: SSL1-4563
+-----
+variant: le650
+-----
+API-modification: No
+-----
+Internal documentation: Fix low-byte seek
+-----
+External documentation: Fix low-byte seek
+-----
+Verification platform: le650 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r398533 | maecklerni | 2013-11-22 19:20:38 +0400 (Пт., 22 нояб. 2013) | 20 lines
+
+Fix startup from HDMI
+-----
+Header: CEC
+-----
+Polarion-ID: SSL1-4548
+-----
+variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: Fix startup from HDMI
+-----
+External documentation: Fix startup from HDMI
+-----
+Verification platform: sl210 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r398538 | maecklerni | 2013-11-22 19:24:37 +0400 (Пт., 22 нояб. 2013) | 20 lines
+
+Fix startup from HDMI	
+-----
+Header: CEC
+-----
+Polarion-ID: SL2-15287
+-----
+variant: SL2XX
+-----
+API-modification: No
+-----
+Internal documentation: Fix startup from HDMI	
+-----
+External documentation: Fix startup from HDMI	
+-----
+Verification platform: sl220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r398636 | maecklerni | 2013-11-23 20:00:41 +0400 (Сб., 23 нояб. 2013) | 20 lines
+
+Save audiomode settings after switch off from local button
+-----
+Header: CEC
+-----
+Polarion-ID: SSL1-4546
+-----
+variant: SL2XX, LE650
+-----
+API-modification: No
+-----
+Internal documentation: Audiomode settings are stored after a FORCE OFF state
+-----
+External documentation: Save audiomode settings after switch off from local button
+-----
+Verification platform: sl210 final
+-----
+Merge to: trunk
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r398645 | maecklerni | 2013-11-24 20:17:36 +0400 (Вс., 24 нояб. 2013) | 20 lines
+
+Request ARC OFF when the CEC Amplifier is not on HDMI1
+-----
+Header: CEC
+-----
+Polarion-ID: SSL1-3700
+-----
+variant: SL21X
+-----
+API-modification: No
+-----
+Internal documentation: Request ARC OFF when the CEC Amplifier is not on HDMI1
+-----
+External documentation: Request ARC OFF when the CEC Amplifier is not on HDMI1
+-----
+Verification platform: sl210 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r398802 | maecklerni | 2013-11-25 13:25:31 +0400 (Пн., 25 нояб. 2013) | 20 lines
+
+Merge rev 396568, 396569, 397112, 397510, 397549, 398636, 398645 from stab1
+-----
+Header: CEC
+-----
+Polarion-ID: SSL1-4563, SSL1-4407, SSL1-4546
+-----
+variant: SL2XX
+-----
+API-modification: No
+-----
+Internal documentation: Merge from stab1
+-----
+External documentation: Merge from stab1
+-----
+Verification platform: sl220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r398997 | maecklerni | 2013-11-25 18:10:39 +0400 (Пн., 25 нояб. 2013) | 20 lines
+
+Fix Philips HTS startup in audiomode
+-----
+Header: CEC
+-----
+Polarion-ID: SL2-15012
+-----
+variant: SL2XX
+-----
+API-modification: No
+-----
+Internal documentation: Fix Philips HTS startup in audiomode
+-----
+External documentation: Fix Philips HTS startup in audiomode
+-----
+Verification platform: sl220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399063 | maecklerni | 2013-11-25 19:41:32 +0400 (Пн., 25 нояб. 2013) | 20 lines
+
+Use release binaries from Awox
+-----
+Header: CEC
+-----
+Polarion-ID: SL2-15227
+-----
+variant: SL2XX
+-----
+API-modification: No
+-----
+Internal documentation: Use release binaries from Awox	
+-----
+External documentation: Use release binaries from Awox
+-----
+Verification platform: sl220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399083 | maecklerni | 2013-11-25 20:48:11 +0400 (Пн., 25 нояб. 2013) | 24 lines
+
+Cleanup DLNA Renderer
+-----
+Header: DLNA
+-----
+Polarion-ID: SL2-15227
+-----
+variant: SL2XX
+-----
+API-modification: No
+-----
+Internal documentation: 
+- Use only release binaires
+- Update Sharp and Loewe Configs
+-----
+External documentation: 
+- Use only release binaires
+- Update Sharp and Loewe Configs
+-----
+Verification platform: sl220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399250 | maecklerni | 2013-11-26 13:20:12 +0400 (Вт., 26 нояб. 2013) | 20 lines
+
+Add workaround for philips amplifier
+-----
+Header: CEC
+-----
+Polarion-ID: SL2-15012
+-----
+variant: SL2XX
+-----
+API-modification: No
+-----
+Internal documentation: Add workaround for philips amplifier
+-----
+External documentation: Add workaround for philips amplifier
+-----
+Verification platform: sl220 final
+-----
+Merge to: -
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399254 | maecklerni | 2013-11-26 13:26:38 +0400 (Вт., 26 нояб. 2013) | 20 lines
+
+Fix DLNA Renderer startup.
+-----
+Header: CEC
+-----
+Polarion-ID: SL2-15227
+-----
+variant: SL2XX
+-----
+API-modification: No
+-----
+Internal documentation: Use release binaries, fix startup of DLNA module
+-----
+External documentation: Use release binaries, fix startup of DLNA module
+-----
+Verification platform: sl220 final
+-----
+Merge to: -
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399283 | maecklerni | 2013-11-26 13:54:14 +0400 (Вт., 26 нояб. 2013) | 20 lines
+
+Fix DLNA Renderer Startup
+-----
+Header: DLNA
+-----
+Polarion-ID: SL2-4501
+-----
+variant: SL210
+-----
+API-modification: No
+-----
+Internal documentation: Fix DLNA Renderer Startup
+-----
+External documentation: Fix DLNA Renderer Startup
+-----
+Verification platform: le650 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399420 | maecklerni | 2013-11-26 17:22:11 +0400 (Вт., 26 нояб. 2013) | 20 lines
+
+Fix wrong system state handling
+-----
+Header: CEC
+-----
+Polarion-ID: SSL1-4546
+-----
+variant: SL21X, LE650
+-----
+API-modification: No
+-----
+Internal documentation: Fix wrong system state handling
+-----
+External documentation: Fix wrong system state handling
+-----
+Verification platform: le650 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399421 | maecklerni | 2013-11-26 17:23:51 +0400 (Вт., 26 нояб. 2013) | 20 lines
+
+Fix wrong systemctrl handling state	
+-----
+Header: CEC
+-----
+Polarion-ID: SSL1-4546
+-----
+variant: SL2XX
+-----
+API-modification: No
+-----
+Internal documentation: Fix wrong systemctrl handling state	
+-----
+External documentation: Fix wrong systemctrl handling state	
+-----
+Verification platform: sl220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399700 | maecklerni | 2013-11-27 16:21:21 +0400 (Ср., 27 нояб. 2013) | 20 lines
+
+Fix renderer startup problem with quickstart
+-----
+Header: UPnP
+-----
+Polarion-ID: SSL1-4563
+-----
+variant: SL2XX, LE650
+-----
+API-modification: No
+-----
+Internal documentation: Fix renderer startup problem with quickstart
+-----
+External documentation: Fix renderer startup problem with quickstart
+-----
+Verification platform: le650 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399711 | maecklerni | 2013-11-27 16:31:00 +0400 (Ср., 27 нояб. 2013) | 20 lines
+
+Fix renderer startup problem with quickstart
+-----
+Header: UPnP
+-----
+Polarion-ID: SSL1-4563
+-----
+variant: SL2XX, LE650
+-----
+API-modification: No
+-----
+Internal documentation: Fix renderer startup problem with quickstart
+-----
+External documentation: Fix renderer startup problem with quickstart
+-----
+Verification platform: le650 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400065 | maecklerni | 2013-11-28 16:43:58 +0400 (Чт., 28 нояб. 2013) | 20 lines
+
+Fix Delayed switch off for CEC
+-----
+Header: CEC
+-----
+Polarion-ID: SSL1-4579
+-----
+variant: LE650
+-----
+API-modification: No
+-----
+Internal documentation: Fix Delayed switch off for CEC
+-----
+External documentation: Fix Delayed switch off for CEC
+-----
+Verification platform: le650 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400145 | maecklerni | 2013-11-28 18:29:24 +0400 (Чт., 28 нояб. 2013) | 20 lines
+
+New Awox Renderer Stack 
+-----
+Header: DLNA
+-----
+Polarion-ID: SL2-14919
+-----
+variant: SL2XX
+-----
+API-modification: No
+-----
+Internal documentation: New Awox Renderer Stack 
+-----
+External documentation: Fix renderer volume bug with flipps
+-----
+Verification platform: sl220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400156 | maecklerni | 2013-11-28 18:43:42 +0400 (Чт., 28 нояб. 2013) | 20 lines
+
+New Awox Renderer Stack 
+-----
+Header: CEC
+-----
+Polarion-ID: SL2-14919
+-----
+variant: SL2XX
+-----
+API-modification: No
+-----
+Internal documentation: New Awox Renderer Stack 
+-----
+External documentation: Fix renderer volume bug with flipps
+-----
+Verification platform: sl220 final
+-----
+Merge to: -
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400180 | maecklerni | 2013-11-28 19:52:46 +0400 (Чт., 28 нояб. 2013) | 20 lines
+
+Disable MediaVision vendor specific audio settings
+-----
+Header: CEC
+-----
+Polarion-ID: SSL1-4004, SSL1-4603, SSL1-404, SSL1-4656
+-----
+variant: sl210
+-----
+API-modification: No
+-----
+Internal documentation: Disable MediaVision vendor specific audio settings
+-----
+External documentation: Disable MediaVision vendor specific audio settings
+-----
+Verification platform: sl210 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r402688 | maecklerni | 2013-12-09 15:58:36 +0400 (Пн., 09 дек. 2013) | 20 lines
+
+New Awox Renderer Stack 
+-----
+Header: DLNA
+-----
+Polarion-ID: SSL1-4697
+-----
+variant: LE650
+-----
+API-modification: No
+-----
+Internal documentation: New Awox Renderer Stack 
+-----
+External documentation: Fix DLNA Certification Bugs
+-----
+Verification platform: le650 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r402802 | maecklerni | 2013-12-09 18:45:15 +0400 (Пн., 09 дек. 2013) | 20 lines
+
+Fix wrong HDMI startup
+-----
+Header: CEC
+-----
+Polarion-ID: SSL1-4694
+-----
+variant: SL2XX
+-----
+API-modification: No
+-----
+Internal documentation: Fix wrong HDMI startup
+-----
+External documentation: Fix wrong HDMI startup
+-----
+Verification platform: sl210 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r402806 | maecklerni | 2013-12-09 18:47:55 +0400 (Пн., 09 дек. 2013) | 20 lines
+
+Fix wrong HDMI startup, merge from stab1
+-----
+Header: CEC
+-----
+Polarion-ID: SSL1-4694
+-----
+variant: SL2XX
+-----
+API-modification: No
+-----
+Internal documentation: Fix wrong HDMI startup
+-----
+External documentation: Fix wrong HDMI startup
+-----
+Verification platform: sl210 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r402944 | maecklerni | 2013-12-10 12:43:00 +0400 (Вт., 10 дек. 2013) | 20 lines
+
+Fix wrong HDMI startup
+-----
+Header: CEC
+-----
+Polarion-ID: SL2-15497
+-----
+variant: SL2XX
+-----
+API-modification: No
+-----
+Internal documentation: Fix wrong HDMI startup
+-----
+External documentation: Fix wrong HDMI startup
+-----
+Verification platform: sl220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403143 | maecklerni | 2013-12-10 18:38:13 +0400 (Вт., 10 дек. 2013) | 20 lines
+
+Unregistered pucman after inactive source
+-----
+Header: CEC
+-----
+Polarion-ID: SSL1-4608
+-----
+variant: SL210
+-----
+API-modification: No
+-----
+Internal documentation: Unregistered pucman after inactive source
+-----
+External documentation: Unregistered pucman after inactive source
+-----
+Verification platform: sl210 final
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403148 | maecklerni | 2013-12-10 18:42:26 +0400 (Вт., 10 дек. 2013) | 20 lines
+
+Unregistered pucman after inactive source
+-----
+Header: CEC
+-----
+Polarion-ID: SSL1-4603
+-----
+variant: SL220
+-----
+API-modification: No
+-----
+Internal documentation: Unregistered pucman after inactive source
+-----
+External documentation: Unregistered pucman after inactive source
+-----
+Verification platform: sl210 final
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403159 | maecklerni | 2013-12-10 18:56:05 +0400 (Вт., 10 дек. 2013) | 20 lines
+
+Save active device adress 
+-----
+Header: CEC
+-----
+Polarion-ID: SSL1-4603
+-----
+variant: SL210
+-----
+API-modification: No
+-----
+Internal documentation: Save active device adress 
+-----
+External documentation: Save active device adress 
+-----
+Verification platform: sl210 final
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403160 | maecklerni | 2013-12-10 18:58:01 +0400 (Вт., 10 дек. 2013) | 20 lines
+
+Save active device adress 
+-----
+Header: CEC
+-----
+Polarion-ID: SSL1-4603
+-----
+variant: SL210
+-----
+API-modification: No
+-----
+Internal documentation: Save active device adress 
+-----
+External documentation: Save active device adress 
+-----
+Verification platform: sl210 final
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403311 | maecklerni | 2013-12-11 13:20:10 +0400 (Ср., 11 дек. 2013) | 20 lines
+
+Fix crash during startup 
+-----
+Header: CEC
+-----
+Polarion-ID: SSL1-4711
+-----
+variant: SL2XX
+-----
+API-modification: No
+-----
+Internal documentation: Fix crash during startup 
+-----
+External documentation: Fix crash during startup 
+-----
+Verification platform: sl210 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403315 | maecklerni | 2013-12-11 13:22:57 +0400 (Ср., 11 дек. 2013) | 20 lines
+
+Fix crash during startup
+-----
+Header: CEC
+-----
+Polarion-ID: SL2-15509
+-----
+variant: SL2XX
+-----
+API-modification: No
+-----
+Internal documentation: Fix crash during startup
+-----
+External documentation: Fix crash during startup
+-----
+Verification platform: sl220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403370 | maecklerni | 2013-12-11 14:23:17 +0400 (Ср., 11 дек. 2013) | 20 lines
+
+introduce a counter to prevent false feature abort
+-----
+Header: CEC
+-----
+Polarion-ID: SSL1-4707
+-----
+variant: SL2XX, LE650
+-----
+API-modification: No
+-----
+Internal documentation: introduce a counter to prevent false feature abort
+-----
+External documentation: introduce a counter to prevent false feature abort
+-----
+Verification platform: sl210 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403379 | maecklerni | 2013-12-11 14:27:13 +0400 (Ср., 11 дек. 2013) | 20 lines
+
+introduce a counter to prevent false feature abort
+-----
+Header: CEC
+-----
+Polarion-ID: SL2-10728
+-----
+variant: SL2XX, LE650
+-----
+API-modification: No
+-----
+Internal documentation: introduce a counter to prevent false feature abort
+-----
+External documentation: introduce a counter to prevent false feature abort
+-----
+Verification platform: sl210 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403943 | maecklerni | 2013-12-13 15:20:10 +0400 (Пт., 13 дек. 2013) | 20 lines
+
+Add TV as center support via CEC for Mediavision 3D
+-----
+Header: CEC
+-----
+Polarion-ID: SL2-14393
+-----
+variant: SL220
+-----
+API-modification: No
+-----
+Internal documentation: Add TV as center support via CEC for Mediavision 3D
+-----
+External documentation: Add TV as center support via CEC for Mediavision 3D
+-----
+Verification platform: sl220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403971 | maecklerni | 2013-12-13 16:50:07 +0400 (Пт., 13 дек. 2013) | 20 lines
+
+Prevent a crash because of NULL pointer
+-----
+Header: CEC
+-----
+Polarion-ID: SL2-14393
+-----
+variant: SL220
+-----
+API-modification: No
+-----
+Internal documentation: Prevent a crash because of NULL pointer
+-----
+External documentation: Prevent a crash because of NULL pointer
+-----
+Verification platform: sl220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404237 | maecklerni | 2013-12-16 15:47:00 +0400 (Пн., 16 дек. 2013) | 20 lines
+
+Fix renderer startup problem with quickstart
+-----
+Header: UPnP
+-----
+Polarion-ID: SSL1-4720
+-----
+variant: LE650
+-----
+API-modification: No
+-----
+Internal documentation: Fix renderer startup problem with quickstart
+-----
+External documentation: Fix renderer startup problem with quickstart
+-----
+Verification platform: le650 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404278 | maecklerni | 2013-12-16 17:05:28 +0400 (Пн., 16 дек. 2013) | 20 lines
+
+Fix renderer startup problem with quickstart
+-----
+Header: UPnP
+-----
+Polarion-ID: SSL1-4720
+-----
+variant: SL2XX
+-----
+API-modification: No
+-----
+Internal documentation: Fix renderer startup problem with quickstart
+-----
+External documentation: Fix renderer startup problem with quickstart
+-----
+Verification platform: sl220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404346 | maecklerni | 2013-12-16 18:55:03 +0400 (Пн., 16 дек. 2013) | 20 lines
+
+Fix renderer startup problem with quickstart
+-----
+Header: UPnP
+-----
+Polarion-ID: SSL1-4720
+-----
+variant: SL2XX, LE650
+-----
+API-modification: No
+-----
+Internal documentation: Fix renderer startup problem with quickstart
+-----
+External documentation: Fix renderer startup problem with quickstart
+-----
+Verification platform: le650 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404347 | maecklerni | 2013-12-16 18:55:48 +0400 (Пн., 16 дек. 2013) | 20 lines
+
+Fix renderer startup problem with quickstart
+-----
+Header: UPnP
+-----
+Polarion-ID: SSL1-4720
+-----
+variant: SL2XX, LE650
+-----
+API-modification: No
+-----
+Internal documentation: Fix renderer startup problem with quickstart
+-----
+External documentation: Fix renderer startup problem with quickstart
+-----
+Verification platform: le650 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404358 | maecklerni | 2013-12-16 19:31:01 +0400 (Пн., 16 дек. 2013) | 20 lines
+
+Fix renderer seek error
+-----
+Header: UPnP
+-----
+Polarion-ID: SSL1-4723
+-----
+variant: LE650
+-----
+API-modification: No
+-----
+Internal documentation: Fix renderer seek error
+-----
+External documentation: Fix renderer seek error
+-----
+Verification platform: le650 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404359 | maecklerni | 2013-12-16 19:31:38 +0400 (Пн., 16 дек. 2013) | 20 lines
+
+Fix renderer seek error
+-----
+Header: UPnP
+-----
+Polarion-ID: SSL1-4723
+-----
+variant: SL2XX
+-----
+API-modification: No
+-----
+Internal documentation: Fix renderer seek error
+-----
+External documentation: Fix renderer seek error
+-----
+Verification platform: le650 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405894 | maecklerni | 2014-01-10 14:56:27 +0400 (Пт., 10 янв. 2014) | 20 lines
+
+Remove renderer from 2.1 release
+-----
+Header: UPnP
+-----
+Polarion-ID: SSL1-4735
+-----
+variant: SL210
+-----
+API-modification: No
+-----
+Internal documentation: Remove renderer from 2.1 release
+-----
+External documentation: Remove renderer from 2.1 release
+-----
+Verification platform: sl210
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406417 | maecklerni | 2014-01-14 14:47:31 +0400 (Вт., 14 янв. 2014) | 20 lines
+
+Handling of standby key modified
+-----
+Header: HDMI
+-----
+Polarion-ID: SSL1-4658
+-----
+variant: SL2XX
+-----
+API-modification: No
+-----
+Internal documentation: Small press of standby key on a hdmi channel goes back to TV mode if a cec device was connected ONLY for loewe.
+-----
+External documentation: Handling of standby key modified for loewe models
+-----
+Verification platform: sl210 final
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406423 | maecklerni | 2014-01-14 14:57:08 +0400 (Вт., 14 янв. 2014) | 20 lines
+
+Merge from stab1 : Handling of standby key modified
+-----
+Header: HDMI
+-----
+Polarion-ID: SSL1-4658
+-----
+variant: SL2XX
+-----
+API-modification: No
+-----
+Internal documentation: Small press of standby key on a hdmi channel goes back to TV mode if a cec device was connected ONLY for loewe.
+-----
+External documentation: Handling of standby key modified for loewe models
+-----
+Verification platform: sl210 final
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406449 | maecklerni | 2014-01-14 16:26:04 +0400 (Вт., 14 янв. 2014) | 20 lines
+
+Renderer report duration as soon as possible
+-----
+Header: UPnP
+-----
+Polarion-ID: SSL1-4741
+-----
+variant: LE650
+-----
+API-modification: No
+-----
+Internal documentation: Renderer report duration as soon as possible
+-----
+External documentation: Renderer report duration as soon as possible
+-----
+Verification platform: le650 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406451 | maecklerni | 2014-01-14 16:27:44 +0400 (Вт., 14 янв. 2014) | 20 lines
+
+Renderer report duration as soon as possible
+-----
+Header: UPnP
+-----
+Polarion-ID: SSL1-4741
+-----
+variant: LE650
+-----
+API-modification: No
+-----
+Internal documentation: Renderer report duration as soon as possible
+-----
+External documentation: Renderer report duration as soon as possible
+-----
+Verification platform: le650 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406502 | maecklerni | 2014-01-14 19:10:11 +0400 (Вт., 14 янв. 2014) | 20 lines
+
+Fix volume status handling 
+-----
+Header: CEC
+-----
+Polarion-ID: SSL1-4542
+-----
+variant: SL2XX, LE650
+-----
+API-modification: No
+-----
+Internal documentation: Fix volume status handling 
+-----
+External documentation: Fix volume status handling 
+-----
+Verification platform: le650 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406508 | maecklerni | 2014-01-14 19:18:20 +0400 (Вт., 14 янв. 2014) | 20 lines
+
+Fix volume status handling 
+-----
+Header: CEC
+-----
+Polarion-ID: SSL1-4542, SL2-14672
+-----
+variant: SL2XX, LE650
+-----
+API-modification: No
+-----
+Internal documentation: Fix volume status handling 
+-----
+External documentation: Fix volume status handling 
+-----
+Verification platform: le650 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406643 | maecklerni | 2014-01-15 17:04:51 +0400 (Ср., 15 янв. 2014) | 20 lines
+
+Fix mute problem ater factory initial install
+-----
+Header: CEC
+-----
+Polarion-ID: SSL1-4584
+-----
+variant: LE650
+-----
+API-modification: No
+-----
+Internal documentation: Fix mute problem ater factory initial install
+-----
+External documentation: Fix mute problem ater factory initial install
+-----
+Verification platform: sl210 final
+-----
+Merge to: trunk
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406850 | maecklerni | 2014-01-16 17:45:40 +0400 (Чт., 16 янв. 2014) | 22 lines
+
+Fix wrong standby flag
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4747
+-----
+Variant: SL210
+-----
+API-modification: no
+-----
+Internal documentation: Fix wrong standby flag
+-----
+External documentation: Fix wrong standby flag
+-----
+Verfication platform: SL210 final
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406852 | maecklerni | 2014-01-16 17:47:44 +0400 (Чт., 16 янв. 2014) | 22 lines
+
+Fix wrong standby flag
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4747
+-----
+Variant: SL210
+-----
+API-modification: no
+-----
+Internal documentation: Fix wrong standby flag
+-----
+External documentation: Fix wrong standby flag
+-----
+Verfication platform: SL210 final
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407156 | maecklerni | 2014-01-20 11:49:33 +0400 (Пн., 20 янв. 2014) | 23 lines
+
+New Awox Stack - UPnP Caching 
+-----
+Header: UPnP
+-----
+Polarion-ID: SL2-15644
+-----
+Variant: SL2XX
+-----
+API-modification: no
+-----
+Internal documentation: New Awox Stack. Add UPnP caching feature
+-----
+External documentation: New Awox Stack
+-----
+Verfication platform: sl220 final
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407416 | maecklerni | 2014-01-21 17:45:44 +0400 (Вт., 21 янв. 2014) | 22 lines
+
+Default Names for CEC added
+-----
+Header: GUI
+-----
+Polarion-ID: SL2-3887
+-----
+Variant: SL2XX
+-----
+API-modification: no
+-----
+Internal documentation: Default Names for CEC added
+-----
+External documentation: Default Names for CEC added
+-----
+Verfication platform: sl220 final
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407601 | maecklerni | 2014-01-22 20:59:29 +0400 (Ср., 22 янв. 2014) | 23 lines
+
+Update and correct Sound Mode Menu for Mediavision 3D
+-----
+Header: GUI
+-----
+Polarion-ID: SL2-15356, SL2-15383
+-----
+Variant: SL220
+-----
+API-modification: no
+-----
+Internal documentation: Update and correct Sound Mode Menu for Mediavision 3D
+-----
+External documentation: Update and correct Sound Mode Menu for Mediavision 3D
+-----
+Verfication platform: sl220 final
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407634 | maecklerni | 2014-01-23 13:09:43 +0400 (Чт., 23 янв. 2014) | 23 lines
+
+Update and correct Sound Mode Menu for Mediavision 3D : update sliders too
+-----
+Header: GUI
+-----
+Polarion-ID: SL2-15356, SL2-15383
+-----
+Variant: SL220
+-----
+API-modification: no
+-----
+Internal documentation: Update and correct Sound Mode Menu for Mediavision 3D
+-----
+External documentation: Update and correct Sound Mode Menu for Mediavision 3D
+-----
+Verfication platform: sl220 final
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408289 | maecklerni | 2014-01-28 19:15:21 +0400 (Вт., 28 янв. 2014) | 23 lines
+
+Fix UPnP Server seek issue
+-----
+Header: UPnP
+-----
+Polarion-ID: SL2-15682
+-----
+Variant: SL2XX
+-----
+API-modification: no
+-----
+Internal documentation: Remove http header chunk possibility
+-----
+External documentation: Fix UPnP Server seek issue
+-----
+Verfication platform: SL220 final
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: sschedel
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408294 | maecklerni | 2014-01-28 19:34:16 +0400 (Вт., 28 янв. 2014) | 23 lines
+
+Fix UPnP Server seek issue
+-----
+Header: UPnP
+-----
+Polarion-ID: SL2-15682
+-----
+Variant: SL2XX
+-----
+API-modification: no
+-----
+Internal documentation: Remove http header chunk possibility
+-----
+External documentation: Fix UPnP Server seek issue
+-----
+Verfication platform: SL220 final
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: sschedel
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408329 | maecklerni | 2014-01-29 13:25:13 +0400 (Ср., 29 янв. 2014) | 22 lines
+
+Default Names for CEC added
+-----
+Header: GUI
+-----
+Polarion-ID: SL2-3887
+-----
+Variant: SL2XX
+-----
+API-modification: no
+-----
+Internal documentation: Default Names for CEC added
+-----
+External documentation: Default Names for CEC added
+-----
+Verfication platform: sl220 final
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408586 | maecklerni | 2014-01-31 15:08:17 +0400 (Пт., 31 янв. 2014) | 23 lines
+
+Add sorting for DR+ Server entries
+-----
+Header: DR+
+-----
+Polarion-ID: SL2-12657
+-----
+Variant: sl220
+-----
+API-modification: no
+-----
+Internal documentation: Add sorting for DR+ Server entries
+-----
+External documentation: Add sorting for DR+ Server entries
+-----
+Verfication platform: sl220
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408959 | maecklerni | 2014-02-05 13:34:12 +0400 (Ср., 05 февр. 2014) | 23 lines
+
+Improve DR+ Streaming features
+-----
+Header: DLNA
+-----
+Polarion-ID: SSL1-4786, SSL1-4785
+-----
+Variant: SL21X
+-----
+API-modification: no
+-----
+Internal documentation: add sorting of DR+ entries and fix playback seek issues on upnp clients
+-----
+External documentation: add sorting of DR+ entries and fix playback seek issues on upnp clients
+-----
+Verfication platform: SL210
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409367 | maecklerni | 2014-02-06 14:17:30 +0400 (Чт., 06 февр. 2014) | 22 lines
+
+Fix the zoom function on loewe devices via CEC
+-----
+Header: HDMI
+-----
+Polarion-ID: SL2-14810
+-----
+Variant: sl2xx
+-----
+API-modification: no
+-----
+Internal documentation: Fix the zoom function on loewe devices via CEC
+-----
+External documentation: Fix the zoom function on loewe devices via CEC
+-----
+Verfication platform: sl220 final 
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r410209 | maecklerni | 2014-02-11 16:30:09 +0400 (Вт., 11 февр. 2014) | 22 lines
+
+Fix compilation issue
+-----
+Header: CEC
+-----
+Polarion-ID: -
+-----
+Variant: HL1
+-----
+API-modification: no
+-----
+Internal documentation: Remove unecessary old code
+-----
+External documentation: Fix compilation issue
+-----
+Verfication platform: sl220
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------

@@ -1,0 +1,4839 @@
+------------------------------------------------------------------------
+r374358 | baueran | 2013-09-10 11:23:52 +0400 (Вт., 10 сент. 2013) | 19 lines
+
+All modifications for STF-828 reverted (revision 370181,371635, 371645) due to regressions with PiP
+-----
+Header: Audio
+-----
+Polarion-ID: STF-828 - Sporadic audio drops in live
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: All modifications for "STF-828 - Sporadic audio drops in live" reverted (revision 370181,371635, 371645) due to regressions with PiP
+-----
+External documentation: All modifications for "STF-828 - Sporadic audio drops in live" reverted  due to regressions for PiP
+-----
+Verfication platform: SL220 debug
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r374622 | baueran | 2013-09-10 17:22:12 +0400 (Вт., 10 сент. 2013) | 21 lines
+
+Revision 374542 reverted due to GUI crash:
+GUI reset to build revision 10806 for V2.1.x (last changed rev 10802 of Tara branch 9859)
+-----
+Header: Tara GUI build (LoeweGUI2012)
+-----
+Polarion-ID: SL2-617
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Tara GUI 
+-----
+External documentation: Tara GUI
+-----
+Verfication platform: SL2xx target
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r375728 | baueran | 2013-09-12 17:46:01 +0400 (Чт., 12 сент. 2013) | 20 lines
+
+Revision 375624 reverted due to GUI regression (GUI always in 3D mode):
+GUI reset to build revision 10806 for V2.1.x (last changed rev 10802 of Tara branch 9859)
+-----
+Header: Tara GUI build (LoeweGUI2012)
+-----
+Polarion-ID: SL2-617
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Tara GUI 
+-----
+External documentation: Tara GUI
+-----
+Verfication platform: SL2xx target
+-----
+Merge to: -
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376528 | baueran | 2013-09-16 16:35:11 +0400 (Пн., 16 сент. 2013) | 19 lines
+
+Branch created for debugging of audio dropouts
+-----
+Header: Audio 
+-----
+Polarion-ID: STF-828 - Sporadic audio drops in live
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation: Branch created for debugging of audio dropouts
+-----
+External documentation: -
+-----
+Verification platform: n/a
+-----
+Merge to: ---
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376591 | baueran | 2013-09-16 18:50:23 +0400 (Пн., 16 сент. 2013) | 20 lines
+
+BSP error handling in vamp deactivated for debugging of PiP regression which occurs with patch for audio dropouts
+-----
+Header: Audio
+-----
+Polarion-ID: STF-828 - Sporadic audio drops in live
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: BSP error handling in vamp deactivated for debugging of PiP regression which occurs with patch for audio dropouts
+Audio dropouts not solved.
+-----
+External documentation: 
+-----
+Verfication platform: sl220
+-----
+Merge to: 
+-----
+Reviewed by: schedelan
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r377050 | baueran | 2013-09-17 20:50:03 +0400 (Вт., 17 сент. 2013) | 19 lines
+
+complete BSP patch for audiodropouts added. No regression with PiP.
+-----
+Header: Audio
+-----
+Polarion-ID: STF-828 - Sporadic audio drops in live
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: complete BSP patch for audiodropouts added (STF-828 - Sporadic audio drops in live)
+-----
+External documentation: complete BSP patch for audiodropouts added (STF-828 - Sporadic audio drops in live)
+-----
+Verfication platform: SL220 debug
+-----
+Merge to: ---
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378227 | baueran | 2013-09-20 18:37:56 +0400 (Пт., 20 сент. 2013) | 20 lines
+
+New binaries for SECURE STBSP M25
+----
+Header: System
+-----
+Polarion-ID: SL2-1527
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Added new SECURE STBSP M25 binaries for SL220 to V2.1.X_stab_CW28 branch. Binaries based on external/com/stm/stbsp-sl2-m25 Revision 378217, kernel linux-sh4-2.6.32.46_stm24_0209 Revision 330009.
+-----
+External documentation: Added new SECURE STBSP M25 binaries for SL220 to V2.1.X_stab_CW28 branch. Binaries based on external/com/stm/stbsp-sl2-m25 Revision 378217, kernel linux-sh4-2.6.32.46_stm24_0209 Revision 330009.
+-----
+Verification platform: SL220 final
+-----
+Merge to: -
+-----
+Reviewed by: sschedel
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r380018 | baueran | 2013-09-26 19:41:24 +0400 (Чт., 26 сент. 2013) | 19 lines
+
+Modification of V2.1.X_stab_CW28-branch, revision 361930 - 379348  integrated
+----
+Header: System
+-----
+Polarion-ID: SL2-11891
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Modification of V2.1.X_stab_CW28-branch, revision 361930 - 379348  integrated
+-----
+External documentation: 
+-----
+Verification platform: SL220 final
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r380019 | baueran | 2013-09-26 19:51:57 +0400 (Чт., 26 сент. 2013) | 19 lines
+
+HCI: command version: 'P' of returned version number removed (PV4.0.0 -> V4.0.0)
+----
+Header: System
+-----
+Polarion-ID: SL2-11891
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: HCI: command version: 'P' of returned version number removed (PV4.0.0 -> V4.0.0)
+-----
+External documentation: 
+-----
+Verification platform: SL220 final
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r380486 | baueran | 2013-09-27 17:06:37 +0400 (Пт., 27 сент. 2013) | 19 lines
+
+version incremented to V2.1.101 for test version for Loewe control interface / 2M-ISB
+----
+Header: System
+-----
+Polarion-ID: SL2-11891
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.1.101 for test version for Loewe control interface / 2M-ISB
+-----
+External documentation: 
+-----
+Verification platform: SL220 final
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r381378 | baueran | 2013-10-01 19:37:49 +0400 (Вт., 01 окт. 2013) | 19 lines
+
+removed Subversion property "svn:mergeinfo" from all files and directories except the root folder (codebase2011/trunk)
+----
+Header: System
+-----
+Polarion-ID: ---
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: removed Subversion property "svn:mergeinfo" from all files and directories except the root folder (codebase2011/trunk)
+-----
+External documentation: 
+-----
+Verification platform: SL220 final
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r381382 | baueran | 2013-10-01 19:44:54 +0400 (Вт., 01 окт. 2013) | 19 lines
+
+Branch V2.2.X_CW40 created based on V2.1.X_CW16-branch revision 380699
+-----
+Header: System
+-----
+Polarion-ID: SL2-14663
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation: Branch V2.2.X_CW40 created based on V2.1.X_CW16-branch revision 380699 298772
+-----
+External documentation: -
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r381383 | baueran | 2013-10-01 19:46:29 +0400 (Вт., 01 окт. 2013) | 19 lines
+
+Branch V2.3.X_CW40 created based on trunk revision 381378
+-----
+Header: System
+-----
+Polarion-ID: SL2-14664
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation: Branch V2.3.X_CW40 created based on trunk revision 381378
+-----
+External documentation: -
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r381404 | baueran | 2013-10-02 09:30:27 +0400 (Ср., 02 окт. 2013) | 19 lines
+
+version set to V2.2.99 (development SW from V2.3.X_CW40 branch)
+-----
+Header: System
+-----
+Polarion-ID: SL2-14664
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation: version set to V2.2.99 (development SW from V2.3.X_CW40 branch)
+-----
+External documentation: -
+-----
+Verfication platform: sl220 final
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r381405 | baueran | 2013-10-02 09:32:25 +0400 (Ср., 02 окт. 2013) | 19 lines
+
+version set to V2.3.99 (development SW of trunk)
+-----
+Header: System
+-----
+Polarion-ID: SL2-14664
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation: version set to V2.2.99 (development SW from V2.3.X_CW40 branch)
+-----
+External documentation: -
+-----
+Verfication platform: sl220 final
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r381566 | baueran | 2013-10-02 13:17:45 +0400 (Ср., 02 окт. 2013) | 19 lines
+
+New binaries for SECURE STBSP M25 
+----
+Header: System
+-----
+Polarion-ID: SL2-14621 - MediaVision as preamplifier: No sound when play back "Loewe Channel"
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Added new SECURE STBSP M25 binaries for SL220 to V2.1.X_stab_CW28 branch. Binaries based on external/com/stm/stbsp-sl2-m25 Revision 380667, kernel linux-sh4-2.6.32.46_stm24_0209 Revision 330009.
+-----
+External documentation: Added new SECURE STBSP M25 binaries for SL220 to V2.1.X_stab_CW28 branch. Binaries based on external/com/stm/stbsp-sl2-m25 Revision 380667, kernel linux-sh4-2.6.32.46_stm24_0209 Revision 330009.
+-----
+Verification platform: SL220 final
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r381624 | baueran | 2013-10-02 15:09:06 +0400 (Ср., 02 окт. 2013) | 19 lines
+
+version incremented to V2.1.32
+-----
+Header: System
+-----
+Polarion-ID: SL2-14671
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.1.32 (CW40 release)
+-----
+External documentation: version incremented to V2.1.32 (CW40 release)
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r381626 | baueran | 2013-10-02 15:11:30 +0400 (Ср., 02 окт. 2013) | 19 lines
+
+version set back to V2.0.99 (development SW from V2.1.X_stab_CW28 branch)
+-----
+Header: System
+-----
+Polarion-ID: SL2-14671
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V2.0.99 (development SW from V2.1.X_stab_CW28 branch)
+-----
+External documentation:
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r381889 | baueran | 2013-10-02 19:16:49 +0400 (Ср., 02 окт. 2013) | 20 lines
+
+creating Tag for V2.1.32
+-----
+Header: System
+-----
+Polarion-ID: SL2-14671
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: creating Tag for V2.1.32, based on branch "https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_stab_CW28"; revision 381624.
+-----
+External documentation: creating Tag for V2.1.32, based on branch "https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_stab_CW28"; revision 381624.
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r382052 | baueran | 2013-10-04 12:39:48 +0400 (Пт., 04 окт. 2013) | 19 lines
+
+Blacksmith config for ST-SL220 delivery adapted to new toolchain for stlinux-2.4 V3
+-----
+Header: System
+-----
+Polarion-ID: SL2-14673
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Blacksmith config for ST-SL220 delivery adapted to new toolchain for stlinux-2.4 V3
+-----
+External documentation: Blacksmith config for ST-SL220 delivery adapted to new toolchain for stlinux-2.4 V3
+-----
+Verfication platform: n/a
+-----
+Merge to: trunk
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r382225 | baueran | 2013-10-04 18:12:09 +0400 (Пт., 04 окт. 2013) | 19 lines
+
+Merge of revision 381998 of V2.3.X_CW40 branch: Remove invalid & obsolete code.
+-----
+Header: HDR
+-----
+Polarion-ID: SL2-14504
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Remove invalid & obsolete code.
+-----
+External documentation: Remove invalid & obsolete code.
+-----
+Verification platform: SL220 final
+-----
+Merge to: 
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r382870 | baueran | 2013-10-09 00:45:05 +0400 (Ср., 09 окт. 2013) | 20 lines
+
+version incremented to V2.1.102 for test version for BBC iPlayer pretest
+----
+Header: System
+-----
+Polarion-ID: SL2-14715
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.1.102 for test version for BBC iPlayer pretest
+-----
+External documentation: 
+-----
+Verification platform: SL220 final
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r382871 | baueran | 2013-10-09 00:54:09 +0400 (Ср., 09 окт. 2013) | 19 lines
+
+version set back to V2.0.99 (development SW from V2.1.X_stab_CW28_BBC branch)
+-----
+Header: System
+-----
+Polarion-ID: SL2-14715
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V2.0.99 (development SW from V2.1.X_stab_CW28_BCC branch)
+-----
+External documentation:
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r383119 | baueran | 2013-10-09 13:36:14 +0400 (Ср., 09 окт. 2013) | 19 lines
+
+Disable ST workaround for "STF-839 - No Lipsync in HDMI after 2h" (= SSL1-2424), real solution introduced with fixes for STF-828
+-----
+Header: BSP
+-----
+Polarion-ID: STF-828, STF-14721
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: Disable ST workaround for "STF-839 - No Lipsync in HDMI after 2h" (= SSL1-2424), real solution introduced with fixes for STF-828
+-----
+External documentation: Disable ST workaround for "STF-839 - No Lipsync in HDMI after 2h" (= SSL1-2424), real solution introduced with fixes for STF-828
+-----
+Verfication platform: SL220 final
+-----
+Merge to: 
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r383245 | baueran | 2013-10-09 15:40:35 +0400 (Ср., 09 окт. 2013) | 21 lines
+
+New binaries for SECURE STBSP M25
+HINT: stbsp/libs-sl220/libstbsp_dvb.so has not been changed!  
+----
+Header: System
+-----
+Polarion-ID: STF-828 - Sporadic audio drops in live
+SL2-14721 - lip-sync issue on HDMI uncompressed mode.
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Added new SECURE STBSP M25 binaries for SL220 to V2.1.X_stab_CW28 branch. Binaries based on external/com/stm/stbsp-sl2-m25 Revision 383119, kernel linux-sh4-2.6.32.46_stm24_0209 Revision 330009.
+-----
+External documentation: Added new SECURE STBSP M25 binaries for SL220 to V2.1.X_stab_CW28 branch. Binaries based on external/com/stm/stbsp-sl2-m25 Revision 383119, kernel linux-sh4-2.6.32.46_stm24_0209 Revision 330009.
+-----
+Verification platform: SL220 final
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r383360 | baueran | 2013-10-09 18:11:05 +0400 (Ср., 09 окт. 2013) | 19 lines
+
+Slink command TV_CONFIG for weightclass of motor unit changed from REQUEST to INDICATION
+----
+Header: Motor Unit
+-----
+Polarion-ID: SL2-14608 - Motor Unit: Parameter "TV-configuration" is not transmitted to motor unit
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Slink command TV_CONFIG for weightclass of motor unit changed from REQUEST to INDICATION
+-----
+External documentation: Slink command TV_CONFIG for weightclass of motor unit corrected
+-----
+Verification platform: SL220 final
+-----
+Merge to: -
+-----
+Reviewed by: schedelan
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r383367 | baueran | 2013-10-09 18:17:22 +0400 (Ср., 09 окт. 2013) | 19 lines
+
+version incremented to V2.1.33
+-----
+Header: System
+-----
+Polarion-ID: SL2-14747
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.1.33 (CW41 release)
+-----
+External documentation: version incremented to V2.1.33 (CW41 release)
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r383371 | baueran | 2013-10-09 18:24:07 +0400 (Ср., 09 окт. 2013) | 19 lines
+
+version set back to V2.0.99 (development SW from V2.1.X_stab_CW28 branch)
+-----
+Header: System
+-----
+Polarion-ID: SL2-14747
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V2.0.99 (development SW from V2.1.X_stab_CW28 branch)
+-----
+External documentation:
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r383426 | baueran | 2013-10-09 21:16:08 +0400 (Ср., 09 окт. 2013) | 20 lines
+
+creating Tag for V2.1.33
+-----
+Header: System
+-----
+Polarion-ID: SL2-14747
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: creating Tag for V2.1.33, based on branch "https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_stab_CW28"; revision 383367.
+-----
+External documentation: creating Tag for V2.1.33, based on branch "https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_stab_CW28"; revision 383367.
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r383581 | baueran | 2013-10-10 11:05:52 +0400 (Чт., 10 окт. 2013) | 21 lines
+
+Revision 382035 for STF-14490 reverted which causes regression for Software update
+----
+Header: Software Update
+-----
+Polarion-ID: 
+SL2-14731 - [V2.3.X regression] Black screen when Software update is started
+SL2-14490 - Software update wizard via "switching off to standby" does not get active
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Revision 382035 reverted which causes regression for Software update
+-----
+External documentation: 
+-----
+Verification platform: SL220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r384153 | baueran | 2013-10-10 20:01:34 +0400 (Чт., 10 окт. 2013) | 19 lines
+
+Motor Unit: weight class parameter is updated in the registry whenever the corresponding NVRAM value has been modified
+----
+Header: Motor Unit
+-----
+Polarion-ID: SL2-14608 - Motor Unit: Parameter "TV-configuration" is not transmitted to motor unit
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Motor Unit: weight class parameter is updated in the registry whenever the corresponding NVRAM value has been modified
+-----
+External documentation: Motor Unit: weight class parameter is updated in the registriy whenever the corresponding NVRAM value has been modified
+-----
+Verification platform: SL220 final
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r384157 | baueran | 2013-10-10 20:20:49 +0400 (Чт., 10 окт. 2013) | 21 lines
+
+Merge from V2.1.X_stab_CW28 branch:
+r384153: Motor Unit: weight class parameter is updated in the registry whenever the corresponding NVRAM value has been modified
+r383360: Slink command TV_CONFIG for weightclass of motor unit changed from REQUEST to INDICATION
+----
+Header: Motor Unit
+-----
+Polarion-ID: SL2-14608 - Motor Unit: Parameter "TV-configuration" is not transmitted to motor unit
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: MotorUnit: Handling of weight class parameter corrected
+-----
+External documentation: MotorUnit: Handling of weight class parameter corrected
+-----
+Verification platform: SL220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r384159 | baueran | 2013-10-10 20:26:08 +0400 (Чт., 10 окт. 2013) | 19 lines
+
+removed Subversion property "svn:mergeinfo" from folder loewe/common/md/awox-upnp/oat
+----
+Header: System
+-----
+Polarion-ID: ---
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: removed Subversion property "svn:mergeinfo" from from folder loewe/common/md/awox-upnp/oat
+-----
+External documentation: 
+-----
+Verification platform: SL220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r384163 | baueran | 2013-10-10 20:41:11 +0400 (Чт., 10 окт. 2013) | 19 lines
+
+version incremented to V2.1.103 for test version for BBC iPlayer certification
+-----
+Header: System
+-----
+Polarion-ID: SL2-14760
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.1.103 for test version for BBC iPlayer certification
+-----
+External documentation: 
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r384167 | baueran | 2013-10-10 21:11:18 +0400 (Чт., 10 окт. 2013) | 19 lines
+
+version set back to V2.0.99 (development SW from V2.1.X_stab_CW28_BBC branch)
+-----
+Header: System
+-----
+Polarion-ID: SL2-14760
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V2.0.99 (development SW from V2.1.X_stab_CW28_BBC branch)
+-----
+External documentation:
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r384663 | baueran | 2013-10-11 17:55:10 +0400 (Пт., 11 окт. 2013) | 21 lines
+
+UART is configured alway to Soundprojector for V2.1.X now to avoid conflict with a V2.3.X version having implementation of RS232 loewe control interface
+When doing a downgrade from V2.3.x to V2.1.x it would be necessary to change the NVRAM to connect the Soundprojector again
+----
+Header: Audio
+-----
+Polarion-ID: SL2-14290
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: UART is configured alway to Soundprojector for V2.1.X now to avoid conflict with a V2.3.X version having implementation of RS232 loewe control interface
+When doing a downgrade from V2.3.x to V2.1.x it would be necessary to change the NVRAM to connect the Soundprojector again
+-----
+External documentation: 
+-----
+Verification platform: SL220 final
+-----
+Merge to: -
+-----
+Reviewed by: heinz
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r384665 | baueran | 2013-10-11 17:57:15 +0400 (Пт., 11 окт. 2013) | 19 lines
+
+version incremented to V2.1.34
+-----
+Header: System
+-----
+Polarion-ID: SL2-14761
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.1.34 (CW41 release)
+-----
+External documentation: version incremented to V2.1.34 (CW41 release)
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r384669 | baueran | 2013-10-11 18:04:05 +0400 (Пт., 11 окт. 2013) | 19 lines
+
+version set back to V2.0.99 (development SW from V2.1.X_stab_CW28 branch)
+-----
+Header: System
+-----
+Polarion-ID: SL2-14761
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V2.0.99 (development SW from V2.1.X_stab_CW28 branch)
+-----
+External documentation:
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r384741 | baueran | 2013-10-11 20:38:16 +0400 (Пт., 11 окт. 2013) | 20 lines
+
+creating Tag for V2.1.34
+-----
+Header: System
+-----
+Polarion-ID: SL2-14761
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: creating Tag for V2.1.34, based on branch "https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_stab_CW28"; revision 384665.
+-----
+External documentation: creating Tag for V2.1.34, based on branch "https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_stab_CW28"; revision 384665.
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r384743 | baueran | 2013-10-11 20:45:18 +0400 (Пт., 11 окт. 2013) | 19 lines
+
+version incremented to V2.1.104 for test version for BBC iPlayer certification
+-----
+Header: System
+-----
+Polarion-ID: SL2-14782
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.1.104 for test version for BBC iPlayer certification
+-----
+External documentation: 
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r384744 | baueran | 2013-10-11 20:48:03 +0400 (Пт., 11 окт. 2013) | 19 lines
+
+version set back to V2.0.99 (development SW from V2.1.X_stab_CW28_BBC branch)
+-----
+Header: System
+-----
+Polarion-ID: SL2-14782
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V2.0.99 (development SW from V2.1.X_stab_CW28_BBC branch)
+-----
+External documentation:
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r384925 | baueran | 2013-10-14 13:39:12 +0400 (Пн., 14 окт. 2013) | 19 lines
+
+version incremented to V2.3.0
+-----
+Header: System
+-----
+Polarion-ID: SL2-14762
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.3.0 (CW42 release)
+-----
+External documentation: version incremented to V2.3.0 (CW42 release)
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r384926 | baueran | 2013-10-14 13:40:27 +0400 (Пн., 14 окт. 2013) | 19 lines
+
+version set back to V2.2.99 (development SW from V2.3.X_CW40)
+-----
+Header: System
+-----
+Polarion-ID: SL2-14762
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V2.2.99 (development SW from V2.3.X_CW40)
+-----
+External documentation:
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r385222 | baueran | 2013-10-14 21:04:50 +0400 (Пн., 14 окт. 2013) | 20 lines
+
+creating Tag for V2.3.0.0
+-----
+Header: System
+-----
+Polarion-ID: SL2-14762
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: creating Tag for V2.3.0, based on branch "https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40"; revision 384925.
+-----
+External documentation: creating Tag for V2.3.0, based on branch "https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40"; revision 384925.
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r385443 | baueran | 2013-10-15 13:00:44 +0400 (Вт., 15 окт. 2013) | 19 lines
+
+Modification of V2.1.X_stab_CW28-branch, revision 380620 - 384669  integrated
+----
+Header: System
+-----
+Polarion-ID: SL2-11891
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Modification of V2.1.X_stab_CW28-branch, revision 380620 - 384669   integrated
+-----
+External documentation: 
+-----
+Verification platform: SL220 final
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r385448 | baueran | 2013-10-15 13:04:11 +0400 (Вт., 15 окт. 2013) | 19 lines
+
+version incremented to V2.1.105 for test version for Loewe control interface / 2M-ISB
+----
+Header: System
+-----
+Polarion-ID: SL2-11891, SL2-14823
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.1.105 for test version for Loewe control interface / 2M-ISB
+-----
+External documentation: 
+-----
+Verification platform: SL220 final
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r385509 | baueran | 2013-10-15 13:54:43 +0400 (Вт., 15 окт. 2013) | 19 lines
+
+version set back to V2.0.99 (development SW from homecontrol_cw32 branch)
+-----
+Header: System
+-----
+Polarion-ID: SL2-14823
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V2.0.99 (development SW from homecontrol_cw32 branch)
+-----
+External documentation:
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r385745 | baueran | 2013-10-15 18:24:11 +0400 (Вт., 15 окт. 2013) | 19 lines
+
+version incremented to V2.1.106 for test version for Loewe control interface / 2M-ISB
+----
+Header: System
+-----
+Polarion-ID: SL2-11891, SL2-14834
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.1.106 for test version for Loewe control interface / 2M-ISB
+-----
+External documentation: 
+-----
+Verification platform: SL220 final
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r385749 | baueran | 2013-10-15 18:30:00 +0400 (Вт., 15 окт. 2013) | 19 lines
+
+version set back to V2.0.99 (development SW from homecontrol_cw32 branch)
+-----
+Header: System
+-----
+Polarion-ID: SL2-14834
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V2.0.99 (development SW from homecontrol_cw32 branch)
+-----
+External documentation:
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r386271 | baueran | 2013-10-17 09:29:17 +0400 (Чт., 17 окт. 2013) | 20 lines
+
+version incremented to V1.12.19
+-----
+Header: System
+-----
+Polarion-ID: SL2-14853
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V1.12.19 (CW42 release)
+-----
+External documentation: version incremented to V1.12.19 (CW42 release)
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: bauera
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r386273 | baueran | 2013-10-17 09:34:59 +0400 (Чт., 17 окт. 2013) | 20 lines
+
+version set back to V1.11.99 (development SW from V1.12.X_CW13 branch)
+-----
+Header: System
+-----
+Polarion-ID: SL2-14853
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V1.11.99 (development SW from V1.12.X_CW13 branch)
+-----
+External documentation:
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r386488 | baueran | 2013-10-17 13:47:13 +0400 (Чт., 17 окт. 2013) | 19 lines
+
+version incremented to V2.2.0
+-----
+Header: System
+-----
+Polarion-ID: SL2-14854
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.2.0 (CW42 release)
+-----
+External documentation: version incremented to V2.2.0 (CW42 release)
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r386489 | baueran | 2013-10-17 13:48:20 +0400 (Чт., 17 окт. 2013) | 19 lines
+
+version set back to V2.1.99 (development SW from V2.2.X_CW40 branch)
+-----
+Header: System
+-----
+Polarion-ID: SL2-14854
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V2.1.99 (development SW from V2.2.X_CW40 branch)
+-----
+External documentation:
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r386519 | baueran | 2013-10-17 14:47:18 +0400 (Чт., 17 окт. 2013) | 19 lines
+
+version incremented to V2.1.107 for test version for Loewe control interface / 2M-ISB
+----
+Header: System
+-----
+Polarion-ID: SL2-11891, SL2-14874
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.1.107 for test version for Loewe control interface / 2M-ISB
+-----
+External documentation: 
+-----
+Verification platform: SL220 final
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r386525 | baueran | 2013-10-17 14:50:03 +0400 (Чт., 17 окт. 2013) | 19 lines
+
+version set back to V2.0.99 (development SW from homecontrol_cw32 branch)
+-----
+Header: System
+-----
+Polarion-ID: SL2-14874
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V2.0.99 (development SW from homecontrol_cw32 branch)
+-----
+External documentation:
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r387217 | baueran | 2013-10-18 16:34:36 +0400 (Пт., 18 окт. 2013) | 19 lines
+
+version incremented to V2.3.1
+-----
+Header: System
+-----
+Polarion-ID: SL2-14893
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.3.1 (CW42 release)
+-----
+External documentation: version incremented to V2.3.1 (CW42 release)
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r387332 | baueran | 2013-10-18 18:55:35 +0400 (Пт., 18 окт. 2013) | 19 lines
+
+version set back to V2.2.99 (development SW from V2.3.X_CW40)
+-----
+Header: System
+-----
+Polarion-ID: SL2-14893
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V2.2.99 (development SW from V2.3.X_CW40)
+-----
+External documentation:
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r387344 | baueran | 2013-10-18 20:46:47 +0400 (Пт., 18 окт. 2013) | 20 lines
+
+creating Tag for V2.3.1.0
+-----
+Header: System
+-----
+Polarion-ID: SL2-14893
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: creating Tag for V2.3.1, based on branch "https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40"; revision 387217.
+-----
+External documentation: creating Tag for V2.3.1, based on branch "https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40"; revision 387217.
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r388296 | baueran | 2013-10-22 18:08:11 +0400 (Вт., 22 окт. 2013) | 19 lines
+
+version incremented to V2.3.2
+-----
+Header: System
+-----
+Polarion-ID: SL2-14933
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.3.2 (CW43 release)
+-----
+External documentation: version incremented to V2.3.2 (CW43 release)
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r388297 | baueran | 2013-10-22 18:08:52 +0400 (Вт., 22 окт. 2013) | 19 lines
+
+version set back to V2.2.99 (development SW from V2.3.X_CW40)
+-----
+Header: System
+-----
+Polarion-ID: SL2-14933
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V2.2.99 (development SW from V2.3.X_CW40)
+-----
+External documentation:
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r388740 | baueran | 2013-10-23 16:24:32 +0400 (Ср., 23 окт. 2013) | 22 lines
+
+Revision 385616,386009 merged from stbsp-sl2-mainline:
+increase video sync threshold (21 ms -> 24 ms).
+-----
+Header: BSP
+-----
+Polarion-ID: STF-871
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: increase video sync threshold (21 ms -> 24 ms).
+-----
+External documentation: increase video sync threshold (21 ms -> 24 ms).
+-----
+Verfication platform: SL220 debug
+-----
+Merge to: 
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r388789 | baueran | 2013-10-23 18:59:04 +0400 (Ср., 23 окт. 2013) | 22 lines
+
+Revision 386063 merged from stbsp-sl2-m25:
+fix audio PTS_EVT handling in PRM (initialization, invalid PTS detection).
+-----
+Header: BSP
+-----
+Polarion-ID: STF-872
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: fix audio PTS_EVT handling in PRM (initialization, invalid PTS detection).
+-----
+External documentation: fix audio PTS_EVT handling in PRM (initialization, invalid PTS detection).
+-----
+Verfication platform: SL220 debug
+-----
+Merge to: 
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r389158 | baueran | 2013-10-24 15:43:30 +0400 (Чт., 24 окт. 2013) | 19 lines
+
+test branch created of stbsp-sl2-m25, revision 388789
+-----
+Header: System
+-----
+Polarion-ID: SL2-1527
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: test branch created of stbsp-sl2-m25 https://develop.loewe.de/svn/tvsoft/external/com/stm/stbsp-sl2-m25@388789
+-----
+External documentation: Ctest branch created of stbsp-sl2-m25 https://develop.loewe.de/svn/tvsoft/external/com/stm/stbsp-sl2-m25@388789
+-----
+Verification platform: SL220 final
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r389207 | baueran | 2013-10-24 16:29:39 +0400 (Чт., 24 окт. 2013) | 22 lines
+
+Revision 387134,387687 merged from stbsp-sl2-mainline to stbsp-sl2-m25_test_CW43
+Suppress unneccesary change of SPDIF channel status bits (compression mode). 
+-----
+Header: BSP
+-----
+Polarion-ID: STF-876
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: Suppress unneccesary change of SPDIF channel status bits (compression mode).
+-----
+External documentation: Suppress unneccesary change of SPDIF channel status bits (compression mode).
+-----
+Verfication platform: SL220 debug
+-----
+Merge to: 
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r389216 | baueran | 2013-10-24 16:40:33 +0400 (Чт., 24 окт. 2013) | 22 lines
+
+Revision 388357 merged from stbsp-sl2-mainline to stbsp-sl2-m25_test_CW43
+Disable the hardcoded sample rate conversion of audio content to 48 kHz. 
+-----
+Header: BSP
+-----
+Polarion-ID: STF-879
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: Disable the hardcoded sample rate conversion of audio content to 48 kHz. 
+-----
+External documentation: Disable the hardcoded sample rate conversion of audio content to 48 kHz. 
+-----
+Verfication platform: SL220 debug
+-----
+Merge to:
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r389272 | baueran | 2013-10-24 17:27:52 +0400 (Чт., 24 окт. 2013) | 23 lines
+
+Revision 389110 merged from V2.3.X_CW40 branch
+Fix crash after sorting during the initial installation
+-----
+Header: Station List
+-----
+Polarion-ID: SL2-14951
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation:
+* Fix a crash which happens trying to get a shared_from_this() pointer in a destructor, which causes an exception by default
+-----
+External documentation:
+* Fix a crash which happens trying to get a shared_from_this() pointer in a destructor, which causes an exception by default
+-----
+Verification platform: sl220 final
+-----
+Merge to: 
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r389277 | baueran | 2013-10-24 17:33:33 +0400 (Чт., 24 окт. 2013) | 19 lines
+
+add debug output for received/sent 2M ISB messages
+-----
+Header: System
+-----
+Polarion-ID: SL2-12104
+-----
+Variant: SL220
+-----
+API-modification: No
+-----
+Internal documentation: add debug output for received/sent 2M ISB messages
+-----
+External documentation: 
+-----
+Verification platform: SL220
+-----
+Merge to: -
+-----
+Reviewed by: 
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r389327 | baueran | 2013-10-24 18:30:18 +0400 (Чт., 24 окт. 2013) | 24 lines
+
+Revision 388803 merged from V2.3.X_CW40 branch:
+Fixed incorrect default parameter
+-----
+Header: Biz
+-----
+Polarion-ID: SL2-14950 - Registry values not loaded correctly to model api
+-----
+Variant: sl2xx
+-----
+API-modification: NO
+-----
+Internal documentation:
+Fixed incorrect default parameter
+-----
+External documentation:
+Fixed incorrect default parameter
+-----
+Verfication platform: SL200
+-----
+Merge to: 
+-----
+Reviewed by: 
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r389365 | baueran | 2013-10-24 19:55:34 +0400 (Чт., 24 окт. 2013) | 20 lines
+
+New binaries for SECURE STBSP M25 from test branch (!!!!)
+stbsp-sl2-m25_test_CW43 branch, revision 389216
+----
+Header: System
+-----
+Polarion-ID: STF-879 - On HDMI, audio PCM 44100 Hz appears 10% too slow.
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Added new SECURE STBSP M25 binaries for SL220 to homecontrol_cw32 branch. Binaries based on external/com/stm/stbsp-sl2-m25_test_CW43 Revision 389216, kernel linux-sh4-2.6.32.46_stm24_0209 Revision 330009.
+-----
+External documentation: 
+-----
+Verification platform: SL220 final
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r389399 | baueran | 2013-10-25 09:45:38 +0400 (Пт., 25 окт. 2013) | 19 lines
+
+version incremented to V2.1.108 for test version for Loewe control interface / 2M-ISB
+----
+Header: System
+-----
+Polarion-ID: SL2-14966
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.1.108 for test version for Loewe control interface / 2M-ISB
+-----
+External documentation: 
+-----
+Verification platform: SL220 final
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r389403 | baueran | 2013-10-25 09:52:15 +0400 (Пт., 25 окт. 2013) | 19 lines
+
+version set back to V2.0.99 (development SW from homecontrol_cw32 branch)
+-----
+Header: System
+-----
+Polarion-ID: SL2-14966
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V2.0.99 (development SW from homecontrol_cw32 branch)
+-----
+External documentation:
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r389694 | baueran | 2013-10-25 15:41:20 +0400 (Пт., 25 окт. 2013) | 22 lines
+
+Revision 387134,387687 merged from stbsp-sl2-mainline to stbsp-sl2-m25
+Suppress unneccesary change of SPDIF channel status bits (compression mode). 
+-----
+Header: BSP
+-----
+Polarion-ID: STF-876
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: Suppress unneccesary change of SPDIF channel status bits (compression mode).
+-----
+External documentation: Suppress unneccesary change of SPDIF channel status bits (compression mode).
+-----
+Verfication platform: SL220 debug
+-----
+Merge to: 
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r389696 | baueran | 2013-10-25 15:44:52 +0400 (Пт., 25 окт. 2013) | 22 lines
+
+Revision 388357 merged from stbsp-sl2-mainline to stbsp-sl2-m25
+Disable the hardcoded sample rate conversion of audio content to 48 kHz. 
+-----
+Header: BSP
+-----
+Polarion-ID: STF-879
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: Disable the hardcoded sample rate conversion of audio content to 48 kHz. 
+-----
+External documentation: Disable the hardcoded sample rate conversion of audio content to 48 kHz. 
+-----
+Verfication platform: SL220 debug
+-----
+Merge to:
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r389701 | baueran | 2013-10-25 15:50:13 +0400 (Пт., 25 окт. 2013) | 22 lines
+
+media player: update SPDIF mode every change of stream type.
+(modification from Stefan Schedel)
+-----
+Header: BSP
+-----
+Polarion-ID: STF-885
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: media player: update SPDIF mode every change of stream type.
+-----
+External documentation: media player: update SPDIF mode every change of stream type.
+-----
+Verfication platform: SL220 debug
+-----
+Merge to:
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r389807 | baueran | 2013-10-25 18:04:14 +0400 (Пт., 25 окт. 2013) | 19 lines
+
+version incremented to V2.3.3
+-----
+Header: System
+-----
+Polarion-ID: SL2-14989
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.3.3 (CW43 release)
+-----
+External documentation: version incremented to V2.3.3 (CW43 release)
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r389808 | baueran | 2013-10-25 18:05:05 +0400 (Пт., 25 окт. 2013) | 19 lines
+
+version set back to V2.2.99 (development SW from V2.3.X_CW40)
+-----
+Header: System
+-----
+Polarion-ID: SL2-14989
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V2.2.99 (development SW from V2.3.X_CW40)
+-----
+External documentation:
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r389915 | baueran | 2013-10-28 11:13:07 +0400 (Пн., 28 окт. 2013) | 23 lines
+
+Revision 389771 and 389788 merged from V2.3.X_CW40 branch:
+r389771: added uart start state to improve startup for hotel and homectrl
+r389788: added pucman dependency to homecontrol and isb2mservice to ensure correct start order
+-----
+Header: System
+-----
+Polarion-ID: SL2-14792
+-----
+Variant: sl220
+-----
+API-modification: Yes
+-----
+Internal documentation:
+- added uart start state to improve startup for hotel and homectrl
+- added pucman dependency to homecontrol and isb2mservice to ensure correct start order
+-----
+External documentation:
+-----
+Verfication platform: sl220
+-----
+Merge to: 
+-----
+Reviewed by:
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r389916 | baueran | 2013-10-28 11:18:46 +0400 (Пн., 28 окт. 2013) | 20 lines
+
+Revision 389365 reverted: New binaries for SECURE STBSP M25 from test branch (!!!!)
+stbsp-sl2-m25_test_CW43 branch, revision 389216
+----
+Header: System
+-----
+Polarion-ID: STF-879 - On HDMI, audio PCM 44100 Hz appears 10% too slow.
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Revision 389365 reverted: SECURE STBSP M25 binaries based on external/com/stm/stbsp-sl2-m25_test_CW43 Revision 389216, kernel linux-sh4-2.6.32.46_stm24_0209 Revision 330009.
+-----
+External documentation: 
+-----
+Verification platform: SL220 final
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r389936 | baueran | 2013-10-28 12:19:33 +0400 (Пн., 28 окт. 2013) | 21 lines
+
+New binaries for SECURE STBSP M25
+----
+Header: System
+-----
+Polarion-ID: 
+STF-879 - On HDMI, audio PCM 44100 Hz appears 10% too slow.
+STF-885 - Delayed audio in media playback
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Added new SECURE STBSP M25 binaries for SL220 to homecontrol_cw32 branch. Binaries based on external/com/stm/stbsp-sl2-m25 Revision 389701, kernel linux-sh4-2.6.32.46_stm24_0209 Revision 330009.
+-----
+External documentation: 
+-----
+Verification platform: SL220 final
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r389939 | baueran | 2013-10-28 12:21:58 +0400 (Пн., 28 окт. 2013) | 19 lines
+
+version incremented to V2.1.109 for test version for Loewe control interface / 2M-ISB
+----
+Header: System
+-----
+Polarion-ID: SL2-14994
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.1.109 for test version for Loewe control interface / 2M-ISB
+-----
+External documentation: 
+-----
+Verification platform: SL220 final
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r389941 | baueran | 2013-10-28 12:24:29 +0400 (Пн., 28 окт. 2013) | 19 lines
+
+version set back to V2.0.99 (development SW from homecontrol_cw32 branch)
+-----
+Header: System
+-----
+Polarion-ID: SL2-14994
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V2.0.99 (development SW from homecontrol_cw32 branch)
+-----
+External documentation:
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r390063 | baueran | 2013-10-28 15:15:49 +0400 (Пн., 28 окт. 2013) | 20 lines
+
+removed Subversion property "svn:mergeinfo" from all files and directories except the root folder (codebase2011/branches/SL2xx/release/V2.3.X_CW40).
+Merge info was added by commit for revision 390010.
+-----
+Header: System
+-----
+Polarion-ID: -
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: removed Subversion property "svn:mergeinfo" from all files and directories except the root folder (codebase2011/branches/SL2xx/release/V2.3.X_CW40)
+-----
+External documentation:
+-----
+Verfication platform: n/a
+-----
+Merge to: trunk
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r390303 | baueran | 2013-10-29 10:31:28 +0400 (Вт., 29 окт. 2013) | 19 lines
+
+Branch "V2.3.X_stab_CW44" created based on branch V2.3.X_CW40, Revision 390264
+-----
+Header: System
+-----
+Polarion-ID: SL2-15015
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation: Branch "V2.3.X_stab_CW44" created based on branch V2.3.X_CW40, Revision 390264
+-----
+External documentation: -
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r390984 | baueran | 2013-10-30 16:17:11 +0400 (Ср., 30 окт. 2013) | 24 lines
+
+Revision 387134,387687 for STF-876 reverted due to regression:
+No sound when switch-on station with stereo format
+-----
+Header: BSP
+-----
+Polarion-ID: STF-876
+SL2-15002 - No sound when switch-on station with stereo format
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: Revision 387134,387687 for STF-876 reverted due to regression:
+No sound when switch-on station with stereo format
+-----
+External documentation: 
+-----
+Verfication platform: SL220 final
+-----
+Merge to: 
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r391444 | baueran | 2013-10-31 17:34:34 +0400 (Чт., 31 окт. 2013) | 19 lines
+
+version incremented to V2.3.4
+-----
+Header: System
+-----
+Polarion-ID: SL2-15015
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.3.4 (CW44 release)
+-----
+External documentation: version incremented to V2.3.4 (CW44 release)
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r391445 | baueran | 2013-10-31 17:36:12 +0400 (Чт., 31 окт. 2013) | 19 lines
+
+version set back to V2.2.99 (development SW from V2.3.X_stab_CW44)
+-----
+Header: System
+-----
+Polarion-ID: SL2-15015
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V2.2.99 (development SW from V2.3.X_stab_CW44)
+-----
+External documentation:
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r391519 | baueran | 2013-10-31 21:16:28 +0400 (Чт., 31 окт. 2013) | 20 lines
+
+creating Tag for V2.3.2.0
+-----
+Header: System
+-----
+Polarion-ID: SL2-14933
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: creating Tag for V2.3.2, based on branch "https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40"; revision 388296.
+-----
+External documentation: creating Tag for V2.3.1, based on branch "https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40"; revision 388296.
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r391520 | baueran | 2013-10-31 21:17:49 +0400 (Чт., 31 окт. 2013) | 20 lines
+
+creating Tag for V2.3.3.0
+-----
+Header: System
+-----
+Polarion-ID: SL2-14989
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: creating Tag for V2.3.3, based on branch "https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40"; revision 389807.
+-----
+External documentation: creating Tag for V2.3.3, based on branch "https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40"; revision 389807.
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r391521 | baueran | 2013-10-31 21:19:28 +0400 (Чт., 31 окт. 2013) | 20 lines
+
+creating Tag for V2.3.4.0
+-----
+Header: System
+-----
+Polarion-ID: SL2-15015
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: creating Tag for V2.3.4, based on branch "https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_stab_CW44"; revision 391444.
+-----
+External documentation: creating Tag for V2.3.4, based on branch "https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_stab_CW44"; revision 391444.
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r392757 | baueran | 2013-11-06 14:42:57 +0400 (Ср., 06 нояб. 2013) | 19 lines
+
+version incremented to V2.3.5
+-----
+Header: System
+-----
+Polarion-ID: SL2-15088
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.3.5 (CW45 release)
+-----
+External documentation: version incremented to V2.3.5 (CW45 release)
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r392759 | baueran | 2013-11-06 14:43:44 +0400 (Ср., 06 нояб. 2013) | 19 lines
+
+version set back to V2.2.99 (development SW from V2.3.X_stab_CW44)
+-----
+Header: System
+-----
+Polarion-ID: SL2-15088
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V2.2.99 (development SW from V2.3.X_stab_CW44)
+-----
+External documentation:
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r392986 | baueran | 2013-11-06 21:07:58 +0400 (Ср., 06 нояб. 2013) | 20 lines
+
+creating Tag for V2.3.5.0
+-----
+Header: System
+-----
+Polarion-ID: SL2-15088
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: creating Tag for V2.3.5, based on branch "https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_stab_CW44"; revision 392757.
+-----
+External documentation: creating Tag for V2.3.5, based on branch "https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_stab_CW44"; revision 392757.
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r393640 | baueran | 2013-11-08 12:25:31 +0400 (Пт., 08 нояб. 2013) | 27 lines
+
+Update BSP Mainline Secure Binaries (stbsp-sl2-mainline@392273, linux-sh4-2.6.32.46_stm24_0209_mainline@380836)
+BSP Changes:
+393531 [sschedel] fix mute logic in BSP engine.
+392540 [sschedel] STAPIX makefile misses compiler switch for DISABLE_FREE_RUN_CLOCK.
+-----
+Header: BSP
+-----
+Polarion-ID:  STF-890 - After channel change sometimes audio is muted a second time.
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Update BSP Mainline Secure Binaries (stbsp-sl2-mainline@392273, linux-sh4-2.6.32.46_stm24_0209_mainline@380836)
+
+BSP Changes:
+393531 [sschedel] fix mute logic in BSP engine.
+392540 [sschedel] STAPIX makefile misses compiler switch for DISABLE_FREE_RUN_CLOCK.
+-----
+External documentation:
+-----
+Verification platform: sl220 final
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r393891 | baueran | 2013-11-08 17:22:21 +0400 (Пт., 08 нояб. 2013) | 20 lines
+
+Quickstart mode for "6pm - 9pm" is deactivated by default now.
+-----
+Header: GUI
+-----
+Polarion-ID: SL2-15123 - QuickStart mode: Default setting is OFF for all time intervals.
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: Quickstart mode for "6pm - 9pm" is deactivated by default now.
+-----
+External documentation: Quickstart mode for "6pm - 9pm" is deactivated by default now.
+-----
+Verification platform: sl220
+-----
+Merge to: -
+-----
+Reviewed by: habelizth
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r393990 | baueran | 2013-11-08 19:44:31 +0400 (Пт., 08 нояб. 2013) | 19 lines
+
+Revisions 393838 and 393531 reverted due to regressions for MP3 playback, Internet radio and MediaNet "Loewe Channel"
+-----
+Header: BSP
+-----
+Polarion-ID:  STF-890 - After channel change sometimes audio is muted a second time.
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Revisions 393838 and 393531 reverted due to regression for MP3 playback, Internet radio and MediaNet "Loewe Channel"
+-----
+External documentation:
+-----
+Verification platform: sl220 final
+-----
+Merge to:
+-----
+Reviewed by:
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r393992 | baueran | 2013-11-08 19:45:51 +0400 (Пт., 08 нояб. 2013) | 23 lines
+
+Update BSP Mainline Secure Binaries (stbsp-sl2-mainline@393990, linux-sh4-2.6.32.46_stm24_0209_mainline@380836)
+BSP Changes:
+393531 [baueran] Revisions 393838 and 393531 reverted due to regression for MP3 playback, Internet radio and MediaNet "Loewe Channel"
+-----
+Header: BSP
+-----
+Polarion-ID:  STF-890 - After channel change sometimes audio is muted a second time.
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Update BSP Mainline Secure Binaries (stbsp-sl2-mainline@393990, linux-sh4-2.6.32.46_stm24_0209_mainline@380836)
+BSP Changes:
+393531 [baueran] Revisions 393838 and 393531 reverted due to regression for MP3 playback, Internet radio and MediaNet "Loewe Channel"
+-----
+External documentation:
+-----
+Verification platform: sl220 final
+-----
+Merge to:
+-----
+Reviewed by:
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r393995 | baueran | 2013-11-08 19:48:32 +0400 (Пт., 08 нояб. 2013) | 19 lines
+
+version incremented to V2.3.6
+-----
+Header: System
+-----
+Polarion-ID: SL2-15128
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.3.6 (CW45 release)
+-----
+External documentation: version incremented to V2.3.6 (CW45 release)
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r393996 | baueran | 2013-11-08 19:50:56 +0400 (Пт., 08 нояб. 2013) | 19 lines
+
+version incremented to V2.3.6, corrected to V2.3.6.1 for development build
+-----
+Header: System
+-----
+Polarion-ID: SL2-15128
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.3.6 (CW45 release)
+-----
+External documentation: version incremented to V2.3.6 (CW45 release)
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r393998 | baueran | 2013-11-08 19:53:24 +0400 (Пт., 08 нояб. 2013) | 19 lines
+
+version set back to V2.2.99 (development SW from V2.3.X_stab_CW44)
+-----
+Header: System
+-----
+Polarion-ID: SL2-15128
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V2.2.99 (development SW from V2.3.X_stab_CW44)
+-----
+External documentation:
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r394006 | baueran | 2013-11-08 20:11:05 +0400 (Пт., 08 нояб. 2013) | 19 lines
+
+Revisions 393838 and 393531 integrated again to have base for further fixes
+-----
+Header: BSP
+-----
+Polarion-ID:  STF-890 - After channel change sometimes audio is muted a second time.
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Revisions 393838 and 393531 integrated again to have base for further fixes
+-----
+External documentation:
+-----
+Verification platform: sl220 final
+-----
+Merge to:
+-----
+Reviewed by:
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r394022 | baueran | 2013-11-08 21:01:21 +0400 (Пт., 08 нояб. 2013) | 26 lines
+
+Revision 389600 and 390189 merged from V2.3.X_CW40 branch:
+r389600 [heinz]: HCI/ISB2M/Soundprojector: enable Communication: ignore unnecessary mode changes.
+r390189 [riedelin]: Current configuration of RS232 mode is also communicated after switch on
+-----
+Header: System
+-----
+Polarion-ID: SL2-14888
+-----
+Variant: sl220
+-----
+API-modification: ---
+-----
+Internal documentation: Revision 389600 and 390189 merged from V2.3.X_CW40 branch:
+r389600 [heinz]: HCI/ISB2M/Soundprojector: enable Communication: ignore unnecessary mode changes.
+r390189 [riedelin]: Current configuration of RS232 mode is also communicated after switch on
+-----
+External documentation: Revision 389600 and 390189 merged from V2.3.X_CW40 branch:
+r389600 [heinz]: HCI/ISB2M/Soundprojector: enable Communication: ignore unnecessary mode changes.
+r390189 [riedelin]: Current configuration of RS232 mode is also communicated after switch on
+
+-----
+Verfication platform: sl220
+-----
+Merge to: 
+-----
+Reviewed by:
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r394024 | baueran | 2013-11-08 21:05:46 +0400 (Пт., 08 нояб. 2013) | 27 lines
+
+Update BSP Mainline Secure Binaries (stbsp-sl2-mainline@394021, linux-sh4-2.6.32.46_stm24_0209_mainline@380836)
+BSP Changes:
+394020 [sschedel]: Reset change dectector for setting new nominal frequency on STCLKRV.
+394021 [sschedel]: media player: unmute audio player after start.
+-----
+Header: BSP
+-----
+Polarion-ID:  
+STF-890 - After channel change sometimes audio is muted a second time.
+STF-878 - No audio after PIP main
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Update BSP Mainline Secure Binaries (stbsp-sl2-mainline@394021, linux-sh4-2.6.32.46_stm24_0209_mainline@380836)
+BSP Changes:
+394020 [sschedel]: Reset change dectector for setting new nominal frequency on STCLKRV.
+394021 [sschedel]: media player: unmute audio player after start.
+-----
+External documentation:
+-----
+Verification platform: sl220 final
+-----
+Merge to:
+-----
+Reviewed by:
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r394025 | baueran | 2013-11-08 21:06:40 +0400 (Пт., 08 нояб. 2013) | 19 lines
+
+version incremented to V2.3.6 again due to new build of BSP
+-----
+Header: System
+-----
+Polarion-ID: SL2-15128
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.3.6 (CW45 release)
+-----
+External documentation: version incremented to V2.3.6 (CW45 release)
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r394026 | baueran | 2013-11-08 21:08:39 +0400 (Пт., 08 нояб. 2013) | 19 lines
+
+version set back to V2.2.99 (development SW from V2.3.X_stab_CW44)
+-----
+Header: System
+-----
+Polarion-ID: SL2-15128
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V2.2.99 (development SW from V2.3.X_stab_CW44)
+-----
+External documentation:
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r394812 | baueran | 2013-11-12 15:57:46 +0400 (Вт., 12 нояб. 2013) | 22 lines
+
+Revision 389694 reverted because it caused regresssions (see SL2-15002)
+-----
+Header: BSP
+-----
+Polarion-ID: STF-876
+SL2-15002 - No sound when switch-on station with stereo format
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: Revision 389694 reverted because it caused regresssions (see SL2-15002)
+-----
+External documentation: 
+-----
+Verfication platform: SL220 debug
+-----
+Merge to: 
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r395572 | baueran | 2013-11-14 11:16:43 +0400 (Чт., 14 нояб. 2013) | 19 lines
+
+Creating branch for "Home control interface" (RS232), based on V2.3.X_CW40-branch, revision 395553
+-----
+Header: System
+-----
+Polarion-ID: SL2-11891 - Implementation of Loewe Control Interface (RS232 home control)
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation: Creating branch for "Home control interface" (RS232)
+-----
+External documentation: -
+-----
+Verification platform: n/a
+-----
+Merge to:
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r396091 | baueran | 2013-11-15 14:35:18 +0400 (Пт., 15 нояб. 2013) | 21 lines
+
+Revision 395621 merged from V2.3.X_CW40 branch:
+Added renderer control in GUI
+Additional modification in V2.3.X_stab_CW44: Renderer is activated by default.
+-----
+Header: DLNA
+-----
+Polarion-ID: SL2-13713, SL2-15052
+-----
+Variant: sl22x
+-----
+API-modification: ---
+-----
+Internal documentation: Added renderer control in GUI, activated by default
+-----
+External documentation: Added renderer control in GUI, activated by default
+-----
+Verfication platform: sl220
+-----
+Merge to: 
+-----
+Reviewed by: maecklerni
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r396137 | baueran | 2013-11-15 16:09:33 +0400 (Пт., 15 нояб. 2013) | 19 lines
+
+version incremented to V2.3.7
+-----
+Header: System
+-----
+Polarion-ID: SL2-15211
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.3.7 (CW46 release)
+-----
+External documentation: version incremented to V2.3.7 (CW46 release)
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r396138 | baueran | 2013-11-15 16:10:26 +0400 (Пт., 15 нояб. 2013) | 19 lines
+
+version set back to V2.2.99 (development SW from V2.3.X_stab_CW44)
+-----
+Header: System
+-----
+Polarion-ID: SL2-15211
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V2.2.99 (development SW from V2.3.X_stab_CW44)
+-----
+External documentation:
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r396273 | baueran | 2013-11-15 20:27:13 +0400 (Пт., 15 нояб. 2013) | 20 lines
+
+creating Tag for V2.3.6.0
+-----
+Header: System
+-----
+Polarion-ID: SL2-15128
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: creating Tag for V2.3.6, based on branch "https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_stab_CW44"; revision 393996.
+-----
+External documentation: creating Tag for V2.3.6, based on branch "https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_stab_CW44"; revision 393996.
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r396274 | baueran | 2013-11-15 20:28:46 +0400 (Пт., 15 нояб. 2013) | 20 lines
+
+creating Tag for V2.3.7.0
+-----
+Header: System
+-----
+Polarion-ID: SL2-15211
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: creating Tag for V2.3.7, based on branch "https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_stab_CW44"; revision 396137.
+-----
+External documentation: creating Tag for V2.3.7, based on branch "https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_stab_CW44"; revision 396137.
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r397023 | baueran | 2013-11-19 16:30:29 +0400 (Вт., 19 нояб. 2013) | 19 lines
+
+exe module homectrl_app moved from chassis.mods to common.mods to make blacksmith working again for MW delivery to ST
+-----
+Header: System
+-----
+Polarion-ID: SL2-8536
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: exe module homectrl_app moved from chassis.mods to common.mods to make blacksmith working again for MW delivery to ST
+-----
+External documentation:
+-----
+Verfication platform: SL220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: schedelan
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r397026 | baueran | 2013-11-19 16:41:32 +0400 (Вт., 19 нояб. 2013) | 20 lines
+
+Revision 397023 merged from V2.3.X_CW40 branch to V2.3.X_stab_CW44 branch:
+exe module homectrl_app moved from chassis.mods to common.mods to make blacksmith working again for MW delivery to ST
+-----
+Header: System
+-----
+Polarion-ID: SL2-8536
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: exe module homectrl_app moved from chassis.mods to common.mods to make blacksmith working again for MW delivery to ST
+-----
+External documentation:
+-----
+Verfication platform: SL220 final
+-----
+Merge to: -
+-----
+Reviewed by: schedelan
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r397172 | baueran | 2013-11-20 12:02:56 +0400 (Ср., 20 нояб. 2013) | 19 lines
+
+version incremented to V2.2.1
+-----
+Header: System
+-----
+Polarion-ID: SL2-15249
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.3.7 (CW46 release)
+-----
+External documentation: version incremented to V2.3.7 (CW46 release)
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r397173 | baueran | 2013-11-20 12:05:43 +0400 (Ср., 20 нояб. 2013) | 19 lines
+
+version set back to V2.1.99 (development SW from V2.2.X_CW40 branch)
+-----
+Header: System
+-----
+Polarion-ID: SL2-15249
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V2.1.99 (development SW from V2.2.X_CW40 branch)
+-----
+External documentation:
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r397942 | baueran | 2013-11-21 18:35:12 +0400 (Чт., 21 нояб. 2013) | 19 lines
+
+version incremented to V2.2.2
+-----
+Header: System
+-----
+Polarion-ID: SL2-15269
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.2.2 (CW47 release)
+-----
+External documentation: version incremented to V2.2.2 (CW47 release)
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r397945 | baueran | 2013-11-21 18:35:51 +0400 (Чт., 21 нояб. 2013) | 19 lines
+
+version set back to V2.1.99 (development SW from V2.2.X_CW40 branch)
+-----
+Header: System
+-----
+Polarion-ID: SL2-15269
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V2.1.99 (development SW from V2.2.X_CW40 branch)
+-----
+External documentation:
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r398364 | baueran | 2013-11-22 16:54:49 +0400 (Пт., 22 нояб. 2013) | 19 lines
+
+version incremented to V2.3.8
+-----
+Header: System
+-----
+Polarion-ID: SL2-15279
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.3.8 (CW47 release)
+-----
+External documentation: version incremented to V2.3.8 (CW47 release)
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r398369 | baueran | 2013-11-22 16:57:15 +0400 (Пт., 22 нояб. 2013) | 19 lines
+
+version set back to V2.2.99 (development SW from V2.3.X_stab_CW44)
+-----
+Header: System
+-----
+Polarion-ID: SL2-15279
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V2.2.99 (development SW from V2.3.X_stab_CW44)
+-----
+External documentation:
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r398586 | baueran | 2013-11-22 20:51:44 +0400 (Пт., 22 нояб. 2013) | 20 lines
+
+creating Tag for V2.3.8.0
+-----
+Header: System
+-----
+Polarion-ID: SL2-15279
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: creating Tag for V2.3.8, based on branch "https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_stab_CW44"; revision 398364.
+-----
+External documentation: creating Tag for V2.3.8, based on branch "https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_stab_CW44"; revision 398364.
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r398596 | baueran | 2013-11-22 20:59:55 +0400 (Пт., 22 нояб. 2013) | 20 lines
+
+creating Tag for V2.2.2.0
+-----
+Header: System
+-----
+Polarion-ID: SL2-15269
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: creating Tag for V2.2.2.0, based on branch "https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.2.X_CW40"; revision 397942.
+-----
+External documentation: creating Tag for V2.2.2.0, based on branch "https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.2.X_CW40"; revision 397942.
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r398599 | baueran | 2013-11-22 21:02:52 +0400 (Пт., 22 нояб. 2013) | 20 lines
+
+creating Tag for V2.2.1.0
+-----
+Header: System
+-----
+Polarion-ID: SL2-15249
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: creating Tag for V2.2.1.0, based on branch "https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.2.X_CW40"; revision 397172.
+-----
+External documentation: creating Tag for V2.2.1.0, based on branch "https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.2.X_CW40"; revision 397172.
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399759 | baueran | 2013-11-27 18:18:20 +0400 (Ср., 27 нояб. 2013) | 19 lines
+
+Patch of SSL1-2574 activated again in function AUDi_HAndleCompUnComp due to regression with AAC (HbbTV/MediaNet/DLNA)
+-----
+Header: BSP
+-----
+Polarion-ID:  STF-896 - [Regression] No audio for video playback via HbbTV/MediaNet, video freezes after about 30 seconds
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Patch of SSL1-2574 activated again in function AUDi_HAndleCompUnComp due to regression with AAC (HbbTV/MediaNet/DLNA)
+-----
+External documentation:
+-----
+Verification platform: sl220 final
+-----
+Merge to:
+-----
+Reviewed by:
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400017 | baueran | 2013-11-28 14:27:08 +0400 (Чт., 28 нояб. 2013) | 19 lines
+
+version incremented to V2.1.35
+-----
+Header: System
+-----
+Polarion-ID: SL2-15342
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.1.35 (CW48 release)
+-----
+External documentation: version incremented to V2.1.35 (CW48 release)
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400021 | baueran | 2013-11-28 14:35:12 +0400 (Чт., 28 нояб. 2013) | 19 lines
+
+version set back to V2.0.99 (development SW from V2.1.X_stab_CW28 branch)
+-----
+Header: System
+-----
+Polarion-ID: SL2-15342
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V2.0.99 (development SW from V2.1.X_stab_CW28 branch)
+-----
+External documentation:
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400226 | baueran | 2013-11-28 21:53:17 +0400 (Чт., 28 нояб. 2013) | 20 lines
+
+mute of player object removed
+-----
+Header: BSP
+-----
+Polarion-ID:  STF-897 - no audio after switching language/sound from DD to PCM or vice versa
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: mute of player object removed to fix "STF-897 - no audio after switching language/sound from DD to PCM or vice versa"
+
+-----
+External documentation: mute of player object removed to fix "STF-897 - no audio after switching language/sound from DD to PCM or vice versa"
+-----
+Verification platform: sl220 final
+-----
+Merge to:
+-----
+Reviewed by: schedelan
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400349 | baueran | 2013-11-29 13:58:34 +0400 (Пт., 29 нояб. 2013) | 20 lines
+
+disable loading LUT2 in DISPLAY_Update 
+-----
+Header: BSP
+-----
+Polarion-ID:  STF-894 - [BSP mainline] LUT2 set to linear after channel change
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: disable loading LUT2 in DISPLAY_Update to fix "STF-894 - [BSP mainline] LUT2 set to linear after channel change"
+
+-----
+External documentation: disable loading LUT2 in DISPLAY_Update to fix "STF-894 - [BSP mainline] LUT2 set to linear after channel change"
+-----
+Verification platform: sl220 final
+-----
+Merge to:
+-----
+Reviewed by: bayeran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400404 | baueran | 2013-11-29 16:29:17 +0400 (Пт., 29 нояб. 2013) | 28 lines
+
+Update BSP Mainline Secure Binaries (stbsp-sl2-mainline@400349, linux-sh4-2.6.32.46_stm24_0209_mainline@380836)
+BSP Changes:
+400226 [baueran]: mute of player object removed
+400349 [baueran]: disable loading LUT2 in DISPLAY_Update
+-----
+Header: BSP
+-----
+Polarion-ID:  
+STF-897 - no audio after switching language/sound from DD to PCM or vice versa
+STF-894 - [BSP mainline] LUT2 set to linear after channel change
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Update BSP Mainline Secure Binaries (stbsp-sl2-mainline@400349, linux-sh4-2.6.32.46_stm24_0209_mainline@380836)
+BSP Changes:
+400226 [baueran]: mute of player object removed (STF-897 - no audio after switching language/sound from DD to PCM or vice versa)
+400349 [baueran]: disable loading LUT2 in DISPLAY_Update (STF-894 - [BSP mainline] LUT2 set to linear after channel change)
+
+-----
+External documentation:
+-----
+Verification platform: sl220 final
+-----
+Merge to:
+-----
+Reviewed by:
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400425 | baueran | 2013-11-29 17:21:13 +0400 (Пт., 29 нояб. 2013) | 19 lines
+
+version incremented to V2.3.9
+-----
+Header: System
+-----
+Polarion-ID: SL2-15364
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.3.9 (CW48 release)
+-----
+External documentation: version incremented to V2.3.9 (CW48 release)
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400426 | baueran | 2013-11-29 17:21:59 +0400 (Пт., 29 нояб. 2013) | 19 lines
+
+version set back to V2.2.99 (development SW from V2.3.X_stab_CW44)
+-----
+Header: System
+-----
+Polarion-ID: SL2-15364
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V2.2.99 (development SW from V2.3.X_stab_CW44)
+-----
+External documentation:
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400947 | baueran | 2013-12-03 12:32:29 +0400 (Вт., 03 дек. 2013) | 24 lines
+
+Update BSP Mainline Secure Binaries (stbsp-sl2-mainline@400856, linux-sh4-2.6.32.46_stm24_0209_mainline@380836)
+BSP Changes:
+400856 [schedelan]: fix HDMI coding type notification
+-----
+Header: BSP
+-----
+Polarion-ID:  
+STF-898 - No sound with DTS via HDMI, only PCM on SPDIF out with AC3 via HDMI
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Update BSP Mainline Secure Binaries (stbsp-sl2-mainline@400856, linux-sh4-2.6.32.46_stm24_0209_mainline@380836)
+BSP Changes:
+400856 [schedelan]: fix HDMI coding type notification (STF-898 - No sound with DTS via HDMI, only PCM on SPDIF out with AC3 via HDMI)
+-----
+External documentation:
+-----
+Verification platform: sl220 final
+-----
+Merge to:
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401219 | baueran | 2013-12-03 20:00:02 +0400 (Вт., 03 дек. 2013) | 24 lines
+
+Update BSP Mainline Secure Binaries (stbsp-sl2-mainline@400970, linux-sh4-2.6.32.46_stm24_0209_mainline@380836)
+BSP Changes:
+400970 [schedelan]: set clock recovery source for input parser
+-----
+Header: BSP
+-----
+Polarion-ID:  
+STF-900 - No audio after PIP exchange.
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Update BSP Mainline Secure Binaries (stbsp-sl2-mainline@400970, linux-sh4-2.6.32.46_stm24_0209_mainline@380836)
+BSP Changes:
+400970 [schedelan]: set clock recovery source for input parser (STF-900 - No audio after PIP exchange.)
+-----
+External documentation:
+-----
+Verification platform: sl220 final
+-----
+Merge to:
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401758 | baueran | 2013-12-05 14:17:51 +0400 (Чт., 05 дек. 2013) | 22 lines
+
+- Merged revisions 399113-399116, 399118 from codebasesl1/branches/develop/stabilization1/loewe/chassis/sl1_sl210/firmware branch:
+Update of standby controller for SL210 to extend UART buffer for hotel mode / Loewe Control Interface
+- Version incremented for standby controller (stm8) to V10.0.29 and for new test package V10.2.2.102
+-----
+Header: Development
+-----
+Polarion-ID: SSL1-4610 - [SL210][STC] UART buffers for hotel mode are to small
+-----
+Variant: sl210
+-----
+API-modification:
+-----
+Internal documentation: Merged revisions 399113-399116, 399118 from codebasesl1/branches/develop/stabilization1/loewe/chassis/sl1_sl210/firmware branch:
+Update of standby controller for SL210 to extend UART buffer for hotel mode / Loewe Control Interface
+-----
+External documentation:
+-----
+Verification platform: sl210
+-----
+Merge to:
+-----
+Reviewed by: friedl
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401783 | baueran | 2013-12-05 15:07:05 +0400 (Чт., 05 дек. 2013) | 19 lines
+
+version incremented to V2.2.3
+-----
+Header: System
+-----
+Polarion-ID: SL2-15445
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.2.3 (CW49 release)
+-----
+External documentation: version incremented to V2.2.3 (CW49 release)
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401785 | baueran | 2013-12-05 15:08:04 +0400 (Чт., 05 дек. 2013) | 19 lines
+
+version set back to V2.1.99 (development SW from V2.2.X_CW40 branch)
+-----
+Header: System
+-----
+Polarion-ID: SL2-15445
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V2.1.99 (development SW from V2.2.X_CW40 branch)
+-----
+External documentation:
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r402265 | baueran | 2013-12-06 16:42:57 +0400 (Пт., 06 дек. 2013) | 21 lines
+
+BSP patch in ffmpeg for "STF-892 - It takes up to 35 seconds until an internet radio station is played back" added
+-----
+Header: BSP
+-----
+Polarion-ID:  STF-892 - It takes up to 35 seconds until an internet radio station is played back
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: BSP patch in ffmpeg for "STF-892 - It takes up to 35 seconds until an internet radio station is played back" added
+
+
+-----
+External documentation: BSP patch in ffmpeg for "STF-892 - It takes up to 35 seconds until an internet radio station is played back" added
+-----
+Verification platform: sl220 final
+-----
+Merge to:
+-----
+Reviewed by: schedelan
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r402311 | baueran | 2013-12-06 17:32:47 +0400 (Пт., 06 дек. 2013) | 26 lines
+
+Update BSP Mainline Secure Binaries (stbsp-sl2-mainline@402265, linux-sh4-2.6.32.46_stm24_0209_mainline@380836)
+BSP Changes:
+402018 [schedelan]: workaround to support media players sync/mute logic
+402265 [baueran]: BSP patch in ffmpeg for "STF-892 - It takes up to 35 seconds until an internet radio station is played back" added
+-----
+Header: BSP
+-----
+Polarion-ID:  
+STF-901 - Media player has no lip-sync after pause/resume
+STF-892 - It takes up to 35 seconds until an internet radio station is played back
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Update BSP Mainline Secure Binaries (stbsp-sl2-mainline@402265, linux-sh4-2.6.32.46_stm24_0209_mainline@380836)
+BSP Changes:
+402018 [schedelan]: workaround to support media players sync/mute logic (STF-901 - Media player has no lip-sync after pause/resume)
+402265 [baueran]: BSP patch in ffmpeg for "STF-892 - It takes up to 35 seconds until an internet radio station is played back" added-----
+External documentation:
+-----
+Verification platform: sl220 final
+-----
+Merge to:
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r402319 | baueran | 2013-12-06 17:38:12 +0400 (Пт., 06 дек. 2013) | 20 lines
+
+Revision 402312 merged from V2.3X_CW40 branch:
+Mutex added,  EDID version incremented
+-----
+Header: HDMI
+-----
+Polarion-ID: SL2-15444
+-----
+Variant: Sl2x
+-----
+API-modification: No
+-----
+Internal documentation: Mutex added,  EDID version incremented
+-----
+External documentation: Mutex added,  EDID version incremented
+-----
+Verfication platform: Sl221-debug
+-----
+Merge to: trunk
+-----
+Reviewed by:  friedl
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r402321 | baueran | 2013-12-06 17:39:49 +0400 (Пт., 06 дек. 2013) | 19 lines
+
+version incremented to V2.3.10
+-----
+Header: System
+-----
+Polarion-ID: SL2-15457
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.3.10 (CW49 release)
+-----
+External documentation: version incremented to V2.3.10 (CW49 release)
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r402322 | baueran | 2013-12-06 17:40:21 +0400 (Пт., 06 дек. 2013) | 19 lines
+
+version set back to V2.2.99 (development SW from V2.3.X_stab_CW44)
+-----
+Header: System
+-----
+Polarion-ID: SL2-15457
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V2.2.99 (development SW from V2.3.X_stab_CW44)
+-----
+External documentation:
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r402746 | baueran | 2013-12-09 17:27:44 +0400 (Пн., 09 дек. 2013) | 19 lines
+
+version incremented to V2.1.36
+-----
+Header: System
+-----
+Polarion-ID: SL2-15490
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.1.36 (CW50 release)
+-----
+External documentation: version incremented to V2.1.36 (CW50 release)
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r402747 | baueran | 2013-12-09 17:28:39 +0400 (Пн., 09 дек. 2013) | 19 lines
+
+version set back to V2.0.99 (development SW from V2.1.X_stab_CW28 branch)
+-----
+Header: System
+-----
+Polarion-ID: SL2-15490
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V2.0.99 (development SW from V2.1.X_stab_CW28 branch)
+-----
+External documentation:
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403061 | baueran | 2013-12-10 15:12:18 +0400 (Вт., 10 дек. 2013) | 19 lines
+
+version incremented to V2.2.4
+-----
+Header: System
+-----
+Polarion-ID: SL2-15504
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.2.4 (CW50 release)
+-----
+External documentation: version incremented to V2.2.4 (CW50 release)
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403062 | baueran | 2013-12-10 15:13:01 +0400 (Вт., 10 дек. 2013) | 19 lines
+
+version set back to V2.1.99 (development SW from V2.2.X_CW40 branch)
+-----
+Header: System
+-----
+Polarion-ID: SL2-15504
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V2.1.99 (development SW from V2.2.X_CW40 branch)
+-----
+External documentation:
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403131 | baueran | 2013-12-10 18:28:31 +0400 (Вт., 10 дек. 2013) | 21 lines
+
+Test version V10.99.29 for SL210 standby controller added
+Modification from Reinhard Friedlein: Internal UART polling is no longer switched off with first I2C command from bootloader, but with first hotel command now.
+-----
+Header: Development
+-----
+Polarion-ID: to be done
+-----
+Variant: sl210
+-----
+API-modification:
+-----
+Internal documentation: Test version V10.99.29 for SL210 standby controller added
+Modification from Reinhard Friedlein: Internal UART polling is no longer switched off with first I2C command from bootloader, but with first hotel command now.
+-----
+External documentation:
+-----
+Verification platform: sl210
+-----
+Merge to:
+-----
+Reviewed by: friedl
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403138 | baueran | 2013-12-10 18:32:51 +0400 (Вт., 10 дек. 2013) | 19 lines
+
+Version incremented for test version V10.2.0.104 for new package with SL210 standby controller test version V10.99.29.
+-----
+Header: Development
+-----
+Polarion-ID: to be done
+-----
+Variant: sl210
+-----
+API-modification:
+-----
+Internal documentation: Version incremented for test version V10.2.0.104 for new package with SL210 standby controller test version V10.99.29.
+-----
+External documentation:
+-----
+Verification platform: sl210
+-----
+Merge to:
+-----
+Reviewed by: friedl
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403941 | baueran | 2013-12-13 15:13:55 +0400 (Пт., 13 дек. 2013) | 33 lines
+
+Update BSP Mainline Secure Binaries (stbsp-sl2-mainline@403884, linux-sh4-2.6.32.46_stm24_0209_mainline@380836)
+BSP Changes:
+403343 [pechervo]: Enable Audio Description for SPDIF output
+403597 [pechervo]: Set correct channel info for MPEG
+403652 [sschedel]: compensate audio decoder latency for stream type HEAAC.
+403884 [pechervo]: Correct calling order of audio ENGINE functions
+-----
+Header: BSP
+-----
+Polarion-ID:  
+STF-877 - FreeView: AD not working
+STF-903 - Wrong channel info for MPEG audio
+STF-904 - Audio dropouts and missing audio in HEAAC.
+STF-905 - Erroneous calling order of audio STENGINE functions 
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Update BSP Mainline Secure Binaries (stbsp-sl2-mainline@403884, linux-sh4-2.6.32.46_stm24_0209_mainline@380836)
+BSP Changes:
+403343 [pechervo]: Enable Audio Description for SPDIF output (STF-877 - FreeView: AD not working)
+403597 [pechervo]: Set correct channel info for MPEG (STF-903 - Wrong channel info for MPEG audio)
+403652 [sschedel]: compensate audio decoder latency for stream type HEAAC. (STF-904 - Audio dropouts and missing audio in HEAAC)
+403884 [pechervo]: Correct calling order of audio ENGINE functions (STF-905 - Erroneous calling order of audio STENGINE functions)
+-----
+External documentation:
+-----
+Verification platform: sl220 final
+-----
+Merge to:
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403979 | baueran | 2013-12-13 17:06:22 +0400 (Пт., 13 дек. 2013) | 19 lines
+
+BSP patch (workaround) added for wrong interlace after program change
+-----
+Header: BSP
+-----
+Polarion-ID:  STF-881 - After program change quite often wrong interlace is visible for some seconds on SD channels
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: BSP patch (workaround) added for " STF-881 - After program change quite often wrong interlace is visible for some seconds on SD channels"
+-----
+External documentation: BSP patch (workaround) added for " STF-881 - After program change quite often wrong interlace is visible for some seconds on SD channels"
+-----
+Verification platform: sl220 final
+-----
+Merge to:
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404000 | baueran | 2013-12-13 17:52:16 +0400 (Пт., 13 дек. 2013) | 24 lines
+
+Update BSP Mainline Secure Binaries (stbsp-sl2-mainline@403979, linux-sh4-2.6.32.46_stm24_0209_mainline@380836)
+BSP Changes:
+403979 [baueran]: BSP patch (workaround) added for wrong interlace after program change
+-----
+Header: BSP
+-----
+Polarion-ID:  
+STF-881 - After program change quite often wrong
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Update BSP Mainline Secure Binaries (stbsp-sl2-mainline@403979, linux-sh4-2.6.32.46_stm24_0209_mainline@380836)
+BSP Changes:
+403979 [baueran]: BSP patch (workaround) added for wrong interlace after program change (STF-881 - After program change quite often wrong)
+-----
+External documentation:
+-----
+Verification platform: sl220 final
+-----
+Merge to:
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404005 | baueran | 2013-12-13 17:53:54 +0400 (Пт., 13 дек. 2013) | 19 lines
+
+version incremented to V2.3.11
+-----
+Header: System
+-----
+Polarion-ID: SL2-15538
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.3.11 (CW50 release)
+-----
+External documentation: version incremented to V2.3.11 (CW50 release)
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404006 | baueran | 2013-12-13 17:54:40 +0400 (Пт., 13 дек. 2013) | 19 lines
+
+version set back to V2.2.99 (development SW from V2.3.X_stab_CW44)
+-----
+Header: System
+-----
+Polarion-ID: SL2-15538
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V2.2.99 (development SW from V2.3.X_stab_CW44)
+-----
+External documentation:
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404601 | baueran | 2013-12-17 20:38:20 +0400 (Вт., 17 дек. 2013) | 19 lines
+
+BSP patch for "STF-439 - Some IR codes from RC are not detected" activated for SL220
+-----
+Header: BSP
+-----
+Polarion-ID: STF-439 - Some IR codes from RC are not detected
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: BSP patch for "STF-439 - Some IR codes from RC are not detected" activated for SL220
+-----
+External documentation: BSP patch for "STF-439 - Some IR codes from RC are not detected" activated for SL220
+-----
+Verification platform: sl220 final
+-----
+Merge to:
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404817 | baueran | 2013-12-18 20:01:36 +0400 (Ср., 18 дек. 2013) | 47 lines
+
+Update BSP Mainline Secure Binaries (stbsp-sl2-mainline@404679, linux-sh4-2.6.32.46_stm24_0209_mainline@380836)
+BSP Changes:
+400226 [baueran]: mute of player object removed
+400349 [baueran]: disable loading LUT2 in DISPLAY_Update 
+400856 [schedelan]: fix HDMI coding type notification
+400970 [schedelan]: set clock recovery source for input parser
+402018 [schedelan]: workaround to support media players sync/mute logic
+402265 [baueran]: BSP patch in ffmpeg for "STF-892 - It takes up to 35 seconds until an internet radio station is played back" added
+403343 [pechervo]: Enable Audio Description for SPDIF output
+403597 [pechervo]: Set correct channel info for MPEG
+403652 [sschedel]: compensate audio decoder latency for stream type HEAAC.
+403884 [pechervo]: Correct calling order of audio ENGINE functions
+403979 [baueran]: BSP patch (workaround) added for wrong interlace after program change
+404561 [schedelan]: Use correct input and output clocks for analog tuner. 
+404601 [baueran]: BSP patch for "STF-439 - Some IR codes from RC are not detected" activated for SL220
+404679 [sschedel]: support file systems without O_DIRECT support (ram disk).
+-----
+Header: BSP
+-----
+Polarion-ID:  
+STF-894 - [BSP mainline] LUT2 set to linear after channel change
+STF-898 - No sound with DTS via HDMI, only PCM on SPDIF out with AC3 via HDMI.
+STF-900 - No audio after PIP exchange.
+STF-901 - Media player has no lip-sync after pause/resume
+STF-892 - It takes up to 35 seconds until an internet radio station is played back
+STF-877 - FreeView: AD not working
+STF-903 - Wrong channel info for MPEG audio
+STF-904 - Audio dropouts and missing audio in HEAAC.
+STF-905 - Erroneous calling order of audio STENGINE functions 
+STF-881 - After program change quite often wrong interlace is visible for some seconds on SD channels
+STF-906 - Clockselection for analoge inputs not handled correctly
+STF-439 - Some IR codes from RC are not detected
+SL2-15557 - Support livestreaming on platforms without integrated hard disk.
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Update BSP Mainline Secure Binaries (stbsp-sl2-mainline@404679, linux-sh4-2.6.32.46_stm24_0209_mainline@380836)
+-----
+External documentation:
+-----
+Verification platform: sl220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404870 | baueran | 2013-12-19 12:53:13 +0400 (Чт., 19 дек. 2013) | 29 lines
+
+Update BSP Mainline Secure Binaries (stbsp-sl2-mainline@404679, linux-sh4-2.6.32.46_stm24_0209_mainline@380836)
+BSP Changes:
+404561 [schedelan]: Use correct input and output clocks for analog tuner. 
+404601 [baueran]: BSP patch for "STF-439 - Some IR codes from RC are not detected" activated for SL220
+404679 [sschedel]: support file systems without O_DIRECT support (ram disk).
+-----
+Header: BSP
+-----
+Polarion-ID:  
+STF-906 - Clockselection for analoge inputs not handled correctly
+STF-439 - Some IR codes from RC are not detected
+SL2-15557 - Support livestreaming on platforms without integrated hard disk.
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Update BSP Mainline Secure Binaries (stbsp-sl2-mainline@404679, linux-sh4-2.6.32.46_stm24_0209_mainline@380836)
+BSP Changes:
+404561 [schedelan]: Use correct input and output clocks for analog tuner (STF-906 - Clockselection for analoge inputs not handled correctly)
+404601 [baueran]: BSP patch for "STF-439 - Some IR codes from RC are not detected" activated for SL220
+-----
+External documentation:
+-----
+Verification platform: sl220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404915 | baueran | 2013-12-19 15:00:23 +0400 (Чт., 19 дек. 2013) | 19 lines
+
+version incremented to V2.3.12
+-----
+Header: System
+-----
+Polarion-ID: SL2-15568
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.3.12 (CW51 release)
+-----
+External documentation: version incremented to V2.3.12 (CW51 release)
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404916 | baueran | 2013-12-19 15:00:57 +0400 (Чт., 19 дек. 2013) | 19 lines
+
+version set back to V2.2.99 (development SW from V2.3.X_stab_CW44)
+-----
+Header: System
+-----
+Polarion-ID: SL2-15568
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V2.2.99 (development SW from V2.3.X_stab_CW44)
+-----
+External documentation:
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405802 | baueran | 2014-01-09 20:39:15 +0400 (Чт., 09 янв. 2014) | 21 lines
+
+Merged Revisions 404000 to 405683 from http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_stab_CW44
+-----
+Header: System
+-----
+Polarion-ID: 
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+Merged Revisions 404000 to 405683 from http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_stab_CW44
+-----
+External documentation:
+-----
+Verfication platform: sl220 final
+-----
+Merge to: 
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405805 | baueran | 2014-01-09 20:42:39 +0400 (Чт., 09 янв. 2014) | 19 lines
+
+version incremented to V2.3.101 (for China)
+-----
+Header: System
+-----
+Polarion-ID: SL2-15609
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.3.101 (for China)
+-----
+External documentation: version incremented to V2.3.101 (for China)
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405806 | baueran | 2014-01-09 20:43:36 +0400 (Чт., 09 янв. 2014) | 19 lines
+
+version set back to V2.2.99 (development SW from V2.3.X_china_CW50)
+-----
+Header: System
+-----
+Polarion-ID: SL2-15609
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V2.2.99 (development SW from V2.3.X_china_CW50)
+-----
+External documentation:
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407059 | baueran | 2014-01-17 18:15:07 +0400 (Пт., 17 янв. 2014) | 27 lines
+
+Update BSP Mainline Secure Binaries (stbsp-sl2-mainline@406897, linux-sh4-2.6.32.46_stm24_0209_mainline@380836)
+BSP Changes:
+406897 [bayeran]: Fixed 3d left/right signalling
+-----
+Header: BSP
+-----
+Polarion-ID:  
+STF-893 - [BSP mainline] 3D frame packed format display unstable
+SL2-15236 - 720p / 3D often causes strong flickering
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Update BSP Mainline Secure Binaries (stbsp-sl2-mainline@406897, linux-sh4-2.6.32.46_stm24_0209_mainline@380836)
+BSP Changes:
+406897 [bayeran]: Fixed 3d left/right signalling (STF-893 - [BSP mainline] 3D frame packed format display unstable)
+-----
+External documentation:
+-----
+Verification platform: sl220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: baueran
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407062 | baueran | 2014-01-17 18:20:29 +0400 (Пт., 17 янв. 2014) | 21 lines
+
+version incremented to V2.3.13
+-----
+Header: System
+-----
+Polarion-ID: SL2-15640
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.3.13 (CW03 release)
+-----
+External documentation: version incremented to V2.3.13 (CW03 release)
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407067 | baueran | 2014-01-17 18:27:32 +0400 (Пт., 17 янв. 2014) | 19 lines
+
+version set back to V2.2.99 (development SW from V2.3.X_stab_CW44)
+-----
+Header: System
+-----
+Polarion-ID: SL2-15640
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V2.2.99 (development SW from V2.3.X_stab_CW44)
+-----
+External documentation:
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407304 | baueran | 2014-01-21 12:46:21 +0400 (Вт., 21 янв. 2014) | 25 lines
+
+Update BSP Mainline Secure Binaries (stbsp-sl2-mainline@407285, linux-sh4-2.6.32.46_stm24_0209_mainline@380836)
+BSP Changes:
+407285 [sschedel]: Provide security areas behind several PES buffer
+-----
+Header: BSP
+-----
+Polarion-ID:  
+STF-909 - STBSP_Recording: video freeze during playback.
+SL2-15602 - Picture artefacts from time to time when playback a DR+ recording
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Update BSP Mainline Secure Binaries (stbsp-sl2-mainline@407285, linux-sh4-2.6.32.46_stm24_0209_mainline@380836)
+BSP Changes:
+407285 [sschedel]: Provide security areas behind several PES buffer (STF-909 - STBSP_Recording: video freeze during playback)
+-----
+External documentation:
+-----
+Verification platform: sl220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407400 | baueran | 2014-01-21 17:22:45 +0400 (Вт., 21 янв. 2014) | 22 lines
+
+- Merged revision 407321 from V2.3.X_CW40:  Enhance unmute handling for DVB radio services.
+- svn:mergeinfo from folder loewe removed, mergeinfo corrected in root folder
+-----
+Header: Audio
+-----
+Polarion-ID: SL2-15650 - DVB radio channel-change: long time (ca. 7s) until sound comes
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: Enhance unmute handling for DVB radio services.
+-----
+External documentation: Enhance unmute handling for DVB radio services.
+----- 
+Verfication platform: SL220 final
+----- 
+Merge to: 
+-----
+Source move/rename: 
+-----
+Reviewed by: schedelan
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407404 | baueran | 2014-01-21 17:26:29 +0400 (Вт., 21 янв. 2014) | 19 lines
+
+version incremented to V2.3.14
+-----
+Header: System
+-----
+Polarion-ID: SL2-15654
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.3.14 (CW04 release)
+-----
+External documentation: version incremented to V2.3.14 (CW04 release)
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407405 | baueran | 2014-01-21 17:27:19 +0400 (Вт., 21 янв. 2014) | 19 lines
+
+version set back to V2.2.99 (development SW from V2.3.X_stab_CW44)
+-----
+Header: System
+-----
+Polarion-ID: SL2-15654
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V2.2.99 (development SW from V2.3.X_stab_CW44)
+-----
+External documentation:
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407889 | baueran | 2014-01-24 13:09:22 +0400 (Пт., 24 янв. 2014) | 27 lines
+
+Update BSP Mainline Secure Binaries (stbsp-sl2-mainline@407504, linux-sh4-2.6.32.46_stm24_0209_mainline@380836)
+BSP Changes:
+407504 [sschedel]: Fix missing initialization. Keep AV distance on switch to audio as sync master.
+-----
+Header: BSP
+-----
+Polarion-ID:  
+STF-910 - STBSP_Recording: sometimes lipsync issue in playback after navigation or trickmode.
+SL2-14280 - Picture and sound are shifted while a playback from DR+
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Update BSP Mainline Secure Binaries (stbsp-sl2-mainline@407504, linux-sh4-2.6.32.46_stm24_0209_mainline@380836)
+BSP Changes:
+407504 [sschedel]: Fix missing initialization. Keep AV distance on switch to audio as sync master (STF-910 - STBSP_Recording: sometimes lipsync issue in playback after navigation or trickmode.)
+-----
+External documentation:
+-----
+Verification platform: sl220 final
+-----
+Merge to: 
+-----
+Source move/rename: 
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407899 | baueran | 2014-01-24 13:15:04 +0400 (Пт., 24 янв. 2014) | 21 lines
+
+version incremented to V2.2.5
+-----
+Header: System
+-----
+Polarion-ID: SL2-15662
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.2.5 (CW04 release, for Ziggo certification)
+-----
+External documentation: version incremented to V2.2.5 (CW04 release, for Ziggo certification)
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Source move/rename: no 
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407900 | baueran | 2014-01-24 13:16:51 +0400 (Пт., 24 янв. 2014) | 21 lines
+
+version set back to V2.1.99 (development SW from V2.2.X_CW40)
+-----
+Header: System
+-----
+Polarion-ID: SL2-15662
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V2.1.99 (development SW from V2.2.X_CW40)
+-----
+External documentation:
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Source move/rename: no 
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407980 | baueran | 2014-01-24 15:04:24 +0400 (Пт., 24 янв. 2014) | 21 lines
+
+version incremented to V2.3.15
+-----
+Header: System
+-----
+Polarion-ID: SL2-15664
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.3.15 (CW04 release)
+-----
+External documentation: version incremented to V2.3.15 (CW04 release)
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Source move/rename: no 
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407981 | baueran | 2014-01-24 15:05:22 +0400 (Пт., 24 янв. 2014) | 21 lines
+
+version set back to V2.2.99 (development SW from V2.3.X_stab_CW44)
+-----
+Header: System
+-----
+Polarion-ID: SL2-15664
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V2.2.99 (development SW from V2.3.X_stab_CW44)
+-----
+External documentation:
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Source move/rename: no 
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408083 | baueran | 2014-01-27 14:27:25 +0400 (Пн., 27 янв. 2014) | 21 lines
+
+version incremented to V2.3.80 (for China)
+-----
+Header: System
+-----
+Polarion-ID: SL2-15672
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.3.80 (for China)
+-----
+External documentation: version incremented to V2.3.80 (for China)
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Source move/rename: no 
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408085 | baueran | 2014-01-27 14:28:31 +0400 (Пн., 27 янв. 2014) | 21 lines
+
+version set back to V2.2.99 (development SW from V2.3.X_china_CW50)
+-----
+Header: System
+-----
+Polarion-ID: SL2-15672
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V2.2.99 (development SW from V2.3.X_china_CW50)
+-----
+External documentation:
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Source move/rename: no 
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408198 | baueran | 2014-01-28 15:05:13 +0400 (Вт., 28 янв. 2014) | 21 lines
+
+version incremented to V2.3.81 (for China)
+-----
+Header: System
+-----
+Polarion-ID: SL2-15678
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.3.81 (for China)
+-----
+External documentation: version incremented to V2.3.81 (for China)
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Source move/rename: no 
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408199 | baueran | 2014-01-28 15:05:52 +0400 (Вт., 28 янв. 2014) | 21 lines
+
+version set back to V2.2.99 (development SW from V2.3.X_china_CW50)
+-----
+Header: System
+-----
+Polarion-ID: SL2-15678
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V2.2.99 (development SW from V2.3.X_china_CW50)
+-----
+External documentation:
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Source move/rename: no 
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408517 | baueran | 2014-01-30 20:34:37 +0400 (Чт., 30 янв. 2014) | 23 lines
+
+Merged r408507 from V2.3.X_CW40 branch:
+Using time based index for looking up event ids.
+-----
+Header: Service Layer
+-----
+Polarion-ID: SL2-15680
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation: Using time based index for looking up event ids.
+-----
+External documentation: Using time based index for looking up event ids.
+-----
+Verification platform: sl220 final
+-----
+Merge to: 
+-----
+Source move/rename: no 
+-----
+Reviewed by:  sschedel
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408648 | baueran | 2014-01-31 18:23:07 +0400 (Пт., 31 янв. 2014) | 21 lines
+
+version incremented to V2.3.16
+-----
+Header: System
+-----
+Polarion-ID: SL2-15696
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.3.16 (CW05 release)
+-----
+External documentation: version incremented to V2.3.16 (CW05 release)
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Source move/rename: no 
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408649 | baueran | 2014-01-31 18:23:51 +0400 (Пт., 31 янв. 2014) | 21 lines
+
+version set back to V2.2.99 (development SW from V2.3.X_stab_CW44)
+-----
+Header: System
+-----
+Polarion-ID: SL2-15696
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V2.2.99 (development SW from V2.3.X_stab_CW44)
+-----
+External documentation:
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Source move/rename: no 
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408781 | baueran | 2014-02-04 13:05:33 +0400 (Вт., 04 февр. 2014) | 21 lines
+
+version incremented to V2.3.82 (for China)
+-----
+Header: System
+-----
+Polarion-ID: SL2-15706
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.3.82 (for China)
+-----
+External documentation: version incremented to V2.3.82 (for China)
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Source move/rename: no 
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408782 | baueran | 2014-02-04 13:10:15 +0400 (Вт., 04 февр. 2014) | 21 lines
+
+ version set back to V2.2.99 (development SW from V2.3.X_china_CW50)
+-----
+Header: System
+-----
+Polarion-ID: SL2-15706
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V2.2.99 (development SW from V2.3.X_china_CW50)
+-----
+External documentation:
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Source move/rename: no 
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409511 | baueran | 2014-02-06 17:31:58 +0400 (Чт., 06 февр. 2014) | 21 lines
+
+version incremented to V2.2.6
+-----
+Header: System
+-----
+Polarion-ID: SL2-15723
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.2.6 (CW06 release, for Ziggo certification)
+-----
+External documentation: version incremented to V2.2.6 (CW06 release, for Ziggo certification)
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Source move/rename: no 
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409512 | baueran | 2014-02-06 17:32:52 +0400 (Чт., 06 февр. 2014) | 21 lines
+
+version set back to V2.1.99 (development SW from V2.2.X_CW40)
+-----
+Header: System
+-----
+Polarion-ID: SL2-15723
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V2.1.99 (development SW from V2.2.X_CW40)
+-----
+External documentation:
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Source move/rename: no 
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409580 | baueran | 2014-02-06 19:57:44 +0400 (Чт., 06 февр. 2014) | 23 lines
+
+merged r 409539 form stbsp-sl2-mainline:
+Avoid audio restart on audio sync loss in playback.
+-----
+Header: Audio
+-----
+Polarion-ID: SL2-15676 - No audio after playback pause.
+STF-912 - No audio after playback pause.
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: Avoid audio restart on audio sync loss in playback.
+-----
+External documentation: Avoid audio restart on audio sync loss in playback.
+----- 
+Verfication platform: sl220 final
+----- 
+Merge to: 
+-----
+Source move/rename: no 
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409596 | baueran | 2014-02-07 11:09:53 +0400 (Пт., 07 февр. 2014) | 32 lines
+
+Update BSP Mainline Secure Binaries (stbsp-sl2-mainline_v2.3.x@409714, linux-sh4-2.6.32.46_stm24_0209_mainline_v2.3.x@409227)
+BSP Changes:
+409580 [baueran]: merge r409539 from stbsp-sl2-mainline: Avoid audio restart on audio sync loss in playback
+Kernel Changes:
+409227 [sschedel]: Increase graphic memory for mali from 40MB to 48MB
+-----
+Header: BSP
+-----
+Polarion-ID:  
+STF-912 - No audio afer playback pause
+SL2-15676 - No audio afer playback pause
+SL2-15666 - Accelerate EPG display
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Update BSP Mainline Secure Binaries (stbsp-sl2-mainline_v2.3.x@409714, linux-sh4-2.6.32.46_stm24_0209_mainline_v2.3.x@409227)
+BSP Changes:
+409580 [baueran]: merge r409539 from stbsp-sl2-mainline: Avoid audio restart on audio sync loss in playback
+Kernel Changes:
+409227 [sschedel]: Increase graphic memory for mali from 40MB to 48MB
+-----
+External documentation:
+-----
+Verification platform: sl220 final
+-----
+Merge to: 
+-----
+Source move/rename: 
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409712 | baueran | 2014-02-07 15:14:36 +0400 (Пт., 07 февр. 2014) | 27 lines
+
+Update BSP Mainline Secure Binaries (stbsp-sl2-mainline_v2.3.x@409714, linux-sh4-2.6.32.46_stm24_0209_mainline_v2.3.x@409227)
+BSP Changes:
+409580 [baueran]: merge r409539 from stbsp-sl2-mainline: Avoid audio restart on audio sync loss in playback
+-----
+Header: BSP
+-----
+Polarion-ID:  
+STF-912 - No audio afer playback pause
+SL2- 15676 - No audio after playback pause
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Update BSP Mainline Secure Binaries (stbsp-sl2-mainline_v2.3.x@409714, linux-sh4-2.6.32.46_stm24_0209_mainline_v2.3.x@409227)
+BSP Changes:
+409580 [baueran]: merge r409539 from stbsp-sl2-mainline: Avoid audio restart on audio sync loss in playback
+-----
+External documentation:
+-----
+Verification platform: sl220 final
+-----
+Merge to: 
+-----
+Source move/rename: 
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409714 | baueran | 2014-02-07 15:22:09 +0400 (Пт., 07 февр. 2014) | 22 lines
+
+STBSP_BASE corrected.
+-----
+Header: BSP
+-----
+Polarion-ID:
+-----
+Variant: sl220
+-----
+API-modification: no
+-----
+Internal documentation: STBSP_BASE corrected.
+-----
+External documentation:
+-----
+Verfication platform: sl220
+-----
+Merge to: -
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409721 | baueran | 2014-02-07 16:22:31 +0400 (Пт., 07 февр. 2014) | 30 lines
+
+BSP updated again. Commit of r409596 probably contains old binaries
+Update BSP Mainline Secure Binaries (stbsp-sl2-mainline_v2.3.x@407504, linux-sh4-2.6.32.46_stm24_0209_mainline_v2.3.x@409227)
+BSP Changes:
+409580 [baueran]: merge r409539 from stbsp-sl2-mainline: Avoid audio restart on audio sync loss in playback
+Kernel Changes:
+409227 [sschedel]: Increase graphic memory for mali from 40MB to 48MB
+-----
+Header: BSP
+-----
+Polarion-ID:  
+STF-912 - No audio afer playback pause
+SL2-14280 - Picture and sound are shifted while a playback from DR+
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Update BSP Mainline Secure Binaries (stbsp-sl2-mainline@407504, linux-sh4-2.6.32.46_stm24_0209_mainline@380836)
+BSP Changes:
+407504 [sschedel]: Fix missing initialization. Keep AV distance on switch to audio as sync master (STF-910 - STBSP_Recording: sometimes lipsync issue in playback after navigation or trickmode.)
+-----
+External documentation:
+-----
+Verification platform: sl220 final
+-----
+Merge to: 
+-----
+Source move/rename: 
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409723 | baueran | 2014-02-07 16:31:25 +0400 (Пт., 07 февр. 2014) | 21 lines
+
+version incremented to V2.3.17
+-----
+Header: System
+-----
+Polarion-ID: SL2-15731
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.3.17 (CW06 release)
+-----
+External documentation: version incremented to V2.3.17 (CW06 release)
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Source move/rename: no 
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409724 | baueran | 2014-02-07 16:32:16 +0400 (Пт., 07 февр. 2014) | 21 lines
+
+version set back to V2.2.99 (development SW from V2.3.X_stab_CW44)
+-----
+Header: System
+-----
+Polarion-ID: SL2-15731
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V2.2.99 (development SW from V2.3.X_stab_CW44)
+-----
+External documentation:
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Source move/rename: no 
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r410196 | baueran | 2014-02-11 15:14:09 +0400 (Вт., 11 февр. 2014) | 21 lines
+
+version incremented to V2.3.18
+-----
+Header: System
+-----
+Polarion-ID: SL2-15751
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.3.18 (CW07 release)
+-----
+External documentation: version incremented to V2.3.18 (CW07 release)
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Source move/rename: no 
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r410197 | baueran | 2014-02-11 15:14:42 +0400 (Вт., 11 февр. 2014) | 21 lines
+
+version set back to V2.2.99 (development SW from V2.3.X_stab_CW44)
+-----
+Header: System
+-----
+Polarion-ID: SL2-15751
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V2.2.99 (development SW from V2.3.X_stab_CW44)
+-----
+External documentation:
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Source move/rename: no 
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r410647 | baueran | 2014-02-13 19:17:35 +0400 (Чт., 13 февр. 2014) | 23 lines
+
+merged r384663 from V2.1.X_stab_CW28 branch:
+UART is configured alway to Soundprojector for V2.1.X now to avoid conflict with a V2.3.X version having implementation of RS232 loewe control interface
+When doing a downgrade from V2.3.x to V2.1.x it would be necessary to change the NVRAM to connect the Soundprojector again
+----
+Header: Audio
+-----
+Polarion-ID: SL2-14290
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: UART is configured alway to Soundprojector for V2.1.X now to avoid conflict with a V2.3.X version having implementation of RS232 loewe control interface
+When doing a downgrade from V2.3.x to V2.1.x it would be necessary to change the NVRAM to connect the Soundprojector again
+-----
+External documentation: 
+-----
+Verification platform: SL220 final
+-----
+Merge to: -
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r410739 | baueran | 2014-02-14 15:39:30 +0400 (Пт., 14 февр. 2014) | 24 lines
+
+Merged r410723 from http://develop.loewe.de/svn/tvsoft/external/com/stm/stbsp-sl2-mainline:
+Use dedicated HDD_task for PRM player object, to avoid PRM recorder suffering from blocking http access. 
+-----
+Header: BSP
+-----
+Polarion-ID: SL2-15725 - TV not longer operable in HbbTV mode ZDF Olympia
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: Use dedicated HDD_task for PRM player object, to avoid PRM recorder suffering from blocking http access. 
+-----
+External documentation: Use dedicated HDD_task for PRM player object, to avoid PRM recorder suffering from blocking http access. 
+-----
+Verfication platform: SL220 debug
+-----
+Merge to:  
+-----
+Source move/rename: no
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r410761 | baueran | 2014-02-14 16:45:26 +0400 (Пт., 14 февр. 2014) | 28 lines
+
+Update BSP Mainline Secure Binaries (stbsp-sl2-mainline_v2.3.x@410739, linux-sh4-2.6.32.46_stm24_0209_mainline_v2.3.x@409227)
+BSP Changes:
+410739  [baueran]: Merged r410723 from http://develop.loewe.de/svn/tvsoft/external/com/stm/stbsp-sl2-mainline:
+Use dedicated HDD_task for PRM player object, to avoid PRM recorder suffering from blocking http access. 
+-----
+Header: BSP
+-----
+Polarion-ID:  
+SL2-15725 - TV not longer operable in HbbTV mode ZDF Olympia
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Update BSP Mainline Secure Binaries (stbsp-sl2-mainline_v2.3.x@410739, linux-sh4-2.6.32.46_stm24_0209_mainline_v2.3.x@409227)
+BSP Changes:
+410739  [baueran]: Merged r410723 from http://develop.loewe.de/svn/tvsoft/external/com/stm/stbsp-sl2-mainline:
+Use dedicated HDD_task for PRM player object, to avoid PRM recorder suffering from blocking http access. 
+-----
+External documentation:
+-----
+Verification platform: sl220 final
+-----
+Merge to: 
+-----
+Source move/rename: 
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r410768 | baueran | 2014-02-14 17:12:42 +0400 (Пт., 14 февр. 2014) | 21 lines
+
+version incremented to V2.3.19
+-----
+Header: System
+-----
+Polarion-ID: SL2-15767
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.3.19 (CW07 release)
+-----
+External documentation: version incremented to V2.3.19 (CW07 release)
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Source move/rename: no 
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r410769 | baueran | 2014-02-14 17:13:32 +0400 (Пт., 14 февр. 2014) | 21 lines
+
+version set back to V2.2.99 (development SW from V2.3.X_stab_CW44)
+-----
+Header: System
+-----
+Polarion-ID: SL2-15767
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V2.2.99 (development SW from V2.3.X_stab_CW44)
+-----
+External documentation:
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Source move/rename: no 
+-----
+Reviewed by: baueran
+------------------------------------------------------------------------

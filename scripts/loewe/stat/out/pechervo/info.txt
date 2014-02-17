@@ -1,0 +1,733 @@
+------------------------------------------------------------------------
+r372498 | pechervo | 2013-09-03 17:53:22 +0400 (Вт., 03 сент. 2013) | 19 lines
+
+Adjusted mute control and sound selection
+-----
+Header: Audio
+-----
+Polarion-ID: SSL1-3461
+-----
+Variant: sl210
+-----
+API-modification: No
+-----
+Internal documentation: Adjusted mute control and sound selection
+-----
+External documentation: Adjusted mute control and sound selection
+-----
+Verfication platform: SL210 release
+-----
+Merge to: 
+-----
+Reviewed by:
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r372501 | pechervo | 2013-09-03 17:57:07 +0400 (Вт., 03 сент. 2013) | 20 lines
+
+Adjusted mute control and sound selection
+-----
+Header: Audio
+-----
+Polarion-ID: SSL1-3461
+-----
+Variant: sl210
+-----
+API-modification: No
+-----
+Internal documentation: Adjusted mute control and sound selection
+-----
+External documentation: Adjusted mute control and sound selection
+-----
+Verfication platform: SL210 release
+-----
+Merge to: 
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r372962 | pechervo | 2013-09-04 18:14:49 +0400 (Ср., 04 сент. 2013) | 19 lines
+
+Extend noise channels by FRONT and SURROUND channels
+-----
+Header: Audio
+-----
+Polarion-ID: SL2-12597
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: Extend noise channels by FRONT and SURROUND channels
+-----
+External documentation: Extend noise channels by FRONT and SURROUND channels
+-----
+Verfication platform: SL220 release
+-----
+Merge to: 
+-----
+Reviewed by:
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r373027 | pechervo | 2013-09-04 19:45:06 +0400 (Ср., 04 сент. 2013) | 19 lines
+
+Unmute audio when timeshift or HDR is started
+-----
+Header: Audio
+-----
+Polarion-ID: SSL1-3461
+-----
+Variant: sl210
+-----
+API-modification: No
+-----
+Internal documentation: Unmute audio when timeshift or HDR is started
+-----
+External documentation: Unmute audio when timeshift or HDR is started
+-----
+Verfication platform: SL210 release
+-----
+Merge to: 
+-----
+Reviewed by:
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376763 | pechervo | 2013-09-17 12:46:06 +0400 (Вт., 17 сент. 2013) | 20 lines
+
+Indicate active speakers to player control
+-----
+Header: Audio
+-----
+Polarion-ID: SSL1-3539
+-----
+Variant: sl210
+-----
+API-modification: No
+-----
+Internal documentation: Inform player about active speakers
+-----
+External documentation: Inform player about active speakers
+-----
+Verfication platform: SL210 release
+-----
+Merge to: 
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376767 | pechervo | 2013-09-17 12:47:04 +0400 (Вт., 17 сент. 2013) | 21 lines
+
+Indicate active speakers to player control
+-----
+Header: Audio
+-----
+Polarion-ID: SSL1-3539
+-----
+Variant: sl210
+-----
+API-modification: No
+-----
+Internal documentation: Inform player about active speakers
+-----
+External documentation: Inform player about active speakers
+-----
+Verfication platform: SL210 release
+-----
+Merge to: 
+-----
+Reviewed by:
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376908 | pechervo | 2013-09-17 15:48:10 +0400 (Вт., 17 сент. 2013) | 20 lines
+
+Indicate HP and AUX speakers to player control
+-----
+Header: Audio
+-----
+Polarion-ID: SSL1-3539
+-----
+Variant: sl210
+-----
+API-modification: No
+-----
+Internal documentation: Inform player about active speakers
+-----
+External documentation: Inform player about active speakers
+-----
+Verfication platform: SL210 release
+-----
+Merge to: 
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376910 | pechervo | 2013-09-17 15:48:57 +0400 (Вт., 17 сент. 2013) | 20 lines
+
+Indicate HP and AUX speakers to player control
+-----
+Header: Audio
+-----
+Polarion-ID: SSL1-3539
+-----
+Variant: sl210
+-----
+API-modification: No
+-----
+Internal documentation: Inform player about active speakers
+-----
+External documentation: Inform player about active speakers
+-----
+Verfication platform: SL210 release
+-----
+Merge to: 
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r377460 | pechervo | 2013-09-18 16:33:58 +0400 (Ср., 18 сент. 2013) | 20 lines
+
+Only set SPDIF mode in case SPDIF speakers is activated
+-----
+Header: Audio
+-----
+Polarion-ID: SSL1-3539
+-----
+Variant: sl210
+-----
+API-modification: No
+-----
+Internal documentation: Only set SPDIF mode in case SPDIF speakers is activated
+-----
+External documentation: Only set SPDIF mode in case SPDIF speakers is activated
+-----
+Verfication platform: SL210 release
+-----
+Merge to: 
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r377743 | pechervo | 2013-09-19 15:11:40 +0400 (Чт., 19 сент. 2013) | 20 lines
+
+Cleanup - Remove commented out code previously used for workaround
+-----
+Header: Audio
+-----
+Polarion-ID: SSL1-3539
+-----
+Variant: sl210
+-----
+API-modification: No
+-----
+Internal documentation: Cleanup - Remove commented out code previously used for workaround
+-----
+External documentation: Cleanup - Remove commented out code previously used for workaround
+-----
+Verfication platform: SL210 release
+-----
+Merge to: 
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r377744 | pechervo | 2013-09-19 15:12:20 +0400 (Чт., 19 сент. 2013) | 20 lines
+
+Cleanup - Remove commented out code previously used for workaround
+-----
+Header: Audio
+-----
+Polarion-ID: SSL1-3539
+-----
+Variant: sl210
+-----
+API-modification: No
+-----
+Internal documentation: Cleanup - Remove commented out code previously used for workaround
+-----
+External documentation: Cleanup - Remove commented out code previously used for workaround
+-----
+Verfication platform: SL210 release
+-----
+Merge to: 
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r384635 | pechervo | 2013-10-11 17:00:49 +0400 (Пт., 11 окт. 2013) | 19 lines
+
+fixed signing for loewe hannover after ip address change
+-----
+Header: Audio
+-----
+Polarion-ID: SL2-8536
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: fixed signing for loewe hannover after ip address change
+-----
+External documentation: fixed signing for loewe hannover after ip address change
+-----
+Verfication platform: SL220 release
+-----
+Merge to:
+-----
+Reviewed by: heinzeti
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r384655 | pechervo | 2013-10-11 17:51:24 +0400 (Пт., 11 окт. 2013) | 19 lines
+
+Disable Synchronization for Mixer in case PTS difference of MAIN and AD is too big
+-----
+Header: Audio
+-----
+Polarion-ID: SL2-14658
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: Disable Synchronization for Mixer in case PTS difference of MAIN and AD is too big
+-----
+External documentation: Disable Synchronization for Mixer in case PTS difference of MAIN and AD is too big
+-----
+Verfication platform: SL220 release
+-----
+Merge to:
+-----
+Reviewed by:
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r390041 | pechervo | 2013-10-28 14:42:00 +0400 (Пн., 28 окт. 2013) | 20 lines
+
+Disable sync (skipping frames) when PTS-STC diff is too huge
+-----
+Header: Audio
+-----
+Polarion-ID: STF-869 SL2-14883
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: Disable sync (skipping frames) when PTS-STC diff is too huge
+-----
+External documentation: Disable sync (skipping frames) when PTS-STC diff is too huge
+-----
+Verfication platform: SL212 release
+-----
+Merge to: 
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r395338 | pechervo | 2013-11-13 17:23:02 +0400 (Ср., 13 нояб. 2013) | 18 lines
+
+Set 'Apply' flag when calling STAUD_PPSetLimiterParams() for muting audio
+-----
+Header: Audio
+-----
+Polarion-ID: SSL1-4210
+-----
+Variant: sl210
+-----
+API-modification: No
+-----
+Internal documentation: Set 'Apply' flag when calling STAUD_PPSetLimiterParams() for muting audio
+-----
+External documentation: Set 'Apply' flag when calling STAUD_PPSetLimiterParams() for muting audio
+-----
+Verfication platform: SL210 release
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r398138 | pechervo | 2013-11-22 12:31:57 +0400 (Пт., 22 нояб. 2013) | 18 lines
+
+Unmute all speakers when starting player
+-----
+Header: Audio
+-----
+Polarion-ID: SSL1-4518
+-----
+Variant: sl210
+-----
+API-modification: No
+-----
+Internal documentation: Unmute all speakers when starting player
+-----
+External documentation: Unmute all speakers when starting player
+-----
+Verfication platform: SL210 release
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r398184 | pechervo | 2013-11-22 13:19:50 +0400 (Пт., 22 нояб. 2013) | 18 lines
+
+Set static sync offset for HE-AAC to 0 ms
+-----
+Header: Audio
+-----
+Polarion-ID: SSL1-2957
+-----
+Variant: sl210
+-----
+API-modification: No
+-----
+Internal documentation: Set static sync offset for HE-AAC to 0 ms
+-----
+External documentation: Set static sync offset for HE-AAC to 0 ms
+-----
+Verfication platform: SL210 release
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400200 | pechervo | 2013-11-28 20:23:49 +0400 (Чт., 28 нояб. 2013) | 18 lines
+
+Corrected erroneous calling order of STENGINE functions
+-----
+Header: Audio
+-----
+Polarion-ID: SSL1-4378
+-----
+Variant: sl210
+-----
+API-modification: No
+-----
+Internal documentation: Corrected erroneous calling order of STENGINE functions
+-----
+External documentation: Corrected erroneous calling order of STENGINE functions
+-----
+Verfication platform: SL210 release
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400214 | pechervo | 2013-11-28 21:15:56 +0400 (Чт., 28 нояб. 2013) | 17 lines
+
+Extend existing workaround: Add 135ms delay for headphone (same had been done for MAIN speakers)
+-----
+Header: Audio
+-----
+Polarion-ID: SSL1-4378
+-----
+Variant: sl210
+-----
+API-modification: No
+-----
+Internal documentation: Extend existing workaround: Add 135ms delay for headphone (same had been done for MAIN speakers)
+-----
+External documentation: Extend existing workaround: Add 135ms delay for headphone (same had been done for MAIN speakers)
+-----
+Verfication platform: SL210 release
+-----
+Reviewed by:
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400216 | pechervo | 2013-11-28 21:18:10 +0400 (Чт., 28 нояб. 2013) | 17 lines
+
+Extend existing workaround: Add 135ms delay for headphone (same had been done for MAIN speakers)
+-----
+Header: Audio
+-----
+Polarion-ID: SSL1-4378
+-----
+Variant: sl210
+-----
+API-modification: No
+-----
+Internal documentation: Extend existing workaround: Add 135ms delay for headphone (same had been done for MAIN speakers)
+-----
+External documentation: Extend existing workaround: Add 135ms delay for headphone (same had been done for MAIN speakers)
+-----
+Verfication platform: SL210 release
+-----
+Reviewed by:
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400808 | pechervo | 2013-12-02 18:36:18 +0400 (Пн., 02 дек. 2013) | 18 lines
+
+Restart player when speaker configuration has been changed
+-----
+Header: Audio
+-----
+Polarion-ID: SSL1-4059
+-----
+Variant: sl210
+-----
+API-modification: No
+-----
+Internal documentation: Restart player when speaker configuration has been changed
+-----
+External documentation: Restart player when speaker configuration has been changed
+-----
+Verfication platform: SL210 release
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403343 | pechervo | 2013-12-11 13:58:28 +0400 (Ср., 11 дек. 2013) | 17 lines
+
+Enable Audio Description for SPDIF output
+-----
+Header: Audio
+-----
+Polarion-ID: STF-877
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: Enable Audio Description for SPDIF output
+-----
+External documentation: Enable Audio Description for SPDIF output
+-----
+Verfication platform: SL220 release
+-----
+Reviewed by:
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403597 | pechervo | 2013-12-12 13:57:38 +0400 (Чт., 12 дек. 2013) | 17 lines
+
+Set correct channel info for MPEG
+-----
+Header: Audio
+-----
+Polarion-ID: STF-903 SL2-13688
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: Set correct channel info for MPEG
+-----
+External documentation: Set correct channel info for MPEG
+-----
+Verfication platform: SL220 release
+-----
+Reviewed by:
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403605 | pechervo | 2013-12-12 14:15:43 +0400 (Чт., 12 дек. 2013) | 17 lines
+
+Set correct channel info for MPEG
+-----
+Header: Audio
+-----
+Polarion-ID: SSL1-3301
+-----
+Variant: sl210
+-----
+API-modification: No
+-----
+Internal documentation: Set correct channel info for MPEG
+-----
+External documentation: Set correct channel info for MPEG
+-----
+Verfication platform: SL210 release
+-----
+Reviewed by:
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403884 | pechervo | 2013-12-13 13:17:08 +0400 (Пт., 13 дек. 2013) | 17 lines
+
+Correct calling order of audio ENGINE functions
+-----
+Header: Audio
+-----
+Polarion-ID: STF-905
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: Correct calling order of audio ENGINE functions
+-----
+External documentation: Correct calling order of audio ENGINE functions
+-----
+Verfication platform: SL220 release
+-----
+Reviewed by:
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405369 | pechervo | 2014-01-07 15:55:17 +0400 (Вт., 07 янв. 2014) | 19 lines
+
+Mute audio when changing SPDIF mode
+-----
+Header: Audio
+-----
+Polarion-ID: SSL1-3461
+-----
+Variant: sl210
+-----
+API-modification: No
+-----
+Internal documentation: Mute audio when changing SPDIF mode
+-----
+External documentation: Mute audio when changing SPDIF mode
+-----
+Verfication platform: SL210 release
+-----
+Reviewed by:
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405498 | pechervo | 2014-01-08 14:39:56 +0400 (Ср., 08 янв. 2014) | 19 lines
+
+Improved mute/unmute for programm changes according to SL210 implementation
+-----
+Header: Audio
+-----
+Polarion-ID: SL2-15141
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: Improved mute/unmute for programm changes according to SL210 implementation
+-----
+External documentation: Improved mute/unmute for programm changes according to SL210 implementation
+-----
+Verfication platform: SL220 release
+-----
+Merge to: trunk
+-----
+Reviewed by:
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405510 | pechervo | 2014-01-08 15:51:36 +0400 (Ср., 08 янв. 2014) | 17 lines
+
+Improved mute/unmute for programm changes according to SL210 implementation
+-----
+Header: Audio
+-----
+Polarion-ID: SL2-15141
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: Improved mute/unmute for programm changes according to SL210 implementation
+-----
+External documentation: Improved mute/unmute for programm changes according to SL210 implementation
+-----
+Verfication platform: SL220 release
+-----
+Reviewed by:
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405777 | pechervo | 2014-01-09 19:02:59 +0400 (Чт., 09 янв. 2014) | 20 lines
+
+Use 'isAudioActive' indication for muting/unmuting audio
+-----
+Header: Audio
+-----
+Polarion-ID: SSL1-4236
+-----
+Variant: sl210
+-----
+API-modification: No
+-----
+Internal documentation: Use 'isAudioActive' indication for muting/unmuting audio
+-----
+External documentation: Use 'isAudioActive' indication for muting/unmuting audio
+-----
+Verfication platform: SL210 release
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405907 | pechervo | 2014-01-10 16:02:02 +0400 (Пт., 10 янв. 2014) | 20 lines
+
+Use 'isAudioActive' indication for muting/unmuting audio
+-----
+Header: Audio
+-----
+Polarion-ID: SSL1-4607
+-----
+Variant: le650
+-----
+API-modification: No
+-----
+Internal documentation: Use 'isAudioActive' indication for muting/unmuting audio
+-----
+External documentation: Use 'isAudioActive' indication for muting/unmuting audio
+-----
+Verfication platform: le650 develop
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407614 | pechervo | 2014-01-23 11:43:52 +0400 (Чт., 23 янв. 2014) | 21 lines
+
+Logic for selecting audio info from BSP and MSP improved
+-----
+Header: Audio
+-----
+Polarion-ID: SL2-13925 SL2-12847 SL2-11269
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: Logic for selecting audio info from BSP and MSP improved
+-----
+External documentation: Logic for selecting audio info from BSP and MSP improved
+-----
+Verfication platform: sl220 develop
+-----
+Merge to: trunk
+-----
+Source move/rename: No
+----
+Reviewed by:
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407625 | pechervo | 2014-01-23 12:34:23 +0400 (Чт., 23 янв. 2014) | 21 lines
+
+Update sound mode when audio sink is changed
+-----
+Header: Audio
+-----
+Polarion-ID: SL2-9942
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: Update sound mode when audio sink is changed
+-----
+External documentation: Update sound mode when audio sink is changed
+-----
+Verfication platform: sl220 develop
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+----
+Reviewed by:
+------------------------------------------------------------------------

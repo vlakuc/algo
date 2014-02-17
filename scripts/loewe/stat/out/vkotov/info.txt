@@ -1,0 +1,920 @@
+------------------------------------------------------------------------
+r372333 | vkotov | 2013-09-03 13:23:25 +0400 (Вт., 03 сент. 2013) | 20 lines
+
+Added console output coloring opportunity for easyexp frame application.
+-----
+Header: System
+-----
+Polarion-ID: 
+-----
+Variant: sl200
+-----
+API-modification: No
+-----
+Internal documentation: 
+-----
+External documentation:
+-----
+Verfication platform: sl220
+-----
+Merge to: trunk
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r372335 | vkotov | 2013-09-03 13:26:03 +0400 (Вт., 03 сент. 2013) | 20 lines
+
+ModelProxy refactoring. Extracted FrameAppNotifier class - BIZ changes notifier for easyexp frame application.
+-----
+Header: System
+-----
+Polarion-ID: 
+-----
+Variant: sl200
+-----
+API-modification: No
+-----
+Internal documentation: 
+-----
+External documentation:
+-----
+Verfication platform: sl220
+-----
+Merge to: trunk
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r372449 | vkotov | 2013-09-03 16:34:39 +0400 (Вт., 03 сент. 2013) | 21 lines
+
+Merge from easyexp branch (r370374:r372206).
+-----
+Header: System
+-----
+Polarion-ID:
+-----
+Variant: sl200
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verfication platform: sl200
+-----
+Merge to: trunk
+-----
+Reviewed by:
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r375092 | vkotov | 2013-09-11 16:21:22 +0400 (Ср., 11 сент. 2013) | 20 lines
+
+Fixed biz module crash.
+-----
+Header: System
+-----
+Polarion-ID: -
+-----
+Variant: sl200
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verfication platform: sl200
+-----
+Merge to: trunk
+-----
+Reviewed by: Panchishen Gleb (Luxoft), Trenkin Oleg (Luxoft)
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r375731 | vkotov | 2013-09-12 17:49:47 +0400 (Чт., 12 сент. 2013) | 20 lines
+
+Implemented android module reconnect.
+-----
+Header: System
+-----
+Polarion-ID: -
+-----
+Variant: sl200
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verfication platform: sl200
+-----
+Merge to: trunk
+-----
+Reviewed by: Gulaev Igor (Luxoft), Trenkin Oleg (Luxoft)
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376256 | vkotov | 2013-09-13 18:29:58 +0400 (Пт., 13 сент. 2013) | 20 lines
+
+Implemented android module reconnect (if module initiate disconnect).
+-----
+Header: System
+-----
+Polarion-ID: -
+-----
+Variant: sl200
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verfication platform: sl200
+-----
+Merge to: trunk
+-----
+Reviewed by: Gulaev Igor (Luxoft), Trenkin Oleg (Luxoft)
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376715 | vkotov | 2013-09-17 11:35:04 +0400 (Вт., 17 сент. 2013) | 20 lines
+
+Implemented correct values for "event <id> ..." message (RC commands forwarding).
+-----
+Header: System
+-----
+Polarion-ID: SL2-13572
+-----
+Variant: sl200
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verfication platform: sl200
+-----
+Merge to: trunk
+-----
+Reviewed by: Trenkin Oleg (Luxoft)
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r377659 | vkotov | 2013-09-19 13:08:23 +0400 (Чт., 19 сент. 2013) | 20 lines
+
+Forward url string from model-browser component to expmod-biz component.
+-----
+Header: System
+-----
+Polarion-ID: -
+-----
+Variant: sl200
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verfication platform: sl200
+-----
+Merge to: trunk
+-----
+Reviewed by: Trenkin Oleg (Luxoft)
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r377775 | vkotov | 2013-09-19 15:58:38 +0400 (Чт., 19 сент. 2013) | 20 lines
+
+Set network WASU adapter state: CONNECTED when module is registered, DISCONNECTED when module is unregistered.
+-----
+Header: System
+-----
+Polarion-ID: SL2-12893
+-----
+Variant: sl200
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verfication platform: sl200
+-----
+Merge to: trunk
+-----
+Reviewed by: Trenkin Oleg (Luxoft), Panchishen Gleb (Luxoft)
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378184 | vkotov | 2013-09-20 17:09:44 +0400 (Пт., 20 сент. 2013) | 20 lines
+
+Removed redundant spaces.
+-----
+Header: System
+-----
+Polarion-ID: -
+-----
+Variant: sl200
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verfication platform: sl200
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378196 | vkotov | 2013-09-20 17:23:41 +0400 (Пт., 20 сент. 2013) | 20 lines
+
+Fixed module connection drop crash.
+-----
+Header: System
+-----
+Polarion-ID: -
+-----
+Variant: sl200
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verfication platform: sl200
+-----
+Merge to: trunk
+-----
+Reviewed by: Panchishen Gleb (Luxoft)
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378546 | vkotov | 2013-09-23 17:19:45 +0400 (Пн., 23 сент. 2013) | 20 lines
+
+Send into disconnected socket fix.
+-----
+Header: System
+-----
+Polarion-ID: -
+-----
+Variant: sl200
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verfication platform: sl200
+-----
+Merge to: trunk
+-----
+Reviewed by: Trenkin Oleg (Luxoft), Panchishen Gleb (Luxoft)
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378897 | vkotov | 2013-09-24 15:53:04 +0400 (Вт., 24 сент. 2013) | 20 lines
+
+Implemented SW Update progress action for SFB (BIZ layer).
+-----
+Header: System
+-----
+Polarion-ID: SL2-13573
+-----
+Variant: sl200
+-----
+API-modification: No
+-----
+Internal documentation: Implemented SW Update progress action for SFB (BIZ layer).
+-----
+External documentation: Implemented SW Update progress action for SFB (BIZ layer).
+-----
+Verfication platform: sl200
+-----
+Merge to: trunk
+-----
+Reviewed by: Trenkin Oleg (Luxoft)
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r381967 | vkotov | 2013-10-03 15:39:02 +0400 (Чт., 03 окт. 2013) | 20 lines
+
+Issue SFB-2 - Connection lost to SFB after changing network settings fixed.
+-----
+Header: System
+-----
+Polarion-ID: SFB-2
+-----
+Variant: sl200
+-----
+API-modification: No
+-----
+Internal documentation: Issue SFB-2 - Connection lost to SFB after changing network settings fixed.
+-----
+External documentation: Issue SFB-2 - Connection lost to SFB after changing network settings fixed.
+-----
+Verfication platform: sl200
+-----
+Merge to: trunk
+-----
+Reviewed by: Trenkin Oleg (Luxoft)
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r381992 | vkotov | 2013-10-03 17:27:13 +0400 (Чт., 03 окт. 2013) | 20 lines
+
+Response mechanism  from Expansion module to UI RC key handler implemented.
+-----
+Header: System
+-----
+Polarion-ID: SL2-13572
+-----
+Variant: sl200
+-----
+API-modification: No
+-----
+Internal documentation: Response mechanism  from Expansion module to UI RC key handler implemented.
+-----
+External documentation: Response mechanism  from Expansion module to UI RC key handler implemented.
+-----
+Verfication platform: sl200
+-----
+Merge to: trunk
+-----
+Reviewed by: Trenkin Oleg (Luxoft), Panchishen Gleb (Luxoft)
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r382051 | vkotov | 2013-10-04 12:33:56 +0400 (Пт., 04 окт. 2013) | 20 lines
+
+Reset SL2_TVAPI_I32_BROWSER_HBBTV_AVAILABILITY_TEXT flag if we use SFB.
+-----
+Header: System
+-----
+Polarion-ID: SL2-12893
+-----
+Variant: sl200
+-----
+API-modification: No
+-----
+Internal documentation: Reset SL2_TVAPI_I32_BROWSER_HBBTV_AVAILABILITY_TEXT flag if we use SFB.
+-----
+External documentation: Reset SL2_TVAPI_I32_BROWSER_HBBTV_AVAILABILITY_TEXT flag if we use SFB.
+-----
+Verfication platform: sl200
+-----
+Merge to: trunk
+-----
+Reviewed by: Trenkin Oleg (Luxoft)
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r382113 | vkotov | 2013-10-04 14:26:00 +0400 (Пт., 04 окт. 2013) | 20 lines
+
+Fixed compilation error.
+-----
+Header: System
+-----
+Polarion-ID: -
+-----
+Variant: sl200
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verfication platform: sl200
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r384406 | vkotov | 2013-10-11 13:16:08 +0400 (Пт., 11 окт. 2013) | 21 lines
+
+Item SL2-14754 (System does not reach deep standby if no android module is connected) fixed.
+-----
+Header: System
+-----
+Polarion-ID: SL2-14754
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: Item SL2-14754 (System does not reach deep standby if no android module is connected) fixed.
+-----
+External documentation: Item SL2-14754 (System does not reach deep standby if no android module is connected) fixed.
+-----
+Verfication platform: sl220
+-----
+Merge to: trunk
+-----
+Reviewed by: Panchishen Gleb (Luxoft)
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r385748 | vkotov | 2013-10-15 18:27:42 +0400 (Вт., 15 окт. 2013) | 21 lines
+
+Model action id to/from action type conversion implemented.
+-----
+Header: System
+-----
+Polarion-ID: SL2-13918
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation:-
+-----
+External documentation:-
+-----
+Verfication platform: sl220
+-----
+Merge to: trunk
+-----
+Reviewed by: Trenkin Oleg (Luxoft), Panchishen Gleb (Luxoft)
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r389532 | vkotov | 2013-10-25 12:38:14 +0400 (Пт., 25 окт. 2013) | 20 lines
+
+SFB update server address value added and connected to expansion module.
+-----
+Header: System
+-----
+Polarion-ID:
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: SFB update server value added and connected to expansion module.
+-----
+External documentation:
+-----
+Verfication platform: sl220
+-----
+Merge to: trunk
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r389624 | vkotov | 2013-10-25 13:43:26 +0400 (Пт., 25 окт. 2013) | 20 lines
+
+SFB shutdown bug fixed.
+-----
+Header: System
+-----
+Polarion-ID:
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: SFB shutdown bug fixed.
+-----
+External documentation:
+-----
+Verfication platform: sl220
+-----
+Merge to: trunk
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r390628 | vkotov | 2013-10-29 18:26:27 +0400 (Вт., 29 окт. 2013) | 21 lines
+
+Item SL2-14945 (epg night update failed - continuously switching on and off of TV set) fixed.
+-----
+Header: System
+-----
+Polarion-ID: SL2-14945
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: Item SL2-14945 (epg night update failed - continuously switching on and off of TV set) fixed.
+-----
+External documentation: Item SL2-14945 (epg night update failed - continuously switching on and off of TV set) fixed.
+-----
+Verfication platform: sl220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r390735 | vkotov | 2013-10-29 20:11:41 +0400 (Вт., 29 окт. 2013) | 21 lines
+
+Item SL2-14945 (epg night update failed - continuously switching on and off of TV set) fixed.
+-----
+Header: System
+-----
+Polarion-ID: SL2-14945
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: Item SL2-14945 (epg night update failed - continuously switching on and off of TV set) fixed.
+-----
+External documentation: Item SL2-14945 (epg night update failed - continuously switching on and off of TV set) fixed.
+-----
+Verfication platform: sl220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r398366 | vkotov | 2013-11-22 16:55:36 +0400 (Пт., 22 нояб. 2013) | 22 lines
+
+SFB default software update server url was changed to "http://cnandroid.update.loewe.tv"
+-----
+Header: System 
+-----
+Polarion-ID: SL2-15271
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: SFB default software update server url was changed to "http://cnandroid.update.loewe.tv"
+-----
+External documentation: SFB default software update server url was changed to "http://cnandroid.update.loewe.tv"
+-----
+Verfication platform: sl220 
+-----
+Merge to: trunk
+-----
+Reviewed by:
+
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400151 | vkotov | 2013-11-28 18:35:03 +0400 (Чт., 28 нояб. 2013) | 21 lines
+
+Fix for SFB software update settings.
+-----
+Header: System 
+-----
+Polarion-ID: SL2-15271
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl220
+-----
+Merge to: trunk
+-----
+Reviewed by:
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401841 | vkotov | 2013-12-05 16:47:13 +0400 (Чт., 05 дек. 2013) | 21 lines
+
+SFB watch dog was moved into "available" state.
+-----
+Header: System
+-----
+Polarion-ID: SL2-15438
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: SFB watch dog was moved into "available" state.
+-----
+External documentation: SFB watch dog was moved into "available" state.
+-----
+Verfication platform: sl220
+-----
+Merge to: trunk
+-----
+Reviewed by: Joachim Prohaska
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403003 | vkotov | 2013-12-10 13:41:47 +0400 (Вт., 10 дек. 2013) | 21 lines
+
+Implemented "resource unavailable" SFB message handling. Swtich to TV if receive the message.
+-----
+Header: System
+-----
+Polarion-ID: -
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: Implemented "resource unavailable" SFB message handling. Swtich to TV if receive the message.
+-----
+External documentation: Implemented "resource unavailable" SFB message handling. Swtich to TV if receive the message.
+-----
+Verfication platform: sl220
+-----
+Merge to: trunk
+-----
+Reviewed by: Joachim Prohaska (Loewe)
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403074 | vkotov | 2013-12-10 16:14:53 +0400 (Вт., 10 дек. 2013) | 21 lines
+
+Value to control SFB automatic reboot mode was added.
+-----
+Header: System
+-----
+Polarion-ID: -
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: Value to control SFB automatic reboot mode was added.
+-----
+External documentation: Value to control SFB automatic reboot mode was added.
+-----
+Verfication platform: sl220
+-----
+Merge to: trunk
+-----
+Reviewed by: Joachim Prohaska (Loewe)
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404389 | vkotov | 2013-12-17 12:03:36 +0400 (Вт., 17 дек. 2013) | 21 lines
+
+SFB auto reboot implemented. 
+-----
+Header: System
+-----
+Polarion-ID: -
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: SFB auto reboot implemented. 
+-----
+External documentation: SFB auto reboot implemented.
+-----
+Verfication platform: sl220
+-----
+Merge to: trunk
+-----
+Reviewed by: Joachim Prohaska (Loewe)
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405832 | vkotov | 2014-01-10 12:55:33 +0400 (Пт., 10 янв. 2014) | 21 lines
+
+Fix for end key at end of SFB SW update
+-----
+Header: System
+-----
+Polarion-ID: SL2-15589
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: Fix for end key at end of SFB SW update
+-----
+External documentation: Fix for end key at end of SFB SW update
+-----
+Verfication platform: sl220
+-----
+Merge to: trunk
+-----
+Reviewed by: Guenter Pusch (Loewe)
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406655 | vkotov | 2014-01-15 17:54:12 +0400 (Ср., 15 янв. 2014) | 21 lines
+
+Fix for end key end of SFB SW update.
+-----
+Header: System 
+-----
+Polarion-ID: SL2-15589
+-----
+Variant: sl220 
+-----
+API-modification: No
+-----
+Internal documentation: Fix for end key end of SFB SW update.
+-----
+External documentation: Fix for end key end of SFB SW update.
+-----
+Verfication platform: sl220 
+-----
+Merge to: trunk 
+-----
+Reviewed by: Joachim Prohaska (Loewe) 
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408162 | vkotov | 2014-01-28 12:02:26 +0400 (Вт., 28 янв. 2014) | 23 lines
+
+SFB SW update reconnect issue is fixed.
+-----
+Header: System
+-----
+Polarion-ID: -
+-----
+Variant: sl220
+-----
+API-modification: no
+-----
+Internal documentation: SFB SW update reconnect issue is fixed.
+-----
+External documentation: SFB SW update reconnect issue is fixed.
+-----
+Verfication platform: sl220
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: Joachim Prohaska
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408242 | vkotov | 2014-01-28 17:43:56 +0400 (Вт., 28 янв. 2014) | 23 lines
+
+Correct url for SFB SW update server.
+-----
+Header: System
+-----
+Polarion-ID:
+-----
+Variant: sl220
+-----
+API-modification: no
+-----
+Internal documentation: Correct url for SFB SW update server. 
+-----
+External documentation: Correct url for SFB SW update server.
+-----
+Verfication platform: sl220
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by:
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408525 | vkotov | 2014-01-31 11:21:43 +0400 (Пт., 31 янв. 2014) | 23 lines
+
+Switch back to TV channel from SFB borwser / WASU application is fixed.
+-----
+Header: System
+-----
+Polarion-ID: 
+-----
+Variant: sl220
+-----
+API-modification: no
+-----
+Internal documentation: Switch back to TV channel from SFB borwser / WASU application is fixed.
+-----
+External documentation: 
+-----
+Verfication platform: sl220
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: Joachim Prohaska (Loewe)
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409568 | vkotov | 2014-02-06 19:08:33 +0400 (Чт., 06 февр. 2014) | 23 lines
+
+Biz layer interface for SFB service menu was added.
+-----
+Header: System
+-----
+Polarion-ID:
+-----
+Variant: sl220
+-----
+API-modification: yes
+-----
+Internal documentation: Biz layer interface for SFB service menu was added.
+-----
+External documentation: Biz layer interface for SFB service menu was added.
+-----
+Verfication platform: sl220 
+-----
+Merge to: trunk 
+-----
+Source move/rename: yes
+-----
+Reviewed by: Joachim Prohaska (Loewe) 
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409570 | vkotov | 2014-02-06 19:13:59 +0400 (Чт., 06 февр. 2014) | 23 lines
+
+SFB MAC address and software version number system settings sync is implemented.
+-----
+Header: System
+-----
+Polarion-ID:
+-----
+Variant: sl220
+-----
+API-modification: no
+-----
+Internal documentation: SFB MAC address and software version number system settings sync is implemented.
+-----
+External documentation: SFB MAC address and software version number system settings sync is implemented.
+-----
+Verfication platform: sl220
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: Joachim Prohaska (Loewe)
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409689 | vkotov | 2014-02-07 14:20:17 +0400 (Пт., 07 февр. 2014) | 23 lines
+
+SFB system settings sync is enabled.
+-----
+Header: System
+-----
+Polarion-ID:
+-----
+Variant: sl220
+-----
+API-modification: no
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl220 
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by:
+
+
+------------------------------------------------------------------------

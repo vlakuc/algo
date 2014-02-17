@@ -1,0 +1,1704 @@
+------------------------------------------------------------------------
+r371699 | schedelan | 2013-09-02 10:41:53 +0400 (Пн., 02 сент. 2013) | 19 lines
+
+Debug print corrected.
+-----
+Header: AUDIO
+-----
+Polarion-ID: SL2-10035 - wrong  temperatur status  (°C) from SAB2403
+-----
+Variant:  SL220
+-----
+API-modification: No
+-----
+Internal documentation: Debug print corrected.
+-----
+External documentation: -
+-----
+Verfication platform:  sl220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r371711 | schedelan | 2013-09-02 11:29:59 +0400 (Пн., 02 сент. 2013) | 19 lines
+
+Disable limiter for linear amplifier configuration.
+-----
+Header: AUDIO
+-----
+Polarion-ID: SL2-11935 - SAB240x: MODE=3: wrong values are set for dynamic limiting
+-----
+Variant:  SL220
+-----
+API-modification: No
+-----
+Internal documentation: Disable limiter for linear amplifier configuration.
+-----
+External documentation: -
+-----
+Verfication platform:  sl220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r371724 | schedelan | 2013-09-02 11:59:10 +0400 (Пн., 02 сент. 2013) | 19 lines
+
+Limiter must not be activated before the volume shadow register is set the first time.
+-----
+Header: AUDIO
+-----
+Polarion-ID: SL2-11936 - SAB2402: shadow volume register must be written before activating dynamic limiting AND NOT VALUE 00 00	
+-----
+Variant:  SL220
+-----
+API-modification: No
+-----
+Internal documentation: Limiter must not be activated before the volume shadow register is set the first time.
+-----
+External documentation: -
+-----
+Verfication platform:  sl220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r372933 | schedelan | 2013-09-04 17:52:41 +0400 (Ср., 04 сент. 2013) | 19 lines
+
+Improve alarm sounds for connected Hifi AV amplifier.
+-----
+Header: AUDIO
+-----
+Polarion-ID: SL2-12278 - MediaVision as preamplifier: no wake up signal audible
+-----
+Variant:  SL220
+-----
+API-modification: No
+-----
+Internal documentation: Improve alarm sounds for connected Hifi AV amplifier.
+-----
+External documentation: -
+-----
+Verfication platform:  sl220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r374368 | schedelan | 2013-09-10 11:45:46 +0400 (Вт., 10 сент. 2013) | 20 lines
+
+Manual rebasing to https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_CW16:374308
+-----
+Header: All
+-----
+Polarion-ID: - 
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Manual rebasing to https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_CW16:374308
+-----
+External documentation: -
+-----
+Verification platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r375140 | schedelan | 2013-09-11 17:41:20 +0400 (Ср., 11 сент. 2013) | 19 lines
+
+Add missing xkey handling. 
+-----
+Header: Stream Device
+-----
+Polarion-ID: SL2-9283 - FreeView: Create stream device for avstreaming
+-----
+Variant:  SL220
+-----
+API-modification: No
+-----
+Internal documentation: Add missing xkey handling. 
+-----
+External documentation: -
+-----
+Verfication platform:  sl220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376519 | schedelan | 2013-09-16 16:28:40 +0400 (Пн., 16 сент. 2013) | 20 lines
+
+New interface to enable/disable the usage of audio output chains in bsp plugin.
+-----
+Header: BSP Plugin
+-----
+Polarion-ID: 
+SSL1-3539 - [SL210] When Hifi amplifier is active, lipsync is not correct during timeshift or archive playback
+-----
+Variant:  SL210
+-----
+API-modification: Yes
+-----
+Internal documentation: New interface to enable/disable the usage of audio output chains in bsp plugin.
+-----
+External documentation: New interface to enable/disable the usage of audio output chains in bsp plugin.
+-----
+Verfication platform:  sl210
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376896 | schedelan | 2013-09-17 15:37:32 +0400 (Вт., 17 сент. 2013) | 20 lines
+
+Interface stubs added. 
+-----
+Header: BSP Plugin
+-----
+Polarion-ID: 
+SSL1-3539 - [SL210] When Hifi amplifier is active, lipsync is not correct during timeshift or archive playback
+-----
+Variant:  SL210
+-----
+API-modification: No
+-----
+Internal documentation: Interface stubs added. 
+-----
+External documentation: -
+-----
+Verfication platform:  sl210
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376955 | schedelan | 2013-09-17 16:59:16 +0400 (Вт., 17 сент. 2013) | 20 lines
+
+Add audio connection handling in HDR module. 
+-----
+Header: HDR
+-----
+Polarion-ID: 
+SSL1-3539 - [SL210] When Hifi amplifier is active, lipsync is not correct during timeshift or archive playback
+-----
+Variant:  SL210
+-----
+API-modification: No
+-----
+Internal documentation: Add audio connection handling in HDR module. 
+-----
+External documentation: -
+-----
+Verfication platform:  sl210
+-----
+Merge to: trunk
+-----
+Reviewed by: bayeran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376990 | schedelan | 2013-09-17 17:52:00 +0400 (Вт., 17 сент. 2013) | 20 lines
+
+Remove some ALWAYS prints.
+-----
+Header: HDR
+-----
+Polarion-ID: 
+SSL1-3539 - [SL210] When Hifi amplifier is active, lipsync is not correct during timeshift or archive playback
+-----
+Variant:  SL210
+-----
+API-modification: No
+-----
+Internal documentation: Remove some ALWAYS prints.
+-----
+External documentation: -
+-----
+Verfication platform:  sl210
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r377008 | schedelan | 2013-09-17 18:33:24 +0400 (Вт., 17 сент. 2013) | 20 lines
+
+Add audio connection handling in MEDIA module. 
+-----
+Header: AUDIO
+-----
+Polarion-ID: 
+SSL1-3539 - [SL210] When Hifi amplifier is active, lipsync is not correct during timeshift or archive playback
+-----
+Variant:  SL210
+-----
+API-modification: No
+-----
+Internal documentation: Add audio connection handling in MEDIA module. 
+-----
+External documentation: -
+-----
+Verfication platform:  sl210
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r377572 | schedelan | 2013-09-19 10:32:17 +0400 (Чт., 19 сент. 2013) | 20 lines
+
+Interface stubs added. 
+-----
+Header: BSP Plugin
+-----
+Polarion-ID: 
+SSL1-3539 - [SL210] When Hifi amplifier is active, lipsync is not correct during timeshift or archive playback
+-----
+Variant:  SL220
+-----
+API-modification: No
+-----
+Internal documentation: Interface stubs added. 
+-----
+External documentation: -
+-----
+Verfication platform:  sl220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378090 | schedelan | 2013-09-20 13:43:29 +0400 (Пт., 20 сент. 2013) | 19 lines
+
+Wireless DAL module detection code reworked.
+-----
+Header: BSP Plugin
+-----
+Polarion-ID: SL2-14019 - Add support for wireless speaker system (DAL)
+-----
+Variant:  SL220
+-----
+API-modification: No
+-----
+Internal documentation: Wireless DAL module detection code reworked.
+-----
+External documentation: -
+-----
+Verfication platform:  sl220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r379012 | schedelan | 2013-09-24 18:00:23 +0400 (Вт., 24 сент. 2013) | 19 lines
+
+Wireless DAL module detection code reworked. Orchestra 3D detection optimized.
+-----
+Header: BSP Plugin
+-----
+Polarion-ID: SL2-12027 - O3D: 3D Orchestra not detected.
+-----
+Variant:  SL220
+-----
+API-modification: No
+-----
+Internal documentation: Wireless DAL module detection code reworked. Orchestra 3D detection optimized.
+-----
+External documentation: -
+-----
+Verfication platform:  sl220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r379448 | schedelan | 2013-09-25 18:09:35 +0400 (Ср., 25 сент. 2013) | 19 lines
+
+SPDIF TX settings corrected for alarm usecase
+-----
+Header: Audio
+-----
+Polarion-ID: SL2-12278 - MediaVision as preamplifier: no wake up signal audible
+-----
+Variant:  SL220
+-----
+API-modification: No
+-----
+Internal documentation: SPDIF TX settings corrected for alarm usecase
+-----
+External documentation: -
+-----
+Verfication platform:  sl220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r379692 | schedelan | 2013-09-26 12:13:58 +0400 (Чт., 26 сент. 2013) | 19 lines
+
+Apply copy once bits for scart out instead of copy never, if CI allows one further copy. 
+-----
+Header: SCART
+-----
+Polarion-ID: SSL1-3888 - [UPC-Pretest][P1][5404] CGMS-A is set to copy never and macrovision is enabled when EMI is signaled as "10" (copy once) and APS as "11"
+-----
+Variant:  SL210
+-----
+API-modification: No
+-----
+Internal documentation: Apply copy once bits for scart out instead of copy never, if CI allows one further copy. 
+-----
+External documentation: -
+-----
+Verfication platform:  sl210
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r379695 | schedelan | 2013-09-26 12:16:48 +0400 (Чт., 26 сент. 2013) | 19 lines
+
+Apply copy once bits for scart out instead of copy never, if CI allows one further copy. 
+-----
+Header: SCART
+-----
+Polarion-ID: SSL1-3888 - [UPC-Pretest][P1][5404] CGMS-A is set to copy never and macrovision is enabled when EMI is signaled as "10" (copy once) and APS as "11"
+-----
+Variant:  SL210
+-----
+API-modification: No
+-----
+Internal documentation: Apply copy once bits for scart out instead of copy never, if CI allows one further copy. 
+-----
+External documentation: -
+-----
+Verfication platform:  sl210
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r381494 | schedelan | 2013-10-02 12:44:15 +0400 (Ср., 02 окт. 2013) | 25 lines
+
+Merge of revisions 345794,349491,350184,367930,368495,372962,374368
+of https://develop.loewe.de/svn/tvsoft/codebase2011/branches/develop/feature/orchestra3d_feature_CW27
+to https://develop.loewe.de/svn/tvsoft/codebase2011/branches/develop/feature/orchestra3d_feature_CW40
+-----
+Header: AUDIO
+-----
+Polarion-ID: 
+SL2-12597 - 3D Orchestra volume offset for L/R/C/SL/SL/SR/SUB is required 
+SL2-12027 - O3D: 3D Orchestra not detected
+-----
+Variant:  SL220
+-----
+API-modification: Yes
+-----
+Internal documentation: Merge of revisions 345794,349491,350184,367930,368495,372962,374368
+of https://develop.loewe.de/svn/tvsoft/codebase2011/branches/develop/feature/orchestra3d_feature_CW27
+to https://develop.loewe.de/svn/tvsoft/codebase2011/branches/develop/feature/orchestra3d_feature_CW40
+-----
+External documentation: -
+-----
+Verfication platform:  sl220
+-----
+Merge to: -
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r382804 | schedelan | 2013-10-08 16:43:43 +0400 (Вт., 08 окт. 2013) | 19 lines
+
+Evalutate recording mode for scart output and macrovision. 
+-----
+Header: CI
+-----
+Polarion-ID: SL2-14696 - CI+: If recording (timeshift) is running set analogue output to copy no more for copy once URI
+-----
+Variant:  SL22x
+-----
+API-modification: No
+-----
+Internal documentation: Evalutate recording mode for scart output and macrovision. 
+-----
+External documentation: -
+-----
+Verfication platform:  sl22x
+-----
+Merge to: trunk
+-----
+Reviewed by: prohaskajo
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r384105 | schedelan | 2013-10-10 18:19:04 +0400 (Чт., 10 окт. 2013) | 19 lines
+
+ST Patch committed: clock recovery and av sync fixes added. Still problems with PIP.
+-----
+Header: Audio
+-----
+Polarion-ID: STF-828 - Sporadic audio drops in live
+-----
+Variant:  SL22x
+-----
+API-modification: No
+-----
+Internal documentation: ST Patch committed: clock recovery and av sync fixes added. Still problems with PIP.
+-----
+External documentation: -
+-----
+Verfication platform:  sl22x
+-----
+Merge to: trunk
+-----
+Reviewed by: schedela
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r384109 | schedelan | 2013-10-10 18:21:52 +0400 (Чт., 10 окт. 2013) | 19 lines
+
+Avoid speaker mute at BSP player, if no audio ouput chain is connected.
+-----
+Header: Audio
+-----
+Polarion-ID: STF-867 - System is blocked after station change in PiP
+-----
+Variant:  SL22x
+-----
+API-modification: No
+-----
+Internal documentation: Avoid speaker mute at BSP player, if no audio ouput chain is connected.
+-----
+External documentation: -
+-----
+Verfication platform:  sl22x
+-----
+Merge to: trunk
+-----
+Reviewed by: schedela
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r384285 | schedelan | 2013-10-11 10:38:49 +0400 (Пт., 11 окт. 2013) | 20 lines
+
+Manual rebasing to https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40:384227
+-----
+Header: All
+-----
+Polarion-ID: - 
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Manual rebasing to https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40:384227
+-----
+External documentation: -
+-----
+Verification platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r384640 | schedelan | 2013-10-11 17:17:26 +0400 (Пт., 11 окт. 2013) | 19 lines
+
+Continuous traces disabled for debug function_INFO. 
+-----
+Header: Audio
+-----
+Polarion-ID: STF-868 - Disable continuous status prints of BSP debug output in STPLF tuner module
+-----
+Variant:  SL22x
+-----
+API-modification: No
+-----
+Internal documentation: Continuous traces disabled for debug function_INFO. 
+-----
+External documentation: -
+-----
+Verfication platform:  sl22x
+-----
+Merge to: trunk
+-----
+Reviewed by: schedela
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r384992 | schedelan | 2013-10-14 15:29:23 +0400 (Пн., 14 окт. 2013) | 20 lines
+
+Manual rebasing to https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40:384882
+-----
+Header: All
+-----
+Polarion-ID: - 
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Manual rebasing to https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40:384882
+-----
+External documentation: -
+-----
+Verification platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r385010 | schedelan | 2013-10-14 16:03:59 +0400 (Пн., 14 окт. 2013) | 20 lines
+
+Merge changes done for SSL1-3165 to sl220 SW:
+Audio description volume is handed to BSP correctly. Linear conversion between UI volume and BSP volume is done.
+-----
+Header: Audio
+-----
+Polarion-ID: SL2-14778 - UI for AD volume adjustment seems not taking effect	
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: Audio description volume is handed to BSP correctly. Linear conversion between UI volume and BSP volume is done.
+-----
+External documentation: Audio description volume is handed to BSP correctly. Linear conversion between UI volume and BSP volume is done.
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: schedelan
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r385066 | schedelan | 2013-10-14 17:19:44 +0400 (Пн., 14 окт. 2013) | 20 lines
+
+Merge changes done for SSL1-3165 to sl220 branches.
+Audio description volume is handed to BSP correctly. Linear conversion between UI volume and BSP volume is done.
+-----
+Header: Audio
+-----
+Polarion-ID: SL2-14778 - UI for AD volume adjustment seems not taking effect	
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: Audio description volume is handed to BSP correctly. Linear conversion between UI volume and BSP volume is done.
+-----
+External documentation: Audio description volume is handed to BSP correctly. Linear conversion between UI volume and BSP volume is done.
+-----
+Verfication platform: SL220
+-----
+Merge to: -
+-----
+Reviewed by: schedelan
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r385078 | schedelan | 2013-10-14 17:29:07 +0400 (Пн., 14 окт. 2013) | 20 lines
+
+Merge changes done for SSL1-3165 to sl220 branches.
+Audio description volume is handed to BSP correctly. Linear conversion between UI volume and BSP volume is done.
+-----
+Header: Audio
+-----
+Polarion-ID: SL2-14778 - UI for AD volume adjustment seems not taking effect	
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: Audio description volume is handed to BSP correctly. Linear conversion between UI volume and BSP volume is done.
+-----
+External documentation: Audio description volume is handed to BSP correctly. Linear conversion between UI volume and BSP volume is done.
+-----
+Verfication platform: SL220
+-----
+Merge to: -
+-----
+Reviewed by: schedelan
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r386384 | schedelan | 2013-10-17 11:26:07 +0400 (Чт., 17 окт. 2013) | 20 lines
+
+Manual rebasing to https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40:386268
+-----
+Header: All
+-----
+Polarion-ID: - 
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Manual rebasing to https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40:386268
+-----
+External documentation: -
+-----
+Verification platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r386746 | schedelan | 2013-10-17 18:39:33 +0400 (Чт., 17 окт. 2013) | 19 lines
+
+i2c: 25kHz mode enabled.
+-----
+Header: Audio
+-----
+Polarion-ID: STF-875 - I2C: 25kHz not working
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: i2c: 25kHz mode enabled.
+-----
+External documentation: Audio description volume is handed to BSP correctly. Linear conversion between UI volume and BSP volume is done.
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: bayeran
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r386892 | schedelan | 2013-10-18 09:56:40 +0400 (Пт., 18 окт. 2013) | 20 lines
+
+BSP changes committed: i2c: 25kHz mode enabled.
+-----
+Header: Audio
+-----
+Polarion-ID: STF-875 - I2C: 25kHz not working
+SL2-12597 - 3D Orchestra volume offset for L/R/C/SL/SL/SR/SUB is required 
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: BSP changes committed: i2c: 25kHz mode enabled.
+-----
+External documentation: -
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r386899 | schedelan | 2013-10-18 10:09:05 +0400 (Пт., 18 окт. 2013) | 19 lines
+
+halaudio debug outputs optimized - now there are subids introduced used for the different modules
+-----
+Header: Audio
+-----
+Polarion-ID: SL2-12597 - 3D Orchestra volume offset for L/R/C/SL/SL/SR/SUB is required 
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: halaudio debug outputs optimized - now there are subids introduced used for the different modules
+-----
+External documentation: -
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r386904 | schedelan | 2013-10-18 10:22:02 +0400 (Пт., 18 окт. 2013) | 20 lines
+
+Manual rebasing to https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40:386870
+-----
+Header: All
+-----
+Polarion-ID: - 
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Manual rebasing to https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40:386870
+-----
+External documentation: -
+-----
+Verification platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r386995 | schedelan | 2013-10-18 12:16:15 +0400 (Пт., 18 окт. 2013) | 20 lines
+
+Manual rebasing to https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40:386990
+-----
+Header: All
+-----
+Polarion-ID: - 
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Manual rebasing to https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40:386990
+-----
+External documentation: -
+-----
+Verification platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r387053 | schedelan | 2013-10-18 12:56:49 +0400 (Пт., 18 окт. 2013) | 19 lines
+
+Merge changes from development branch to v2.3.x branch. 
+-----
+Header: Audio
+-----
+Polarion-ID: SL2-12597 - 3D Orchestra volume offset for L/R/C/SL/SL/SR/SUB is required 
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: Merge changes from development branch to v2.3.x branch. 
+-----
+External documentation: -
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r387559 | schedelan | 2013-10-21 14:43:55 +0400 (Пн., 21 окт. 2013) | 19 lines
+
+Set orchestra 3d volume to minimum before the transmitter switched off.
+-----
+Header: Audio
+-----
+Polarion-ID: SL2-11946 - O3D: Volume peak audible when switching to 3D Orchestra
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: Set orchestra 3d volume to minimum before the transmitter switched off.
+-----
+External documentation: -
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r387612 | schedelan | 2013-10-21 15:43:26 +0400 (Пн., 21 окт. 2013) | 19 lines
+
+Increase infineon amplifier softmute speed.
+-----
+Header: Audio
+-----
+Polarion-ID: SL2-13585 - Orchestra 3D: Center speaker unmuted up to one second after orchestra speaker
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: SL2-13585 - Orchestra 3D: Center speaker unmuted up to one second after orchestra speaker
+-----
+External documentation: -
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r389743 | schedelan | 2013-10-25 16:37:00 +0400 (Пт., 25 окт. 2013) | 20 lines
+
+Handle DTS correctly for HDMI. 
+-----
+Header: Audio
+-----
+Polarion-ID: STF-886 - No DTS sound on HDMI
+SL2-14920 - No DTS sound via HDMI
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: Handle DTS correctly for HDMI.
+-----
+External documentation: Handle DTS correctly for HDMI.
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: schedelst
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r392739 | schedelan | 2013-11-06 14:21:53 +0400 (Ср., 06 нояб. 2013) | 19 lines
+
+STA333 Register settings corrected. Conifgure channel output to FFX mode.
+-----
+Header: Audio
+-----
+Polarion-ID: SSL1-4440 - [SL210] Audio noise on speakers
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: STA333 Register settings corrected. Conifgure channel output to FFX mode.
+-----
+External documentation: -
+-----
+Verfication platform: SL210
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399697 | schedelan | 2013-11-27 16:10:24 +0400 (Ср., 27 нояб. 2013) | 19 lines
+
+Suppress the configuration of AUX speaker in media playback usecase to avoid bandwidth problems in the audio output.
+-----
+Header: Audio
+-----
+Polarion-ID: SSL1-4646 - [sl210] headphone may be disturbed with selected HiFi amplifier
+-----
+Variant: sl210
+-----
+API-modification: No
+-----
+Internal documentation: Suppress the configuration of AUX speaker in media playback usecase to avoid bandwidth problems in the audio output.
+-----
+External documentation: -
+-----
+Verfication platform: SL210
+-----
+Merge to: -
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399787 | schedelan | 2013-11-27 19:06:50 +0400 (Ср., 27 нояб. 2013) | 21 lines
+
+fix 3 different issues regarding delayed audio (see comments in polarionfor details).
+-----
+Header: BSP
+-----
+Polarion-ID: SSL1-4645 - Sometimes no audio for long time after channel change.
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: fix 3 different issues regarding delayed audio (see comments in polarionfor details).
+-----
+External documentation: fix 3 different issues regarding delayed audio (see comments in polarionfor details).
+-----
+Verfication platform: SL210 debug
+-----
+Merge to:
+-----
+Reviewed by: aschedel 
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400162 | schedelan | 2013-11-28 18:51:12 +0400 (Чт., 28 нояб. 2013) | 19 lines
+
+Fix regression: enable main speaker mute again. 
+-----
+Header: Audio
+-----
+Polarion-ID: SSL1-3559 - [SL210] Sporadic audio skips in live
+-----
+Variant: sl210
+-----
+API-modification: No
+-----
+Internal documentation: Fix regression: enable main speaker mute again. 
+-----
+External documentation: Fix regression: enable main speaker mute again. 
+----- 
+Verfication platform: SL210 debug
+-----
+Merge to: -
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401999 | schedelan | 2013-12-05 19:50:57 +0400 (Чт., 05 дек. 2013) | 19 lines
+
+Former workarounds removed. Continuous check for Orchestra module added if no orchestra was detected.
+-----
+Header: Audio
+-----
+Polarion-ID: SL2-12027 - O3D: 3D Orchestra not detected.
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: Former workarounds removed. Continuous check for Orchestra module added if no orchestra was detected.
+-----
+External documentation: -
+----- 
+Verfication platform: SL220 release
+-----
+Merge to: trunk
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r402066 | schedelan | 2013-12-06 11:18:14 +0400 (Пт., 06 дек. 2013) | 19 lines
+
+Former workarounds removed. Continuous check for Orchestra module added if no orchestra was detected.
+-----
+Header: Audio
+-----
+Polarion-ID: SL2-12027 - O3D: 3D Orchestra not detected.
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: Former workarounds removed. Continuous check for Orchestra module added if no orchestra was detected.
+-----
+External documentation: -
+----- 
+Verfication platform: SL220 release
+-----
+Merge to: trunk
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r402087 | schedelan | 2013-12-06 12:31:47 +0400 (Пт., 06 дек. 2013) | 19 lines
+
+Former workarounds removed. Continuous check for Orchestra module added if no orchestra was detected.
+-----
+Header: Audio
+-----
+Polarion-ID: SL2-12027 - O3D: 3D Orchestra not detected.
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: Former workarounds removed. Continuous check for Orchestra module added if no orchestra was detected.
+-----
+External documentation: -
+----- 
+Verfication platform: SL220 release
+-----
+Merge to: trunk
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r402250 | schedelan | 2013-12-06 16:13:10 +0400 (Пт., 06 дек. 2013) | 19 lines
+
+Bypass MSPM postprocessor, if virtualization is active.
+-----
+Header: Audio
+-----
+Polarion-ID: SL2-15398 - No Sound From Subwoofer When Virtualise is Aktive Mode (3), (4) and (5)
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: Bypass MSPM postprocessor, if virtualization is active.
+-----
+External documentation: -
+----- 
+Verfication platform: SL220 
+-----
+Merge to: trunk
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r402382 | schedelan | 2013-12-06 18:55:23 +0400 (Пт., 06 дек. 2013) | 20 lines
+
+shell command hts_rf added.
+-----
+Header: Audio
+-----
+Polarion-ID: SL2-15397 - O3D: Loshell Command Is Required For 3D-Orchestra For CCC Aproval
+
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: shell command hts_rf added.
+-----
+External documentation: -
+----- 
+Verfication platform: SL220 
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r402808 | schedelan | 2013-12-09 18:50:54 +0400 (Пн., 09 дек. 2013) | 20 lines
+
+Shell command hts_rf added. Merged to stablization branch.
+-----
+Header: Audio
+-----
+Polarion-ID: SL2-15397 - O3D: Loshell Command Is Required For 3D-Orchestra For CCC Aproval
+
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: shell command hts_rf added.
+-----
+External documentation: -
+----- 
+Verfication platform: SL220 
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403008 | schedelan | 2013-12-10 13:45:32 +0400 (Вт., 10 дек. 2013) | 20 lines
+
+Move HTS SSU registration into a local worker thread to avoid blocking behaviour during bootup.
+-----
+Header: Audio
+-----
+Polarion-ID: SL2-15449 - Hal eventhandler hanging for several seconds on startup
+
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: Move HTS SSU registration into a local worker thread to avoid blocking behaviour during bootup.
+-----
+External documentation: -
+----- 
+Verfication platform: SL220 
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403298 | schedelan | 2013-12-11 13:14:03 +0400 (Ср., 11 дек. 2013) | 19 lines
+
+Fix regression: no audio on PCin/AV/AVS
+-----
+Header: Audio
+-----
+Polarion-ID: SSL1-3559 - [SL210] Sporadic audio skips in live
+-----
+Variant: sl210
+-----
+API-modification: No
+-----
+Internal documentation: Fix regression: no audio on PCin/AV/AVS
+-----
+External documentation: Fix regression: no audio on PCin/AV/AVS
+----- 
+Verfication platform: SL210 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404561 | schedelan | 2013-12-17 18:35:06 +0400 (Вт., 17 дек. 2013) | 21 lines
+
+Use correct input and output clocks for analog tuner. 
+-----
+Header: Audio
+-----
+Polarion-ID: 
+SL2-15489 - sound and picture is not in sync at analogue TV stations
+STF-906 - Clockselection for analoge inputs not handled correctly
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: Use correct input and output clocks for analog tuner. 
+-----
+External documentation: Use correct input and output clocks for analog tuner. 
+----- 
+Verfication platform: SL220 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406533 | schedelan | 2014-01-14 20:17:59 +0400 (Вт., 14 янв. 2014) | 19 lines
+
+Suppress multiple interface calls to port::sound. 
+-----
+Header: Audio
+-----
+Polarion-ID: SL2-13925 - The action field is very restless after station change.
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: Suppress multiple interface calls to port::sound. 
+-----
+External documentation: Suppress multiple interface calls to port::sound. 
+----- 
+Verfication platform: SL220 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406682 | schedelan | 2014-01-15 19:27:11 +0400 (Ср., 15 янв. 2014) | 19 lines
+
+Initialize freeman SPDIF output validity flag to 0 (valid).
+-----
+Header: Audio
+-----
+Polarion-ID: SSL1-4744 - Digital Audio Converter does not work on digital output.
+-----
+Variant: sl210
+-----
+API-modification: No
+-----
+Internal documentation: Initialize freeman SPDIF output validity flag to 0 (valid).
+-----
+External documentation: Initialize freeman SPDIF output validity flag to 0 (valid).
+----- 
+Verfication platform: SL210 debug
+----- 
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407321 | schedelan | 2014-01-21 13:28:14 +0400 (Вт., 21 янв. 2014) | 19 lines
+
+Enhance unmute handling for DVB radio services.
+-----
+Header: Audio
+-----
+Polarion-ID: SL2-15650 - DVB radio channel-change: long time (ca. 7s) until sound comes
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: Enhance unmute handling for DVB radio services.
+-----
+External documentation: Enhance unmute handling for DVB radio services.
+----- 
+Verfication platform: SL220 debug
+----- 
+Merge to: trunk
+-----
+Reviewed by: schedelan
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407368 | schedelan | 2014-01-21 15:03:45 +0400 (Вт., 21 янв. 2014) | 19 lines
+
+Enhance unmute handling for DVB radio services.
+-----
+Header: Audio
+-----
+Polarion-ID: SSL1-4752 - DVB radio channel-change: long time (ca. 7s) until sound comes
+-----
+Variant: sl210
+-----
+API-modification: No
+-----
+Internal documentation: Enhance unmute handling for DVB radio services.
+-----
+External documentation: Enhance unmute handling for DVB radio services.
+----- 
+Verfication platform: SL210 debug
+----- 
+Merge to: trunk
+-----
+Reviewed by: schedelan
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408089 | schedelan | 2014-01-27 14:43:09 +0400 (Пн., 27 янв. 2014) | 19 lines
+
+Rear surround channels added to hal audio driver interface. Processing information implemented as bitfield instead of bitmask. 
+-----
+Header: Audio
+-----
+Polarion-ID: HL1-65 - MAPX HAL audio driver implementation
+-----
+Variant: hl1
+-----
+API-modification: Yes
+-----
+Internal documentation: Rear surround channels added to hal audio driver interface. Processing information implemented as bitfield instead of bitmask. 
+-----
+External documentation: Rear surround channels added to hal audio driver interface. Processing information implemented as bitfield instead of bitmask. 
+----- 
+Verfication platform: -
+----- 
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408326 | schedelan | 2014-01-29 13:22:39 +0400 (Ср., 29 янв. 2014) | 19 lines
+
+Invalidate sync status for playback events (pause, seek, speed changes). 
+-----
+Header: Audio
+-----
+Polarion-ID: SL2-15676 - No audio after playback pause.
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: Invalidate sync status for playback events (pause, seek, speed changes). 
+-----
+External documentation: Invalidate sync status for playback events (pause, seek, speed changes). 
+----- 
+Verfication platform: sl220 debug 
+----- 
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408422 | schedelan | 2014-01-30 12:51:40 +0400 (Чт., 30 янв. 2014) | 20 lines
+
+merged r408326 of  https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40:
+ invalidate sync status for playback events (pause, seek, speed changes). 
+-----
+Header: Audio
+-----
+Polarion-ID: SL2-15676 - No audio after playback pause.
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: Invalidate sync status for playback events (pause, seek, speed changes). 
+-----
+External documentation: Invalidate sync status for playback events (pause, seek, speed changes). 
+----- 
+Verfication platform: sl220 debug 
+----- 
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408489 | schedelan | 2014-01-30 16:57:49 +0400 (Чт., 30 янв. 2014) | 21 lines
+
+Initial MAP-X driver skeleton.
+-----
+Header: Audio
+-----
+Polarion-ID: HL1-66 - MAPX audio controller implementation
+-----
+Variant: hl1
+-----
+API-modification: No
+-----
+Internal documentation: Initial MAP-X driver skeleton.
+-----
+External documentation: Initial MAP-X driver skeleton.
+----- 
+Verfication platform: - 
+----- 
+Merge to: trunk
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408531 | schedelan | 2014-01-31 11:56:08 +0400 (Пт., 31 янв. 2014) | 19 lines
+
+Enable module connection. 
+-----
+Header: Audio
+-----
+Polarion-ID: HL1-66 - MAPX audio controller implementation
+-----
+Variant: hl1
+-----
+API-modification: No
+-----
+Internal documentation: Enable module connection. .
+-----
+External documentation: -
+----- 
+Verfication platform: - 
+----- 
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408565 | schedelan | 2014-01-31 13:13:23 +0400 (Пт., 31 янв. 2014) | 19 lines
+
+Invalidate sync status for playback events (pause, seek, speed changes). 
+-----
+Header: Audio
+-----
+Polarion-ID: SSL1-4776 - No audio after playback pause.
+-----
+Variant: sl210
+-----
+API-modification: No
+-----
+Internal documentation: Invalidate sync status for playback events (pause, seek, speed changes). 
+-----
+External documentation: Invalidate sync status for playback events (pause, seek, speed changes). 
+----- 
+Verfication platform: sl210 debug
+----- 
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408634 | schedelan | 2014-01-31 17:03:49 +0400 (Пт., 31 янв. 2014) | 19 lines
+
+Controllerfactory create method reworked. 
+-----
+Header: Audio
+-----
+Polarion-ID: HL1-66 - MAPX audio controller implementation
+-----
+Variant: hl1
+-----
+API-modification: No
+-----
+Internal documentation: Enable module connection. .
+-----
+External documentation: -
+----- 
+Verfication platform: - 
+----- 
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408642 | schedelan | 2014-01-31 17:23:42 +0400 (Пт., 31 янв. 2014) | 19 lines
+
+Master DRC controller connect implemented.
+-----
+Header: Audio
+-----
+Polarion-ID: HL1-66 - MAPX audio controller implementation
+-----
+Variant: hl1
+-----
+API-modification: No
+-----
+Internal documentation: Enable module connection. .
+-----
+External documentation: -
+----- 
+Verfication platform: - 
+----- 
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408883 | schedelan | 2014-02-05 10:59:58 +0400 (Ср., 05 февр. 2014) | 19 lines
+
+Constructor doxygen comment corrected.
+-----
+Header: Audio
+-----
+Polarion-ID: HL1-66 - MAPX audio controller implementation
+-----
+Variant: hl1
+-----
+API-modification: No
+-----
+Internal documentation: Enable module connection. .
+-----
+External documentation: -
+----- 
+Verfication platform: - 
+----- 
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409539 | schedelan | 2014-02-06 18:34:35 +0400 (Чт., 06 февр. 2014) | 20 lines
+
+Avoid audio restart on audio sync loss in playback.
+-----
+Header: Audio
+-----
+Polarion-ID: SL2-15676 - No audio after playback pause.
+STF-912 - No audio after playback pause.
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: Avoid audio restart on audio sync loss in playback.
+-----
+External documentation: Avoid audio restart on audio sync loss in playback.
+----- 
+Verfication platform: sl220 debug
+----- 
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409563 | schedelan | 2014-02-06 19:01:10 +0400 (Чт., 06 февр. 2014) | 19 lines
+
+Avoid audio restart on audio sync loss in playback.
+-----
+Header: Audio
+-----
+Polarion-ID: SSL1-4776 - No audio after playback pause.
+-----
+Variant: sl210
+-----
+API-modification: No
+-----
+Internal documentation: Avoid audio restart on audio sync loss in playback.
+-----
+External documentation: Avoid audio restart on audio sync loss in playback.
+----- 
+Verfication platform: -
+----- 
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409579 | schedelan | 2014-02-06 19:56:31 +0400 (Чт., 06 февр. 2014) | 21 lines
+
+Invalidate audio info event for playback events (pause, seek, speed changes). 
+-----
+Header: Audio
+-----
+Polarion-ID: SL2-15676 - No audio after playback pause.
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: Invalidate audio info event for playback events (pause, seek, speed changes). 
+-----
+External documentation: Invalidate audio info event for playback events (pause, seek, speed changes). 
+----- 
+Verfication platform: sl220 debug
+----- 
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409635 | schedelan | 2014-02-07 12:40:45 +0400 (Пт., 07 февр. 2014) | 21 lines
+
+Invalidate audio info event for playback events (pause, seek, speed changes). 
+-----
+Header: Audio
+-----
+Polarion-ID: SL2-15676 - No audio after playback pause.
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: Invalidate audio info event for playback events (pause, seek, speed changes). 
+-----
+External documentation: Invalidate audio info event for playback events (pause, seek, speed changes). 
+----- 
+Verfication platform: sl220 debug
+----- 
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r410154 | schedelan | 2014-02-11 13:17:22 +0400 (Вт., 11 февр. 2014) | 21 lines
+
+Set correct audio input in MSPM CMP for SPDIF TX.
+-----
+Header: Audio
+-----
+Polarion-ID: SL2-15686 - No sound on sound projector or HiFi amplifier on locked stations after PIN input
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: Set correct audio input in MSPM CMP for SPDIF TX.
+-----
+External documentation: -
+----- 
+Verfication platform: sl220
+----- 
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r410155 | schedelan | 2014-02-11 13:19:10 +0400 (Вт., 11 февр. 2014) | 21 lines
+
+Set correct audio input in MSPM CMP for SPDIF TX.
+-----
+Header: Audio
+-----
+Polarion-ID: SL2-15686 - No sound on sound projector or HiFi amplifier on locked stations after PIN input
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: Set correct audio input in MSPM CMP for SPDIF TX.
+-----
+External documentation: -
+----- 
+Verfication platform: sl220
+----- 
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r410596 | schedelan | 2014-02-13 14:52:15 +0400 (Чт., 13 февр. 2014) | 21 lines
+
+Correct behaviour with connected soundprojector.
+-----
+Header: Audio
+-----
+Polarion-ID: SL2-15686 - No sound on sound projector or HiFi amplifier on locked stations after PIN input
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: Correct behaviour with connected soundprojector.
+-----
+External documentation: -
+----- 
+Verfication platform: sl220
+----- 
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r410597 | schedelan | 2014-02-13 14:55:09 +0400 (Чт., 13 февр. 2014) | 21 lines
+
+Correct behaviour with connected soundprojector.
+-----
+Header: Audio
+-----
+Polarion-ID: SL2-15686 - No sound on sound projector or HiFi amplifier on locked stations after PIN input
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: Correct behaviour with connected soundprojector.
+-----
+External documentation: -
+----- 
+Verfication platform: sl220
+----- 
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r410611 | schedelan | 2014-02-13 16:36:44 +0400 (Чт., 13 февр. 2014) | 21 lines
+
+Set correct audio input in MSPM CMP for SPDIF TX.
+-----
+Header: Audio
+-----
+Polarion-ID: SL2-15686 - No sound on sound projector or HiFi amplifier on locked stations after PIN input
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: Set correct audio input in MSPM CMP for SPDIF TX.
+-----
+External documentation: -
+----- 
+Verfication platform: sl220
+----- 
+Merge to: -
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+------------------------------------------------------------------------

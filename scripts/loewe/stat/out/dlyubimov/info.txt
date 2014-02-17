@@ -1,0 +1,3138 @@
+------------------------------------------------------------------------
+r373346 | dlyubimov | 2013-09-05 15:09:22 +0400 (Чт., 05 сент. 2013) | 22 lines
+
+Small reworks
+-----
+Header: Biz, Homectrl
+-----
+Polarion-ID: -
+-----
+Variant: SL220
+-----
+API-modification: No
+-----
+Internal documentation: Moving observer into separate class.
+Replacing loops with algorithms. Removing excessive code
+-----
+External documentation: HCI: Moving observer into separate class.
+Replacing loops with algorithms. Removing excessive code
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: 
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r373513 | dlyubimov | 2013-09-05 17:56:47 +0400 (Чт., 05 сент. 2013) | 22 lines
+
+Removing excessive code.
+-----
+Header: tisto
+-----
+Polarion-ID: SL2-11514
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation:
+Removing excessive code.
+-----
+External documentation:
+Removing excessive code.
+-----
+Verfication platform: sl220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r374134 | dlyubimov | 2013-09-09 14:47:17 +0400 (Пн., 09 сент. 2013) | 23 lines
+
+Adding aditional exclusiveness flag
+-----
+Header: tisto, homectrl
+-----
+Polarion-ID: SL2-14396
+-----
+Variant: sl2xx
+-----
+API-modification: Yes
+-----
+Internal documentation:
+Adding aditional exclusiveness flag
+-----
+External documentation:
+Adding aditional exclusiveness flag
+-----
+Verfication platform: sl220
+-----
+Merge to: trunk
+-----
+Reviewed by: vkuchuk
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r374208 | dlyubimov | 2013-09-09 17:19:49 +0400 (Пн., 09 сент. 2013) | 22 lines
+
+Applied patch from Vladimir, Kerry
+-----
+Header: Timer Manager
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: yes
+-----
+Internal documentation: 
+Applied patch from Vladimir, Kerry
+-----
+External documentation:
+Applied patch from Vladimir, Kerry
+-----
+Verfication platform: sl220
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r374258 | dlyubimov | 2013-09-09 19:12:32 +0400 (Пн., 09 сент. 2013) | 22 lines
+
+Rebase on V2.1.X_CW@374148
+-----
+Header: -
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: -
+-----
+Internal documentation: 
+Rebase on V2.1.X_CW@374148
+-----
+External documentation:
+Rebase on V2.1.X_CW@374148
+-----
+Verfication platform: sl220
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r374921 | dlyubimov | 2013-09-11 12:54:39 +0400 (Ср., 11 сент. 2013) | 23 lines
+
+Result code introduced
+-----
+Header: Biz
+-----
+Polarion-ID: SL2-14396
+-----
+Variant: sl2xx
+-----
+API-modification: Yes
+-----
+Internal documentation:
+Result code introduced
+-----
+External documentation:
+Adding aditional exclusiveness flag
+-----
+Verfication platform: -
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376488 | dlyubimov | 2013-09-16 15:57:42 +0400 (Пн., 16 сент. 2013) | 22 lines
+
+Starting test app development
+-----
+Header: -
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: -
+-----
+Internal documentation: 
+Starting test app development
+-----
+External documentation:
+Starting test app development
+-----
+Verfication platform: sl220
+-----
+Merge to: trunk
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r377471 | dlyubimov | 2013-09-18 16:52:41 +0400 (Ср., 18 сент. 2013) | 22 lines
+
+Test env draft. Ported service-list test under it
+-----
+Header: -
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: -
+-----
+Internal documentation: 
+Test env draft. Ported service-list test under it
+-----
+External documentation:
+Test env draft. Ported service-list test under it
+-----
+Verfication platform: sl220
+-----
+Merge to: trunk
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r377480 | dlyubimov | 2013-09-18 17:14:36 +0400 (Ср., 18 сент. 2013) | 20 lines
+
+Tiny changes
+-----
+Header: -
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: -
+-----
+Internal documentation: 
+-----
+External documentation:
+-----
+Verfication platform: sl220
+-----
+Merge to: trunk
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r377498 | dlyubimov | 2013-09-18 17:55:02 +0400 (Ср., 18 сент. 2013) | 22 lines
+
+Test env draft.
+-----
+Header: -
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: -
+-----
+Internal documentation: 
+Test env draft.
+-----
+External documentation:
+Test env draft.
+-----
+Verfication platform: sl220
+-----
+Merge to: trunk
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r377653 | dlyubimov | 2013-09-19 13:05:21 +0400 (Чт., 19 сент. 2013) | 22 lines
+
+Adding project file for test env compilation
+-----
+Header: -
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: -
+-----
+Internal documentation: 
+Adding project file for test env compilation
+-----
+External documentation:
+-----
+Verfication platform: host
+Adding project file for test env compilation
+-----
+Merge to: trunk
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r377934 | dlyubimov | 2013-09-19 19:23:43 +0400 (Чт., 19 сент. 2013) | 22 lines
+
+Adding syncrhonious table iterator into test env
+-----
+Header: -
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: -
+-----
+Internal documentation: 
+Adding syncrhonious table iterator into test env
+-----
+External documentation:
+-----
+Verfication platform: host
+Adding syncrhonious table iterator into test env
+-----
+Merge to: trunk
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378021 | dlyubimov | 2013-09-20 11:22:56 +0400 (Пт., 20 сент. 2013) | 22 lines
+
+Small optimisations and fix in biz test env
+-----
+Header: Biz test env
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: -
+-----
+Internal documentation: 
+Small optimisations and fix
+-----
+External documentation:
+Small optimisations and fix
+-----
+Verfication platform: host
+-----
+Merge to: trunk
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378163 | dlyubimov | 2013-09-20 16:30:11 +0400 (Пт., 20 сент. 2013) | 22 lines
+
+Small optimisations and code reusage
+-----
+Header: Biz test env
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: -
+-----
+Internal documentation: 
+Small optimisations and code reusage
+-----
+External documentation:
+Small optimisations and code reusage
+-----
+Verfication platform: host
+-----
+Merge to: trunk
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378414 | dlyubimov | 2013-09-23 12:56:11 +0400 (Пн., 23 сент. 2013) | 22 lines
+
+Moving table iterator creation under get object
+-----
+Header: Biz test env
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: -
+-----
+Internal documentation: 
+Moving table iterator creation under get object
+-----
+External documentation:
+Moving table iterator creation under get object
+-----
+Verfication platform: host
+-----
+Merge to: trunk
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378422 | dlyubimov | 2013-09-23 13:02:55 +0400 (Пн., 23 сент. 2013) | 22 lines
+
+Disabling rec.add which is not added yet 
+-----
+Header: Biz test env
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: -
+-----
+Internal documentation: 
+Disabling rec.add which is not added yet 
+-----
+External documentation:
+Disabling rec.add which is not added yet 
+-----
+Verfication platform: host
+-----
+Merge to: trunk
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378696 | dlyubimov | 2013-09-24 10:18:30 +0400 (Вт., 24 сент. 2013) | 22 lines
+
+Separating promise functionality from observer
+-----
+Header: Biz test env
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: -
+-----
+Internal documentation: 
+Separating promise functionality from observer
+-----
+External documentation:
+Separating promise functionality from observer
+-----
+Verfication platform: host
+-----
+Merge to: trunk
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378712 | dlyubimov | 2013-09-24 10:53:10 +0400 (Вт., 24 сент. 2013) | 22 lines
+
+Removing outdate tesing code
+-----
+Header: Biz test env
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: -
+-----
+Internal documentation: 
+Removing outdate tesing code
+-----
+External documentation:
+Removing outdate tesing code
+-----
+Verfication platform: host
+-----
+Merge to: trunk
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378890 | dlyubimov | 2013-09-24 15:37:34 +0400 (Вт., 24 сент. 2013) | 22 lines
+
+Creating Table wrapper 
+-----
+Header: Biz test env
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: -
+-----
+Internal documentation: 
+Creating Table wrapper 
+-----
+External documentation:
+Creating Table wrapper 
+-----
+Verfication platform: host
+-----
+Merge to: trunk
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r379325 | dlyubimov | 2013-09-25 15:56:49 +0400 (Ср., 25 сент. 2013) | 22 lines
+
+Sync action
+-----
+Header: Biz test env
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: -
+-----
+Internal documentation: 
+Sync action
+-----
+External documentation:
+Sync action
+-----
+Verfication platform: host
+-----
+Merge to: trunk
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r379395 | dlyubimov | 2013-09-25 17:13:04 +0400 (Ср., 25 сент. 2013) | 22 lines
+
+Updating recording test to use standard sync wrappers
+-----
+Header: Biz test env
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: -
+-----
+Internal documentation: 
+Updating recording test to use standard sync wrappers
+-----
+External documentation:
+Updating recording test to use standard sync wrappers
+-----
+Verfication platform: host
+-----
+Merge to: trunk
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r379915 | dlyubimov | 2013-09-26 17:01:08 +0400 (Чт., 26 сент. 2013) | 22 lines
+
+Initial synchronius wrapper for values
+-----
+Header: Biz test env
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: -
+-----
+Internal documentation: 
+Initial synchronius wrapper for values
+-----
+External documentation:
+Initial synchronius wrapper for values
+-----
+Verfication platform: host
+-----
+Merge to: trunk
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r380004 | dlyubimov | 2013-09-26 18:32:38 +0400 (Чт., 26 сент. 2013) | 22 lines
+
+Removing outdate and low level access
+-----
+Header: Biz test env
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: -
+-----
+Internal documentation: 
+Removing outdate and low level access
+-----
+External documentation:
+Removing outdate and low level access
+-----
+Verfication platform: host
+-----
+Merge to: trunk
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r380440 | dlyubimov | 2013-09-27 16:02:13 +0400 (Пт., 27 сент. 2013) | 22 lines
+
+Adding basic functionality for vectors + selfcheck test
+-----
+Header: Biz test env
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: -
+-----
+Internal documentation: 
+Adding basic functionality for vectors + selfcheck test
+-----
+External documentation:
+Adding basic functionality for vectors + selfcheck test
+-----
+Verfication platform: host
+-----
+Merge to: trunk
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r380685 | dlyubimov | 2013-09-30 12:29:31 +0400 (Пн., 30 сент. 2013) | 22 lines
+
+Passing exception in future instead throwing
+-----
+Header: Biz test env
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: -
+-----
+Internal documentation:
+Passing exception in future instead throwing
+-----
+External documentation:
+Passing exception in future instead throwing
+-----
+Verfication platform: host
+-----
+Merge to: trunk
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r380951 | dlyubimov | 2013-09-30 19:00:23 +0400 (Пн., 30 сент. 2013) | 22 lines
+
+Fixing exception, removing duplicated code.
+-----
+Header: Biz test env
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: -
+-----
+Internal documentation:
+Fixing exception, removing duplicated code.
+-----
+External documentation:
+Fixing exception, removing duplicated code.
+-----
+Verfication platform: host
+-----
+Merge to: trunk
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r381118 | dlyubimov | 2013-10-01 13:07:43 +0400 (Вт., 01 окт. 2013) | 24 lines
+
+Moving basic premitives into core folders, common folder is for high level abstractions
+-----
+Header: Biz test env
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: -
+-----
+Internal documentation:
+Moving basic premitives into core folders, common folder is for high level abstractions.
+Adding some typedefs for convenience.
+-----
+External documentation:
+Moving basic premitives into core folders, common folder is for high level abstractions.
+Adding some typedefs for convenience.
+-----
+Verfication platform: host
+-----
+Merge to: trunk
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r381357 | dlyubimov | 2013-10-01 18:38:21 +0400 (Вт., 01 окт. 2013) | 22 lines
+
+Initial implementation of TimerManager
+-----
+Header: Biz test env
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: -
+-----
+Internal documentation:
+Initial implementation of TimerManager
+-----
+External documentation:
+Initial implementation of TimerManager
+-----
+Verfication platform: host
+-----
+Merge to: trunk
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r381661 | dlyubimov | 2013-10-02 16:05:51 +0400 (Ср., 02 окт. 2013) | 22 lines
+
+Creating double recording branch from V2.3.X_CW40@381613
+-----
+Header: 
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: -
+-----
+Internal documentation:
+Creating double recording branch from V2.3.X_CW40@381613
+-----
+External documentation:
+Creating double recording branch from V2.3.X_CW40@381613
+-----
+Verfication platform: host
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r381878 | dlyubimov | 2013-10-02 18:57:54 +0400 (Ср., 02 окт. 2013) | 22 lines
+
+Bringing latest version of Biz test env
+-----
+Header: biz
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: -
+-----
+Internal documentation:
+Bringing latest version of Biz test env
+-----
+External documentation:
+Bringing latest version of Biz test env
+-----
+Verfication platform: host
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r381939 | dlyubimov | 2013-10-03 13:37:10 +0400 (Чт., 03 окт. 2013) | 22 lines
+
+Merge double_rec_V2.1.X_CW16@374218
+-----
+Header: 
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: -
+-----
+Internal documentation:
+Merge double_rec_V2.1.X_CW16@374218
+-----
+External documentation:
+Merge double_rec_V2.1.X_CW16@374218
+-----
+Verfication platform: host
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r381956 | dlyubimov | 2013-10-03 15:14:41 +0400 (Чт., 03 окт. 2013) | 22 lines
+
+Partial merge double_rec_V2.1.X_CW16@377480
+-----
+Header: 
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: -
+-----
+Internal documentation:
+Partial merge double_rec_V2.1.X_CW16@377480
+-----
+External documentation:
+Partial merge double_rec_V2.1.X_CW16@377480
+-----
+Verfication platform: host
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r381959 | dlyubimov | 2013-10-03 15:18:11 +0400 (Чт., 03 окт. 2013) | 22 lines
+
+Removing old  double_rec_V2.1.X_CW16 branch
+-----
+Header: 
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: -
+-----
+Internal documentation:
+Removing old  double_rec_V2.1.X_CW16 branch
+-----
+External documentation:
+Removing old  double_rec_V2.1.X_CW16 branch
+-----
+Verfication platform: host
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r382029 | dlyubimov | 2013-10-04 11:30:57 +0400 (Пт., 04 окт. 2013) | 22 lines
+
+Added initial records-manager
+-----
+Header:
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: -
+-----
+Internal documentation:
+Added initial records-manager
+-----
+External documentation:
+Added initial records-manager
+-----
+Verfication platform: host
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r382253 | dlyubimov | 2013-10-07 11:03:53 +0400 (Пн., 07 окт. 2013) | 22 lines
+
+Moving workaround code into separate function
+-----
+Header:
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: -
+-----
+Internal documentation:
+Moving workaround code into separate function
+-----
+External documentation:
+Moving workaround code into separate function
+-----
+Verfication platform: host
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r382402 | dlyubimov | 2013-10-07 17:13:01 +0400 (Пн., 07 окт. 2013) | 22 lines
+
+Small reworking on program finding
+-----
+Header:
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: -
+-----
+Internal documentation:
+Small reworking on program finding
+-----
+External documentation:
+Small reworking on program finding
+-----
+Verfication platform: host
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r382579 | dlyubimov | 2013-10-08 12:01:59 +0400 (Вт., 08 окт. 2013) | 22 lines
+
+Starting double-recording test development, some changes in common functionality
+-----
+Header:
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: -
+-----
+Internal documentation:
+Starting double-recording test development, some changes in common functionality
+-----
+External documentation:
+Starting double-recording test development, some changes in common functionality
+-----
+Verfication platform: host
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r383249 | dlyubimov | 2013-10-09 15:45:13 +0400 (Ср., 09 окт. 2013) | 22 lines
+
+Mainly debug for racing investigation in table iterator
+-----
+Header:
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: -
+-----
+Internal documentation:
+Mainly debug for racing investigation in table iterator
+-----
+External documentation:
+Mainly debug for racing investigation in table iterator
+-----
+Verfication platform: host
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r384506 | dlyubimov | 2013-10-11 15:02:46 +0400 (Пт., 11 окт. 2013) | 22 lines
+
+Small cleanup
+-----
+Header:
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: -
+-----
+Internal documentation:
+Small cleanup
+-----
+External documentation:
+Small cleanup
+-----
+Verfication platform: host
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r385834 | dlyubimov | 2013-10-16 11:29:04 +0400 (Ср., 16 окт. 2013) | 22 lines
+
+Fixing lead time calculation
+-----
+Header: Biz
+-----
+Polarion-ID: SL2-11138
+-----
+Variant: SL2xx
+-----
+API-modification: -
+-----
+Internal documentation:
+Fixing lead time calculation
+-----
+External documentation:
+Fixing lead time calculation
+-----
+Verfication platform: SL200
+-----
+Merge to: trunk
+-----
+Reviewed by: vkuchuk
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r385967 | dlyubimov | 2013-10-16 14:15:53 +0400 (Ср., 16 окт. 2013) | 22 lines
+
+Rebase https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40@385838
+-----
+Header:
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: -
+-----
+Internal documentation:
+Rebase 381613:385838 https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40
+-----
+External documentation:
+Rebase 381613:385838 https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40
+-----
+Verfication platform: 
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r388656 | dlyubimov | 2013-10-23 13:50:25 +0400 (Ср., 23 окт. 2013) | 23 lines
+
+Fixed incorrect connection rule
+-----
+Header: Pathfinder
+-----
+Polarion-ID: SL2-14807
+-----
+Variant: sl2xx
+-----
+API-modification: NO
+-----
+Internal documentation:
+Fixed connection rule
+-----
+External documentation:
+Fixed connection rule
+-----
+Verfication platform: SL200
+-----
+Merge to: trunk
+-----
+Reviewed by: vkuchuk
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r388803 | dlyubimov | 2013-10-23 19:58:38 +0400 (Ср., 23 окт. 2013) | 23 lines
+
+Fixed incorrect default parameter
+-----
+Header: Biz
+-----
+Polarion-ID: SL2-14950
+-----
+Variant: sl2xx
+-----
+API-modification: NO
+-----
+Internal documentation:
+Fixed incorrect default parameter
+-----
+External documentation:
+Fixed incorrect default parameter
+-----
+Verfication platform: SL200
+-----
+Merge to: trunk
+-----
+Reviewed by: 
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r389313 | dlyubimov | 2013-10-24 18:13:55 +0400 (Чт., 24 окт. 2013) | 24 lines
+
+Rework to start 2 recordings (intermediate)
+-----
+Header:
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: -
+-----
+Internal documentation:
+Rework to start 2 recordings (intermediate)
+Known problem: After second startArchiveRecording call conflict is received from Tisto
+-----
+External documentation:
+Rework to start 2 recordings (intermediate)
+Known problem: After second startArchiveRecording call conflict is received from Tisto
+-----
+Verfication platform: 
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r390070 | dlyubimov | 2013-10-28 15:33:18 +0400 (Пн., 28 окт. 2013) | 26 lines
+
+Merged missing functionality SL2-12907(r355377) for permanent clock
+svn merge -c 355377  https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_CW16
+-----
+Header: Biz
+-----
+Polarion-ID: SSL1-4309, SL2-12907
+-----
+Variant: sl210
+-----
+API-modification: yes
+-----
+Internal documentation:
+Merged missing functionality SL2-12907(r355377) for permanent clock
+svn merge -c 355377  https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_CW16
+-----
+External documentation:
+Merged missing functionality SL2-12907(r355377) for permanent clock
+svn merge -c 355377  https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_CW16
+-----
+Verfication platform: SL210
+-----
+Merge to: -
+-----
+Reviewed by: 
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r390578 | dlyubimov | 2013-10-29 17:13:39 +0400 (Вт., 29 окт. 2013) | 22 lines
+
+Added alarm timer reset on Hotel mode off and on event
+-----
+Header: Biz, Hotel
+-----
+Polarion-ID: SSL1-4309
+-----
+Variant: sl210, sl220
+-----
+API-modification: no
+-----
+Internal documentation:
+Added alarm timer reset on Hotel mode off and on event
+-----
+External documentation:
+Added alarm timer reset on Hotel mode off and on event
+-----
+Verfication platform: sl210, sl220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r390635 | dlyubimov | 2013-10-29 18:34:31 +0400 (Вт., 29 окт. 2013) | 24 lines
+
+Merge V2.3.X_CW40@r390578
+-----
+Header: Biz, Hotel
+-----
+Polarion-ID: SSL1-4309
+-----
+Variant: sl210, sl220
+-----
+API-modification: no
+-----
+Internal documentation:
+Merged alarm timer reset call on hotel mode off/on event
+svn merge -c 390578 https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40
+-----
+External documentation:
+Merged alarm timer reset call on hotel mode off/on event
+svn merge -c 390578 https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40
+-----
+Verfication platform: sl210, sl220
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r390661 | dlyubimov | 2013-10-29 19:04:03 +0400 (Вт., 29 окт. 2013) | 24 lines
+
+Merge V2.3.X_CW40@r390578
+-----
+Header: Biz, Hotel
+-----
+Polarion-ID: SSL1-4309
+-----
+Variant: sl210, sl220
+-----
+API-modification: no
+-----
+Internal documentation:
+Merged alarm timer reset call on hotel mode off/on event
+svn merge -c 390578 https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40
+-----
+External documentation:
+Merged alarm timer reset call on hotel mode off/on event
+svn merge -c 390578 https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40
+-----
+Verfication platform: sl210, sl220
+-----
+Merge to: 
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r390723 | dlyubimov | 2013-10-29 19:59:53 +0400 (Вт., 29 окт. 2013) | 22 lines
+
+Rebase on r390488
+-----
+Header:
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: -
+-----
+Internal documentation:
+svn merge -r 385838:390488 https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40
+-----
+External documentation:
+svn merge -r 385838:390488 https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40
+-----
+Verfication platform: 
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r393814 | dlyubimov | 2013-11-08 15:40:03 +0400 (Пт., 08 нояб. 2013) | 22 lines
+
+Creating branch from V2.3.X_CW40@393757 for work on SL2-5283
+-----
+Header: biz
+-----
+Polarion-ID: SL2-5283
+-----
+Variant: sl2xx
+-----
+API-modification: -
+-----
+Internal documentation:
+Creating branch from V2.3.X_CW40@393757 for work on SL2-5283
+-----
+External documentation:
+Creating branch from V2.3.X_CW40@393757 for work on SL2-5283
+-----
+Verfication platform: 
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r393848 | dlyubimov | 2013-11-08 16:41:06 +0400 (Пт., 08 нояб. 2013) | 22 lines
+
+Initial version of state machine controlling low and high band
+-----
+Header: biz
+-----
+Polarion-ID: SL2-5283
+-----
+Variant: sl2xx
+-----
+API-modification: Yes
+-----
+Internal documentation:
+Initial version of state machine controlling low and high band
+-----
+External documentation:
+Initial version of state machine controlling low and high band
+-----
+Verfication platform: 
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r395044 | dlyubimov | 2013-11-13 09:16:19 +0400 (Ср., 13 нояб. 2013) | 22 lines
+
+Mainly test scenario
+-----
+Header: biz
+-----
+Polarion-ID: SL2-5283
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation:
+Test scenario
+-----
+External documentation:
+Test scenario
+-----
+Verfication platform: 
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r395248 | dlyubimov | 2013-11-13 15:16:35 +0400 (Ср., 13 нояб. 2013) | 22 lines
+
+Moving state synchronisation on callbacks
+-----
+Header: biz
+-----
+Polarion-ID: SL2-5283
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation:
+Moving state synchronisation on callbacks
+-----
+External documentation:
+Moving state synchronisation on callbacks
+-----
+Verfication platform: 
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r395290 | dlyubimov | 2013-11-13 16:29:10 +0400 (Ср., 13 нояб. 2013) | 22 lines
+
+Copyrights
+-----
+Header: biz
+-----
+Polarion-ID: SL2-5283
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation:
+Copyrights
+-----
+External documentation:
+Copyrights
+-----
+Verfication platform: 
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r395318 | dlyubimov | 2013-11-13 17:11:49 +0400 (Ср., 13 нояб. 2013) | 22 lines
+
+State machine fix
+-----
+Header: biz
+-----
+Polarion-ID: SL2-5283
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation:
+State machine fix
+-----
+External documentation:
+State machine fix
+-----
+Verfication platform: 
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r395738 | dlyubimov | 2013-11-14 16:18:00 +0400 (Чт., 14 нояб. 2013) | 24 lines
+
+Rebase on V2.3.X_CW40@r395680
+-----
+Header: biz
+-----
+Polarion-ID: SL2-5283
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation:
+Rebase on V2.3.X_CW40@r395680
+svn merge -r 393757:395680 https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40
+-----
+External documentation:
+Rebase on V2.3.X_CW40@r395680
+svn merge -r 393757:395680 https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40
+-----
+Verfication platform: 
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r395794 | dlyubimov | 2013-11-14 17:23:37 +0400 (Чт., 14 нояб. 2013) | 22 lines
+
+Improving antenna test
+-----
+Header: biz
+-----
+Polarion-ID: SL2-5283
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation:
+Improving antenna test
+-----
+External documentation:
+Improving antenna test
+-----
+Verfication platform: 
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r395842 | dlyubimov | 2013-11-14 18:03:26 +0400 (Чт., 14 нояб. 2013) | 24 lines
+
+Modifying low and high band logic
+-----
+Header: biz
+-----
+Polarion-ID: SL2-5283
+-----
+Variant: sl2xx
+-----
+API-modification: Yes
+-----
+Internal documentation:
+Modifying low and high band logic
+svn merge https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40@395680 https://develop.loewe.de/svn/tvsoft/codebase2011/branches/develop/SL2-5283@395794
+-----
+External documentation:
+Modifying low and high band logic
+svn merge https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40@395680 https://develop.loewe.de/svn/tvsoft/codebase2011/branches/develop/SL2-5283@395794
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: vkuchuk
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r396207 | dlyubimov | 2013-11-15 17:50:26 +0400 (Пт., 15 нояб. 2013) | 22 lines
+
+Tiny fix in description
+-----
+Header: biz
+-----
+Polarion-ID: SL2-5283
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation:
+Tiny fix in description
+-----
+External documentation:
+Tiny fix in description
+-----
+Verfication platform: -
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r396262 | dlyubimov | 2013-11-15 19:34:18 +0400 (Пт., 15 нояб. 2013) | 22 lines
+
+Rebase on r396207
+-----
+Header:
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: -
+-----
+Internal documentation:
+svn merge -r 390488:396207 https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40
+-----
+External documentation:
+svn merge -r 390488:396207 https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40
+-----
+Verfication platform: 
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r396542 | dlyubimov | 2013-11-18 15:58:43 +0400 (Пн., 18 нояб. 2013) | 22 lines
+
+Disabled some changes from merge for compilation
+-----
+Header: biz
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: -
+-----
+Internal documentation:
+Disabled some changes from merge for compilation
+-----
+External documentation:
+Disabled some changes from merge for compilation
+-----
+Verfication platform: 
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r397161 | dlyubimov | 2013-11-20 11:15:32 +0400 (Ср., 20 нояб. 2013) | 22 lines
+
+Dissecting monolith
+-----
+Header: biz
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: -
+-----
+Internal documentation:
+Dissecting monolith
+-----
+External documentation:
+Dissecting monolith
+-----
+Verfication platform: SL220
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r397261 | dlyubimov | 2013-11-20 14:04:54 +0400 (Ср., 20 нояб. 2013) | 22 lines
+
+Removing duplicated code
+-----
+Header: biz
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: -
+-----
+Internal documentation:
+Removing duplicated code
+-----
+External documentation:
+Removing duplicated code
+-----
+Verfication platform: SL220
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399373 | dlyubimov | 2013-11-26 15:58:39 +0400 (Вт., 26 нояб. 2013) | 22 lines
+
+Reimplemented outdated timer removal
+-----
+Header: biz
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: -
+-----
+Internal documentation:
+Reimplemented outdated timer removal
+-----
+External documentation:
+Reimplemented outdated timer removal
+-----
+Verfication platform: SL220
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399488 | dlyubimov | 2013-11-26 19:31:56 +0400 (Вт., 26 нояб. 2013) | 22 lines
+
+Remove outdated code
+-----
+Header: biz
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: -
+-----
+Internal documentation:
+Remove outdated code
+-----
+External documentation:
+Remove outdated code
+-----
+Verfication platform: SL220
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399653 | dlyubimov | 2013-11-27 14:37:25 +0400 (Ср., 27 нояб. 2013) | 22 lines
+
+Separating conflict list result arguments list creation
+-----
+Header: biz
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: -
+-----
+Internal documentation:
+Separating conflict list result arguments list creation
+-----
+External documentation:
+Separating conflict list result arguments list creation
+-----
+Verfication platform: SL220
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399689 | dlyubimov | 2013-11-27 15:52:31 +0400 (Ср., 27 нояб. 2013) | 22 lines
+
+Reverting incorrect conflict pair result change
+-----
+Header: biz
+-----
+Polarion-ID: -
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation:
+Reverting incorrect conflict pair result change
+-----
+External documentation:
+Reverting incorrect conflict pair result change
+-----
+Verfication platform: sl220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400102 | dlyubimov | 2013-11-28 17:49:37 +0400 (Чт., 28 нояб. 2013) | 22 lines
+
+Bringing up old api
+-----
+Header: biz
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: Yes
+-----
+Internal documentation:
+Bringing up old api
+-----
+External documentation:
+Bringing up old api
+-----
+Verfication platform: SL220
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400431 | dlyubimov | 2013-11-29 17:30:58 +0400 (Пт., 29 нояб. 2013) | 22 lines
+
+Lead and Trailing time calculation. Rescheduling changes
+-----
+Header: biz
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation:
+Lead and Trailing time calculation. Rescheduling changes
+-----
+External documentation:
+Lead and Trailing time calculation. Rescheduling changes
+-----
+Verfication platform: SL220
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400489 | dlyubimov | 2013-11-29 20:40:51 +0400 (Пт., 29 нояб. 2013) | 22 lines
+
+Small fix for reserve call to avoid crash
+-----
+Header: biz
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation:
+Small fix for reserve call to avoid crash
+-----
+External documentation:
+Small fix for reserve call to avoid crash
+-----
+Verfication platform: SL220
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400624 | dlyubimov | 2013-12-02 12:13:42 +0400 (Пн., 02 дек. 2013) | 22 lines
+
+Removing branch
+-----
+Header: biz
+-----
+Polarion-ID: SL2-5283
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation:
+Removing branch
+-----
+External documentation:
+Removing branch
+-----
+Verfication platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400630 | dlyubimov | 2013-12-02 12:22:46 +0400 (Пн., 02 дек. 2013) | 22 lines
+
+Branch from trunk@400272
+-----
+Header: biz
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation:
+Branch from trunk@400272
+-----
+External documentation:
+Branch from trunk@400272
+-----
+Verfication platform: SL220
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400750 | dlyubimov | 2013-12-02 16:10:17 +0400 (Пн., 02 дек. 2013) | 28 lines
+
+Introducing new API for TARA. Merge V2.3.X_CW40@396207 double_rec_V2.3.X_CW40@400489
+-----
+Header: biz
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: Yes
+-----
+Internal documentation:
+Merging changings to bring up on trunk. This reworks to start migration on new API.
+Old API support was left for compatibility and easy migration. Double recording is under development.
+
+svn merge https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40@396207 https://develop.loewe.de/svn/tvsoft/codebase2011/branches/develop/feature/double_rec_V2.3.X_CW40@400489
+-----
+External documentation:
+Merging changings to bring up on trunk. This reworks to start migration on new API.
+Old API support was left for compatibility and easy migration. Double recording is under development.
+
+svn merge https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40@396207 https://develop.loewe.de/svn/tvsoft/codebase2011/branches/develop/feature/double_rec_V2.3.X_CW40@400489
+-----
+Verfication platform: SL220
+-----
+Merge to: 
+-----
+Reviewed by: kuchuk
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401150 | dlyubimov | 2013-12-03 18:55:02 +0400 (Вт., 03 дек. 2013) | 22 lines
+
+Simplify API. Small test draft
+-----
+Header: biz
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: Yes
+-----
+Internal documentation:
+Simplify API. Small test draft
+-----
+External documentation:
+Simplify API. Small test draft
+-----
+Verfication platform: SL220
+-----
+Merge to:
+-----
+Reviewed by: vkuchuk
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401814 | dlyubimov | 2013-12-05 16:09:39 +0400 (Чт., 05 дек. 2013) | 22 lines
+
+Fixing conflict intervals handling
+-----
+Header: biz
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation:
+Fixing conflict intervals handling
+-----
+External documentation:
+Fixing conflict intervals handling
+-----
+Verfication platform: SL220
+-----
+Merge to: 
+-----
+Reviewed by: vkuchuk
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r402025 | dlyubimov | 2013-12-05 20:29:45 +0400 (Чт., 05 дек. 2013) | 22 lines
+
+Adding defines for jamfiles
+-----
+Header: biz
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation:
+Adding defines for jamfiles
+-----
+External documentation:
+Adding defines for jamfiles
+-----
+Verfication platform: SL220
+-----
+Merge to: 
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r402094 | dlyubimov | 2013-12-06 12:44:18 +0400 (Пт., 06 дек. 2013) | 24 lines
+
+Rebase on trunk@402059
+-----
+Header: 
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation:
+Rebase on trunk@402059
+svn merge -r 400272:402059 https://develop.loewe.de/svn/tvsoft/codebase2011/trunk
+-----
+External documentation:
+Rebase on trunk@402059
+svn merge -r 400272:402059 https://develop.loewe.de/svn/tvsoft/codebase2011/trunk
+-----
+Verfication platform: SL220
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r402121 | dlyubimov | 2013-12-06 13:47:17 +0400 (Пт., 06 дек. 2013) | 22 lines
+
+Creating merge branch from trunk@402059
+-----
+Header: 
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation:
+Creating merge branch from trunk@402059
+-----
+External documentation:
+Creating merge branch from trunk@402059
+-----
+Verfication platform: SL220
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r402169 | dlyubimov | 2013-12-06 14:37:10 +0400 (Пт., 06 дек. 2013) | 34 lines
+
+Introducing new API for double recording and initial support for it
+-----
+Header: Timer, Biz
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: Yes
+-----
+Internal documentation:
+Initial support for double recording.
+Timer conflict resolution API changes with temporary backward compatibility code.
+
+svn merge
+https://develop.loewe.de/svn/tvsoft/codebase2011/trunk@402059
+https://develop.loewe.de/svn/tvsoft/codebase2011/branches/develop/feature/double_rec_trunk@402094
+Ignoring loewe/chassis/sl200/secure-stbsp-sl2-mainline/ changes and oss/lgpl/libdaemon
+-----
+External documentation:
+Initial support for double recording.
+Timer conflict resolution API changes with temporary backward compatibility code.
+
+svn merge
+https://develop.loewe.de/svn/tvsoft/codebase2011/trunk@402059
+https://develop.loewe.de/svn/tvsoft/codebase2011/branches/develop/feature/double_rec_trunk@402094
+Ignoring loewe/chassis/sl200/secure-stbsp-sl2-mainline/ changes and oss/lgpl/libdaemon
+-----
+Verfication platform: SL220
+-----
+Merge to: 
+-----
+Reviewed by: vkuchuk
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r402434 | dlyubimov | 2013-12-06 20:51:17 +0400 (Пт., 06 дек. 2013) | 22 lines
+
+Retrying to create merge branch trunk@402059
+-----
+Header: 
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation:
+Retrying to create merge branch trunk@402059
+-----
+External documentation:
+Retrying to create merge branch trunk@402059
+-----
+Verfication platform: SL220
+-----
+Merge to: 
+-----
+Reviewed by: 
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r402436 | dlyubimov | 2013-12-06 21:29:53 +0400 (Пт., 06 дек. 2013) | 32 lines
+
+Introducing new API for double recording and initial support for it
+-----
+Header: Timer, Biz
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: Yes
+-----
+Internal documentation:
+Initial support for double recording.
+Timer conflict resolution API changes with temporary backward compatibility code.
+
+svn merge https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40@396207 https://develop.loewe.de/svn/tvsoft/codebase2011/branches/develop/feature/double_rec_V2.3.X_CW40@400489
+svn merge https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40@396207 https://develop.loewe.de/svn/tvsoft/codebase2011/branches/develop/feature/double_rec_V2.3.X_CW40@400489
+-----
+External documentation:
+Initial support for double recording.
+Timer conflict resolution API changes with temporary backward compatibility code.
+
+svn merge https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40@396207 https://develop.loewe.de/svn/tvsoft/codebase2011/branches/develop/feature/double_rec_V2.3.X_CW40@400489
+svn merge https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40@396207 https://develop.loewe.de/svn/tvsoft/codebase2011/branches/develop/feature/double_rec_V2.3.X_CW40@400489
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: vkuchuk
+
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403087 | dlyubimov | 2013-12-10 16:54:57 +0400 (Вт., 10 дек. 2013) | 22 lines
+
+Moving biz test-env on boost test
+-----
+Header: Biz
+-----
+Polarion-ID:
+-----
+Variant: SL2xx
+-----
+API-modification: -
+-----
+Internal documentation:
+Moving biz test-env on boost test
+-----
+External documentation:
+Moving biz test-env on boost test
+-----
+Verfication platform: SL200
+-----
+Merge to: trunk
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403134 | dlyubimov | 2013-12-10 18:30:55 +0400 (Вт., 10 дек. 2013) | 22 lines
+
+Reworking timer edit test for boost test
+-----
+Header: Biz
+-----
+Polarion-ID:
+-----
+Variant: SL2xx
+-----
+API-modification: -
+-----
+Internal documentation:
+Reworking timer edit test for boost test
+-----
+External documentation:
+Reworking timer edit test for boost test
+-----
+Verfication platform: SL200
+-----
+Merge to: trunk
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403437 | dlyubimov | 2013-12-11 17:37:52 +0400 (Ср., 11 дек. 2013) | 22 lines
+
+Reworking tests for boost test
+-----
+Header: Biz
+-----
+Polarion-ID:
+-----
+Variant: SL2xx
+-----
+API-modification: -
+-----
+Internal documentation:
+Reworking tests for boost test
+-----
+External documentation:
+Reworking tests for boost test
+-----
+Verfication platform: SL200
+-----
+Merge to: trunk
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403629 | dlyubimov | 2013-12-12 15:58:09 +0400 (Чт., 12 дек. 2013) | 22 lines
+
+Reworking tests for boost test
+-----
+Header: Biz
+-----
+Polarion-ID:
+-----
+Variant: SL2xx
+-----
+API-modification: -
+-----
+Internal documentation:
+Reworking tests for boost test
+-----
+External documentation:
+Reworking tests for boost test
+-----
+Verfication platform: SL200
+-----
+Merge to: trunk
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403660 | dlyubimov | 2013-12-12 16:51:06 +0400 (Чт., 12 дек. 2013) | 22 lines
+
+Creating branch for new hotel mode features from trunk@403247
+-----
+Header:
+-----
+Polarion-ID:
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation:
+Creating branch for new hotel mode features from trunk@403247
+-----
+External documentation:
+Creating branch for new hotel mode features from trunk@403247
+-----
+Verfication platform: SL220
+-----
+Merge to: 
+-----
+Reviewed by: 
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403814 | dlyubimov | 2013-12-13 12:11:24 +0400 (Пт., 13 дек. 2013) | 22 lines
+
+Disabling epg night update in hotel mode with epg "off" state
+-----
+Header: Hotel, Biz, Nightupdate
+-----
+Polarion-ID: SL2-15293, SSL1-4638
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation:
+Disabling epg night update in hotel mode with epg "off" state
+-----
+External documentation:
+Disabling epg night update in hotel mode with epg "off" state
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: 
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404229 | dlyubimov | 2013-12-16 15:03:06 +0400 (Пн., 16 дек. 2013) | 22 lines
+
+Fixed ADL issue and "less susprise" principal violation which is root cause of problem
+-----
+Header: biz
+-----
+Polarion-ID: SL2-15519
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation:
+Fixed ADL violation and "less susprise" principal violation which is root cause of problem
+-----
+External documentation:
+Fixed ADL violation and "less susprise" principal violation which is root cause of problem
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404233 | dlyubimov | 2013-12-16 15:28:02 +0400 (Пн., 16 дек. 2013) | 22 lines
+
+Merged V2.3.X_CW40@404229
+-----
+Header: biz
+-----
+Polarion-ID: SL2-15519
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation:
+Merged V2.3.X_CW40@404229
+-----
+External documentation:
+Merged V2.3.X_CW40@404229
+-----
+Verfication platform: SL220
+-----
+Merge to: 
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404257 | dlyubimov | 2013-12-16 16:46:35 +0400 (Пн., 16 дек. 2013) | 22 lines
+
+Adding separate enum for Welcome Menu and Timeout model value
+-----
+Header: Hotel, Biz
+-----
+Polarion-ID: SL2-15296, SSL1-4632
+-----
+Variant: sl2xx
+-----
+API-modification: Yes
+-----
+Internal documentation:
+Adding separate enum for Welcome Menu and Timeout model value
+-----
+External documentation:
+Adding separate enum for Welcome Menu and Timeout model value
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: 
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404351 | dlyubimov | 2013-12-16 19:11:38 +0400 (Пн., 16 дек. 2013) | 22 lines
+
+Adding  Home screen model value SL2_TVAPI_HOTELMODE_I32_HOME_SCREEN
+-----
+Header: Hotel, Biz
+-----
+Polarion-ID: SL2-14681
+-----
+Variant: sl2xx
+-----
+API-modification: Yes
+-----
+Internal documentation:
+Adding  Home screen model value SL2_TVAPI_HOTELMODE_I32_HOME_SCREEN
+-----
+External documentation:
+Adding  Home screen model value SL2_TVAPI_HOTELMODE_I32_HOME_SCREEN
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: 
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404385 | dlyubimov | 2013-12-17 11:46:53 +0400 (Вт., 17 дек. 2013) | 22 lines
+
+Rebase on trunk@403783
+-----
+Header: 
+-----
+Polarion-ID: 
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation:
+Rebase on trunk@403783
+-----
+External documentation:
+Rebase on trunk@403783
+-----
+Verfication platform: SL220
+-----
+Merge to: 
+-----
+Reviewed by: 
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404391 | dlyubimov | 2013-12-17 12:18:17 +0400 (Вт., 17 дек. 2013) | 24 lines
+
+Rebasing on trunk@403783
+-----
+Header:
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation:
+Rebasing on trunk@403783
+-----
+External documentation:
+Rebasing on trunk@403783
+-----
+Verfication platform: SL220
+-----
+Merge to: 
+-----
+Reviewed by: 
+
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404876 | dlyubimov | 2013-12-19 13:10:18 +0400 (Чт., 19 дек. 2013) | 24 lines
+
+Cutting down branch
+-----
+Header:
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation:
+Cutting down branch
+-----
+External documentation:
+Cutting down branch
+-----
+Verfication platform: SL220
+-----
+Merge to: 
+-----
+Reviewed by: 
+
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404877 | dlyubimov | 2013-12-19 13:12:43 +0400 (Чт., 19 дек. 2013) | 24 lines
+
+Recreating branch from trunk@404868
+-----
+Header:
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation:
+Recreating branch from trunk@404868
+-----
+External documentation:
+Recreating branch from trunk@404868
+-----
+Verfication platform: SL220
+-----
+Merge to: 
+-----
+Reviewed by: 
+
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405036 | dlyubimov | 2013-12-20 15:24:46 +0400 (Пт., 20 дек. 2013) | 22 lines
+
+Removing unsafe and unused container
+-----
+Header:
+-----
+Polarion-ID: -
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation:
+Removing unsafe and unused container
+-----
+External documentation:
+Removing unsafe and unused container
+-----
+Verfication platform: sl220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405117 | dlyubimov | 2013-12-25 18:03:04 +0400 (Ср., 25 дек. 2013) | 22 lines
+
+Implementing conflict search
+-----
+Header: Tisto
+-----
+Polarion-ID: SL2-14433, SL2-15577, SL2-15578
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation:
+Reworking conflict-intervals. Handling Sat antenna checks. A lot of other reworks
+-----
+External documentation:
+Reworking conflict-intervals. Handling Sat antenna checks. A lot of other reworks
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405139 | dlyubimov | 2013-12-26 13:08:38 +0400 (Чт., 26 дек. 2013) | 22 lines
+
+Clean up
+-----
+Header: Tisto
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation:
+Cleanup
+-----
+External documentation:
+Cleanup
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405206 | dlyubimov | 2013-12-31 08:46:26 +0400 (Вт., 31 дек. 2013) | 22 lines
+
+Rebased on trunk@404878
+-----
+Header:
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation:
+Rebased on trunk@404878
+-----
+External documentation:
+Rebased on trunk@404878
+-----
+Verfication platform: SL220
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405207 | dlyubimov | 2013-12-31 12:10:40 +0400 (Вт., 31 дек. 2013) | 22 lines
+
+Fixing build problem with missing include
+-----
+Header:
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation:
+Fixing build problem with missing include
+-----
+External documentation:
+Fixing build problem with missing include
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405697 | dlyubimov | 2014-01-09 14:16:18 +0400 (Чт., 09 янв. 2014) | 26 lines
+
+Cutting down branch
+-----
+Header:
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation:
+Cutting down branch
+-----
+External documentation:
+Cutting down branch
+-----
+Verfication platform: SL220
+-----
+Merge to: 
+-----
+Reviewed by: 
+
+
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405698 | dlyubimov | 2014-01-09 14:18:23 +0400 (Чт., 09 янв. 2014) | 26 lines
+
+Recreating branch from trunk@405629
+-----
+Header:
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation:
+Recreating branch from trunk@405629
+-----
+External documentation:
+Recreating branch from trunk@405629
+-----
+Verfication platform: SL220
+-----
+Merge to: 
+-----
+Reviewed by: 
+
+
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406443 | dlyubimov | 2014-01-14 16:10:24 +0400 (Вт., 14 янв. 2014) | 24 lines
+
+Merge hotelmode_new_features@404257
+-----
+Header: Hotel, Biz
+-----
+Polarion-ID: SL2-15296, SSL1-4632
+-----
+Variant: sl2xx
+-----
+API-modification: Yes
+-----
+Internal documentation:
+Merge hotelmode_new_features@404257
+svn merge -c 404257 https://develop.loewe.de/svn/tvsoft/codebase2011/branches/develop/feature/hotelmode_new_features
+-----
+External documentation:
+Merge hotelmode_new_features@404257
+svn merge -c 404257 https://develop.loewe.de/svn/tvsoft/codebase2011/branches/develop/feature/hotelmode_new_features
+-----
+Verfication platform: SL220
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406620 | dlyubimov | 2014-01-15 16:07:04 +0400 (Ср., 15 янв. 2014) | 24 lines
+
+Merge hotelmode_new_features@404257
+-----
+Header: Hotel, Biz
+-----
+Polarion-ID: SL2-15296, SSL1-4632
+-----
+Variant: sl2xx
+-----
+API-modification: Yes
+-----
+Internal documentation:
+Merge hotelmode_new_features@404257
+svn merge -c 404257 https://develop.loewe.de/svn/tvsoft/codebase2011/branches/develop/feature/hotelmode_new_features
+-----
+External documentation:
+Merge hotelmode_new_features@404257
+svn merge -c 404257 https://develop.loewe.de/svn/tvsoft/codebase2011/branches/develop/feature/hotelmode_new_features
+-----
+Verfication platform: SL220
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406788 | dlyubimov | 2014-01-16 14:51:48 +0400 (Чт., 16 янв. 2014) | 22 lines
+
+Initial version for post/pre recording manager
+-----
+Header: Biz
+-----
+Polarion-ID: SL2-14433, SL2-15579, SL2-15578
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation:
+Initial version for post/pre recording manager
+-----
+External documentation:
+Initial version for post/pre recording manager
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408786 | dlyubimov | 2014-02-04 13:37:43 +0400 (Вт., 04 февр. 2014) | 24 lines
+
+Integrating post/pre recording manager into model
+-----
+Header: Biz
+-----
+Polarion-ID: SL2-14433, SL2-15579, SL2-15578
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation:
+Integrating post/pre recording manager into model
+-----
+External documentation:
+Integrating post/pre recording manager into model
+-----
+Verification platform: sl220
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408882 | dlyubimov | 2014-02-05 10:49:05 +0400 (Ср., 05 февр. 2014) | 25 lines
+
+Rebase on trunk@408646
+-----
+Header: Biz
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation:
+trailingTime = 0 for event based timers was removed till clarified
+Rebase r405629:408646 https://develop.loewe.de/svn/tvsoft/codebase2011/trunk
+-----
+External documentation:
+Rebase r405629:408646 https://develop.loewe.de/svn/tvsoft/codebase2011/trunk
+-----
+Verification platform: sl220
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408916 | dlyubimov | 2014-02-05 12:27:21 +0400 (Ср., 05 февр. 2014) | 24 lines
+
+Fixing small problem with merged code and simplifing it
+-----
+Header: Biz
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation:
+Fixing small problem with merged code and simplifing it
+-----
+External documentation:
+Fixing small problem with merged code and simplifing it
+-----
+Verification platform: sl220
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409822 | dlyubimov | 2014-02-07 19:28:57 +0400 (Пт., 07 февр. 2014) | 26 lines
+
+Starting to move on new tansaction based API 
+-----
+Header: Biz
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl220
+-----
+API-modification: Yes
+-----
+Internal documentation:
+Starting to move on new tansaction based API.
+Wrapper for action to remove duplicated code etc.
+-----
+External documentation:
+Starting to move on new tansaction based API 
+Wrapper for action to remove duplicated code etc.
+-----
+Verification platform: sl220
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409846 | dlyubimov | 2014-02-08 19:28:34 +0400 (Сб., 08 февр. 2014) | 24 lines
+
+Formalizing API and removing duplicated code
+-----
+Header: Biz
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl220
+-----
+API-modification: Yes
+-----
+Internal documentation:
+Formalizing API and removing duplicated code
+-----
+External documentation:
+Formalizing API and removing duplicated code
+-----
+Verification platform: sl220
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409876 | dlyubimov | 2014-02-10 11:17:37 +0400 (Пн., 10 февр. 2014) | 24 lines
+
+Fixed tiny issue with add timer callback. Unified callback for add and edit
+-----
+Header: Biz
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation:
+Fixed tiny issue with add timer callback. Unified callback for add and edit
+-----
+External documentation:
+Fixed tiny issue with add timer callback. Unified callback for add and edit
+-----
+Verification platform: sl220
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409925 | dlyubimov | 2014-02-10 14:56:21 +0400 (Пн., 10 февр. 2014) | 27 lines
+
+Disabling simultanious conflict affecting actions.i
+Adding Stubs for new interface, implementing get current solution.
+-----
+Header: Biz
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation:
+Disabling simultanious conflict affecting actions.
+Adding Stubs for new interface, implementing get current solution
+-----
+External documentation:
+Disabling simultanious conflict affecting actions.
+Adding Stubs for new interface, implementing get current solution
+-----
+Verification platform: sl220
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r410118 | dlyubimov | 2014-02-11 12:03:06 +0400 (Вт., 11 февр. 2014) | 24 lines
+
+Dummy for modify solution callback. Modifying resolve event to track caller.
+-----
+Header: Biz
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl220
+-----
+API-modification: Yes
+-----
+Internal documentation:
+Dummy for modify solution callback. Modifying resolve event to track caller.
+-----
+External documentation:
+Dummy for modify solution callback. Modifying resolve event to track caller.
+-----
+Verification platform: sl220
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r410194 | dlyubimov | 2014-02-11 15:12:36 +0400 (Вт., 11 февр. 2014) | 24 lines
+
+Solution apply/cancel implementation
+-----
+Header: Biz
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation:
+Solution apply/cancel implementation
+-----
+External documentation:
+Solution apply/cancel implementation
+-----
+Verification platform: sl220
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r410255 | dlyubimov | 2014-02-11 18:04:26 +0400 (Вт., 11 февр. 2014) | 24 lines
+
+Modify solution implemented. Initial implementation for new API seems to work at last
+-----
+Header: Biz
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation:
+Modify solution implemented. Initial implementation for new API seems to work at last
+-----
+External documentation:
+Modify solution implemented. Initial implementation for new API seems to work at last
+-----
+Verification platform: sl220
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r410304 | dlyubimov | 2014-02-11 22:01:06 +0400 (Вт., 11 февр. 2014) | 24 lines
+
+Quick workaround for post recording time calculation
+-----
+Header: Biz
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation:
+Quick workaround for post recording time calculation
+-----
+External documentation:
+Quick workaround for post recording time calculation
+-----
+Verification platform: sl220
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r410321 | dlyubimov | 2014-02-12 11:30:16 +0400 (Ср., 12 февр. 2014) | 24 lines
+
+Rebase on trunk@r410159
+-----
+Header: Biz
+-----
+Polarion-ID: SL2-14433
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation:
+Rebase. Merge r408646:r410159 https://develop.loewe.de/svn/tvsoft/codebase2011/trunk
+-----
+External documentation:
+Rebase. Merge r408646:r410159 https://develop.loewe.de/svn/tvsoft/codebase2011/trunk
+-----
+Verification platform: sl220
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by:
+
+------------------------------------------------------------------------

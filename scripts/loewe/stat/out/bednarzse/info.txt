@@ -1,0 +1,138 @@
+------------------------------------------------------------------------
+r371840 | bednarzse | 2013-09-02 14:04:38 +0400 (Пн., 02 сент. 2013) | 19 lines
+
+merged changes related to SL2-14326 into V2.1.X_stab_CW28
+-----
+Header: 
+-----
+Polarion-ID:  SL2-14326
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+-----
+External documentation:  
+-----
+Verfication platform:  sl220
+-----
+Merge to: -
+-----
+Reviewed by: weggenti
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r371886 | bednarzse | 2013-09-02 15:35:14 +0400 (Пн., 02 сент. 2013) | 19 lines
+
+merged 369685 into stabilization1
+-----
+Header: 
+-----
+Polarion-ID:  SSL1-3635
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+-----
+External documentation:  
+-----
+Verfication platform:  sl220
+-----
+Merge to: -
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r374431 | bednarzse | 2013-09-10 13:00:11 +0400 (Вт., 10 сент. 2013) | 19 lines
+
+implemented model-view-controller, extended tvservice interface - started moving conflict handling to dvbmain
+-----
+Header: 
+-----
+Polarion-ID:  SL2-12614, SL2-12877
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+-----
+External documentation:  
+-----
+Verfication platform:  sl220
+-----
+Merge to: -
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r375213 | bednarzse | 2013-09-11 19:56:06 +0400 (Ср., 11 сент. 2013) | 19 lines
+
+'active' property added for view
+-----
+Header: 
+-----
+Polarion-ID:  SL2-12614
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+-----
+External documentation:  
+-----
+Verfication platform:  sl220
+-----
+Merge to: -
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r375645 | bednarzse | 2013-09-12 16:38:12 +0400 (Чт., 12 сент. 2013) | 19 lines
+
+view tree created
+-----
+Header: 
+-----
+Polarion-ID:  SL2-12614
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+-----
+External documentation:  
+-----
+Verfication platform:  sl220
+-----
+Merge to: -
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r375850 | bednarzse | 2013-09-12 21:51:06 +0400 (Чт., 12 сент. 2013) | 19 lines
+
+created views for several apps
+-----
+Header: 
+-----
+Polarion-ID:  SL2-12614
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+-----
+External documentation:  
+-----
+Verfication platform:  sl220
+-----
+Merge to: -
+-----
+Reviewed by: -
+------------------------------------------------------------------------

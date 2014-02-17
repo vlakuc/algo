@@ -1,0 +1,125 @@
+------------------------------------------------------------------------
+r408871 | asalnikov | 2014-02-04 19:22:33 +0400 (Вт., 04 февр. 2014) | 21 lines
+
+MAP-X Audio I2S input implemented.
+-----
+Header: Audio
+-----
+Polarion-ID: HL1-66 - MAPX audio controller implementation
+-----
+Variant: hl1
+-----
+API-modification: No
+-----
+Internal documentation: MAP-X Audio I2S input implemented.
+-----
+External documentation: MAP-X Audio I2S input implemented.
+----- 
+Verfication platform: - 
+----- 
+Merge to: trunk
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409426 | asalnikov | 2014-02-06 15:54:49 +0400 (Чт., 06 февр. 2014) | 21 lines
+
+MAP-X Audio I2S input added doxygen comments.
+-----
+Header: Audio
+-----
+Polarion-ID: HL1-66 - MAPX audio controller implementation
+-----
+Variant: hl1
+-----
+API-modification: No
+-----
+Internal documentation: MAP-X Audio I2S input added doxygen comments.
+-----
+External documentation: MAP-X Audio I2S input added doxygen comments.
+----- 
+Verfication platform: - 
+----- 
+Merge to: trunk
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409500 | asalnikov | 2014-02-06 17:06:36 +0400 (Чт., 06 февр. 2014) | 21 lines
+
+MAP-X Audio SPDIF input interface added.
+-----
+Header: Audio
+-----
+Polarion-ID: HL1-66 - MAPX audio controller implementation
+-----
+Variant: hl1
+-----
+API-modification: No
+-----
+Internal documentation: MAP-X Audio SPDIF input interface added.
+-----
+External documentation: MAP-X Audio SPDIF input interface added.
+----- 
+Verfication platform: - 
+----- 
+Merge to: trunk
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409504 | asalnikov | 2014-02-06 17:17:07 +0400 (Чт., 06 февр. 2014) | 21 lines
+
+MAP-X Audio SPDIF input interface updated.
+-----
+Header: Audio
+-----
+Polarion-ID: HL1-66 - MAPX audio controller implementation
+-----
+Variant: hl1
+-----
+API-modification: No
+-----
+Internal documentation: MAP-X Audio SPDIF input interface updated.
+-----
+External documentation: MAP-X Audio SPDIF input interface updated.
+----- 
+Verfication platform: - 
+----- 
+Merge to: trunk
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r410261 | asalnikov | 2014-02-11 18:31:10 +0400 (Вт., 11 февр. 2014) | 21 lines
+
+MAP-X Audio I2S input interface updated.                                        
+-----                                                                           
+Header: Audio                                                                   
+-----                                                                           
+Polarion-ID: HL1-66 - MAPX audio controller implementation                      
+-----                                                                           
+Variant: hl1                                                                    
+-----                                                                           
+API-modification: No                                                            
+-----                                                                           
+Internal documentation: MAP-X Audio I2S input interface updated.                
+-----                                                                                                                                                              
+External documentation: MAP-X Audio I2S input interface updated.                
+-----                                                                           
+Verfication platform: -                                                         
+-----                                                                           
+Merge to: trunk                                                                 
+-----                                                                           
+Reviewed by: -                                                                  
+
+
+------------------------------------------------------------------------

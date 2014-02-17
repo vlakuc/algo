@@ -1,0 +1,3201 @@
+------------------------------------------------------------------------
+r372778 | doychevza | 2013-09-04 13:42:47 +0400 (Ср., 04 сент. 2013) | 23 lines
+
+
+merge changes from rev 363515 to 372703.
+-----
+Header: OS
+-----
+Polarion-ID: -
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+merge changes from rev 363515 to 372703.
+-----
+External documentation: 
+merge changes from rev 363515 to 372703.
+-----
+Verification platform: sl220
+-----
+Merge to: -
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r373217 | doychevza | 2013-09-05 12:17:57 +0400 (Чт., 05 сент. 2013) | 22 lines
+
+
+first step toward UBI fastmap.
+-----
+Header: OS
+-----
+Polarion-ID: SL2-14445
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+UBI fastmap backport.
+-----
+External documentation:
+-----
+Verification platform: sl220 final
+-----
+Merge to: -
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r373868 | doychevza | 2013-09-06 16:49:40 +0400 (Пт., 06 сент. 2013) | 23 lines
+
+
+fix get mtd size function.
+-----
+Header: OS
+-----
+Polarion-ID: SL2-14445
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: 
+fix get mtd size function.
+-----
+External documentation: 
+fix get mtd size function.
+-----
+Verification platform: sl220 final
+-----
+Merge to: -
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r373933 | doychevza | 2013-09-06 18:52:02 +0400 (Пт., 06 сент. 2013) | 28 lines
+
+
+- set mtd writebufsize in afm and mtd partition driver.
+- fix ubi build module parameters string conversion.
+- patch: add missing lock in ubi cdev fsync.
+
+-----
+Header: OS
+-----
+Polarion-ID: SL2-14445
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: <text>
+- set mtd writebufsize in afm and mtd partition driver.
+- fix ubi build module parameters string conversion.
+- patch: add missing lock in ubi cdev fsync.
+-----
+External documentation: 
+-----
+Verification platform: sl220
+-----
+Merge to: -
+-----
+Reviewed by: heinz
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376047 | doychevza | 2013-09-13 12:39:41 +0400 (Пт., 13 сент. 2013) | 21 lines
+
+
+latest ubifs port from infradead.
+-----
+Header: OS
+-----
+Polarion-ID: SL2-14445
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: sl220 final
+-----
+Merge to: -
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376410 | doychevza | 2013-09-16 13:36:32 +0400 (Пн., 16 сент. 2013) | 21 lines
+
+
+fix memory leak in ubi fastmap.
+-----
+Header: OS
+-----
+Polarion-ID: SL2-14445
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: sl220
+-----
+Merge to: -
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378148 | doychevza | 2013-09-20 15:48:04 +0400 (Пт., 20 сент. 2013) | 22 lines
+
+
+- fix deadlock in ubifs_fsync.
+- add missing function call.
+-----
+Header: OS
+-----
+Polarion-ID: SL2-14445
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: sl220 final
+-----
+Merge to: -
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378226 | doychevza | 2013-09-20 18:35:33 +0400 (Пт., 20 сент. 2013) | 21 lines
+
+
+fix wrong parameter number in ubifs_invalidatepage.
+-----
+Header: OS
+-----
+Polarion-ID: SL2-14445
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: 
+-----
+External documentation:
+-----
+Verification platform: sl220 final
+-----
+Merge to: -
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r380836 | doychevza | 2013-09-30 16:40:48 +0400 (Пн., 30 сент. 2013) | 21 lines
+
+
+rename kernel boot time development branch to mainline.
+-----
+Header: OS
+-----
+Polarion-ID: SL2-14445
+-----
+Variant: --
+-----
+API-modification: No
+-----
+Internal documentation: --
+-----
+External documentation: --
+-----
+Verification platform: --
+-----
+Merge to: --
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r380895 | doychevza | 2013-09-30 17:53:38 +0400 (Пн., 30 сент. 2013) | 23 lines
+
+
+enable ubi fastmap kernel for mainline stbsp.
+-----
+Header: OS
+-----
+Polarion-ID: SL2-14445
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: 
+- ubi fastmap support added to decrease ubi mtd device
+attaching time.
+-----
+External documentation: 
+-----
+Verification platform: sl220 final trunk
+-----
+Merge to: --
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r381132 | doychevza | 2013-10-01 13:31:26 +0400 (Вт., 01 окт. 2013) | 21 lines
+
+
+fix logrotate makefile.
+-----
+Header: OS
+-----
+Polarion-ID: SL2-14445
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: --
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r381257 | doychevza | 2013-10-01 16:34:24 +0400 (Вт., 01 окт. 2013) | 22 lines
+
+
+check in PBL V0.6.12: ubi fastmap support.
+-----
+Header: OS
+-----
+Polarion-ID: SL2-14445
+-----
+Variant: sl220
+-----
+API-modification: Yes/No
+-----
+Internal documentation: 
+- new kernel parameter added: "ubi.,fm_autoconvert=1"
+-----
+External documentation: --
+-----
+Verification platform: sl220 release
+-----
+Merge to: --
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r385026 | doychevza | 2013-10-14 16:31:05 +0400 (Пн., 14 окт. 2013) | 22 lines
+
+
+add hotel fast/slow mode LED states.
+-----
+Header: Hotel
+-----
+Polarion-ID: SL2-14802
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: 
+add hotel fast/slow mode LED states.
+-----
+External documentation:
+-----
+Verification platform: sl220 final
+-----
+Merge to: --
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r389137 | doychevza | 2013-10-24 15:18:47 +0400 (Чт., 24 окт. 2013) | 22 lines
+
+
+re-create /var/local if mounted in ubifs read-only mode.
+-----
+Header: OS
+-----
+Polarion-ID: SL2-14958
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: 
+re-create /var/local if mounted in ubifs read-only mode.
+-----
+External documentation: 
+-----
+Verification platform: sl220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r397785 | doychevza | 2013-11-21 15:10:21 +0400 (Чт., 21 нояб. 2013) | 23 lines
+
+
+add preliminary yocto rootfs
+-----
+Header: OS
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: Yes/No
+-----
+Internal documentation: 
+rootfs built with yocto
+https://www.yoctoproject.org/
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: trunk
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r397916 | doychevza | 2013-11-21 18:18:44 +0400 (Чт., 21 нояб. 2013) | 21 lines
+
+
+check in preboot and u-boot for SX6
+-----
+Header: 
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: 
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r398274 | doychevza | 2013-11-22 14:59:59 +0400 (Пт., 22 нояб. 2013) | 21 lines
+
+
+update recipes.
+-----
+Header: OS
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: 
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r398345 | doychevza | 2013-11-22 16:42:13 +0400 (Пт., 22 нояб. 2013) | 22 lines
+
+
+add mentor graphics mete-sourcery layer.
+-----
+Header: OS
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: No
+-----
+Internal documentation: 
+URL: https://github.com/MentorEmbedded/meta-sourcery
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: -
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r398448 | doychevza | 2013-11-22 17:56:42 +0400 (Пт., 22 нояб. 2013) | 21 lines
+
+
+rootfs updated - dev headers added.
+-----
+Header: OS
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: trunk
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r398542 | doychevza | 2013-11-22 19:25:46 +0400 (Пт., 22 нояб. 2013) | 21 lines
+
+
+remove 'Set user ID on exec' permission flag when decompressing rootfs.
+-----
+Header: OS
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: trunk
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r398564 | doychevza | 2013-11-22 20:00:59 +0400 (Пт., 22 нояб. 2013) | 21 lines
+
+
+add preliminary kernel config for nfs boot.
+-----
+Header: 
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: Yes/No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: 
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r398967 | doychevza | 2013-11-25 16:58:38 +0400 (Пн., 25 нояб. 2013) | 24 lines
+
+
+prepare loewe linux for boot.
+-----
+Header: 
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: Yes/No
+-----
+Internal documentation: 
+- new rootfs
+- new kernel (exper.)
+- boot logo
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: trunk
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r398989 | doychevza | 2013-11-25 17:55:36 +0400 (Пн., 25 нояб. 2013) | 20 lines
+
+update preparenfs target.
+-----
+Header: 
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: trunk
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399040 | doychevza | 2013-11-25 19:07:30 +0400 (Пн., 25 нояб. 2013) | 20 lines
+
+fix preparenfs.
+-----
+Header: 
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: trunk
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399207 | doychevza | 2013-11-26 12:27:26 +0400 (Вт., 26 нояб. 2013) | 22 lines
+
+
+redirect syslog output to /dev/ttyS0
+-----
+Header: 
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: Yes/No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: trunk
+-----
+Reviewed by: heinz
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399209 | doychevza | 2013-11-26 12:27:58 +0400 (Вт., 26 нояб. 2013) | 21 lines
+
+
+fix typo.
+-----
+Header: 
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: Yes/No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: trunk
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399257 | doychevza | 2013-11-26 13:32:32 +0400 (Вт., 26 нояб. 2013) | 20 lines
+
+add LD_LIBRARY_PATH to bash profile.
+-----
+Header: 
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: Yes/No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: trunk
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399455 | doychevza | 2013-11-26 18:30:55 +0400 (Вт., 26 нояб. 2013) | 21 lines
+
+
+add nfs tools to rottfs. 
+-----
+Header: OS
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: Yes/No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: 
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399499 | doychevza | 2013-11-26 19:54:19 +0400 (Вт., 26 нояб. 2013) | 21 lines
+
+
+fix arch in mkimage.
+-----
+Header: OS
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: Yes/No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: trunk
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399714 | doychevza | 2013-11-27 16:36:07 +0400 (Ср., 27 нояб. 2013) | 21 lines
+
+
+use correct emmcblk partitions kernel argument.
+-----
+Header: OS
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: Yes/No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: trunk
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399804 | doychevza | 2013-11-27 19:42:08 +0400 (Ср., 27 нояб. 2013) | 21 lines
+
+
+fix space in partition parameters.
+-----
+Header: OS
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: Yes/No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: trunk
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399990 | doychevza | 2013-11-28 13:46:47 +0400 (Чт., 28 нояб. 2013) | 21 lines
+
+
+turn off data cache in u-boot before booting.
+-----
+Header: OS
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: Yes/No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: trunk
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400013 | doychevza | 2013-11-28 14:20:55 +0400 (Чт., 28 нояб. 2013) | 20 lines
+
+undo undeeded commit.
+-----
+Header: OS
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: Yes/No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: trunk
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400141 | doychevza | 2013-11-28 18:26:59 +0400 (Чт., 28 нояб. 2013) | 21 lines
+
+
+pass macaddr to kernel driver.
+-----
+Header: OS
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: Yes/No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: trunk
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400213 | doychevza | 2013-11-28 21:12:00 +0400 (Чт., 28 нояб. 2013) | 21 lines
+
+
+update rootfs with lmbench and ntpd.
+-----
+Header: OS
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: Yes/No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: trunk
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400234 | doychevza | 2013-11-28 22:23:04 +0400 (Чт., 28 нояб. 2013) | 20 lines
+
+fix config name.
+-----
+Header: OS
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: Yes/No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: 
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400235 | doychevza | 2013-11-28 22:29:48 +0400 (Чт., 28 нояб. 2013) | 21 lines
+
+
+check in compresses kernel to boot faster.
+-----
+Header: OS
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: Yes/No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: trunk
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400311 | doychevza | 2013-11-29 12:18:06 +0400 (Пт., 29 нояб. 2013) | 21 lines
+
+use xz for kernel compression.
+-----
+Header: OS
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: Yes/No
+-----
+Internal documentation: 
+Kernel image is smaller and loaded faster over tftp.
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: 
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400315 | doychevza | 2013-11-29 12:27:01 +0400 (Пт., 29 нояб. 2013) | 21 lines
+
+added openembedded recipes for lmbench and ntpd.
+-----
+Header: OS
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: Yes/No
+-----
+Internal documentation: 
+create loewe recipe layer.
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: 
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400318 | doychevza | 2013-11-29 12:30:26 +0400 (Пт., 29 нояб. 2013) | 20 lines
+
+add XZ compress kernel for tfp faster boot
+-----
+Header: OS
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: Yes/No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: trunk
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400320 | doychevza | 2013-11-29 12:31:05 +0400 (Пт., 29 нояб. 2013) | 20 lines
+
+delete recipes folder.
+-----
+Header: OS
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: Yes/No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: 
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400777 | doychevza | 2013-12-02 17:38:25 +0400 (Пн., 02 дек. 2013) | 21 lines
+
+
+add rootfs with gdbserver
+-----
+Header: OS
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: trunk
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400837 | doychevza | 2013-12-02 19:03:37 +0400 (Пн., 02 дек. 2013) | 20 lines
+
+add preliminary initrd support.
+-----
+Header: OS
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: Yes/No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: trunk
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401017 | doychevza | 2013-12-03 14:14:27 +0400 (Вт., 03 дек. 2013) | 20 lines
+
+enable launchd.
+-----
+Header: OS
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: trunk
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401222 | doychevza | 2013-12-03 20:01:30 +0400 (Вт., 03 дек. 2013) | 20 lines
+
+start splash screen using launchd.
+-----
+Header: OS
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: Yes/No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: trunk
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401234 | doychevza | 2013-12-03 20:23:56 +0400 (Вт., 03 дек. 2013) | 20 lines
+
+remove debug output.
+-----
+Header: OS
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: Yes/No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: trunk
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401243 | doychevza | 2013-12-03 20:37:34 +0400 (Вт., 03 дек. 2013) | 20 lines
+
+remove sleep.
+-----
+Header: OS
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: Yes/No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: trunk
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401382 | doychevza | 2013-12-04 14:29:30 +0400 (Ср., 04 дек. 2013) | 20 lines
+
+disable launchd start for gui and masman.
+-----
+Header: OS
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: Yes/No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: trunk
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401743 | doychevza | 2013-12-05 13:43:48 +0400 (Чт., 05 дек. 2013) | 21 lines
+
+add device node file.
+add debug tools.
+-----
+Header: OS
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: Yes/No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: 
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r402016 | doychevza | 2013-12-05 20:12:41 +0400 (Чт., 05 дек. 2013) | 21 lines
+
+add device table recipe.
+fix inittab genetation with append file.
+-----
+Header: OS
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: Yes/No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: 
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r402785 | doychevza | 2013-12-09 18:23:46 +0400 (Пн., 09 дек. 2013) | 20 lines
+
+add recipe creating rootfs containing only device nodes.
+-----
+Header: OS
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: 
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r402875 | doychevza | 2013-12-09 20:34:52 +0400 (Пн., 09 дек. 2013) | 20 lines
+
+remove unnecessary files from devs image.
+-----
+Header: OS
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: Yes/No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: 
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r402926 | doychevza | 2013-12-10 12:03:32 +0400 (Вт., 10 дек. 2013) | 20 lines
+
+disable udev - use static dev nodes in devtmpfs
+-----
+Header: OS
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: trunk
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r402995 | doychevza | 2013-12-10 13:37:01 +0400 (Вт., 10 дек. 2013) | 21 lines
+
+- disable mounting devpts for hl1.
+- fix makefiles.
+-----
+Header: OS
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: Yes/No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: 
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r402998 | doychevza | 2013-12-10 13:37:47 +0400 (Вт., 10 дек. 2013) | 20 lines
+
+new launchd no mounting devpts.
+-----
+Header: OS
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: trunk
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403028 | doychevza | 2013-12-10 14:23:19 +0400 (Вт., 10 дек. 2013) | 20 lines
+
+disable mounting devpts for hl1
+-----
+Header: OS
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: Yes/No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: 
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403029 | doychevza | 2013-12-10 14:24:52 +0400 (Вт., 10 дек. 2013) | 21 lines
+
+update rootfs.
+udpate launchctl.
+-----
+Header: OS
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: Yes/No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: trunk
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403202 | doychevza | 2013-12-10 19:53:19 +0400 (Вт., 10 дек. 2013) | 20 lines
+
+Update initrd.img
+-----
+Header: OS
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: Yes/No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: trunk
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403205 | doychevza | 2013-12-10 19:55:23 +0400 (Вт., 10 дек. 2013) | 20 lines
+
+add initramfs generation.
+-----
+Header: OS
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: 
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403301 | doychevza | 2013-12-11 13:15:07 +0400 (Ср., 11 дек. 2013) | 20 lines
+
+fix header.
+-----
+Header: OS
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: Yes/No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: 
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403318 | doychevza | 2013-12-11 13:26:52 +0400 (Ср., 11 дек. 2013) | 20 lines
+
+fix launchd headers.
+-----
+Header: OS
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: Yes/No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: trunk
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403411 | doychevza | 2013-12-11 16:00:47 +0400 (Ср., 11 дек. 2013) | 20 lines
+
+fic check for toolchain update to be aware of missing repo directory.
+-----
+Header: OS
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: Yes/No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: trunk
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403477 | doychevza | 2013-12-11 19:43:55 +0400 (Ср., 11 дек. 2013) | 20 lines
+
+add loewe emmc programming scripts for initramfs.
+-----
+Header: OS
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: Yes/No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: 
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403480 | doychevza | 2013-12-11 19:52:00 +0400 (Ср., 11 дек. 2013) | 20 lines
+
+add preliminary flash-prog.
+-----
+Header: OS
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: Yes/No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: trunk
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403668 | doychevza | 2013-12-12 16:59:49 +0400 (Чт., 12 дек. 2013) | 20 lines
+
+update i2c and rtc node numbers.
+-----
+Header: OS
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: trunk
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403746 | doychevza | 2013-12-12 20:47:32 +0400 (Чт., 12 дек. 2013) | 20 lines
+
+add again boot logo.
+-----
+Header: OS
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: Yes/No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: trunk
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403798 | doychevza | 2013-12-13 11:42:31 +0400 (Пт., 13 дек. 2013) | 20 lines
+
+add preliminary u-boot programming using boot-prog.
+-----
+Header:  OS
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: Yes/No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: trunk
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403799 | doychevza | 2013-12-13 11:43:14 +0400 (Пт., 13 дек. 2013) | 21 lines
+
+- fix device i2c node numbers.
+- implement boot-prog for u-boot.
+-----
+Header: OS
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: Yes/No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: 
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405376 | doychevza | 2014-01-07 17:27:03 +0400 (Вт., 07 янв. 2014) | 20 lines
+
+deactivate temporarily resmon and lobsterstarter launchd start.
+-----
+Header: OS
+-----
+Polarion-ID: HL1-33
+-----
+Variant: 
+-----
+API-modification: No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: 
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405716 | doychevza | 2014-01-09 16:19:41 +0400 (Чт., 09 янв. 2014) | 22 lines
+
+udpate rootfs - e2fs and dosfs tools added.
+-----
+Header: OS 
+-----
+Polarion-ID: HL1-37
+-----
+Variant: 
+-----
+API-modification: No
+-----
+Internal documentation: 
+- udpate rootfs - e2fs and dosfs tools added.
+- updated flash layout in the programming scripts.
+-----
+External documentation: 
+-----
+Verification platform: sx6eval
+-----
+Merge to: trunk
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405834 | doychevza | 2014-01-10 13:00:41 +0400 (Пт., 10 янв. 2014) | 21 lines
+
+update recipes for flash boot.
+-----
+Header: OS
+-----
+Polarion-ID: HL1-37
+-----
+Variant: hl1
+-----
+API-modification: No
+-----
+Internal documentation: 
+update recipes for flash boot.
+-----
+External documentation: 
+-----
+Verification platform: sx6eval
+-----
+Merge to: -
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406001 | doychevza | 2014-01-10 19:06:35 +0400 (Пт., 10 янв. 2014) | 20 lines
+
+mount /tmp launchd
+-----
+Header: OS
+-----
+Polarion-ID: HL1-37
+-----
+Variant: hl1
+-----
+API-modification: No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: sx6eval
+-----
+Merge to: -
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406004 | doychevza | 2014-01-10 19:15:39 +0400 (Пт., 10 янв. 2014) | 21 lines
+
+- add nfs support to kernel.
+- squashfs lzo.
+-----
+Header: OS
+-----
+Polarion-ID: HL1-37
+-----
+Variant: hl1
+-----
+API-modification: No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: sx6eval
+-----
+Merge to: -
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406032 | doychevza | 2014-01-10 19:55:49 +0400 (Пт., 10 янв. 2014) | 21 lines
+
+preliminary flash boot and prog.
+-----
+Header: OS
+-----
+Polarion-ID: HL1-37
+-----
+Variant: hl1
+-----
+API-modification: No
+-----
+Internal documentation: 
+preliminary flash boot and prog.
+-----
+External documentation: 
+-----
+Verification platform: sx6eval 
+-----
+Merge to: trunk
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406065 | doychevza | 2014-01-10 20:31:31 +0400 (Пт., 10 янв. 2014) | 20 lines
+
+update startup scripts.
+-----
+Header: OS
+-----
+Polarion-ID: HL1-37
+-----
+Variant: hl1
+-----
+API-modification: No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: sx6eval
+-----
+Merge to: trunk
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406270 | doychevza | 2014-01-13 17:41:39 +0400 (Пн., 13 янв. 2014) | 20 lines
+
+add missing run.sh
+-----
+Header: OS
+-----
+Polarion-ID: HL1-37
+-----
+Variant: 
+-----
+API-modification: No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: trunk
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406359 | doychevza | 2014-01-14 11:45:15 +0400 (Вт., 14 янв. 2014) | 21 lines
+
+preliminary flash support and start.
+-----
+Header: OS
+-----
+Polarion-ID: Hl1-37
+-----
+Variant: hl1
+-----
+API-modification: No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: sx6eval
+-----
+Merge to: trunk
+-----
+Reviewed by: heinz
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406365 | doychevza | 2014-01-14 12:16:34 +0400 (Вт., 14 янв. 2014) | 20 lines
+
+enable LSH support for flash boot.
+-----
+Header: OS
+-----
+Polarion-ID: HL1-37
+-----
+Variant: hl1
+-----
+API-modification: No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: sx6eval
+-----
+Merge to: trunk
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406367 | doychevza | 2014-01-14 12:20:59 +0400 (Вт., 14 янв. 2014) | 20 lines
+
+remove debug launchd.
+-----
+Header: OS
+-----
+Polarion-ID: HL1-37
+-----
+Variant: hl1
+-----
+API-modification: No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: sx6eval 
+-----
+Merge to: trunk
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406388 | doychevza | 2014-01-14 13:43:40 +0400 (Вт., 14 янв. 2014) | 20 lines
+
+fix path in setupimg.sh
+-----
+Header: OS
+-----
+Polarion-ID: HL1-37
+-----
+Variant: hl1
+-----
+API-modification: No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: sx6eval
+-----
+Merge to: trunk
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406419 | doychevza | 2014-01-14 14:50:37 +0400 (Вт., 14 янв. 2014) | 20 lines
+
+update initramfs for flash programming.
+-----
+Header: OS
+-----
+Polarion-ID: HL1-37
+-----
+Variant: hl1
+-----
+API-modification: No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: sx6eval
+-----
+Merge to: trunk
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406476 | doychevza | 2014-01-14 18:17:21 +0400 (Вт., 14 янв. 2014) | 20 lines
+
+add programming signaling flash status.
+-----
+Header: OS
+-----
+Polarion-ID: HL1-37
+-----
+Variant: hl1
+-----
+API-modification: No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: sx6eval
+-----
+Merge to: trunk
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406478 | doychevza | 2014-01-14 18:25:50 +0400 (Вт., 14 янв. 2014) | 20 lines
+
+add flash programming status.
+-----
+Header: OS
+-----
+Polarion-ID: Hl1-37
+-----
+Variant: hl1
+-----
+API-modification: No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: sx6eval
+-----
+Merge to: trunk
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406487 | doychevza | 2014-01-14 18:51:41 +0400 (Вт., 14 янв. 2014) | 20 lines
+
+add emmc-boot target.
+-----
+Header: OS
+-----
+Polarion-ID: HL1-37
+-----
+Variant: hl1
+-----
+API-modification: No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: sx6eval
+-----
+Merge to: trunk
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406528 | doychevza | 2014-01-14 20:01:03 +0400 (Вт., 14 янв. 2014) | 21 lines
+
+- fix jamfile to copy uboot
+- generate kernel.img
+-----
+Header: OS
+-----
+Polarion-ID: HL1-37
+-----
+Variant: hl1
+-----
+API-modification: No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: sx6eval
+-----
+Merge to: trunk
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406750 | doychevza | 2014-01-16 13:20:03 +0400 (Чт., 16 янв. 2014) | 23 lines
+
+
+enable squashfs lzo and nfsd.
+-----
+Header: OS
+-----
+Polarion-ID: HL1-37
+-----
+Variant: hl1
+-----
+API-modification: no
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verfication platform: sx6eval
+-----
+Merge to: -
+-----
+Source move/rename: [no]
+-----
+Reviewed by: <username>
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406753 | doychevza | 2014-01-16 13:23:06 +0400 (Чт., 16 янв. 2014) | 22 lines
+
+update kernels with lzo and nfsd.
+-----
+Header: OS
+-----
+Polarion-ID: HL1-37
+-----
+Variant: hl1
+-----
+API-modification: no
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verfication platform: sx6evl
+-----
+Merge to: trunk
+-----
+Source move/rename: [no]
+-----
+Reviewed by: <username>
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406938 | doychevza | 2014-01-16 20:48:00 +0400 (Чт., 16 янв. 2014) | 23 lines
+
+
+add /etc rw support.
+-----
+Header: OS
+-----
+Polarion-ID: HL1-37
+-----
+Variant: hl1
+-----
+API-modification: no
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verfication platform: sx6eval
+-----
+Merge to: trunk
+-----
+Source move/rename: [no]
+-----
+Reviewed by: <username>
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407002 | doychevza | 2014-01-17 13:21:29 +0400 (Пт., 17 янв. 2014) | 24 lines
+
+
+- add valgrind to rootfs.
+- ext4 fs settings in prog script.
+-----
+Header: O
+-----
+Polarion-ID: HL1-57
+-----
+Variant: hl1
+-----
+API-modification: no
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verfication platform: sx6eval
+-----
+Merge to: 
+-----
+Source move/rename: [no]
+-----
+Reviewed by: <username>
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407008 | doychevza | 2014-01-17 13:40:02 +0400 (Пт., 17 янв. 2014) | 25 lines
+
+
+- add valgrind to rootfs.
+- start script optimizations.
+-----
+Header: OS
+-----
+Polarion-ID: HL1-57, HL1-37
+-----
+Variant: hl1
+-----
+API-modification: no
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verfication platform: sx6eval
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: heinz
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407212 | doychevza | 2014-01-20 15:01:11 +0400 (Пн., 20 янв. 2014) | 24 lines
+
+
+- update initrd.
+- add top and sshd to emmc rootfs.
+-----
+Header: OS
+-----
+Polarion-ID: HL1-37
+-----
+Variant: hl1
+-----
+API-modification: no
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verfication platform: sx6eval
+-----
+Merge to: trunk
+-----
+Source move/rename: [no]
+-----
+Reviewed by: <username>
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407310 | doychevza | 2014-01-21 12:52:45 +0400 (Вт., 21 янв. 2014) | 23 lines
+
+
+- add loboot partition
+-----
+Header: OS
+-----
+Polarion-ID: HL1-41
+-----
+Variant: hl1
+-----
+API-modification: no
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verfication platform: sx6eval
+-----
+Merge to: trunk
+-----
+Source move/rename: [no]
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407312 | doychevza | 2014-01-21 13:00:23 +0400 (Вт., 21 янв. 2014) | 24 lines
+
+
+- add loboot emmc partition.
+- bind /mnt to /tmp/mnt
+-----
+Header: OS
+-----
+Polarion-ID: HL1-41
+-----
+Variant: hl1
+-----
+API-modification: no
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verfication platform: sx6eval
+-----
+Merge to: trunk
+-----
+Source move/rename: [no]
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407325 | doychevza | 2014-01-21 13:40:14 +0400 (Вт., 21 янв. 2014) | 23 lines
+
+
+adjust u-boot env for loboot partition.
+-----
+Header: OS
+-----
+Polarion-ID: HL1-41
+-----
+Variant: hl1
+-----
+API-modification: no
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verfication platform: sx6eval
+-----
+Merge to: trunk
+-----
+Source move/rename: [no]
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407395 | doychevza | 2014-01-21 16:57:45 +0400 (Вт., 21 янв. 2014) | 23 lines
+
+
+enable prelinking of elf files.
+-----
+Header: OS
+-----
+Polarion-ID: HL1-59
+-----
+Variant: hl1
+-----
+API-modification: no
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verfication platform: sx6eval
+-----
+Merge to: trunk
+-----
+Source move/rename: [no]
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407438 | doychevza | 2014-01-21 18:54:07 +0400 (Вт., 21 янв. 2014) | 24 lines
+
+
+- adjust ext4 parameters.
+- mount /boot
+-----
+Header: OS
+-----
+Polarion-ID: HL1-59
+-----
+Variant: hl1
+-----
+API-modification: no
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verfication platform: sx6eval
+-----
+Merge to: trunk
+-----
+Source move/rename: [no]
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407466 | doychevza | 2014-01-22 13:34:33 +0400 (Ср., 22 янв. 2014) | 23 lines
+
+
+mount /var/run at start.
+-----
+Header: OS
+-----
+Polarion-ID: HL1-59
+-----
+Variant: hl1
+-----
+API-modification: no
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verfication platform: sx6eval
+-----
+Merge to: -
+-----
+Source move/rename: [no]
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407468 | doychevza | 2014-01-22 13:36:49 +0400 (Ср., 22 янв. 2014) | 23 lines
+
+
+move /var/run mount to launchd to avoid bug msgs.
+-----
+Header: OS
+-----
+Polarion-ID: HL1-59
+-----
+Variant: hl1
+-----
+API-modification: no
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verfication platform: sx6eval
+-----
+Merge to: trunk
+-----
+Source move/rename: [no]
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407568 | doychevza | 2014-01-22 18:22:54 +0400 (Ср., 22 янв. 2014) | 23 lines
+
+
+replace busybox syslogd with sysklogd.
+-----
+Header: OS
+-----
+Polarion-ID: HL1-59
+-----
+Variant: hl1
+-----
+API-modification: no
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verfication platform: sx6eval
+-----
+Merge to: trunk 
+-----
+Source move/rename: [no]
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407569 | doychevza | 2014-01-22 18:25:07 +0400 (Ср., 22 янв. 2014) | 24 lines
+
+
+- replace busybox syslogd with sysklogd.
+- fix external sourcery toolchain build with new CSL TC.
+-----
+Header: OS
+-----
+Polarion-ID: HL1-59
+-----
+Variant: hl1
+-----
+API-modification: no
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verfication platform: 
+-----
+Merge to: 
+-----
+Source move/rename: [no]
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407586 | doychevza | 2014-01-22 19:11:49 +0400 (Ср., 22 янв. 2014) | 23 lines
+
+
+start resmon and masman using launchd.
+-----
+Header: OS
+-----
+Polarion-ID: HL1-59
+-----
+Variant: hl1
+-----
+API-modification: no
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verfication platform: sx6eval
+-----
+Merge to: trunk
+-----
+Source move/rename: [no]
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407597 | doychevza | 2014-01-22 20:02:58 +0400 (Ср., 22 янв. 2014) | 23 lines
+
+
+update u-boot env - add quiet kernel parameter.
+-----
+Header: OS
+-----
+Polarion-ID: HL1-59
+-----
+Variant: hl1
+-----
+API-modification: no
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verfication platform: sx6eval
+-----
+Merge to: trunk
+-----
+Source move/rename: [no]
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407661 | doychevza | 2014-01-23 14:18:06 +0400 (Чт., 23 янв. 2014) | 24 lines
+
+
+- increase squashfs block size.
+- move coredumps to root
+-----
+Header: OS
+-----
+Polarion-ID: HL1-57, HL159
+-----
+Variant: OS
+-----
+API-modification: no
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verfication platform: sx6eval
+-----
+Merge to: trunk
+-----
+Source move/rename: [no]
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408086 | doychevza | 2014-01-27 14:33:44 +0400 (Пн., 27 янв. 2014) | 23 lines
+
+
+update preboot and u-boot to rel v1.2
+-----
+Header: OS
+-----
+Polarion-ID: HL1-57
+-----
+Variant: hl1
+-----
+API-modification: no
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verfication platform: sx6eval
+-----
+Merge to: 
+-----
+Source move/rename: [no]
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408087 | doychevza | 2014-01-27 14:39:35 +0400 (Пн., 27 янв. 2014) | 23 lines
+
+
+del u-boot
+-----
+Header: OS
+-----
+Polarion-ID: HL1-59
+-----
+Variant: hl1
+-----
+API-modification: no
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verfication platform: 
+-----
+Merge to: -
+-----
+Source move/rename: [no]
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408088 | doychevza | 2014-01-27 14:40:21 +0400 (Пн., 27 янв. 2014) | 23 lines
+
+
+remove preboot
+-----
+Header: OS
+-----
+Polarion-ID: HL1-59
+-----
+Variant: hl1 
+-----
+API-modification: no
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verfication platform: 
+-----
+Merge to: 
+-----
+Source move/rename: [no]
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408090 | doychevza | 2014-01-27 14:47:22 +0400 (Пн., 27 янв. 2014) | 23 lines
+
+
+check in u-boot and preboot from relv1.2 completely.
+-----
+Header: OS
+-----
+Polarion-ID: HL1-59
+-----
+Variant: hl1
+-----
+API-modification: no
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verfication platform: sx6eval
+-----
+Merge to: 0
+-----
+Source move/rename: [no]
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408093 | doychevza | 2014-01-27 15:38:06 +0400 (Пн., 27 янв. 2014) | 23 lines
+
+update DDR config settings.
+loewe build readme and script.
+-----
+Header: OS
+-----
+Polarion-ID: HL1-59
+-----
+Variant: hl1
+-----
+API-modification: no
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verfication platform: sx6eval
+-----
+Merge to: -
+-----
+Source move/rename: [no]
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408094 | doychevza | 2014-01-27 15:39:12 +0400 (Пн., 27 янв. 2014) | 23 lines
+
+
+check in u-boot from rel v1.2
+-----
+Header: OS
+-----
+Polarion-ID: HL1-59
+-----
+Variant: hl1
+-----
+API-modification: no
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verfication platform: sx6eval
+-----
+Merge to: trunk
+-----
+Source move/rename: [no]
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408363 | doychevza | 2014-01-29 17:58:15 +0400 (Ср., 29 янв. 2014) | 23 lines
+
+
+add preliminary loewe prelink patch for the new toolchain.
+-----
+Header: OS
+-----
+Polarion-ID: HL1-59
+-----
+Variant: hl1
+-----
+API-modification: no
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verfication platform: sx6eval
+-----
+Merge to: 
+-----
+Source move/rename: [no]
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408364 | doychevza | 2014-01-29 18:01:28 +0400 (Ср., 29 янв. 2014) | 23 lines
+
+
+add new croos prelinker with loewe workaround.
+-----
+Header: OS
+-----
+Polarion-ID: HL1-59
+-----
+Variant: hl1 
+-----
+API-modification: no
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verfication platform: sx6eval
+-----
+Merge to: trunk
+-----
+Source move/rename: [no]
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408481 | doychevza | 2014-01-30 16:39:42 +0400 (Чт., 30 янв. 2014) | 23 lines
+
+
+change emmc partitions mount order in bootnfs.
+-----
+Header: OS
+-----
+Polarion-ID: HL1-59
+-----
+Variant: hl1
+-----
+API-modification: no
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verfication platform: sx6eval
+-----
+Merge to: trunk
+-----
+Source move/rename: [no]
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408492 | doychevza | 2014-01-30 17:10:00 +0400 (Чт., 30 янв. 2014) | 23 lines
+
+
+check in correct version of bootnfs.
+-----
+Header: OS
+-----
+Polarion-ID: HL1-59
+-----
+Variant: hl1
+-----
+API-modification: no
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verfication platform: sx6eval
+-----
+Merge to: trunk
+-----
+Source move/rename: [no]
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408556 | doychevza | 2014-01-31 12:45:02 +0400 (Пт., 31 янв. 2014) | 24 lines
+
+
+- add sqlite3 to rootfs.
+- elfutils to rootfs.
+-----
+Header: OS
+-----
+Polarion-ID: HL1-59
+-----
+Variant: hl1
+-----
+API-modification: no
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verfication platform: sx6eval
+-----
+Merge to: -
+-----
+Source move/rename: [no]
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408568 | doychevza | 2014-01-31 13:21:09 +0400 (Пт., 31 янв. 2014) | 23 lines
+
+
+- use new toolchain.
+-----
+Header: OS 
+-----
+Polarion-ID: HL1-59
+-----
+Variant: hl1
+-----
+API-modification: no
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verfication platform: sx6eval
+-----
+Merge to: 
+-----
+Source move/rename: [no]
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408574 | doychevza | 2014-01-31 13:37:01 +0400 (Пт., 31 янв. 2014) | 24 lines
+
+
+- new rootfs sqlite3 and elfutils
+- launchd recompiled with new toolchain.
+-----
+Header: OS
+-----
+Polarion-ID: HL1-59
+-----
+Variant: hl1
+-----
+API-modification: no
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verfication platform: sx6eval
+-----
+Merge to: trunk
+-----
+Source move/rename: [no]
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408628 | doychevza | 2014-01-31 16:55:43 +0400 (Пт., 31 янв. 2014) | 23 lines
+
+
+add quiet to kernel cmdline/
+-----
+Header: OS
+-----
+Polarion-ID: HL1-59
+-----
+Variant: hl1
+-----
+API-modification: no
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verfication platform: sx6eval
+-----
+Merge to: trunk
+-----
+Source move/rename: [no]
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409645 | doychevza | 2014-02-07 12:59:59 +0400 (Пт., 07 февр. 2014) | 23 lines
+
+
+- add linaro toolchain: 4.8-2014.01 14.01
+-----
+Header: OS
+-----
+Polarion-ID: HL1-59
+-----
+Variant: 
+-----
+API-modification: yes/no
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verfication platform: 
+-----
+Merge to: 
+-----
+Source move/rename: yes/[no]
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409685 | doychevza | 2014-02-07 14:12:43 +0400 (Пт., 07 февр. 2014) | 23 lines
+
+
+- delete linaro toolchain
+-----
+Header: OS
+-----
+Polarion-ID: HL1-59
+-----
+Variant: 
+-----
+API-modification: yes/no
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verfication platform: 
+-----
+Merge to: 
+-----
+Source move/rename: yes/[no]
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409704 | doychevza | 2014-02-07 14:46:05 +0400 (Пт., 07 февр. 2014) | 23 lines
+
+
+- check in linaro toolchain 4.8-2014.01 14.01
+-----
+Header: OS
+-----
+Polarion-ID: HL1-59
+-----
+Variant: 
+-----
+API-modification: yes/no
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verfication platform: 
+-----
+Merge to: 
+-----
+Source move/rename: yes/[no]
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r410433 | doychevza | 2014-02-12 16:36:19 +0400 (Ср., 12 февр. 2014) | 23 lines
+
+
+- add linaro toolchain layer.
+-----
+Header: OS
+-----
+Polarion-ID: HL1-59
+-----
+Variant: hl1
+-----
+API-modification: no
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verfication platform: sx6eval
+-----
+Merge to: -
+-----
+Source move/rename: [no]
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r410436 | doychevza | 2014-02-12 16:40:22 +0400 (Ср., 12 февр. 2014) | 23 lines
+
+
+- fix unintentional check in
+-----
+Header: OS
+-----
+Polarion-ID: HL1-59
+-----
+Variant: hl1
+-----
+API-modification: no
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verfication platform: 
+-----
+Merge to: 0
+-----
+Source move/rename: yes/[no]
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r410439 | doychevza | 2014-02-12 16:41:43 +0400 (Ср., 12 февр. 2014) | 23 lines
+
+
+update external-sourcery layer
+-----
+Header: OS
+-----
+Polarion-ID: HL1-59
+-----
+Variant: hl1
+-----
+API-modification: no
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verfication platform: sx6eval
+-----
+Merge to: -
+-----
+Source move/rename: yes/[no]
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r410522 | doychevza | 2014-02-12 20:37:21 +0400 (Ср., 12 февр. 2014) | 23 lines
+
+
+- move loewe linaro append files to separate layer.
+-----
+Header: OS
+-----
+Polarion-ID: HL1-59
+-----
+Variant: hl1
+-----
+API-modification: no
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verfication platform: sx6eval
+-----
+Merge to: 
+-----
+Source move/rename: [no]
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r410567 | doychevza | 2014-02-13 12:34:48 +0400 (Чт., 13 февр. 2014) | 23 lines
+
+
+add codesourcery layer.
+-----
+Header: OS
+-----
+Polarion-ID: HL1-59
+-----
+Variant: hl1
+-----
+API-modification: no
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verfication platform: sx6eval
+-----
+Merge to: 
+-----
+Source move/rename: [no]
+-----
+Reviewed by: heinz
+
+------------------------------------------------------------------------

@@ -1,0 +1,2641 @@
+------------------------------------------------------------------------
+r372495 | prohaskajo | 2013-09-03 17:47:07 +0400 (Вт., 03 сент. 2013) | 19 lines
+
+Added buffer histeresys.
+-----
+Header: MME
+-----
+Polarion-ID: SL2-9659
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verfication platform: SL2xx target
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r373322 | prohaskajo | 2013-09-05 14:12:30 +0400 (Чт., 05 сент. 2013) | 19 lines
+
+Changed event forwarding.
+-----
+Header: MME
+-----
+Polarion-ID: SL2-9659
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verfication platform: SL2xx target
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r374010 | prohaskajo | 2013-09-09 10:05:19 +0400 (Пн., 09 сент. 2013) | 19 lines
+
+Handle only valid operator infos.
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-3719
+-----
+Variant: SL21x
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verfication platform: SL210 final
+-----
+Merge to:
+-----
+Reviewed by: forkelst
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r374299 | prohaskajo | 2013-09-10 10:00:56 +0400 (Вт., 10 сент. 2013) | 19 lines
+
+Corrected append calls.
+-----
+Header: MME
+-----
+Polarion-ID: SL2-9659
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verfication platform: SL2xx target
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r377117 | prohaskajo | 2013-09-18 10:29:44 +0400 (Ср., 18 сент. 2013) | 19 lines
+
+Trace level reduced.
+-----
+Header: Software
+-----
+Polarion-ID: SL2-9283
+-----
+Variant: SL21x
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verfication platform: SL210 final
+-----
+Merge to:
+-----
+Reviewed by: forkelst
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r377357 | prohaskajo | 2013-09-18 13:40:34 +0400 (Ср., 18 сент. 2013) | 19 lines
+
+merge from sl220 - append corrected.
+-----
+Header: Software
+-----
+Polarion-ID: SL2-9283
+-----
+Variant: SL21x
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verfication platform: SL210 final
+-----
+Merge to:
+-----
+Reviewed by: forkelst
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r377380 | prohaskajo | 2013-09-18 14:17:33 +0400 (Ср., 18 сент. 2013) | 21 lines
+
+Forward stream length with first data event
+-----
+Header: Software
+-----
+Polarion-ID: SL2-9283
+-----
+Variant: SL21x
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verfication platform: SL210 final
+-----
+Merge to:
+-----
+Reviewed by: forkelst
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r377400 | prohaskajo | 2013-09-18 15:17:15 +0400 (Ср., 18 сент. 2013) | 21 lines
+
+Forward stream length with first data event
+-----
+Header: Software
+-----
+Polarion-ID: SL2-9283
+-----
+Variant: SL21x
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verfication platform: SL210 final
+-----
+Merge to:
+-----
+Reviewed by: forkelst
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r377566 | prohaskajo | 2013-09-19 10:04:52 +0400 (Чт., 19 сент. 2013) | 21 lines
+
+Increase watchdog timeout
+-----
+Header: System
+-----
+Polarion-ID: SL2-12981
+-----
+Variant: sl200
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verfication platform: sl200
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378034 | prohaskajo | 2013-09-20 12:01:04 +0400 (Пт., 20 сент. 2013) | 21 lines
+
+Reduced trace level. Changed internal event handling.
+-----
+Header: Software
+-----
+Polarion-ID: SL2-9283
+-----
+Variant: SL21x
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verfication platform: SL210 final
+-----
+Merge to:
+-----
+Reviewed by: forkelst
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378099 | prohaskajo | 2013-09-20 13:53:31 +0400 (Пт., 20 сент. 2013) | 19 lines
+
+Added availability state ofwasu on dashboard.
+-----
+Header: expmod
+-----
+Polarion-ID: SL2-12981
+-----
+Variant: final
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+
+Verification platform: SL220
+-----
+Merge to:trunk
+-----
+Reviewed by: forkelst
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378562 | prohaskajo | 2013-09-23 17:42:35 +0400 (Пн., 23 сент. 2013) | 19 lines
+
+Fixed back key handling.
+-----
+Header: expmod
+-----
+Polarion-ID: SL2-12981
+-----
+Variant: final
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+
+Verification platform: SL220
+-----
+Merge to:trunk
+-----
+Reviewed by: forkelst
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378563 | prohaskajo | 2013-09-23 17:43:21 +0400 (Пн., 23 сент. 2013) | 20 lines
+
+Fixed back key handling.
+-----
+Header: expmod
+-----
+Polarion-ID: SL2-12981
+-----
+Variant: final
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+
+Verification platform: SL220
+-----
+Merge to:trunk
+-----
+Reviewed by: forkelst
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r379408 | prohaskajo | 2013-09-25 17:35:55 +0400 (Ср., 25 сент. 2013) | 21 lines
+
+Update wasu logo for dashboard
+-----
+Header: expmod
+-----
+Polarion-ID: SL2-12981
+-----
+Variant: sl200
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verfication platform: sl200
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r379831 | prohaskajo | 2013-09-26 15:56:35 +0400 (Чт., 26 сент. 2013) | 20 lines
+
+rebase to trunk r379339
+-----
+Header: 
+-----
+Polarion-ID:
+-----
+Variant: sl200
+-----
+API-modification: No
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verification platform: SL2xx
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r380799 | prohaskajo | 2013-09-30 15:50:26 +0400 (Пн., 30 сент. 2013) | 21 lines
+
+Add new event for program number
+-----
+Header: Software
+-----
+Polarion-ID: SL2-9283
+-----
+Variant: SL21x
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verfication platform: SL1 final
+-----
+Merge to:
+-----
+Reviewed by: hg
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r382695 | prohaskajo | 2013-10-08 14:25:23 +0400 (Вт., 08 окт. 2013) | 19 lines
+
+Added recording mode to cirestrictions
+-----
+Header: CI+
+-----
+Polarion-ID: SL2-14696
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r382699 | prohaskajo | 2013-10-08 14:47:44 +0400 (Вт., 08 окт. 2013) | 20 lines
+
+Merge changes 378914:382419 to trunk from https://develop.loewe.de/svn/tvsoft/codebase2011/branches/develop/domain/easyexp_cw35
+-----
+Header: System
+-----
+Polarion-ID:  SL2-12981
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verification platform: sl220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r383161 | prohaskajo | 2013-10-09 14:08:03 +0400 (Ср., 09 окт. 2013) | 19 lines
+
+Added new android module network values.
+-----
+Header: Exp
+-----
+Polarion-ID: SL2-14729
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r383666 | prohaskajo | 2013-10-10 12:16:22 +0400 (Чт., 10 окт. 2013) | 22 lines
+
+Handle new event for program number.
+Forward SID to streamselection
+-----
+Header: Software
+-----
+Polarion-ID: SL2-9283
+-----
+Variant: SL21x
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verfication platform: SL1 final
+-----
+Merge to:
+-----
+Reviewed by: hadi
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r383667 | prohaskajo | 2013-10-10 12:16:23 +0400 (Чт., 10 окт. 2013) | 22 lines
+
+Handle new event for program number.
+Forward SID to streamselection
+-----
+Header: Software
+-----
+Polarion-ID: SL2-9283
+-----
+Variant: SL21x
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verfication platform: SL1 final
+-----
+Merge to:
+-----
+Reviewed by: hadi
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r384029 | prohaskajo | 2013-10-10 17:02:09 +0400 (Чт., 10 окт. 2013) | 21 lines
+
+Correct vamp get position handling.
+-----
+Header: Software
+-----
+Polarion-ID: SL2-9283
+-----
+Variant: SL21x
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verfication platform: SL1 final
+-----
+Merge to:
+-----
+Reviewed by: hadi
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r384030 | prohaskajo | 2013-10-10 17:02:09 +0400 (Чт., 10 окт. 2013) | 21 lines
+
+Correct vamp get position handling.
+-----
+Header: Software
+-----
+Polarion-ID: SL2-9283
+-----
+Variant: SL21x
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verfication platform: SL1 final
+-----
+Merge to:
+-----
+Reviewed by: hadi
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r384552 | prohaskajo | 2013-10-11 15:45:51 +0400 (Пт., 11 окт. 2013) | 21 lines
+
+Correct WSS / macrovision handling.
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-3888, SSL1-4032
+-----
+Variant: SL21x
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verfication platform: SL1 final
+-----
+Merge to:
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r384804 | prohaskajo | 2013-10-14 10:36:49 +0400 (Пн., 14 окт. 2013) | 21 lines
+
+Add standby position for counter.
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4163
+-----
+Variant: SL21x
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verfication platform: SL1 final
+-----
+Merge to:
+-----
+Reviewed by: puschgu
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r385083 | prohaskajo | 2013-10-14 17:31:51 +0400 (Пн., 14 окт. 2013) | 20 lines
+
+WSS bits corrected for case "copy once", considering timeshift.
+-----
+Header: CI+
+-----
+Polarion-ID: SL2-13697
+-----
+Variant: SL2xx
+-----
+API modification: No
+-----
+Internal documentation: WSS bits corrected for case "copy once", considering timeshift.
+-----
+External documentation: WSS bits corrected for case "copy once", considering timeshift.
+-----
+Verfication platform: SL220 final
+-----
+Merge to: -
+-----
+Reviewed by: hg
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r385541 | prohaskajo | 2013-10-15 15:06:26 +0400 (Вт., 15 окт. 2013) | 21 lines
+
+Add standby position for counter. Changed jump to endposition
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4163
+-----
+Variant: SL21x
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verfication platform: SL1 final
+-----
+Merge to:
+-----
+Reviewed by: puschgu
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r386034 | prohaskajo | 2013-10-16 15:48:20 +0400 (Ср., 16 окт. 2013) | 21 lines
+
+Bug fixed.
+-----
+Header: Software
+-----
+Polarion-ID: SL2-14848
+-----
+Variant: SL21x
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verfication platform: SL1 final
+-----
+Merge to:
+-----
+Reviewed by: puschgu
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r386044 | prohaskajo | 2013-10-16 15:53:40 +0400 (Ср., 16 окт. 2013) | 20 lines
+
+Bug fixed.
+-----
+Header: Software
+-----
+Polarion-ID: SL2-14848
+-----
+Variant: SL22x
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verfication platform: SL220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: hadi
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r386890 | prohaskajo | 2013-10-18 09:54:25 +0400 (Пт., 18 окт. 2013) | 21 lines
+
+AES handling refactored.
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4172, SSL1-4173
+-----
+Variant: SL21x
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verfication platform: SL1 final
+-----
+Merge to:
+-----
+Reviewed by: puschgu
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r387005 | prohaskajo | 2013-10-18 12:26:51 +0400 (Пт., 18 окт. 2013) | 21 lines
+
+AES handling refactored.
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4172, SSL1-4173
+-----
+Variant: SL21x
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verfication platform: SL1 final
+-----
+Merge to:
+-----
+Reviewed by: puschgu
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r387456 | prohaskajo | 2013-10-21 11:47:22 +0400 (Пн., 21 окт. 2013) | 19 lines
+
+SFB version provided via factory interface
+-----
+Header: System
+-----
+Polarion-ID: SL2-14903
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: SFB version provided via factory interface
+-----
+External documentation: SFB version provided via factory interface
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: puschgu
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r387474 | prohaskajo | 2013-10-21 12:20:57 +0400 (Пн., 21 окт. 2013) | 19 lines
+
+Don't handle MUTE in SFB key handler. Enlarge system settings timeout.
+-----
+Header: System
+-----
+Polarion-ID: SL2-14905
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Don't handle MUTE in SFB key handler. Enlarge system settings timeout.
+-----
+External documentation: Don't handle MUTE in SFB key handler. Enlarge system settings timeout.
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: puschgu
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r387658 | prohaskajo | 2013-10-21 16:58:20 +0400 (Пн., 21 окт. 2013) | 19 lines
+
+Don't use empty system setting events.
+-----
+Header: System
+-----
+Polarion-ID: SL2-14910
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Don't use empty system setting events.
+-----
+External documentation: Don't use empty system setting events.
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: puschgu
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r388262 | prohaskajo | 2013-10-22 17:41:04 +0400 (Вт., 22 окт. 2013) | 21 lines
+
+Handling of stream prepare changed.
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4172
+-----
+Variant: SL21x
+-----
+API-modification: No
+-----
+Internal documentation: Handling of stream prepare changed.
+-----
+External documentation: Handling of stream prepare changed.
+-----
+Verfication platform: SL1 final
+-----
+Merge to:
+-----
+Reviewed by: vazquezad
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r389322 | prohaskajo | 2013-10-24 18:26:29 +0400 (Чт., 24 окт. 2013) | 21 lines
+
+Set start and end position when appending an ip stream.
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4172
+-----
+Variant: SL21x
+-----
+API-modification: No
+-----
+Internal documentation: Set start and end position when appending an ip stream.
+-----
+External documentation: Set start and end position when appending an ip stream.
+-----
+Verfication platform: SL1 final
+-----
+Merge to:
+-----
+Reviewed by: puschgu
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r389323 | prohaskajo | 2013-10-24 18:26:30 +0400 (Чт., 24 окт. 2013) | 21 lines
+
+Set start and end position when appending an ip stream.
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4172
+-----
+Variant: SL21x
+-----
+API-modification: No
+-----
+Internal documentation: Set start and end position when appending an ip stream.
+-----
+External documentation: Set start and end position when appending an ip stream.
+-----
+Verfication platform: SL1 final
+-----
+Merge to:
+-----
+Reviewed by: puschgu
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r390220 | prohaskajo | 2013-10-28 18:58:46 +0400 (Пн., 28 окт. 2013) | 24 lines
+
+Improve position calculation.
+Add prio to append parameter.
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4172
+-----
+Variant: SL21x
+-----
+API-modification: No
+-----
+Internal documentation: mprove position calculation.
+Add prio to append parameter.
+-----
+External documentation: Improve position calculation.
+Add prio to append parameter.
+-----
+Verfication platform: SL1 final
+-----
+Merge to:
+-----
+Reviewed by: puschgu
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r390221 | prohaskajo | 2013-10-28 18:58:47 +0400 (Пн., 28 окт. 2013) | 24 lines
+
+Improve position calculation.
+Add prio to append parameter.
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4172
+-----
+Variant: SL21x
+-----
+API-modification: No
+-----
+Internal documentation: mprove position calculation.
+Add prio to append parameter.
+-----
+External documentation: Improve position calculation.
+Add prio to append parameter.
+-----
+Verfication platform: SL1 final
+-----
+Merge to:
+-----
+Reviewed by: puschgu
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r390531 | prohaskajo | 2013-10-29 16:08:23 +0400 (Вт., 29 окт. 2013) | 21 lines
+
+Handle redirection on our one.
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4172
+-----
+Variant: SL21x
+-----
+API-modification: No
+-----
+Internal documentation: Handle redirection on our one.
+-----
+External documentation: Handle redirection on our one.
+-----
+Verfication platform: SL1 final
+-----
+Merge to:
+-----
+Reviewed by: vazquezad
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r390697 | prohaskajo | 2013-10-29 19:34:10 +0400 (Вт., 29 окт. 2013) | 21 lines
+
+Set trigger / termination mode when appending stream.
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4172
+-----
+Variant: SL21x
+-----
+API-modification: No
+-----
+Internal documentation: Set trigger / termination mode when appending stream.
+-----
+External documentation: Set trigger / termination mode when appending stream.
+-----
+Verfication platform: SL1 final
+-----
+Merge to:
+-----
+Reviewed by: vazquezad
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r392094 | prohaskajo | 2013-11-05 10:59:10 +0400 (Вт., 05 нояб. 2013) | 21 lines
+
+Corrected trigger mode when appending stream.
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4163
+-----
+Variant: SL21x
+-----
+API-modification: No
+-----
+Corrected trigger mode when appending stream.
+-----
+Corrected trigger mode when appending stream.
+-----
+Verfication platform: SL1 final
+-----
+Merge to:
+-----
+Reviewed by: puschgu
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r392161 | prohaskajo | 2013-11-05 12:25:19 +0400 (Вт., 05 нояб. 2013) | 21 lines
+
+Corrected get position.
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4163
+-----
+Variant: SL21x
+-----
+API-modification: No
+-----
+Corrected get position.
+-----
+Corrected get position.
+-----
+Verfication platform: SL1 final
+-----
+Merge to:
+-----
+Reviewed by: vazquezad
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r392312 | prohaskajo | 2013-11-05 15:10:06 +0400 (Вт., 05 нояб. 2013) | 21 lines
+
+Add stream handle to all stream interface calls.
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4163
+-----
+Variant: SL21x
+-----
+API-modification: No
+-----
+Add stream handle to all stream interface calls.
+-----
+Add stream handle to all stream interface calls.
+-----
+Verfication platform: SL1 final
+-----
+Merge to:
+-----
+Reviewed by: vazquezad
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r392314 | prohaskajo | 2013-11-05 15:10:07 +0400 (Вт., 05 нояб. 2013) | 21 lines
+
+Add stream handle to all stream interface calls.
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4163
+-----
+Variant: SL21x
+-----
+API-modification: No
+-----
+Add stream handle to all stream interface calls.
+-----
+Add stream handle to all stream interface calls.
+-----
+Verfication platform: SL1 final
+-----
+Merge to:
+-----
+Reviewed by: vazquezad
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r392328 | prohaskajo | 2013-11-05 16:06:56 +0400 (Вт., 05 нояб. 2013) | 21 lines
+
+Corrected trigger serialization.
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4163
+-----
+Variant: SL21x
+-----
+API-modification: No
+-----
+Corrected trigger serialization.
+-----
+Corrected trigger serialization.
+-----
+Verfication platform: SL1 final
+-----
+Merge to:
+-----
+Reviewed by: vazquezad
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r392788 | prohaskajo | 2013-11-06 15:34:10 +0400 (Ср., 06 нояб. 2013) | 21 lines
+
+Corrected trigger bug.
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4163
+-----
+Variant: SL21x
+-----
+API-modification: No
+-----
+Corrected trigger bug.
+-----
+Corrected trigger bug.
+-----
+Verfication platform: SL1 final
+-----
+Merge to:
+-----
+Reviewed by: hadi
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r393352 | prohaskajo | 2013-11-07 16:58:07 +0400 (Чт., 07 нояб. 2013) | 24 lines
+
+Clear xkey location for redirection.
+Handle underflow events only in playing state.
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4172, SSL1-4173
+-----
+Variant: SL21x
+-----
+API-modification: No
+-----
+Internal documentation: Clear xkey location for redirection.
+Handle underflow events only in playing state.
+-----
+External documentation: Clear xkey location for redirection.
+Handle underflow events only in playing state.
+-----
+Verfication platform: SL1 final
+-----
+Merge to:
+-----
+Reviewed by: puschgu
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r393353 | prohaskajo | 2013-11-07 16:58:07 +0400 (Чт., 07 нояб. 2013) | 24 lines
+
+Clear xkey location for redirection.
+Handle underflow events only in playing state.
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4172, SSL1-4173
+-----
+Variant: SL21x
+-----
+API-modification: No
+-----
+Internal documentation: Clear xkey location for redirection.
+Handle underflow events only in playing state.
+-----
+External documentation: Clear xkey location for redirection.
+Handle underflow events only in playing state.
+-----
+Verfication platform: SL1 final
+-----
+Merge to:
+-----
+Reviewed by: puschgu
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r393441 | prohaskajo | 2013-11-07 18:38:40 +0400 (Чт., 07 нояб. 2013) | 21 lines
+
+No reset when stopping I-frame.
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4179
+-----
+Variant: SL21x
+-----
+API-modification: No
+-----
+Internal documentation: No reset when stopping I-frame.
+-----
+External documentation: No reset when stopping I-frame.
+-----
+Verfication platform: SL1 final
+-----
+Merge to:
+-----
+Reviewed by: puschgu
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r393797 | prohaskajo | 2013-11-08 15:00:09 +0400 (Пт., 08 нояб. 2013) | 21 lines
+
+Send playing event when audio / video is present.
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4415
+-----
+Variant: SL21x
+-----
+API-modification: No
+-----
+Internal documentation: Send playing event when audio / video is present.
+-----
+External documentation: Send playing event when audio / video is present.
+-----
+Verfication platform: SL1 final
+-----
+Merge to:
+-----
+Reviewed by: puschgu
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r394538 | prohaskajo | 2013-11-12 10:37:21 +0400 (Вт., 12 нояб. 2013) | 24 lines
+
+Correct set position.
+Correct mutex handling.
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4163
+-----
+Variant: SL21x
+-----
+API-modification: No
+-----
+Internal documentation: Correct set position.
+Correct mutex handling.
+-----
+External documentation: Correct set position.
+Correct mutex handling.
+-----
+Verfication platform: SL1 final
+-----
+Merge to:
+-----
+Reviewed by: puschgu
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r394775 | prohaskajo | 2013-11-12 14:58:51 +0400 (Вт., 12 нояб. 2013) | 21 lines
+
+Set even and odd key at once.
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4415
+-----
+Variant: SL21x
+-----
+API-modification: No
+-----
+Internal documentation: Set even and odd key at once.
+-----
+External documentation: Set even and odd key at once.
+-----
+Verfication platform: SL1 final
+-----
+Merge to:
+-----
+Reviewed by: puschgu
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r395731 | prohaskajo | 2013-11-14 16:04:22 +0400 (Чт., 14 нояб. 2013) | 21 lines
+
+Remove unused member.
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4415
+-----
+Variant: SL21x
+-----
+API-modification: No
+-----
+Internal documentation: Remove unused member.
+-----
+External documentation: Remove unused member.
+-----
+Verfication platform: SL1 final
+-----
+Merge to:
+-----
+Reviewed by: hadi
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r396198 | prohaskajo | 2013-11-15 17:31:39 +0400 (Пт., 15 нояб. 2013) | 25 lines
+
+Merged streaming changes
+-----
+Header: Stream Device
+-----
+Polarion-ID: SL2-9283
+-----
+Variant: sl2xx
+-----
+API-modification: Yes
+-----
+Internal documentation: 
+- Merged streaming changes
+ 
+-----
+External documentation:
+- Merged streaming changes
+
+-----
+Verfication platform: sl220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r396880 | prohaskajo | 2013-11-19 12:48:10 +0400 (Вт., 19 нояб. 2013) | 21 lines
+
+ICS 009 - scene 3 fixed.
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4415
+-----
+Variant: SL21x
+-----
+API-modification: No
+-----
+Internal documentation: ICS 009 - scene 3 fixed.
+-----
+External documentation: ICS 009 - scene 3 fixed.
+-----
+Verfication platform: SL1 final
+-----
+Merge to: trunk
+-----
+Reviewed by: hadi
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r396881 | prohaskajo | 2013-11-19 12:48:11 +0400 (Вт., 19 нояб. 2013) | 21 lines
+
+ICS 009 - scene 3 fixed.
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4415
+-----
+Variant: SL21x
+-----
+API-modification: No
+-----
+Internal documentation: ICS 009 - scene 3 fixed.
+-----
+External documentation: ICS 009 - scene 3 fixed.
+-----
+Verfication platform: SL1 final
+-----
+Merge to: trunk
+-----
+Reviewed by: hadi
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r397401 | prohaskajo | 2013-11-20 16:14:08 +0400 (Ср., 20 нояб. 2013) | 21 lines
+
+GetPosition of paused streams corrected.
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4415
+-----
+Variant: SL21x
+-----
+API-modification: No
+-----
+Internal documentation: GetPosition of paused streams corrected.
+-----
+External documentation: GetPosition of paused streams corrected.
+-----
+Verfication platform: SL1 final
+-----
+Merge to:
+-----
+Reviewed by: hadi
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r397426 | prohaskajo | 2013-11-20 16:46:40 +0400 (Ср., 20 нояб. 2013) | 21 lines
+
+Resume corrected.
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4415
+-----
+Variant: SL21x
+-----
+API-modification: No
+-----
+Internal documentation: Resume corrected.
+-----
+External documentation: Resume corrected.
+-----
+Verfication platform: SL1 final
+-----
+Merge to:
+-----
+Reviewed by: hadi
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r397564 | prohaskajo | 2013-11-20 19:42:49 +0400 (Ср., 20 нояб. 2013) | 21 lines
+
+Position corrected.
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4415
+-----
+Variant: SL21x
+-----
+API-modification: No
+-----
+Internal documentation: Position corrected.
+-----
+External documentation: Position corrected.
+-----
+Verfication platform: SL1 final
+-----
+Merge to:
+-----
+Reviewed by: vazquezad
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r397672 | prohaskajo | 2013-11-21 12:52:15 +0400 (Чт., 21 нояб. 2013) | 19 lines
+
+Corrected message attributes order.
+-----
+Header: System
+-----
+Polarion-ID: SL2-15116
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Corrected message attributes order.
+-----
+External documentation: Corrected message attributes order.
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: riedelin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r397686 | prohaskajo | 2013-11-21 13:28:49 +0400 (Чт., 21 нояб. 2013) | 19 lines
+
+Corrected key handling. Correct handling of updated network state.
+-----
+Header: System
+-----
+Polarion-ID: SL2-15045
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Corrected key handling. Correct handling of updated network state.
+-----
+External documentation: Corrected key handling. Correct handling of updated network state.
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: puschgu
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r398228 | prohaskajo | 2013-11-22 13:48:39 +0400 (Пт., 22 нояб. 2013) | 20 lines
+
+Merged rev. 397672 from "SL2xx/release/V2.3.X_CW40" into "SL2xx/release/V2.3.X_stab_CW44".
+-----
+Header: System
+-----
+Polarion-ID: SL2-15116
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Message attributes corrected.
+-----
+External documentation: Message attributes corrected. 
+-----
+Verification platform: SL220
+-----
+Merge to: 
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r398310 | prohaskajo | 2013-11-22 16:01:00 +0400 (Пт., 22 нояб. 2013) | 25 lines
+
+Merged streaming changes
+-----
+Header: Stream Device
+-----
+Polarion-ID: SL2-9283
+-----
+Variant: sl2xx
+-----
+API-modification: Yes
+-----
+Internal documentation: 
+- Merged streaming changes
+ 
+-----
+External documentation:
+- Merged streaming changes
+
+-----
+Verfication platform: sl220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401132 | prohaskajo | 2013-12-03 18:22:46 +0400 (Вт., 03 дек. 2013) | 20 lines
+
+corrected serviceId for application exit
+-----
+Header: MME
+-----
+Polarion-ID: SL2-15086
+-----
+Variant: SL220
+-----
+API-modification: No
+-----
+Internal documentation: corrected serviceId for application exit 
+-----
+External documentation: corrected serviceId for application exit
+-----
+Verfication platform: SL220
+-----
+Merge to: -
+-----
+Reviewed by: puschgu
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401135 | prohaskajo | 2013-12-03 18:27:47 +0400 (Вт., 03 дек. 2013) | 19 lines
+
+Corrected serviceId for application exit message.
+-----
+Header: MME
+-----
+Polarion-ID: SL2-15086
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Corrected serviceId for application exit message.
+-----
+External documentation: Corrected serviceId for application exit message.
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: puschgu
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401408 | prohaskajo | 2013-12-04 15:49:27 +0400 (Ср., 04 дек. 2013) | 19 lines
+
+Reset service parameter on service stop.
+-----
+Header: MME
+-----
+Polarion-ID: SL2-15086
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Reset service parameter on service stop.
+-----
+External documentation: Reset service parameter on service stop.
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: puschgu
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401469 | prohaskajo | 2013-12-04 17:15:18 +0400 (Ср., 04 дек. 2013) | 21 lines
+
+Reset service parameter on service stop.
+-----
+Header: MME
+-----
+Polarion-ID: SL2-15086
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Reset service parameter on service stop.
+-----
+External documentation: Reset service parameter on service stop.
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: puschgu
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401883 | prohaskajo | 2013-12-05 17:42:13 +0400 (Чт., 05 дек. 2013) | 22 lines
+
+Start avstream only after successful preload.
+Reset application running value at ammi stop.
+-----
+Header: MME
+-----
+Polarion-ID: SL2-15086
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Start avstream only after successful preload.
+Reset application running value at ammi stop.
+-----
+External documentation: Start avstream only after successful preload.
+Reset application running value at ammi stop.
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: puschgu
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401908 | prohaskajo | 2013-12-05 18:07:30 +0400 (Чт., 05 дек. 2013) | 24 lines
+
+Start avstream only after successful preload.
+Reset application running value at ammi stop.
+-----
+Header: MME
+-----
+Polarion-ID: SL2-15086
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Start avstream only after successful preload.
+Reset application running value at ammi stop.
+-----
+External documentation: Start avstream only after successful preload.
+Reset application running value at ammi stop.
+-----
+Verfication platform: SL220
+-----
+Merge to: 
+-----
+Reviewed by: puschgu
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401955 | prohaskajo | 2013-12-05 19:04:37 +0400 (Чт., 05 дек. 2013) | 23 lines
+
+Start avstream only after successful preload.
+Reset application running value at ammi stop.
+-----
+Header: MME
+-----
+Polarion-ID: SL2-15086
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Start avstream only after successful preload.
+Reset application running value at ammi stop.
+-----
+External documentation: Start avstream only after successful preload.
+Reset application running value at ammi stop.
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: puschgu
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403348 | prohaskajo | 2013-12-11 14:04:53 +0400 (Ср., 11 дек. 2013) | 20 lines
+
+ "V2.3.X_china_CW50" created based on branch V2.3.X_stab_CW44, Revision 403054
+-----
+Header: System
+-----
+Polarion-ID: 
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation: Branch "V2.3.X_china_CW50" created based on branch V2.3.X_stab_CW44
+-----
+External documentation: -
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: 
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403402 | prohaskajo | 2013-12-11 15:15:46 +0400 (Ср., 11 дек. 2013) | 19 lines
+
+Power android module in wake on wlan mode.
+-----
+Header: DVB Networks
+-----
+Polarion-ID: SL2-15515
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Power android module in wake on wlan mode.
+-----
+External documentation: Power android module in wake on wlan mode.
+-----
+Verification platform: SL220 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: friedlein
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403421 | prohaskajo | 2013-12-11 16:56:14 +0400 (Ср., 11 дек. 2013) | 21 lines
+
+
+Merged china changes 391595, 397686, 398223, 398366, 400151, 401686, 401841, 403003, 403402
+-----
+Header: DVB Networks
+-----
+Polarion-ID: SL2-15515, SL2-15438, SL2-15439, SL2-15271, SL2-14943, SL2-15045, SL2-15038
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Merged china changes
+-----
+External documentation: Merged china changes
+-----
+Verification platform: SL220 debug
+-----
+Merge to: 
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403537 | prohaskajo | 2013-12-12 11:45:31 +0400 (Чт., 12 дек. 2013) | 19 lines
+
+Avoid access to freed data.
+-----
+Header: MME
+-----
+Polarion-ID: SL2-15513
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Avoid access to freed data.
+-----
+External documentation: Avoid access to freed data.
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: puschgu
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403538 | prohaskajo | 2013-12-12 11:50:55 +0400 (Чт., 12 дек. 2013) | 19 lines
+
+Update app status at service stop.
+-----
+Header: MME
+-----
+Polarion-ID: SL2-14362
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Update app status at service stop.
+-----
+External documentation: Update app status at service stop.
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: puschgu
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403575 | prohaskajo | 2013-12-12 13:20:55 +0400 (Чт., 12 дек. 2013) | 22 lines
+
+Add and activate new redkey engine.  
+-----
+Header: System
+-----
+Polarion-ID: SL2-14070
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+Add and activate new redkey engine.
+-----
+External documentation:
+Add and activate new redkey engine.
+-----
+Verfication platform: sl220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403578 | prohaskajo | 2013-12-12 13:31:35 +0400 (Чт., 12 дек. 2013) | 20 lines
+
+Merge: Avoid access to freed data.
+-----
+Header: MME
+-----
+Polarion-ID: SL2-15513
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Avoid access to freed data.
+-----
+External documentation: Avoid access to freed data.
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: puschgu
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403651 | prohaskajo | 2013-12-12 16:41:45 +0400 (Чт., 12 дек. 2013) | 19 lines
+
+Avoid access to freed data.
+-----
+Header: CI
+-----
+Polarion-ID: SL2-15513
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Avoid access to freed data.
+-----
+External documentation: Avoid access to freed data.
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: puschgu
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403655 | prohaskajo | 2013-12-12 16:49:16 +0400 (Чт., 12 дек. 2013) | 19 lines
+
+Update app status at service stop.
+-----
+Header: MME
+-----
+Polarion-ID: SL2-14362
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Update app status at service stop.
+-----
+External documentation: Update app status at service stop.
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: puschgu
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403661 | prohaskajo | 2013-12-12 16:51:47 +0400 (Чт., 12 дек. 2013) | 22 lines
+
+Add and activate new redkey engine.  
+-----
+Header: System
+-----
+Polarion-ID: SL2-14070
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+Add and activate new redkey engine.
+-----
+External documentation:
+Add and activate new redkey engine.
+-----
+Verfication platform: sl220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403663 | prohaskajo | 2013-12-12 16:52:18 +0400 (Чт., 12 дек. 2013) | 22 lines
+
+Add and activate new redkey engine.  
+-----
+Header: System
+-----
+Polarion-ID: SL2-14070
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+Add and activate new redkey engine.
+-----
+External documentation:
+Add and activate new redkey engine.
+-----
+Verfication platform: sl220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403666 | prohaskajo | 2013-12-12 16:53:49 +0400 (Чт., 12 дек. 2013) | 22 lines
+
+Add and activate new redkey engine.  
+-----
+Header: System
+-----
+Polarion-ID: SL2-14070
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+Add and activate new redkey engine.
+-----
+External documentation:
+Add and activate new redkey engine.
+-----
+Verfication platform: sl220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403681 | prohaskajo | 2013-12-12 17:41:26 +0400 (Чт., 12 дек. 2013) | 22 lines
+
+Add and activate new redkey engine.  
+-----
+Header: System
+-----
+Polarion-ID: SL2-14070
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+Add and activate new redkey engine.
+-----
+External documentation:
+Add and activate new redkey engine.
+-----
+Verfication platform: sl220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403978 | prohaskajo | 2013-12-13 17:05:14 +0400 (Пт., 13 дек. 2013) | 22 lines
+
+Merge Revisions 403054:403963 from http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_stab_CW44
+-----
+Header: System
+-----
+Polarion-ID: 
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+Merge Revisions 403054:403963 from http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_stab_CW44
+-----
+External documentation:
+Merge Revisions 403054:403963 from http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_stab_CW44
+-----
+Verfication platform: sl220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404573 | prohaskajo | 2013-12-17 18:47:02 +0400 (Вт., 17 дек. 2013) | 20 lines
+
+loshell test command for further investigation
+-----
+Header: System
+-----
+Polarion-ID: SL2-15368
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation: loshell test command for further investigation
+-----
+External documentation: loshell test command for further investigation
+-----
+Verfication platform: sl220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404682 | prohaskajo | 2013-12-18 12:34:04 +0400 (Ср., 18 дек. 2013) | 25 lines
+
+Merge: Crash while direct test navigation solved and A/V PIDs collected before setStreamPIDs
+-----
+Header: Stream Device
+-----
+Polarion-ID: SSL1-4164
+-----
+Variant: sl1xx
+-----
+API-modification: No
+-----
+Internal documentation:  
+	- Audio PID and Video PID are fristly collected before calling StreamDev::setStreamIds method
+	- Crash solved which occurred while direct access of test ICS009.4
+	
+-----
+External documentation:
+	- Audio and Video PIDs collected before calling StreamDev::setStreamIds
+
+-----
+Verfication platform: sl1xx final
+-----
+Merge to: trunk
+-----
+Reviewed by: vazquezad
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404694 | prohaskajo | 2013-12-18 13:21:53 +0400 (Ср., 18 дек. 2013) | 25 lines
+
+Mechanism to preload stream to set PIDs before calling player_start and some cleaning
+-----
+Header: Stream Device
+-----
+Polarion-ID: SSL1-4164, SSL1-4180, SSL1-4176, SSL1-4174, SSL1-4162
+-----
+Variant: sl1xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+- a preload mechanism is implemented so stream's data are injected to demux without playing
+  this way the streamSelection component can get the PIDs, collect them and set them back to
+  the streamDev. Only then the player_start is called.
+
+-----
+External documentation:
+- stream data preload mechanism implemented
+
+-----
+Verfication platform: sl1xx final
+-----
+Merge to: trunk
+-----
+Reviewed by: vazquezad 
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404920 | prohaskajo | 2013-12-19 16:18:35 +0400 (Чт., 19 дек. 2013) | 19 lines
+
+Release cached descrambler.
+-----
+Header: MME
+-----
+Polarion-ID: SSL1-4168
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Release cached descrambler.
+-----
+External documentation: Release cached descrambler.
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: vazquezad
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404950 | prohaskajo | 2013-12-19 17:54:27 +0400 (Чт., 19 дек. 2013) | 20 lines
+
+Corrected update server address.
+-----
+Header: Stream Device
+-----
+Polarion-ID: SL2-15271
+-----
+Variant: sl1xx
+-----
+API-modification: No
+-----
+Internal documentation: Corrected update server address.	
+-----
+External documentation: Corrected update server address.
+-----
+Verfication platform: sl220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405029 | prohaskajo | 2013-12-20 13:49:20 +0400 (Пт., 20 дек. 2013) | 22 lines
+
+Add and activate new redkey engine.  
+-----
+Header: System
+-----
+Polarion-ID: SL2-14070
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+Add and activate new redkey engine.
+-----
+External documentation:
+Add and activate new redkey engine.
+-----
+Verfication platform: sl220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405030 | prohaskajo | 2013-12-20 13:50:17 +0400 (Пт., 20 дек. 2013) | 22 lines
+
+Add and activate new redkey engine.  
+-----
+Header: System
+-----
+Polarion-ID: SL2-14070
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+Add and activate new redkey engine.
+-----
+External documentation:
+Add and activate new redkey engine.
+-----
+Verfication platform: sl220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406672 | prohaskajo | 2014-01-15 18:33:47 +0400 (Ср., 15 янв. 2014) | 19 lines
+
+Stream device copied from sl1-dcl.
+-----
+Header: Streaming
+-----
+Polarion-ID: SSL1-4166
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Stream device copied from sl1-dcl.
+-----
+External documentation: Stream device copied from sl1-dcl.
+-----
+Verfication platform: SL210
+-----
+Merge to: trunk
+-----
+Reviewed by: puschgu
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407414 | prohaskajo | 2014-01-21 17:45:03 +0400 (Вт., 21 янв. 2014) | 21 lines
+
+Stream / player device merged from sl1-dcl.
+-----
+Header: Streaming
+-----
+Polarion-ID: SSL1-4166
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Stream / player device merged from sl1-dcl.
+-----
+External documentation: Stream / player device merged from sl1-dcl.
+-----
+Verfication platform: SL210
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: 
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407867 | prohaskajo | 2014-01-24 11:00:05 +0400 (Пт., 24 янв. 2014) | 24 lines
+
+svn merge -r 405683:407783 http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_stab_CW44
+-----
+Header: System
+-----
+Polarion-ID: 
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+svn merge -r 405683:407783 http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_stab_CW44
+-----
+External documentation:
+svn merge -r 405683:407783 http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_stab_CW44
+-----
+Verfication platform: sl220
+-----
+Merge to: 
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407998 | prohaskajo | 2014-01-24 17:13:03 +0400 (Пт., 24 янв. 2014) | 24 lines
+
+svn merge -r 407783:407981 http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_stab_CW44
+-----
+Header: System
+-----
+Polarion-ID: 
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+svn merge -r 407783:407981 http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_stab_CW44
+-----
+External documentation:
+svn merge -r 407783:407981 http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_stab_CW44
+-----
+Verfication platform: sl220
+-----
+Merge to: 
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408548 | prohaskajo | 2014-01-31 12:28:34 +0400 (Пт., 31 янв. 2014) | 24 lines
+
+Adaption for SFB USB update
+-----
+Header: System
+-----
+Polarion-ID: SFB-27
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+Adaption for SFB USB update
+-----
+External documentation:
+Adaption for SFB USB update
+-----
+Verfication platform: sl220
+-----
+Merge to: 
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408679 | prohaskajo | 2014-02-03 11:55:43 +0400 (Пн., 03 февр. 2014) | 24 lines
+
+svn merge -r 407981:408649 http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_stab_CW44
+-----
+Header: System
+-----
+Polarion-ID: 
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+svn merge -r 407981:408649 http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_stab_CW44
+-----
+External documentation:
+svn merge -r 407981:408649 http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_stab_CW44
+-----
+Verfication platform: sl220
+-----
+Merge to: 
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409158 | prohaskajo | 2014-02-05 18:55:47 +0400 (Ср., 05 февр. 2014) | 22 lines
+
+SFB fundamental mode conversion fixed.
+-----
+Header: System
+-----
+Polarion-ID: -
+-----
+Variant: sl220
+-----
+API-modification: no
+-----
+Internal documentation: SFB fundamental mode conversion fixed.
+-----
+External documentation: SFB fundamental mode conversion fixed.
+-----
+Verfication platform: sl220
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: 
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409730 | prohaskajo | 2014-02-07 16:43:59 +0400 (Пт., 07 февр. 2014) | 22 lines
+
+SFB actions registered.
+-----
+Header: System
+-----
+Polarion-ID: -
+-----
+Variant: sl220
+-----
+API-modification: no
+-----
+Internal documentation: SFB actions registered.
+-----
+External documentation:SFB actions registered.
+-----
+Verfication platform: sl220
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: 
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409900 | prohaskajo | 2014-02-10 13:28:15 +0400 (Пн., 10 февр. 2014) | 24 lines
+
+svn merge -r 407981:409807 http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_stab_CW44
+-----
+Header: System
+-----
+Polarion-ID: 
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+svn merge -r 407981:409807 http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_stab_CW44
+-----
+External documentation:
+svn merge -r 407981:409807 http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_stab_CW44
+-----
+Verfication platform: sl220
+-----
+Merge to: 
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409902 | prohaskajo | 2014-02-10 13:32:14 +0400 (Пн., 10 февр. 2014) | 24 lines
+
+svn merge -c 408162,408242,408525,408548,409158,409568,409570,409689,409730 http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_china_CW50
+-----
+Header: System
+-----
+Polarion-ID: 
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+svn merge -c 408162,408242,408525,408548,409158,409568,409570,409689,409730 http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_china_CW50
+-----
+External documentation:
+svn merge -c 408162,408242,408525,408548,409158,409568,409570,409689,409730 http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_china_CW50
+-----
+Verfication platform: sl220
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r410204 | prohaskajo | 2014-02-11 16:10:14 +0400 (Вт., 11 февр. 2014) | 23 lines
+
+Use wasu state for wasu availability on dashboard
+-----
+Header: SFB
+-----
+Polarion-ID: SL2-15752 - [Expansion module] 
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Use wasu state for wasu availability on dashboard
+
+-----
+External documentation:
+Use wasu state for wasu availability on dashboard
+
+-----
+Verfication platform: sl220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: puschgu 
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r410246 | prohaskajo | 2014-02-11 17:37:28 +0400 (Вт., 11 февр. 2014) | 24 lines
+
+svn merge -c 410204 http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40
+-----
+Header: System
+-----
+Polarion-ID: SL2-15752
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+svn merge -c 410204 http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40
+-----
+External documentation:
+svn merge -c 410204 http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40
+-----
+Verfication platform: sl220
+-----
+Merge to: 
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r410256 | prohaskajo | 2014-02-11 18:05:18 +0400 (Вт., 11 февр. 2014) | 24 lines
+
+svn merge -r 408649:410197 http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_stab_CW44
+-----
+Header: System
+-----
+Polarion-ID: SL2-15752
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+svn merge -r 408649:410197 http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_stab_CW44
+-----
+External documentation:
+svn merge -r 408649:410197 http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_stab_CW44
+-----
+Verfication platform: sl220
+-----
+Merge to: 
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------

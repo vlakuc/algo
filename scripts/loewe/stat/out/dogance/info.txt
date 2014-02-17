@@ -1,0 +1,3976 @@
+------------------------------------------------------------------------
+r379998 | dogance | 2013-09-26 18:09:01 +0400 (Чт., 26 сент. 2013) | 22 lines
+
+Fix ISO 639-1 three-letter code for Romanian.
+-----
+Header: EPG
+-----
+Polarion-ID: SSL1-3872
+-----
+Variant: le65x
+-----
+API-modification: No
+-----
+Internal documentation: 
+Detect 'RUM' and 'RON' as Romanian.
+-----
+External documentation:
+Detect 'RUM' and 'RON' as Romanian.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r379999 | dogance | 2013-09-26 18:10:47 +0400 (Чт., 26 сент. 2013) | 22 lines
+
+Fix ISO 639-1 three-letter code for Romanian.
+-----
+Header: EPG
+-----
+Polarion-ID: SSL1-3872
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: 
+Detect 'RUM' and 'RON' as Romanian.
+-----
+External documentation:
+Detect 'RUM' and 'RON' as Romanian.
+-----
+Verfication platform: sl220
+-----
+Merge-to: -
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r381970 | dogance | 2013-10-03 15:49:13 +0400 (Чт., 03 окт. 2013) | 22 lines
+
+Allow "valid purposes" as selection and field.
+-----
+Header: Service Layer
+-----
+Polarion-ID: SL2-11437
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Allow "valid purposes" as selection and field.
+-----
+External documentation:
+Allow "valid purposes" as selection and field.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r381972 | dogance | 2013-10-03 15:51:13 +0400 (Чт., 03 окт. 2013) | 22 lines
+
+Allow "valid purposes" as selection and field.
+-----
+Header: Service Layer
+-----
+Polarion-ID: SSL1-3265
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Allow "valid purposes" as selection and field.
+-----
+External documentation:
+Allow "valid purposes" as selection and field.
+-----
+Verfication platform: sl220
+-----
+Merge-to: -
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r382131 | dogance | 2013-10-04 15:05:24 +0400 (Пт., 04 окт. 2013) | 23 lines
+
+Keep spaces and line breaks.
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-14683
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Keep spaces and line breaks.
+It's a hack, because the root cause of this behaviour is unknown to us.
+-----
+External documentation:
+Keep spaces and line breaks.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: weggenti
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r382245 | dogance | 2013-10-06 16:37:06 +0400 (Вс., 06 окт. 2013) | 22 lines
+
+Repair broken setServiceUpdate() due to merge.
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-14685
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Repair broken setServiceUpdate() due to merge.
+-----
+External documentation:
+Repair broken setServiceUpdate() due to merge.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r382331 | dogance | 2013-10-07 15:21:15 +0400 (Пн., 07 окт. 2013) | 22 lines
+
+Add streamable flag to service list iterator result set.
+-----
+Header: Service Layer
+-----
+Polarion-ID: SL2-14654
+-----
+Variant: sl2xx
+-----
+API-modification: Yes
+-----
+Internal documentation: 
+Add streamable flag to service list iterator result set.
+-----
+External documentation:
+Add streamable flag to service list iterator result set.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r382355 | dogance | 2013-10-07 16:07:15 +0400 (Пн., 07 окт. 2013) | 22 lines
+
+Generate only UTF-8 UUIDs in granary, oat, vtuner.
+-----
+Header: Service Layer
+-----
+Polarion-ID: SL2-14528
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Generate only UTF-8 UUIDs in granary, oat, vtuner.
+-----
+External documentation:
+Generate only UTF-8 UUIDs in granary, oat, vtuner.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r382359 | dogance | 2013-10-07 16:16:31 +0400 (Пн., 07 окт. 2013) | 22 lines
+
+Merge servicelist UUID fix from V2.1.X_CW16.
+-----
+Header: Service Layer
+-----
+Polarion-ID: SL2-14528
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Merge servicelist UUID fix from V2.1.X_CW16.
+-----
+External documentation:
+Merge servicelist UUID fix from V2.1.X_CW16.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r382382 | dogance | 2013-10-07 17:00:46 +0400 (Пн., 07 окт. 2013) | 22 lines
+
+Generate list UUIDs with libuuid in service-list.
+-----
+Header: Service Layer
+-----
+Polarion-ID: SL2-14528
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Generate list UUIDs with libuuid in service-list.
+-----
+External documentation:
+Generate list UUIDs with libuuid in service-list.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r382403 | dogance | 2013-10-07 17:18:05 +0400 (Пн., 07 окт. 2013) | 22 lines
+
+Merge r382355, r382382 to V2.3.X.
+-----
+Header: Service Layer
+-----
+Polarion-ID: SL2-14528
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Merge r382355, r382382 to V2.3.X.
+-----
+External documentation:
+Merge r382355, r382382 to V2.3.X.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r383091 | dogance | 2013-10-09 13:14:57 +0400 (Ср., 09 окт. 2013) | 22 lines
+
+Mark base64-encoded UUIDs to distinguish them from others.
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-14723
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Mark base64-encoded UUIDs to distinguish them from others.
+-----
+External documentation:
+Mark base64-encoded UUIDs to distinguish them from others.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r383092 | dogance | 2013-10-09 13:15:47 +0400 (Ср., 09 окт. 2013) | 22 lines
+
+Mark base64-encoded UUIDs to distinguish them from others.
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-14723
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Mark base64-encoded UUIDs to distinguish them from others.
+-----
+External documentation:
+Mark base64-encoded UUIDs to distinguish them from others.
+-----
+Verfication platform: sl220
+-----
+Merge-to: -
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r383946 | dogance | 2013-10-10 16:11:28 +0400 (Чт., 10 окт. 2013) | 22 lines
+
+Add invalidations after factory list setup.
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-14758
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Add invalidations after factory list setup.
+-----
+External documentation:
+Add invalidations after factory list setup.
+-----
+Verfication platform: sl220
+-----
+Merge-to: -
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r383948 | dogance | 2013-10-10 16:13:14 +0400 (Чт., 10 окт. 2013) | 22 lines
+
+Add invalidations after factory list setup.
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-14758
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Add invalidations after factory list setup.
+-----
+External documentation:
+Add invalidations after factory list setup.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r390488 | dogance | 2013-10-29 14:35:01 +0400 (Вт., 29 окт. 2013) | 22 lines
+
+Add default initialization for cached mediaID.
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-14967
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Add default initialization for cached mediaID.
+-----
+External documentation:
+Add default initialization for cached mediaID.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r390584 | dogance | 2013-10-29 17:19:19 +0400 (Вт., 29 окт. 2013) | 22 lines
+
+Merge rev. 390488 from V2.3.X_CW40 to V2.3.X_stab_CW44.
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-14967
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Add default initialization for cached mediaID.
+-----
+External documentation:
+Add default initialization for cached mediaID.
+-----
+Verfication platform: sl220
+-----
+Merge-to: -
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r390869 | dogance | 2013-10-30 13:39:07 +0400 (Ср., 30 окт. 2013) | 24 lines
+
+Set valid purpose for UPnP volumes according to capabilities.
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-11437
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+"Valid purposes" is interpreted by the GUI as purposes available or expected to be available.
+So, a loading sign is displayed, if the valid purpose is set and the purpose isn't.
+To avoid this for non-searchable UPnP volumes, the valid purpose "searchable" is unset.
+-----
+External documentation:
+Set valid purpose for UPnP volumes according to capabilities.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r390986 | dogance | 2013-10-30 16:19:10 +0400 (Ср., 30 окт. 2013) | 22 lines
+
+Support UPnP servers without sort capability.
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-14568
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Support UPnP servers without sort capability.
+-----
+External documentation:
+Support UPnP servers without sort capability.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r390989 | dogance | 2013-10-30 16:22:05 +0400 (Ср., 30 окт. 2013) | 22 lines
+
+Merge rev. 390986 from V2.3.X_CW40 to V2.3.X_stab_CW44.
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-14568
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Support UPnP servers without sort capability.
+-----
+External documentation:
+Support UPnP servers without sort capability.
+-----
+Verfication platform: sl220
+-----
+Merge-to: -
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r391446 | dogance | 2013-10-31 17:39:05 +0400 (Чт., 31 окт. 2013) | 22 lines
+
+Add mixed factory favorite list.
+-----
+Header: Factory
+-----
+Polarion-ID: SL2-14710
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Add mixed factory favorite list, because the "whole list" isn't displayed any more. The mixed list contains analog and DVB stations with their respective channel numbers, as requested by the factory.
+-----
+External documentation:
+Add mixed factory favorite list.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r391598 | dogance | 2013-11-01 17:21:13 +0400 (Пт., 01 нояб. 2013) | 22 lines
+
+Merge rev. 390869 from V2.3.X_CW40 to V2.3.X_stab_CW44.
+-----
+Header: UPnP
+-----
+Polarion-ID: SL2-15048
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Loading sign behaviour for UPnP volumes.
+-----
+External documentation:
+Loading sign behaviour for UPnP volumes.
+-----
+Verfication platform: sl220
+-----
+Merge-to: -
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r391604 | dogance | 2013-11-01 18:37:43 +0400 (Пт., 01 нояб. 2013) | 22 lines
+
+Partial support for seekToContent() in granary and oat.
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-14667
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Partial support for seekToContent() in granary and oat.
+-----
+External documentation:
+Partial support for seekToContent() in granary and oat.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r391616 | dogance | 2013-11-02 17:22:41 +0400 (Сб., 02 нояб. 2013) | 22 lines
+
+Further work on seekToContent().
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-14667
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Further work on seekToContent().
+-----
+External documentation:
+Further work on seekToContent().
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r393933 | dogance | 2013-11-08 18:13:16 +0400 (Пт., 08 нояб. 2013) | 21 lines
+
+Unlock before destruction.
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-15126
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Unlock before destruction.
+-----
+External documentation:
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r394048 | dogance | 2013-11-09 16:00:09 +0400 (Сб., 09 нояб. 2013) | 21 lines
+
+Inform md/servicelist of HDMI name changes.
+-----
+Header: Station List
+-----
+Polarion-ID: SL2-15065
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+The service-list backend should decide whom to send the AV list notifications and therefore needs to be notified of HDMI name changes.
+-----
+External documentation:
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r394059 | dogance | 2013-11-09 21:35:42 +0400 (Сб., 09 нояб. 2013) | 22 lines
+
+First implementation of the new query and notification parts of the servicelist.
+-----
+Header: Station List
+-----
+Polarion-ID: SL2-10067, SL2-13680, SL2-12694
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+First implementation of the new query and notification parts of the servicelist.
+-----
+External documentation:
+First implementation of the new query and notification parts of the servicelist.
+-----
+Verfication platform: sl220
+-----
+Merge-to: -
+-----
+Reviewed by: dogance
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r394374 | dogance | 2013-11-11 17:34:12 +0400 (Пн., 11 нояб. 2013) | 21 lines
+
+Inform md/servicelist about HDMI name changes.
+-----
+Header: Station List
+-----
+Polarion-ID: SSL1-4191, SSL1-1918
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+The service-list backend should decide whom to send the AV list notifications and therefore needs to be notified about HDMI name changes.
+-----
+External documentation:
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r394802 | dogance | 2013-11-12 15:42:12 +0400 (Вт., 12 нояб. 2013) | 21 lines
+
+Mutex issue.
+-----
+Header: Station List
+-----
+Polarion-ID: SL2-10067
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Mutex issue.
+-----
+External documentation:
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r395249 | dogance | 2013-11-13 15:17:23 +0400 (Ср., 13 нояб. 2013) | 22 lines
+
+Fix compilation errors.
+-----
+Header: Service Layer
+-----
+Polarion-ID: SL2-14704
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Fix compilation errors from rev. 395021 with incremental build, release variant.
+-----
+External documentation:
+-
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r395258 | dogance | 2013-11-13 15:31:18 +0400 (Ср., 13 нояб. 2013) | 20 lines
+
+Correct sorting by QUERN_FIELD_TITLE in sl_optimization branch.
+-----
+Header: Service list
+-----
+Polarion-ID: SL2-15108
+-----
+API-modification: No
+-----
+Internal documentation:
+Correct sorting by QUERN_FIELD_TITLE in sl_optimization branch.
+-----
+External documentation:
+Correct sorting by QUERN_FIELD_TITLE in sl_optimization branch.
+-----
+Verification platform: sl220
+-----
+Merge to: trunk
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r395419 | dogance | 2013-11-13 18:42:34 +0400 (Ср., 13 нояб. 2013) | 23 lines
+
+Distinguish availability of UPnP dashboard items from WAN items.
+-----
+Header: Service Layer
+-----
+Polarion-ID: SL2-14690
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Decide on availability of dashboard items whose locators start with "http://" based on their item subtype.
+This will display WAN items as unavailable if the browser is not enabled (yet), while UPnP items remain available. Previously they were also unselectable.
+(We might still check if the UPnP server is available, but that is a separate issue).
+-----
+External documentation: -
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r396098 | dogance | 2013-11-15 14:40:52 +0400 (Пт., 15 нояб. 2013) | 23 lines
+
+Keep track of AsyncMaItemJobListener construction and destruction.
+-----
+Header: Service Layer
+-----
+Polarion-ID: SSL1-4114
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Keep track of AsyncMaItemJobListener construction and destruction.
+Prevents using pointers to already destroyed listeners.
+Uses a LRU cache to avoid a memory leak.
+-----
+External documentation:
+-----
+Verfication platform: sl210
+-----
+Merge-to: -
+-----
+Reviewed by: weggenti
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r396150 | dogance | 2013-11-15 16:35:18 +0400 (Пт., 15 нояб. 2013) | 24 lines
+
+Keep track of AsyncMaItemJobListener construction and destruction.
+-----
+Header: Service Layer
+-----
+Polarion-ID: SSL1-4114
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Adaption of r396098 for V2.3.X.
+Keep track of AsyncMaItemJobListener construction and destruction.
+Prevents using pointers to already destroyed listeners.
+Uses a LRU cache to avoid a memory leak.
+-----
+External documentation:
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: weggenti
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r396176 | dogance | 2013-11-15 17:09:23 +0400 (Пт., 15 нояб. 2013) | 24 lines
+
+Keep track of AsyncMaItemJobListener construction and destruction.
+-----
+Header: Service Layer
+-----
+Polarion-ID: SSL1-4114
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Adaption of r396098 for V2.3.X_stab_CW44.
+Keep track of AsyncMaItemJobListener construction and destruction.
+Prevents using pointers to already destroyed listeners.
+Uses a LRU cache to avoid a memory leak.
+-----
+External documentation:
+-----
+Verfication platform: sl220
+-----
+Merge-to: -
+-----
+Reviewed by: weggenti
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r396309 | dogance | 2013-11-16 17:38:06 +0400 (Сб., 16 нояб. 2013) | 24 lines
+
+Merge r390869 from V2.3.X_CW40.
+-----
+Header: Support Layer
+-----
+Polarion-ID: 
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Merge r390869 from V2.3.X_CW40.
+Fixes non-disappearing loading sign for UPnP servers.
+-----
+External documentation:
+Merge r390869 from V2.3.X_CW40.
+Fixes non-disappearing loading sign for UPnP servers.
+-----
+Verfication platform: sl210
+-----
+Merge-to: -
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r396312 | dogance | 2013-11-17 16:51:50 +0400 (Вс., 17 нояб. 2013) | 22 lines
+
+Further work on seekToContent().
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-14667
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Further work on seekToContent().
+-----
+External documentation:
+Further work on seekToContent().
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r396319 | dogance | 2013-11-17 18:11:14 +0400 (Вс., 17 нояб. 2013) | 21 lines
+
+Allow switching "backwards" in volume states.
+-----
+Header: Service Layer
+-----
+Polarion-ID: SSL1-3373
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Allow switching "backwards" in volume states.
+-----
+External documentation: -
+-----
+Verfication platform: sl210
+-----
+Merge-to: trunk
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r397000 | dogance | 2013-11-19 15:54:05 +0400 (Вт., 19 нояб. 2013) | 22 lines
+
+Fix jobId.
+-----
+Header: Service Layer
+-----
+Polarion-ID: SL2-15188
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Fix jobId.
+-----
+External documentation:
+Fix jobId.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r397007 | dogance | 2013-11-19 16:02:56 +0400 (Вт., 19 нояб. 2013) | 22 lines
+
+Merge r397000 into V2.3.X_stab_CW44.
+-----
+Header: Service Layer
+-----
+Polarion-ID: SL2-15188
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Fix jobId.
+-----
+External documentation:
+Fix jobId.
+-----
+Verfication platform: sl220
+-----
+Merge-to: -
+-----
+Reviewed by: weggenti
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r397038 | dogance | 2013-11-19 17:03:34 +0400 (Вт., 19 нояб. 2013) | 22 lines
+
+Improve now/next data availability after startup.
+-----
+Header: Service Layer
+-----
+Polarion-ID: SL2-15188
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Improve now/next data availability after startup. After the first results are available in fast polling mode, an intermediate polling interval is now set to fetch further data until no new data is available. Then, the normal update interval is used.
+-----
+External documentation:
+Improve now/next data availability after startup. After the first results are available in fast polling mode, an intermediate polling interval is now set to fetch further data until no new data is available. Then, the normal update interval is used.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: weggenti
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r397039 | dogance | 2013-11-19 17:04:54 +0400 (Вт., 19 нояб. 2013) | 22 lines
+
+Merge r397038 into V2.3.X_stab_CW44.
+-----
+Header: Service Layer
+-----
+Polarion-ID: SL2-15188
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Improve now/next data availability after startup. After the first results are available in fast polling mode, an intermediate polling interval is now set to fetch further data until no new data is available. Then, the normal update interval is used.
+-----
+External documentation:
+Improve now/next data availability after startup. After the first results are available in fast polling mode, an intermediate polling interval is now set to fetch further data until no new data is available. Then, the normal update interval is used.
+-----
+Verfication platform: sl220
+-----
+Merge-to: -
+-----
+Reviewed by: weggenti
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r397784 | dogance | 2013-11-21 15:10:06 +0400 (Чт., 21 нояб. 2013) | 24 lines
+
+Merge r381970,390869 from V2.3.X to V2.2.X.
+-----
+Header: Support Layer, Service Layer
+-----
+Polarion-ID: SL2-15263
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Merge r381970,390869 from V2.3.X to V2.2.X.
+Adds support for querying "valid purposes". Corrects that field for UPnP.
+-----
+External documentation:
+Merge r381970,390869 from V2.3.X to V2.2.X.
+Adds support for querying "valid purposes". Corrects that field for UPnP.
+-----
+Verfication platform: sl220
+-----
+Merge-to: -
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r398629 | dogance | 2013-11-23 15:24:28 +0400 (Сб., 23 нояб. 2013) | 22 lines
+
+Further work on sl_optimization.
+-----
+Header: Station List
+-----
+Polarion-ID: SL2-10067
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Further work on sl_optimization.
+-----
+External documentation:
+Further work on sl_optimization.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r398630 | dogance | 2013-11-23 15:28:26 +0400 (Сб., 23 нояб. 2013) | 22 lines
+
+Merge V2.3.X -> sl_optimization.
+-----
+Header: Station List
+-----
+Polarion-ID: SL2-10067
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Merge V2.3.X -> sl_optimization.
+-----
+External documentation:
+Merge V2.3.X -> sl_optimization.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r398634 | dogance | 2013-11-23 19:47:43 +0400 (Сб., 23 нояб. 2013) | 22 lines
+
+Further work on sl_optimization.
+-----
+Header: Station List
+-----
+Polarion-ID: SL2-10067
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Further work on sl_optimization.
+-----
+External documentation:
+Further work on sl_optimization.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399644 | dogance | 2013-11-27 14:28:11 +0400 (Ср., 27 нояб. 2013) | 22 lines
+
+Further work on sl_optimization.
+-----
+Header: Station List
+-----
+Polarion-ID: SL2-10067
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Further work on sl_optimization.
+-----
+External documentation:
+Further work on sl_optimization.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399665 | dogance | 2013-11-27 14:52:12 +0400 (Ср., 27 нояб. 2013) | 21 lines
+
+Merge V2.3.X -> sl_optimization + small changes.
+-----
+Header: Station List
+-----
+Polarion-ID: SL2-10067
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Merge V2.3.X -> sl_optimization + small changes to servicelist-query.cpp.
+-----
+External documentation:
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399686 | dogance | 2013-11-27 15:43:48 +0400 (Ср., 27 нояб. 2013) | 22 lines
+
+Further work on sl_optimization.
+-----
+Header: Station List
+-----
+Polarion-ID: SL2-10067
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Further work on sl_optimization.
+-----
+External documentation:
+Further work on sl_optimization.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399760 | dogance | 2013-11-27 18:22:07 +0400 (Ср., 27 нояб. 2013) | 22 lines
+
+Further work on sl_optimization.
+-----
+Header: Station List
+-----
+Polarion-ID: SL2-10067
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Further work on sl_optimization.
+-----
+External documentation:
+Further work on sl_optimization.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400060 | dogance | 2013-11-28 16:37:16 +0400 (Чт., 28 нояб. 2013) | 22 lines
+
+Further work on sl_optimization.
+-----
+Header: Station List
+-----
+Polarion-ID: SL2-10067
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Further work on sl_optimization.
+-----
+External documentation:
+Further work on sl_optimization.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400073 | dogance | 2013-11-28 16:48:45 +0400 (Чт., 28 нояб. 2013) | 22 lines
+
+Adapt rev.399895 and merge V2.3.X -> sl_optimization.
+-----
+Header: Station List
+-----
+Polarion-ID: SL2-10067, SL2-15336
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Adapt rev.399895 and merge V2.3.X -> sl_optimization.
+-----
+External documentation:
+Adapt rev.399895 and merge V2.3.X -> sl_optimization.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400078 | dogance | 2013-11-28 16:53:26 +0400 (Чт., 28 нояб. 2013) | 22 lines
+
+Further work on sl_optimization.
+-----
+Header: Station List
+-----
+Polarion-ID: SL2-10067
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Further work on sl_optimization.
+-----
+External documentation:
+Further work on sl_optimization.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400112 | dogance | 2013-11-28 18:01:30 +0400 (Чт., 28 нояб. 2013) | 22 lines
+
+Further work on sl_optimization.
+-----
+Header: Station List
+-----
+Polarion-ID: SL2-10067
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Further work on sl_optimization.
+-----
+External documentation:
+Further work on sl_optimization.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400114 | dogance | 2013-11-28 18:02:35 +0400 (Чт., 28 нояб. 2013) | 22 lines
+
+Merge V2.3.X -> sl_optimization.
+-----
+Header: Station List
+-----
+Polarion-ID: SL2-10067
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Merge V2.3.X -> sl_optimization
+-----
+External documentation:
+Merge V2.3.X -> sl_optimization.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401098 | dogance | 2013-12-03 17:11:41 +0400 (Вт., 03 дек. 2013) | 22 lines
+
+Further work on sl_optimization.
+-----
+Header: Station List
+-----
+Polarion-ID: SL2-10067
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Further work on sl_optimization.
+-----
+External documentation:
+Further work on sl_optimization.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401100 | dogance | 2013-12-03 17:17:39 +0400 (Вт., 03 дек. 2013) | 22 lines
+
+Merge V2.3.X -> sl_optimization.
+-----
+Header: Station List
+-----
+Polarion-ID: SL2-10067
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Merge V2.3.X -> sl_optimization
+-----
+External documentation:
+Merge V2.3.X -> sl_optimization.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401479 | dogance | 2013-12-04 17:31:48 +0400 (Ср., 04 дек. 2013) | 22 lines
+
+Shortcut for 'debug_level'.
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-10067
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation:
+Shortcut for 'debug_level'.
+-----
+External documentation:
+Shortcut for 'debug_level'.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401483 | dogance | 2013-12-04 17:34:18 +0400 (Ср., 04 дек. 2013) | 22 lines
+
+Further work on sl_optimization.
+-----
+Header: Station List
+-----
+Polarion-ID: SL2-10067
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Further work on sl_optimization.
+-----
+External documentation:
+Further work on sl_optimization.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401490 | dogance | 2013-12-04 17:37:06 +0400 (Ср., 04 дек. 2013) | 22 lines
+
+Merge V2.3.X -> sl_optimization.
+-----
+Header: Station List
+-----
+Polarion-ID: SL2-10067
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Merge V2.3.X -> sl_optimization
+-----
+External documentation:
+Merge V2.3.X -> sl_optimization.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401499 | dogance | 2013-12-04 17:57:45 +0400 (Ср., 04 дек. 2013) | 22 lines
+
+Further work on sl_optimization.
+-----
+Header: Station List
+-----
+Polarion-ID: SL2-10067
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Further work on sl_optimization.
+-----
+External documentation:
+Further work on sl_optimization.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401500 | dogance | 2013-12-04 17:58:53 +0400 (Ср., 04 дек. 2013) | 22 lines
+
+Further work on sl_optimization.
+-----
+Header: Station List
+-----
+Polarion-ID: SL2-10067
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Further work on sl_optimization.
+-----
+External documentation:
+Further work on sl_optimization.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401516 | dogance | 2013-12-04 18:20:48 +0400 (Ср., 04 дек. 2013) | 22 lines
+
+Further work on sl_optimization.
+-----
+Header: Station List
+-----
+Polarion-ID: SL2-10067
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Implemented notifications for transponder parameter changes.
+-----
+External documentation:
+Implemented notifications for transponder parameter changes.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401797 | dogance | 2013-12-05 15:50:46 +0400 (Чт., 05 дек. 2013) | 22 lines
+
+Merge r396319 -> V2.3.X.
+-----
+Header: Service Layer
+-----
+Polarion-ID: SSL1-3373
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Merge r396319 -> V2.3.X. (patch is for testing purposes only).
+-----
+External documentation:
+Merge r396319 -> V2.3.X.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401880 | dogance | 2013-12-05 17:39:49 +0400 (Чт., 05 дек. 2013) | 22 lines
+
+Adapt / merge r400320-401871 from V2.3.X in servicelist, merge V2.3.X.
+-----
+Header: Station List
+-----
+Polarion-ID: SL2-10067
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Adapt / merge r400320-401871 from V2.3.X in servicelist, merge V2.3.X.
+-----
+External documentation:
+Adapt / merge r400320-401871 from V2.3.X in servicelist, merge V2.3.X.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403034 | dogance | 2013-12-10 14:30:59 +0400 (Вт., 10 дек. 2013) | 22 lines
+
+Change attribute values in servicelist.
+-----
+Header: Station List
+-----
+Polarion-ID: SL2-14654
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Change attribute values in servicelist.
+-----
+External documentation:
+Change attribute values in servicelist.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: selivanoig
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403416 | dogance | 2013-12-11 16:51:42 +0400 (Ср., 11 дек. 2013) | 22 lines
+
+Register quern job listener.
+-----
+Header: Service Layer
+-----
+Polarion-ID: SSL1-4702
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Register quern job listener.
+-----
+External documentation:
+Register quern job listener.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403969 | dogance | 2013-12-13 16:40:13 +0400 (Пт., 13 дек. 2013) | 23 lines
+
+Further work on sl_optimization.
+-----
+Header: Station List
+-----
+Polarion-ID: SL2-10067
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Further work on sl_optimization.
+Probably won't run, untested.
+-----
+External documentation:
+Further work on sl_optimization.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404023 | dogance | 2013-12-13 18:49:53 +0400 (Пт., 13 дек. 2013) | 22 lines
+
+Further work on sl_optimization.
+-----
+Header: Station List
+-----
+Polarion-ID: SL2-10067
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Further work on sl_optimization.
+-----
+External documentation:
+Further work on sl_optimization.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404106 | dogance | 2013-12-14 19:15:11 +0400 (Сб., 14 дек. 2013) | 22 lines
+
+Further work on sl_optimization.
+-----
+Header: Station List
+-----
+Polarion-ID: SL2-10067
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Further work on sl_optimization.
+-----
+External documentation:
+Further work on sl_optimization.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404812 | dogance | 2013-12-18 19:40:08 +0400 (Ср., 18 дек. 2013) | 22 lines
+
+Further work on sl_optimization.
+-----
+Header: Station List
+-----
+Polarion-ID: SL2-10067
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Further work on sl_optimization.
+-----
+External documentation:
+Further work on sl_optimization.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404959 | dogance | 2013-12-19 18:49:12 +0400 (Чт., 19 дек. 2013) | 22 lines
+
+Further work on sl_optimization.
+-----
+Header: Station List
+-----
+Polarion-ID: SL2-10067
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Further work on sl_optimization.
+-----
+External documentation:
+Further work on sl_optimization.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404964 | dogance | 2013-12-19 18:59:58 +0400 (Чт., 19 дек. 2013) | 22 lines
+
+Further work on sl_optimization.
+-----
+Header: Station List
+-----
+Polarion-ID: SL2-10067
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Further work on sl_optimization.
+-----
+External documentation:
+Further work on sl_optimization.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404977 | dogance | 2013-12-19 19:41:09 +0400 (Чт., 19 дек. 2013) | 22 lines
+
+Merge V2.3.X -> sl_optimization.
+-----
+Header: Station List
+-----
+Polarion-ID: SL2-10067
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Merge V2.3.X -> sl_optimization
+-----
+External documentation:
+Merge V2.3.X -> sl_optimization.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404988 | dogance | 2013-12-19 21:58:03 +0400 (Чт., 19 дек. 2013) | 22 lines
+
+Further work on sl_optimization.
+-----
+Header: Station List
+-----
+Polarion-ID: SL2-10067
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Further work on sl_optimization.
+-----
+External documentation:
+Further work on sl_optimization.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405044 | dogance | 2013-12-20 17:53:23 +0400 (Пт., 20 дек. 2013) | 22 lines
+
+Further work on sl_optimization.
+-----
+Header: Station List
+-----
+Polarion-ID: SL2-10067
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Further work on sl_optimization.
+-----
+External documentation:
+Further work on sl_optimization.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405050 | dogance | 2013-12-20 19:08:20 +0400 (Пт., 20 дек. 2013) | 22 lines
+
+Added some code that crashes dvbmain / biz.
+-----
+Header: Service Layer
+-----
+Polarion-ID: SL2-15368
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Added some code that crashes dvbmain / biz.
+This is possible by calling the action "de.loewe.sl2.system.abort".
+-----
+External documentation:
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405055 | dogance | 2013-12-20 19:29:04 +0400 (Пт., 20 дек. 2013) | 22 lines
+
+Merge V2.3.X -> sl_optimization.
+-----
+Header: Station List
+-----
+Polarion-ID: SL2-10067
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Merge V2.3.X -> sl_optimization
+-----
+External documentation:
+Merge V2.3.X -> sl_optimization.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405512 | dogance | 2014-01-08 16:17:57 +0400 (Ср., 08 янв. 2014) | 22 lines
+
+Further work on sl_optimization.
+-----
+Header: Station List
+-----
+Polarion-ID: SL2-10067
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Further work on sl_optimization.
+-----
+External documentation:
+Further work on sl_optimization.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405513 | dogance | 2014-01-08 16:18:29 +0400 (Ср., 08 янв. 2014) | 22 lines
+
+Further work on sl_optimization.
+-----
+Header: Station List
+-----
+Polarion-ID: SL2-10067
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Further work on sl_optimization.
+-----
+External documentation:
+Further work on sl_optimization.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405714 | dogance | 2014-01-09 16:08:54 +0400 (Чт., 09 янв. 2014) | 22 lines
+
+Merge V2.3.X -> sl_optimization.
+-----
+Header: Station List
+-----
+Polarion-ID: SL2-10067
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Merge V2.3.X -> sl_optimization
+-----
+External documentation:
+Merge V2.3.X -> sl_optimization.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405913 | dogance | 2014-01-10 16:09:50 +0400 (Пт., 10 янв. 2014) | 22 lines
+
+Memory Leak Checker implementation.
+-----
+Header: System
+-----
+Polarion-ID: SL2-15611
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Memory Leak Checker implementation. See accompanying wiki page.
+-----
+External documentation:
+Memory Leak Checker implementation. See accompanying wiki page.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405980 | dogance | 2014-01-10 17:52:04 +0400 (Пт., 10 янв. 2014) | 22 lines
+
+Fix frame makefile.
+-----
+Header: System
+-----
+Polarion-ID: SL2-15611
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Fix frame makefile.
+-----
+External documentation:
+Fix frame makefile.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405984 | dogance | 2014-01-10 18:13:15 +0400 (Пт., 10 янв. 2014) | 22 lines
+
+Check USE_MEMCHECK.
+-----
+Header: System
+-----
+Polarion-ID: SL2-15611
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Check USE_MEMCHECK.
+-----
+External documentation:
+Check USE_MEMCHECK.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406008 | dogance | 2014-01-10 19:32:31 +0400 (Пт., 10 янв. 2014) | 22 lines
+
+Fix DB availability check.
+-----
+Header: Support Layer
+-----
+Polarion-ID: HL1-33
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Fix DB availability check.
+-----
+External documentation:
+Fix DB availability check.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406009 | dogance | 2014-01-10 19:32:52 +0400 (Пт., 10 янв. 2014) | 22 lines
+
+Fix DB availability check.
+-----
+Header: Support Layer
+-----
+Polarion-ID: HL1-33
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Fix DB availability check.
+-----
+External documentation:
+Fix DB availability check.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406092 | dogance | 2014-01-11 17:49:48 +0400 (Сб., 11 янв. 2014) | 22 lines
+
+Configuration option for apploshell.
+-----
+Header: System
+-----
+Polarion-ID: SL2-15611
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Configuration option for apploshell.
+-----
+External documentation:
+Configuration option for apploshell.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406097 | dogance | 2014-01-12 16:36:51 +0400 (Вс., 12 янв. 2014) | 22 lines
+
+appdebug-proxy debug messages.
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-5095
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+appdebug-proxy debug messages.
+-----
+External documentation:
+appdebug-proxy debug messages.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406099 | dogance | 2014-01-12 18:00:40 +0400 (Вс., 12 янв. 2014) | 22 lines
+
+Action result debug messages.
+-----
+Header: Service Layer
+-----
+Polarion-ID: SSL1-4454
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Action result debug messages.
+-----
+External documentation:
+Action result debug messages.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406279 | dogance | 2014-01-13 18:34:46 +0400 (Пн., 13 янв. 2014) | 22 lines
+
+Merge V2.3.X -> sl_optimization.
+-----
+Header: Station List
+-----
+Polarion-ID: SL2-10067
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Merge V2.3.X -> sl_optimization
+-----
+External documentation:
+Merge V2.3.X -> sl_optimization.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406592 | dogance | 2014-01-15 14:29:54 +0400 (Ср., 15 янв. 2014) | 22 lines
+
+Merge r394048 from V2.3.X to V2.3.X_stab.
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-15065
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Merge r394048 from V2.3.X to V2.3.X_stab.
+-----
+External documentation:
+Merge r394048 from V2.3.X to V2.3.X_stab.
+-----
+Verfication platform: sl220
+-----
+Merge-to: -
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406935 | dogance | 2014-01-16 20:29:03 +0400 (Чт., 16 янв. 2014) | 22 lines
+
+Remove DPRLEVEL check from cspDebugHexdump8().
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-15625
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Remove DPRLEVEL check from cspDebugHexdump8().
+-----
+External documentation:
+Remove DPRLEVEL check from cspDebugHexdump8().
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407046 | dogance | 2014-01-17 17:23:19 +0400 (Пт., 17 янв. 2014) | 25 lines
+
+Disable maitemcache read-ahead.
+-----
+Header: Service Layer
+-----
+Polarion-ID: SL2-15628
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Disable maitemcache read-ahead.
+The read-ahead would (sometimes) be useful if the items were cached (preferably in biz).
+However, there is no cache, and performance decreases with read-ahead for the service-list and for oat.
+I don't see any case where we would benefit from the read-ahead, so I'm disabling it by default.
+-----
+External documentation:
+Disable maitemcache read-ahead.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407047 | dogance | 2014-01-17 17:33:27 +0400 (Пт., 17 янв. 2014) | 20 lines
+
+Revert r407046.
+-----
+Header: Service Layer
+-----
+Polarion-ID: SL2-15628
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+-----
+External documentation:
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407115 | dogance | 2014-01-17 21:34:27 +0400 (Пт., 17 янв. 2014) | 20 lines
+
+Merge r406935 to V2.3.X.
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-15625
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+-----
+External documentation:
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407128 | dogance | 2014-01-18 18:04:42 +0400 (Сб., 18 янв. 2014) | 24 lines
+
+Introduced InternalName, ExternalName to the service list.
+-----
+Header: Station List
+-----
+Polarion-ID: SL2-15108
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Introduced InternalName, ExternalName to the service list.
+This leads to correct sorting and searching according to the name that is displayed.
+-----
+External documentation:
+Introduced InternalName, ExternalName to the service list.
+This leads to correct sorting and searching according to the name that is displayed.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407130 | dogance | 2014-01-18 18:15:47 +0400 (Сб., 18 янв. 2014) | 22 lines
+
+Use ExternalName also for restrictions.
+-----
+Header: Station List
+-----
+Polarion-ID: SL2-15108
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Use ExternalName also for restrictions. Extend notification triggers accordingly.
+-----
+External documentation:
+Use ExternalName also for restrictions. Extend notification triggers accordingly.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407138 | dogance | 2014-01-19 15:20:59 +0400 (Вс., 19 янв. 2014) | 22 lines
+
+C90 fix for Visual C.
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-15625
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+C90 fix for Visual C.
+-----
+External documentation:
+C90 fix for Visual C.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407139 | dogance | 2014-01-19 15:25:21 +0400 (Вс., 19 янв. 2014) | 22 lines
+
+Avoid some Visual C warnings.
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-15625
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Avoid some Visual C warnings.
+-----
+External documentation:
+Avoid some Visual C warnings.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407141 | dogance | 2014-01-19 16:05:11 +0400 (Вс., 19 янв. 2014) | 24 lines
+
+Support for disabled maitemcache read-ahead.
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-15641
+-----
+Variant: sl2xx
+-----
+API-modification: no
+-----
+Internal documentation: 
+Support for disabled maitemcache read-ahead.
+-----
+External documentation:
+Support for disabled maitemcache read-ahead.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407142 | dogance | 2014-01-19 16:05:39 +0400 (Вс., 19 янв. 2014) | 24 lines
+
+Debug messages to analyze changes of the volume state.
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-15567
+-----
+Variant: sl2xx
+-----
+API-modification: no
+-----
+Internal documentation: 
+Debug messages to analyze the volume state.
+-----
+External documentation:
+Debug messages to analyze the volume state.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407143 | dogance | 2014-01-19 16:05:57 +0400 (Вс., 19 янв. 2014) | 24 lines
+
+Test if all debug output arrives in syslogviewer.
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-13600
+-----
+Variant: sl2xx
+-----
+API-modification: no
+-----
+Internal documentation: 
+Test if all debug output arrives in syslogviewer.
+-----
+External documentation:
+Test if all debug output arrives in syslogviewer.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407144 | dogance | 2014-01-19 16:06:22 +0400 (Вс., 19 янв. 2014) | 24 lines
+
+Work on UPnP caching.
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-15217
+-----
+Variant: sl2xx
+-----
+API-modification: no
+-----
+Internal documentation: 
+Work on UPnP caching.
+-----
+External documentation:
+Work on UPnP caching.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407145 | dogance | 2014-01-19 17:01:35 +0400 (Вс., 19 янв. 2014) | 24 lines
+
+Merge V2.3.X -> sl_optimization.
+-----
+Header: Station List
+-----
+Polarion-ID: SL2-10067
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Merge V2.3.X -> sl_optimization
+-----
+External documentation:
+Merge V2.3.X -> sl_optimization.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407366 | dogance | 2014-01-21 15:00:36 +0400 (Вт., 21 янв. 2014) | 24 lines
+
+Add debug messages for HDMI name change.
+-----
+Header: Station List
+-----
+Polarion-ID: SL2-15065
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Add debug messages for HDMI name change.
+-----
+External documentation:
+Add debug messages for HDMI name change.
+-----
+Verfication platform: sl220
+-----
+Merge-to:
+-----
+Source move/rename: no
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407379 | dogance | 2014-01-21 15:29:03 +0400 (Вт., 21 янв. 2014) | 24 lines
+
+Merge V2.3.X -> sl_optimization.
+-----
+Header: Station List
+-----
+Polarion-ID: SL2-10067
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Merge V2.3.X -> sl_optimization
+-----
+External documentation:
+Merge V2.3.X -> sl_optimization.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407685 | dogance | 2014-01-23 15:21:57 +0400 (Чт., 23 янв. 2014) | 24 lines
+
+Send table job notifications when a new backend is registered.
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-14763
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Send table job notifications when a new backend is registered.
+-----
+External documentation:
+Send table job notifications when a new backend is registered.
+-----
+Verfication platform: sl220
+-----
+Merge-to: -
+-----
+Source move/rename: no
+-----
+Reviewed by: weggenti
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407688 | dogance | 2014-01-23 15:45:25 +0400 (Чт., 23 янв. 2014) | 24 lines
+
+Merge r407685 from V2.3.X_stab_CW44.
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-14763
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Send table job notifications when a new backend is registered.
+-----
+External documentation:
+Send table job notifications when a new backend is registered.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: weggenti
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407696 | dogance | 2014-01-23 15:55:23 +0400 (Чт., 23 янв. 2014) | 24 lines
+
+Merge V2.3.X -> sl_optimization.
+-----
+Header: Station List
+-----
+Polarion-ID: SL2-10067
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Merge V2.3.X -> sl_optimization
+-----
+External documentation:
+Merge V2.3.X -> sl_optimization.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407738 | dogance | 2014-01-23 16:39:51 +0400 (Чт., 23 янв. 2014) | 24 lines
+
+Further work on sl_optimization.
+-----
+Header: Station List
+-----
+Polarion-ID: SL2-10067
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Further work on sl_optimization.
+-----
+External documentation:
+Further work on sl_optimization.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407774 | dogance | 2014-01-23 17:01:01 +0400 (Чт., 23 янв. 2014) | 24 lines
+
+Further work on sl_optimization.
+-----
+Header: Station List
+-----
+Polarion-ID: SL2-10067
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation: 
+Further work on sl_optimization.
+-----
+External documentation:
+Further work on sl_optimization.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407847 | dogance | 2014-01-23 18:52:53 +0400 (Чт., 23 янв. 2014) | 24 lines
+
+Further work on UPnP caching.
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-15217
+-----
+Variant: sl2xx
+-----
+API-modification: no
+-----
+Internal documentation: 
+Further work on UPnP caching.
+-----
+External documentation:
+Further work on UPnP caching.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408369 | dogance | 2014-01-29 18:21:54 +0400 (Ср., 29 янв. 2014) | 24 lines
+
+Work on cspdebug and oat (not to be merged).
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-15217
+-----
+Variant: sl2xx
+-----
+API-modification: no
+-----
+Internal documentation: 
+Work on cspdebug and oat (not to be merged).
+-----
+External documentation:
+Work on cspdebug and oat (not to be merged).
+-----
+Verfication platform: sl220
+-----
+Merge-to: -
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409167 | dogance | 2014-02-05 19:32:36 +0400 (Ср., 05 февр. 2014) | 28 lines
+
+Fix time conversion for negative time_t. Fix two-digit year conversion. Fix UPnP date conversion.
+-----
+Header: Support Layer, UPnP, Service Layer
+-----
+Polarion-ID: SL2-15717
+-----
+Variant: sl2xx
+-----
+API-modification: no
+-----
+Internal documentation: 
+1. Fix time conversion for negative time_t.
+2. Fix two-digit year conversion.
+3. Fix UPnP date conversion.
+-----
+External documentation:
+1. Fix time conversion for negative time_t.
+2. Fix two-digit year conversion.
+3. Fix UPnP date conversion.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409168 | dogance | 2014-02-05 19:38:19 +0400 (Ср., 05 февр. 2014) | 24 lines
+
+Work on UPnP caching.
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-15217
+-----
+Variant: sl2xx
+-----
+API-modification: no
+-----
+Internal documentation: 
+Work on UPnP caching.
+-----
+External documentation:
+Work on UPnP caching.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409184 | dogance | 2014-02-05 19:59:11 +0400 (Ср., 05 февр. 2014) | 24 lines
+
+Work on UPnP caching.
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-15217
+-----
+Variant: sl2xx
+-----
+API-modification: no
+-----
+Internal documentation: 
+Work on UPnP caching.
+-----
+External documentation:
+Work on UPnP caching.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409528 | dogance | 2014-02-06 18:24:27 +0400 (Чт., 06 февр. 2014) | 26 lines
+
+Support files, /var/log/console etc. as debug targets. Fix manual debug level change in model clients.
+-----
+Header: Support Layer, Service Layer
+-----
+Polarion-ID: SL2-5957, SL2-13600
+-----
+Variant: sl2xx
+-----
+API-modification: no
+-----
+Internal documentation: 
+1. Logging into /root/debugX.log, directly into /var/log/console etc. can now be enabled with a bit mask, and is accessible with loshell commands. This setting is stored persistently.
+2. Any command sent by a model client caused three changes of the debug configuration in all processes, because the debug levels were changed manually (and transmitted over lmq). This has been removed.
+-----
+External documentation:
+1. Logging into /root/debugX.log, directly into /var/log/console etc. can now be enabled with a bit mask, and is accessible with loshell commands. This setting is stored persistently.
+2. Any command sent by a model client caused three changes of the debug configuration in all processes, because the debug levels were changed manually (and transmitted over lmq). This has been removed.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409543 | dogance | 2014-02-06 18:36:20 +0400 (Чт., 06 февр. 2014) | 24 lines
+
+Turn off some debug messages.
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-13600
+-----
+Variant: sl2xx
+-----
+API-modification: no
+-----
+Internal documentation: 
+Turn off some debug messages.
+-----
+External documentation:
+Turn off some debug messages.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409554 | dogance | 2014-02-06 18:47:41 +0400 (Чт., 06 февр. 2014) | 24 lines
+
+Mark notifyReadRow() as unused.
+-----
+Header: Service Layer
+-----
+Polarion-ID: SL2-15665
+-----
+Variant: sl2xx
+-----
+API-modification: no
+-----
+Internal documentation: 
+Mark notifyReadRow() as unused.
+-----
+External documentation:
+Mark notifyReadRow() as unused.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: radikesa
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409583 | dogance | 2014-02-06 20:09:46 +0400 (Чт., 06 февр. 2014) | 24 lines
+
+Declaration fix.
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-13600
+-----
+Variant: sl2xx
+-----
+API-modification: no
+-----
+Internal documentation: 
+Declaration fix.
+-----
+External documentation:
+Declaration fix.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409587 | dogance | 2014-02-06 23:20:33 +0400 (Чт., 06 февр. 2014) | 26 lines
+
+Sort by song title in UseAudio "Files" view. Fix granary-db rowid.
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-15691
+-----
+Variant: sl2xx
+-----
+API-modification: no
+-----
+Internal documentation: 
+1. Sort by song title in UseAudio "Files" view.
+2. Fix granary-db rowid.
+-----
+External documentation:
+1. Sort by song title in UseAudio "Files" view.
+2. Fix granary-db rowid.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409589 | dogance | 2014-02-06 23:31:21 +0400 (Чт., 06 февр. 2014) | 26 lines
+
+Support multiple selection for seekToContent in quern and above.
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-15727
+-----
+Variant: sl2xx
+-----
+API-modification: no
+-----
+Internal documentation: 
+Multiple selection for seekToContent are now in quern and above. I also enabled the support in model-service-list.
+If needed, the backends and model-directory need to be changed to support this, too.
+-----
+External documentation:
+Multiple selection for seekToContent are now in quern and above. I also enabled the support in model-service-list.
+If needed, the backends and model-directory need to be changed to support this, too.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409591 | dogance | 2014-02-07 00:04:30 +0400 (Пт., 07 февр. 2014) | 24 lines
+
+Support multiple selections in model-directory.
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-15727
+-----
+Variant: sl2xx
+-----
+API-modification: no
+-----
+Internal documentation: 
+Support multiple selections in model-directory.
+-----
+External documentation:
+Support multiple selections in model-directory.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409686 | dogance | 2014-02-07 14:13:50 +0400 (Пт., 07 февр. 2014) | 25 lines
+
+Defaut setting of debug function for host has become unnecessary.
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-13600
+-----
+Variant: sl2xx
+-----
+API-modification: no
+-----
+Internal documentation: 
+Defaut setting of debug function for host has become unnecessary.
+Fixes host compilation.
+-----
+External documentation:
+Defaut setting of debug function for host has become unnecessary.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409699 | dogance | 2014-02-07 14:30:15 +0400 (Пт., 07 февр. 2014) | 24 lines
+
+New commands debug_{load,save,remove,ls}.
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-13600
+-----
+Variant: sl2xx
+-----
+API-modification: no
+-----
+Internal documentation: 
+New commands debug_{load,save,remove,ls}.
+-----
+External documentation:
+New commands debug_{load,save,remove,ls}.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409717 | dogance | 2014-02-07 15:37:21 +0400 (Пт., 07 февр. 2014) | 24 lines
+
+MSVC C89 fixes.
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-13600
+-----
+Variant: sl2xx
+-----
+API-modification: no
+-----
+Internal documentation: 
+MSVC C89 fixes.
+-----
+External documentation:
+MSVC C89 fixes.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409718 | dogance | 2014-02-07 15:46:05 +0400 (Пт., 07 февр. 2014) | 24 lines
+
+Wildcards and comma separation for debug_level.
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-13600
+-----
+Variant: sl2xx
+-----
+API-modification: no
+-----
+Internal documentation: 
+Wildcards and comma separation for debug_level.
+-----
+External documentation:
+Wildcards and comma separation for debug_level.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409729 | dogance | 2014-02-07 16:42:07 +0400 (Пт., 07 февр. 2014) | 24 lines
+
+Change debug configuration size estimation.
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-13600
+-----
+Variant: sl2xx
+-----
+API-modification: no
+-----
+Internal documentation: 
+Change debug configuration size estimation.
+-----
+External documentation:
+Change debug configuration size estimation.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409842 | dogance | 2014-02-07 22:16:37 +0400 (Пт., 07 февр. 2014) | 24 lines
+
+Debug target settings; debug_output command; optimization for release; debug speed test.
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-13600
+-----
+Variant: sl2xx
+-----
+API-modification: no
+-----
+Internal documentation: 
+Change debug configuration size estimation.
+-----
+External documentation:
+Change debug configuration size estimation.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409847 | dogance | 2014-02-08 20:52:42 +0400 (Сб., 08 февр. 2014) | 24 lines
+
+Remove InternalName from servicelist. Remove gcc warnings.
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-15108
+-----
+Variant: sl2xx
+-----
+API-modification: no
+-----
+Internal documentation: 
+Remove InternalName from servicelist. Remove gcc warnings.
+-----
+External documentation:
+Remove InternalName from servicelist. Remove gcc warnings.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409848 | dogance | 2014-02-08 20:58:27 +0400 (Сб., 08 февр. 2014) | 26 lines
+
+Don't consume memory for old behaviour. Allow speed/memory tradeoff.
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-15691
+-----
+Variant: sl2xx
+-----
+API-modification: no
+-----
+Internal documentation: 
+1. Don't store an ItemInfoPtr when not needed for sorting/searching.
+2. Allow to choose if the item info gets recalculated every time or is stored for all items.
+-----
+External documentation:
+1. Don't store an ItemInfoPtr when not needed for sorting/searching.
+2. Allow to choose if the item info gets recalculated every time or is stored for all items.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409849 | dogance | 2014-02-08 21:07:52 +0400 (Сб., 08 февр. 2014) | 24 lines
+
+Rename and document macros.
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-15691
+-----
+Variant: sl2xx
+-----
+API-modification: no
+-----
+Internal documentation: 
+Rename and document macros.
+-----
+External documentation:
+Rename and document macros.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409850 | dogance | 2014-02-08 21:11:38 +0400 (Сб., 08 февр. 2014) | 24 lines
+
+Don't create threads for DB requests in the now-next cache.
+-----
+Header: Service Layer
+-----
+Polarion-ID: SL2-15531
+-----
+Variant: sl2xx
+-----
+API-modification: no
+-----
+Internal documentation: 
+Don't create threads for DB requests in the now-next cache.
+-----
+External documentation:
+Don't create threads for DB requests in the now-next cache.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409856 | dogance | 2014-02-09 01:52:05 +0400 (Вс., 09 февр. 2014) | 26 lines
+
+Implemented and tested apploshell.
+-----
+Header: Service Layer
+-----
+Polarion-ID: SL2-15738
+-----
+Variant: sl2xx
+-----
+API-modification: no
+-----
+Internal documentation: 
+Implemented and tested apploshell.
+Can be enabled in sl2x0_base.cfg and tested with the command "nncset".
+-----
+External documentation:
+Implemented and tested apploshell.
+Can be enabled in sl2x0_base.cfg and tested with the command "nncset".
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409858 | dogance | 2014-02-09 13:16:23 +0400 (Вс., 09 февр. 2014) | 24 lines
+
+MSVC warning.
+-----
+Header: Service Layer
+-----
+Polarion-ID: SL2-15738
+-----
+Variant: sl2xx
+-----
+API-modification: no
+-----
+Internal documentation: 
+MSVC warning.
+-----
+External documentation:
+MSVC warning.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409859 | dogance | 2014-02-09 14:18:25 +0400 (Вс., 09 февр. 2014) | 24 lines
+
+Clean up debug macros etc.
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-15738
+-----
+Variant: sl2xx
+-----
+API-modification: no
+-----
+Internal documentation: 
+Clean up debug macros etc.
+-----
+External documentation:
+Clean up debug macros etc.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409860 | dogance | 2014-02-09 14:27:15 +0400 (Вс., 09 февр. 2014) | 24 lines
+
+boost mutex -> ltMutex.
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-15738
+-----
+Variant: sl2xx
+-----
+API-modification: no
+-----
+Internal documentation: 
+boost mutex -> ltMutex.
+-----
+External documentation:
+boost mutex -> ltMutex.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409861 | dogance | 2014-02-09 14:32:39 +0400 (Вс., 09 февр. 2014) | 24 lines
+
+Add header.
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-15738
+-----
+Variant: sl2xx
+-----
+API-modification: no
+-----
+Internal documentation: 
+Add header.
+-----
+External documentation:
+Add header.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409862 | dogance | 2014-02-09 17:13:28 +0400 (Вс., 09 февр. 2014) | 28 lines
+
+Reject oat quern job on error and call notifyIteratorReady on jobFinished.
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-15718
+-----
+Variant: sl2xx
+-----
+API-modification: no
+-----
+Internal documentation: 
+No error code was set in oat, so the error state still continued as if successful.
+QUERN_JOB_REJECTED was missing.
+jobFinished in directory-biz didn't notify the GUI.
+-----
+External documentation:
+No error code was set in oat, so the error state still continued as if successful.
+QUERN_JOB_REJECTED was missing.
+jobFinished in directory-biz didn't notify the GUI.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409863 | dogance | 2014-02-09 17:15:09 +0400 (Вс., 09 февр. 2014) | 24 lines
+
+Submodule for maitemcache; change some debug message levels.
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-15718
+-----
+Variant: sl2xx
+-----
+API-modification: no
+-----
+Internal documentation: 
+Submodule 32 for maitemcache, as these messages are often needed, but not all the others from biz.
+-----
+External documentation:
+Submodule 32 for maitemcache, as these messages are often needed, but not all the others from biz.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409869 | dogance | 2014-02-09 20:52:05 +0400 (Вс., 09 февр. 2014) | 26 lines
+
+Buffers on stack for cspdebug.
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-13600
+-----
+Variant: sl2xx
+-----
+API-modification: no
+-----
+Internal documentation: 
+Buffers on stack for cspdebug.
+debug_show also shows changed targets.
+-----
+External documentation:
+Buffers on stack for cspdebug.
+debug_show also shows changed targets.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409870 | dogance | 2014-02-09 21:23:37 +0400 (Вс., 09 февр. 2014) | 24 lines
+
+Merge trunk.
+-----
+Header: Station List
+-----
+Polarion-ID: SL2-15108
+-----
+Variant: sl2xx
+-----
+API-modification: no
+-----
+Internal documentation: 
+Merge trunk.
+-----
+External documentation:
+Merge trunk.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r410217 | dogance | 2014-02-11 16:48:17 +0400 (Вт., 11 февр. 2014) | 24 lines
+
+getContentPos().
+-----
+Header: Service Layer
+-----
+Polarion-ID: SL2-15753
+-----
+Variant: sl2xx
+-----
+API-modification: no
+-----
+Internal documentation: 
+getContentPos().
+-----
+External documentation:
+getContentPos().
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r410222 | dogance | 2014-02-11 16:54:50 +0400 (Вт., 11 февр. 2014) | 24 lines
+
+Fix test application linking.
+-----
+Header: Service Layer
+-----
+Polarion-ID: SL2-15753
+-----
+Variant: sl2xx
+-----
+API-modification: no
+-----
+Internal documentation: 
+Fix test application linking.
+-----
+External documentation:
+Fix test application linking.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r410233 | dogance | 2014-02-11 17:12:13 +0400 (Вт., 11 февр. 2014) | 26 lines
+
+QUERN_SELECT_EQUAL for QUERN_JOB_FIND selector.
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-15691
+-----
+Variant: sl2xx
+-----
+API-modification: no
+-----
+Internal documentation: 
+QUERN_SELECT_EQUAL for QUERN_JOB_FIND selector.
+Maybe we need something like QUERN_SELECT_STARTSWITH.
+-----
+External documentation:
+QUERN_SELECT_EQUAL for QUERN_JOB_FIND selector.
+Maybe we need something like QUERN_SELECT_STARTSWITH.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r410247 | dogance | 2014-02-11 17:44:58 +0400 (Вт., 11 февр. 2014) | 24 lines
+
+Prepare granary for seekToContent GUI fix which may use multiple selections.
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-15691
+-----
+Variant: sl2xx
+-----
+API-modification: no
+-----
+Internal documentation: 
+Prepare granary for seekToContent GUI fix which may use multiple selections.
+-----
+External documentation:
+Prepare granary for seekToContent GUI fix which may use multiple selections.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r410253 | dogance | 2014-02-11 17:54:08 +0400 (Вт., 11 февр. 2014) | 24 lines
+
+Extension for QUERN_SELECT_{LESS,GREATER} in rye.
+-----
+Header: Support Layer
+-----
+Polarion-ID: SL2-15691
+-----
+Variant: sl2xx
+-----
+API-modification: no
+-----
+Internal documentation: 
+Extension for QUERN_SELECT_{LESS,GREATER} in rye.
+-----
+External documentation:
+Extension for QUERN_SELECT_{LESS,GREATER} in rye.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: maecklerni
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r410706 | dogance | 2014-02-14 13:46:33 +0400 (Пт., 14 февр. 2014) | 24 lines
+
+Fix uninitialized member.
+-----
+Header: EPG
+-----
+Polarion-ID: SL2-15766
+-----
+Variant: sl2xx
+-----
+API-modification: no
+-----
+Internal documentation: 
+Fix uninitialized member preventing EPG to be displayed.
+-----
+External documentation:
+Fix uninitialized member preventing EPG to be displayed.
+-----
+Verfication platform: sl220
+-----
+Merge-to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: weggenti
+
+------------------------------------------------------------------------

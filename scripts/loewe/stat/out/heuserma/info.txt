@@ -1,0 +1,292 @@
+------------------------------------------------------------------------
+r371739 | heuserma | 2013-09-02 12:08:35 +0400 (Пн., 02 сент. 2013) | 21 lines
+
+Fix build of SL210 variant.
+-----
+Header: Software
+-----
+Polarion-ID: -
+-----
+Variant: SL210
+-----
+API-modification: No
+-----
+Internal documentation:
+- The table module has to be built in advance of the sidec module. common.mods was changed accordingly.
+-----
+External documentation:
+- The table module has to be built in advance of the sidec module. common.mods was changed accordingly.
+-----
+Verfication platform: SL210 final
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r371744 | heuserma | 2013-09-02 12:11:53 +0400 (Пн., 02 сент. 2013) | 25 lines
+
+Fixed no or slow mouse wheel movement in browser.
+-----
+Header: Browser
+-----
+Polarion-ID: SSL1-3656
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation:
+- Corrected mouse events sent in case of mouse wheel movement.
+- Fixed mouse wheel handling in browser.
+- Added a defined speed factor for mouse wheel movements.
+-----
+External documentation:
+- Corrected mouse events sent in case of mouse wheel movement.
+- Fixed mouse wheel handling in browser.
+- Added a defined speed factor for mouse wheel movements.
+-----
+Verfication platform: SL220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376307 | heuserma | 2013-09-16 10:22:06 +0400 (Пн., 16 сент. 2013) | 27 lines
+
+Modified bootup loading position of KApp component.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-3761
+-----
+Variant: le65x
+-----
+API-modification: No
+-----
+Internal documentation:
+- In user mode the KApp component is now loaded at the interactive tertiary state to decrease the delay of displaying the GUI first.
+- In KMode the KApp component is now loaded at the factory state in advance of the GUI component which resembles the configuration before this change.
+- All component induced dependencies between the KApp and the GUI component were removed as well as the automatic start of the KApp component after the interactive state was started (located at the control-component).
+- The KMode state is detected by accessing the VendorFactoryMode chassis option (valid for Sharp models).
+- The factory state component is loaded if the wakeup reason factory is set which in turn is set if the FactoryMode chassis option is set accordingly (valid for Loewe models).
+- The WarmupMode check was moved from powercontrol to the factory state component. This mode triggers the interactive state when set as chassis option (valid for Loewe models).
+-----
+External documentation:
+- In user mode the KApp component is now loaded at the interactive tertiary state to decrease the delay of displaying the GUI first.
+- In KMode the KApp component is now loaded at the factory state in advance of the GUI component which resembles the configuration before this change.
+-----
+Verfication platform: le65x final
+-----
+Merge to: -
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376932 | heuserma | 2013-09-17 16:24:16 +0400 (Вт., 17 сент. 2013) | 19 lines
+
+Updated electronic pop sticker image for LEX52.
+-----
+Header: Store Mode
+-----
+Polarion-ID: SSL1-2088
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: SL210 final
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376933 | heuserma | 2013-09-17 16:24:27 +0400 (Вт., 17 сент. 2013) | 19 lines
+
+Updated electronic pop sticker image for LEX52.
+-----
+Header: Store Mode
+-----
+Polarion-ID: SSL1-2088
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: SL210 final
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378176 | heuserma | 2013-09-20 16:50:53 +0400 (Пт., 20 сент. 2013) | 25 lines
+
+Merged revisions 336569, 338810, 339934, 346060 and 371744 from codebase2011/branches/SL1/develop/stabilization1 into codebase2011/branches/SL1/release/stabilization0.
+
+336569 wirdeierbe Added hotplug support for mouse devices.
+338810 heuserma Implemented command queue, RPC chain and model for mouse events.
+339934 habelitzth Improved events for mouse movement on two axes. Added browser right mouse button click behavior.
+346060 heuserma Improved RPC chain for mouse events and added a new cursor.
+371744 heuserma Fixed no or slow mouse wheel movement in browser.
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4055
+-----
+Variant: le65x
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verfication platform: le65x final
+-----
+Merge to: -
+-----
+Reviewed by: habelitzth
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r382256 | heuserma | 2013-10-07 11:43:20 +0400 (Пн., 07 окт. 2013) | 22 lines
+
+Removed static mouse trace on video overlays in browser.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-3619
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation:
+- Added an invalidate method to browsergfx.
+- Use this method to invalidate the prior mouse cursor rectangle upon each movement.
+-----
+External documentation:
+- Invalidate the prior mouse cursor rectangle upon each movement.
+-----
+Verfication platform: SL210 final
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r382274 | heuserma | 2013-10-07 12:28:41 +0400 (Пн., 07 окт. 2013) | 22 lines
+
+Removed static mouse trace on video overlays in browser.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-3619
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation:
+- Added an invalidate method to browsergfx.
+- Use this method to invalidate the prior mouse cursor rectangle upon each movement.
+-----
+External documentation:
+- Invalidate the prior mouse cursor rectangle upon each movement.
+-----
+Verfication platform: SL210 final
+-----
+Merge to: -
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r383554 | heuserma | 2013-10-10 10:41:50 +0400 (Чт., 10 окт. 2013) | 23 lines
+
+Added new value for KMode status value to start the KApp in advance of the GUI.
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4152
+-----
+Variant: SL2xx
+-----
+API-modification: Yes
+-----
+Internal documentation:
+- Added SL2_TVAPI_I32_SERVICEMODE_EXT_FACTORY_MODE_OFF_PRELOAD as new value for SL2_TVAPI_I32_SERVICEMODE_EXT_FACTORY_MODE. 
+- Using this value the KApp is loaded in advance of the GUI like in KMode without activating the latter.
+-----
+External documentation:
+- Added SL2_TVAPI_I32_SERVICEMODE_EXT_FACTORY_MODE_OFF_PRELOAD as new value for SL2_TVAPI_I32_SERVICEMODE_EXT_FACTORY_MODE. 
+- Using this value the KApp is loaded in advance of the GUI like in KMode without activating the latter.
+-----
+Verfication platform: SL210 final
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r386573 | heuserma | 2013-10-17 15:52:11 +0400 (Чт., 17 окт. 2013) | 21 lines
+
+Load KApp component earlier.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-4152
+-----
+Variant: SL1
+-----
+API-modification: No
+-----
+Internal documentation:
+- Altered Factory State Component to load KApp component earlier.
+-----
+External documentation:
+- Altered Factory State Component to load KApp component earlier.
+-----
+Verfication platform: SL210 final
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r390092 | heuserma | 2013-10-28 16:10:01 +0400 (Пн., 28 окт. 2013) | 24 lines
+
+Added DCLKEY_HOTELMODE_SETS_WARMUPMODE.
+-----
+Header: Hotel Mode
+-----
+Polarion-ID: SSL1-4315
+-----
+Variant: SL1
+-----
+API-modification: Yes
+-----
+Internal documentation:
+- Added DCLKEY_HOTELMODE_SETS_WARMUPMODE to control if the Hotel Mode is allowed to change the WarmupMode chassis Option.
+- The value defaults to no for SL1 and to yes for SL1_SL210 and SL200.
+-----
+External documentation:
+- Added DCLKEY_HOTELMODE_SETS_WARMUPMODE to control if the Hotel Mode is allowed to change the WarmupMode chassis Option.
+- The value defaults to no for SL1 and to yes for SL1_SL210 and SL200.
+- Adapted model-hotemode and biz-syscfginfo to fetch and evaluate the added DCL key.
+-----
+Verfication platform: SL210 final
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------

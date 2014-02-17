@@ -1,0 +1,3044 @@
+------------------------------------------------------------------------
+r374204 | habelitzth | 2013-09-09 17:12:35 +0400 (Пн., 09 сент. 2013) | 21 lines
+
+GUI r10789 SharpGUI2012
+
+Header: GUI
+-----
+Polarion-ID:
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verification platform: le65x
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r374251 | habelitzth | 2013-09-09 18:47:52 +0400 (Пн., 09 сент. 2013) | 26 lines
+
+Merged revisions 373983 373987 374204 from codebasesl1/branches/develop/stabilization1 into codebasesl1/branches/release/stabilization1_release
+
+373983 [zhangju] Update stbsp lib of LE65x platform to baseline STBSP_V1.7X.5_E175_DRM_REL
+373987 [zhangju] Update stbsp lib of SL210 platform to baseline STBSP_V1.7X.5_E175_DRM_REL
+374204 [habelitzth] GUI r10789 SharpGUI2012
+
+-----
+Header: Development
+-----
+Polarion-ID:
+-----
+Variant: sl210 le65x
+-----
+API-modification:
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verification platform:
+-----
+Merge to:
+-----
+Reviewed by:
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r374262 | habelitzth | 2013-09-09 19:19:12 +0400 (Пн., 09 сент. 2013) | 20 lines
+
+created tag https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL1/tags/v2.1.2 from https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL1/release/stabilization1_release@374251
+-----
+Header: System
+-----
+Polarion-ID: SSL1-1108
+-----
+Variant: LE65x SL210
+-----
+API-modification:
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verification platform:
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r374263 | habelitzth | 2013-09-09 19:19:13 +0400 (Пн., 09 сент. 2013) | 20 lines
+
+created tag https://develop.loewe.de/svn/tvsoft/codebasesl1/tags/releases/v2.1.2 from https://develop.loewe.de/svn/tvsoft/codebasesl1/branches/release/stabilization1_release@374251
+-----
+Header: System
+-----
+Polarion-ID: SSL1-1108
+-----
+Variant: LE65x SL210
+-----
+API-modification:
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verification platform:
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r374264 | habelitzth | 2013-09-09 19:19:15 +0400 (Пн., 09 сент. 2013) | 20 lines
+
+Changed externals to https://develop.loewe.de/svn/tvsoft/codebasesl1/tags/releases/v2.1.2@374263
+-----
+Header: System
+-----
+Polarion-ID:
+-----
+Variant: LE65x SL210
+-----
+API-modification:
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verification platform:
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r374265 | habelitzth | 2013-09-09 19:19:16 +0400 (Пн., 09 сент. 2013) | 20 lines
+
+Changed externals to https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL1/tags/v2.1.2@374262
+-----
+Header: System
+-----
+Polarion-ID:
+-----
+Variant: LE65x SL210
+-----
+API-modification:
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verification platform:
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r374455 | habelitzth | 2013-09-10 13:32:24 +0400 (Вт., 10 сент. 2013) | 23 lines
+
+Merged 371009 from https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_CW16 into https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL1/develop/stabilization1
+
+371009 [kleine] Ziggo / hidden channel: Model-values added for no banner/status.
+
+-----
+Header: Software
+-----
+-----
+Variant: all
+-----
+API-modification: Yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verification platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r374469 | habelitzth | 2013-09-10 13:51:01 +0400 (Вт., 10 сент. 2013) | 24 lines
+
+Merged 373322, 372495 from https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_CW16 into https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL1/develop/stabilization1
+
+373322 [prohaskajo] Changed event forwarding.
+372495 [prohaskajo] Added buffer histeresys.
+
+-----
+Header: Software
+-----
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verification platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r374591 | habelitzth | 2013-09-10 16:35:59 +0400 (Вт., 10 сент. 2013) | 23 lines
+
+Added sync for WiFi Module MAC address file operations. 
+
+Header: Software
+-----
+Polarion-ID: SSL1-3823
+-----
+Variant: sl210
+-----
+API-modification: No
+-----
+Internal documentation:
+* Added sync for WiFi Module MAC address file operations. 
+-----
+External documentation:
+* Added sync for WiFi Module MAC address file operations. 
+-----
+Verification platform: sl210 final
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r374649 | habelitzth | 2013-09-10 17:50:32 +0400 (Вт., 10 сент. 2013) | 23 lines
+
+Added sync for WiFi Module MAC address file operations. 
+
+Header: Software
+-----
+Polarion-ID: SSL1-3823
+-----
+Variant: sl210
+-----
+API-modification: No
+-----
+Internal documentation:
+* Added sync for WiFi Module MAC address file operations. 
+-----
+External documentation:
+* Added sync for WiFi Module MAC address file operations. 
+-----
+Verification platform: sl210 final
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r375128 | habelitzth | 2013-09-11 17:20:30 +0400 (Ср., 11 сент. 2013) | 39 lines
+
+Merged revisions 373077:374969 from codebasesl1/branches/develop/stabilization1 into
+codebasesl1/branches/release/stabilization1_release
+
+373565 [schedelan] Commit of mbrix binary release revision 373563
+373594 [chensu] Update version numbers
+373958 [schedelan] Commit of mbrix binary release revision 373952
+373972 [schedelan] Commit of mbrix binary release revision 373970
+373977 [schedelan] Commit of mbrix binary release revision 373975
+373983 [zhangju] Update stbsp lib of LE65x platform to baseline STBSP_V1.7X.5_E175_DRM_REL
+373987 [zhangju] Update stbsp lib of SL210 platform to baseline STBSP_V1.7X.5_E175_DRM_REL
+374009 [kleine] GUI build revision 10806 for SL210/DirectFB (last changed rev 10806 of Tara trunk)
+374161 [vogtch] sl1_sl210/netcfg: Fixed possible stack corruption while scanning for APs.
+374185 [vogtch] sl1/netcfg: Fixed possible stack corruption while scanning for APs.
+374204 [habelitzth] GUI r10789 SharpGUI2012
+374591 [habelitzth] Added sync for WiFi Module MAC address file operations. 
+374599 [bayeran] EDID auto update deactivated.
+374836 [zhaoba] Merge the dock and stbspplugin from SL200 to SL1 based on r374469
+374837 [vogtch] merge: Manually merged changes in /loewe/chassis/sl200 subtree of revision 374469 from
+374860 [yinca] Merge SL200 r374469 to SL1
+
+-----
+Header: Development
+-----
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verification platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r375133 | habelitzth | 2013-09-11 17:25:20 +0400 (Ср., 11 сент. 2013) | 45 lines
+
+Merged revisions 373374:374969 from codebase2011/branches/SL1/develop/stabilization1 into
+codebase2011/branches/SL1/release/stabilization1_release
+
+373417 [hg] DCM for Italy enabled
+373498 [heinzeti] cleanup pucman and added moving to standby after stopping if the device is still in use
+373542 [heinzeti] move to standby mode after auto shutdown cancelation and following wakeup/shutdown
+373628 [hossainri] now media player internally stops the playback after end of playback (adjustment against new st-bsp behavior)
+373710 [maecklerni] Save and update audio status between CEC menu changes
+373724 [hossainri] window handling improved
+373944 [radikesa] Merged 373942 from SL2 2.1.X_CW16: Added site-patch for google which hides blocking popup in search results
+374010 [prohaskajo] Handle only valid operator infos.
+374093 [zeitler] Consider all found services for DVB-T Italy, not filtering unique ids according to best mux best service to allow user selection
+374195 [wirdeierbe] Long press time increased
+374333 [friedl] Overdrive settings corrected
+374455 [habelitzth] Merged 371009 from https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_CW16 into https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL1/develop/stabilization1
+374469 [habelitzth] Merged 373322, 372495 from https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_CW16 into https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL1/develop/stabilization1
+374537 [maecklerni] Separate sharp and loewe renderer configuration
+374610 [maecklerni] Fix favourte issue with Twonky
+374634 [riedelin] Default value for pre-record time changed from 2 to 1 min.
+374661 [friedl] Switch backlight in FRC on when switch on from night update mode
+374676 [heinzeti] reactivate nightupdate support for quick start mode
+374901 [selivanoig] Merge from V.2.1.x: After DCM nightupdate servicelist changes are checked before checking LCN conflicts. If there were no changes in service list, no LCN conflict will be shown.
+374910 [maecklerni] Fix Screen state handling
+374969 [friedl] gpio switching at power off corrected
+
+-----
+Header: Development
+-----
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verification platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r375512 | habelitzth | 2013-09-12 14:21:29 +0400 (Чт., 12 сент. 2013) | 23 lines
+
+Removed removal of WiFi MAC address file for the case when no module is plugged.
+
+Header: Software
+-----
+Polarion-ID: SSL1-3823
+-----
+Variant: sl210
+-----
+API-modification: No
+-----
+Internal documentation:
+* Removed removal of WiFi MAC address file for the case when no module is plugged.
+-----
+External documentation:
+* Removed removal of WiFi MAC address file for the case when no module is plugged.
+-----
+Verification platform: sl210 final
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r375516 | habelitzth | 2013-09-12 14:24:26 +0400 (Чт., 12 сент. 2013) | 24 lines
+
+Merged 375083, 375512 from https://develop.loewe.de/svn/tvsoft/codebasesl1/branches/develop/stabilization1 into https://develop.loewe.de/svn/tvsoft/codebasesl1/branches/release/sl210_mp_cw35
+
+375083 [fresento] disable YouTube (V3) for SL210
+375512 [habelitzth] Removed removal of WiFi MAC address file for the case when no module is plugged.
+
+Header: Development
+-----
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r375520 | habelitzth | 2013-09-12 14:31:05 +0400 (Чт., 12 сент. 2013) | 23 lines
+
+Merged 375224 from https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL1/develop/stabilization1 into https://develop.loewe.de/svn/tvsoft/codebase2011/branches/sl210/release/sl210_mp_cw35
+
+375224 [riedelin] Audio unmute for HDR timeshift also requested, if no audioInSync info received.
+
+Header: Development
+-----
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r375562 | habelitzth | 2013-09-12 15:17:22 +0400 (Чт., 12 сент. 2013) | 23 lines
+
+Merged 375525 from https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL1/develop/stabilization1 into https://develop.loewe.de/svn/tvsoft/codebase2011/branches/sl210/release/sl210_mp_cw35
+
+375525 [weggenti] Removed mutex logging.
+
+Header: Development
+-----
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r375653 | habelitzth | 2013-09-12 16:44:25 +0400 (Чт., 12 сент. 2013) | 30 lines
+
+Merged revisions 374969:375518 from codebasesl1/branches/develop/stabilization1 into
+codebasesl1/branches/release/stabilization1_release
+
+375083 [fresento] disable YouTube (V3) for SL210
+375149 [maecklerni] Don't switch off last active playback device if it's the amplifier
+375179 [kleine] GUI build revision 10846 for SL210/DirectFB (last changed rev 10846 of Tara trunk)
+375369 [bayeran] Simulate KEY_RELEASED for adc events from stc.
+375470 [weggenti] Fixed compilation errors.
+375512 [habelitzth] Removed removal of WiFi MAC address file for the case when no module is plugged.
+375518 [heinzeti] changed some ALWAYS messages to INFO 
+
+-----
+Header: Development
+-----
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verification platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r375660 | habelitzth | 2013-09-12 16:54:54 +0400 (Чт., 12 сент. 2013) | 38 lines
+
+Merged revisions 374969:375555 from codebase2011/branches/SL1/develop/stabilization1 into
+codebase2011/branches/SL1/release/stabilization1_release
+
+374969 [friedl] gpio switching at power off corrected
+375149 [maecklerni] Don't switch off last active playback device if it's the amplifier
+375204 [radikesa] Merged 375188 from SL2 2.1.X_CW16: Suppress "Username in URL" browser security warning in portal mode
+375212 [selivanoig] Merge from V2.1.X: Supporting of multiply services with same SID, NID, TID on different frequency added for service list. 
+375224 [riedelin] Audio unmute for HDR timeshift also requested, if no audioInSync info received.
+375360 [murrma] Dynamic scaling used for MHEG.
+375457 [hg] NI code for "Investigation Discovery" (Netherlands) removed, because used by RTL.
+375483 [selivanoig] Merge from 2.1.x: Notification for leqacy query is fixed.
+375522 [weggenti] Updated storage of duplicate triplets.
+375525 [weggenti] Removed mutex logging.
+375531 [weggenti] Reduced tolerance.
+375533 [weggenti] emoved debug output.
+375554 [weggenti] Added missing check for satellite frontend type.
+375555 [dgraphov] Disecq station scan is performed for one satellite with homing channel only in case of M7 Group operator
+
+-----
+Header: Development
+-----
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verification platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r375805 | habelitzth | 2013-09-12 19:20:35 +0400 (Чт., 12 сент. 2013) | 30 lines
+
+Merged revisions 375555:375761 from codebase2011/branches/SL1/develop/stabilization1 into
+codebase2011/branches/SL1/release/stabilization1_release
+
+375671 [hopesth] Added puc quick start mode.
+375682 [wirdeierbe] Long press keys are working as expected now
+375685 [timmmo] merged from https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_CW16 r375468
+375689 [maecklerni] Correct restart of renderer on sl2xx
+375702 [hadi] Set source every time when play audio clips and call "PlayerStop" before doing "PlayerSetSource" (ST requests).
+375760 [selivanoig] TURKSAT frequency parameters are added.
+
+-----
+Header: Development
+-----
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verification platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r375806 | habelitzth | 2013-09-12 19:22:14 +0400 (Чт., 12 сент. 2013) | 27 lines
+
+Merged revisions 375518:375791 from codebasesl1/branches/develop/stabilization1 into
+codebasesl1/branches/release/stabilization1_release
+
+375658 [hopesth] Added puc quick start mode.
+375665 [hopesth] Added puc quick start mode.
+375701 [hadi] Set source every time when play audio clips and call "PlayerStop" before doing "PlayerSetSource" (ST requests).
+375791 [timmmo] Fixed compilation error
+
+-----
+Header: Development
+-----
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verification platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376193 | habelitzth | 2013-09-13 16:15:16 +0400 (Пт., 13 сент. 2013) | 23 lines
+
+Merged 375369 from https://develop.loewe.de/svn/tvsoft/codebasesl1/branches/develop/stabilization1 into https://develop.loewe.de/svn/tvsoft/codebasesl1/branches/release/sl210_mp_cw35
+
+375369 [bayeran] Simulate KEY_RELEASED for adc events from stc.
+
+Header: Development
+-----
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376325 | habelitzth | 2013-09-16 10:57:08 +0400 (Пн., 16 сент. 2013) | 21 lines
+
+GUI r10873 SharpGUI2012
+
+Header: GUI
+-----
+Polarion-ID:
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verification platform: le65x
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376372 | habelitzth | 2013-09-16 12:38:14 +0400 (Пн., 16 сент. 2013) | 27 lines
+
+Merged revisions 375948, 376063, 376080, 376325 from codebasesl1/branches/develop/stabilization1 into codebasesl1/branches/release/stabilization1_release
+
+376325 [habelitzth] GUI r10873 SharpGUI2012
+376080 [zhangju] Update copied stbsp lib of SL210 to baseline STBSP_V1.7X.5_E179
+376063 [zhangju] Update copied stbsp lib to baseline STBSP_V1.7X.5_E179
+375948 [zhangju] Update stbsp lib to BSP baseline STBSP_V1.7X.5_E179
+
+-----
+Header: Development
+-----
+Polarion-ID:
+-----
+Variant: sl210 le65x
+-----
+API-modification:
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verification platform:
+-----
+Merge to:
+-----
+Reviewed by:
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376375 | habelitzth | 2013-09-16 12:48:17 +0400 (Пн., 16 сент. 2013) | 20 lines
+
+created tag https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL1/tags/v2.1.8 from https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL1/release/stabilization1_release@375805
+-----
+Header: System
+-----
+Polarion-ID: SSL1-1108
+-----
+Variant: LE65x SL210
+-----
+API-modification:
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verification platform:
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376376 | habelitzth | 2013-09-16 12:48:18 +0400 (Пн., 16 сент. 2013) | 20 lines
+
+created tag https://develop.loewe.de/svn/tvsoft/codebasesl1/tags/releases/v2.1.8 from https://develop.loewe.de/svn/tvsoft/codebasesl1/branches/release/stabilization1_release@375805
+-----
+Header: System
+-----
+Polarion-ID: SSL1-1108
+-----
+Variant: LE65x SL210
+-----
+API-modification:
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verification platform:
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376377 | habelitzth | 2013-09-16 12:48:20 +0400 (Пн., 16 сент. 2013) | 20 lines
+
+Changed externals to https://develop.loewe.de/svn/tvsoft/codebasesl1/tags/releases/v2.1.8@376376
+-----
+Header: System
+-----
+Polarion-ID:
+-----
+Variant: LE65x SL210
+-----
+API-modification:
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verification platform:
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376378 | habelitzth | 2013-09-16 12:48:21 +0400 (Пн., 16 сент. 2013) | 20 lines
+
+Changed externals to https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL1/tags/v2.1.8@376375
+-----
+Header: System
+-----
+Polarion-ID:
+-----
+Variant: LE65x SL210
+-----
+API-modification:
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verification platform:
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376942 | habelitzth | 2013-09-17 16:41:06 +0400 (Вт., 17 сент. 2013) | 23 lines
+
+Merged 374266 from https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_stab_CW28 into https://develop.loewe.de/svn/tvsoft/codebase2011/branches/sl210/release/sl210_mp_cw35
+
+374266 [zeitler] Merge changes for rev. 372543, 373702
+
+Header: Development
+-----
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376970 | habelitzth | 2013-09-17 17:15:34 +0400 (Вт., 17 сент. 2013) | 27 lines
+
+Merged 373417, 374901 from https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL1/develop/stabilization1 into https://develop.loewe.de/svn/tvsoft/codebase2011/branches/sl210/release/sl210_mp_cw35
+
+Merged 376118 from https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_stab_CW28 into https://develop.loewe.de/svn/tvsoft/codebase2011/branches/sl210/release/sl210_mp_cw35
+
+373417 [hg] DCM for Italy enabled
+374901 [selivanoig] Merge from V.2.1.x: After DCM nightupdate servicelist changes are checked before checking LCN conflicts. If there were no changes in service list, no LCN conflict will be shown.
+376118 [selivanoig] Merge from 2.1.x: Notification for leqacy query is fixed.
+
+Header: Development
+-----
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verification platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376996 | habelitzth | 2013-09-17 17:58:27 +0400 (Вт., 17 сент. 2013) | 22 lines
+
+GUI build revision 10909 for SL210/DirectFB (last changed rev 10909 of Tara branch 9859)
+-----
+Header: Tara GUI build (LoeweGUI2012)
+-----
+Polarion-ID: SL2-617
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Tara GUI 
+-----
+External documentation: Tara GUI
+-----
+Verfication platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r377052 | habelitzth | 2013-09-17 20:55:45 +0400 (Вт., 17 сент. 2013) | 22 lines
+
+Revert to Loewe GUI 10673
+-----
+Header: Tara GUI build (LoeweGUI2012)
+-----
+Polarion-ID:
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Tara GUI 
+-----
+External documentation: Tara GUI
+-----
+Verfication platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r377463 | habelitzth | 2013-09-18 16:37:42 +0400 (Ср., 18 сент. 2013) | 21 lines
+
+GUI build revision 10909 for SL210/DirectFB (last changed rev 10909 of Tara branch 9859)
+-----
+Header: Tara GUI build (LoeweGUI2012)
+-----
+Polarion-ID: SL2-617
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Tara GUI 
+-----
+External documentation: Tara GUI
+-----
+Verfication platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r377502 | habelitzth | 2013-09-18 18:14:10 +0400 (Ср., 18 сент. 2013) | 46 lines
+
+Merged revisions 375791:377460 from codebasesl1/branches/develop/stabilization1 into codebasesl1/branches/release/stabilization1_release
+
+375897 [zhangju] Update copied BSP version to STBSP_V1.7X.5_E179_DRM_REL, update printed Loewe GUI version to #10846
+375898 [zhangju] Update sw version and pck version of SL210 and LE65x to 2.1.8
+375909 [zhangju] Update printed Sharp GUI to #10873
+375932 [zhangju] Update copied bsp version to STBSP_V1.7X.5_E179_DRM_REL
+375948 [zhangju] Update stbsp lib to BSP baseline STBSP_V1.7X.5_E179
+376050 [friedl] Handling of BLANK_BACKL modified
+376063 [zhangju] Update copied stbsp lib to baseline STBSP_V1.7X.5_E179
+376080 [zhangju] Update copied stbsp lib of SL210 to baseline STBSP_V1.7X.5_E179
+376088 [kleine] GUI build revision 10886 for SL210/DirectFB (last changed rev 10882 of Tara trunk)
+376182 [maecklerni] Add static port for renderer
+376307 [heuserma] Modified bootup loading position of KApp component.
+376325 [habelitzth] GUI r10873 SharpGUI2012
+376519 [schedelan] New interface to enable/disable the usage of audio output chains in bsp plugin.
+376767 [pechervo] Indicate active speakers to player control
+376851 [hadi] Component tag handling modified.
+376896 [schedelan] Interface stubs added. 
+376910 [pechervo] Indicate HP and AUX speakers to player control
+377026 [kreilmi] Use cspOsalGetUptime() for operation time counters.
+377117 [prohaskajo] Trace level reduced.
+377207 [kreilmi] Removed faulty comment.
+377411 [friedl] don't change 3D mode if there is no signal
+377450 [maecklerni] Correct fforward and fbackward handling
+377460 [pechervo] Only set SPDIF mode in case SPDIF speakers is activated
+
+-----
+Header: Development
+-----
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verification platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r377503 | habelitzth | 2013-09-18 18:22:47 +0400 (Ср., 18 сент. 2013) | 55 lines
+
+Merged revisions 375761:377450 from codebase2011/branches/SL1/develop/stabilization1 into
+codebase2011/branches/SL1/release/stabilization1_release
+
+375762 [hossainri] subtitle ignored unless container formate is AVI and subtitle format is XSUB
+376031 [forkelst] Implement audioInfoNotify in MME playereventhandler
+376048 [friedl] Handling of BLANK_BACKL modified
+376101 [murrma] Video scaling factors corrected.
+376202 [maecklerni] Update dvbmain.PI.txt
+376211 [maecklerni] Update DLNA profile
+376224 [riedelin] Registry handling for energy efficiency resp. quick start mode added.
+376268 [selivanoig] Merge from 2.1.x: Avoiding unnecessary re-tuning if uri string is changed.
+376425 [maecklerni] Use relaese Awox binaries
+376452 [maecklerni] Update DLNA profile
+376470 [kreilmi] Changed AGC source and reduced IF amplitude.
+376494 [maecklerni] Remove logging for awox
+376519 [schedelan] New interface to enable/disable the usage of audio output chains in bsp plugin.
+376600 [riedelin] Evaluation of network rules for age-related lock while DR archive playback corrected.
+376737 [schmittk] Changes for FRANSAT merged from branch V2.1.X_CW16.
+376763 [pechervo] Indicate active speakers to player control
+376852 [hadi] Component tag handling modified.
+376878 [hopesth] Fixed using wrong options tag.
+376908 [pechervo] Indicate HP and AUX speakers to player control
+376933 [heuserma] Updated electronic pop sticker image for LEX52.
+376946 [maecklerni] Update position by seek
+376955 [schedelan] Add audio connection handling in HDR module. 
+376972 [riedelin] Evaluation of country information for parental rating while playback corrected.
+376990 [schedelan] Remove some ALWAYS prints.
+377008 [schedelan] Add audio connection handling in MEDIA module. 
+377178 [forkelst] Always use memory saving mode for IFrames to get rid of AVMEM shortage
+377352 [forkelst] Sleep for 20 ms after change of display windows by mheg engine
+377357 [prohaskajo] merge from sl220 - append corrected.
+377400 [prohaskajo] Forward stream length with first data event
+377415 [timmmo] merged from https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_CW16:
+377450 [maecklerni] Correct fforward and fbackward handling
+
+-----
+Header: Development
+-----
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verification platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r377707 | habelitzth | 2013-09-19 14:20:26 +0400 (Чт., 19 сент. 2013) | 25 lines
+
+Merged 376913, 377476, 377505 from https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_CW16 into https://develop.loewe.de/svn/tvsoft/codebase2011/branches/sl210/release/sl210_mp_cw35
+
+376913 [zeitler] Don't assign LCNs out of range [1..999] 
+377476 [zeitler] Don't assign LCNs out of range [1..999] 
+377505 [zeitler] Check for empty()  stored LCN list added 
+-----
+Header: Software
+-----
+-----
+Variant: all
+-----
+API-modification: Yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r377754 | habelitzth | 2013-09-19 15:28:05 +0400 (Чт., 19 сент. 2013) | 23 lines
+
+Merged 377628 from https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_CW16 into https://develop.loewe.de/svn/tvsoft/codebase2011/branches/sl210/release/sl210_mp_cw35
+
+377628 [riedelin] Country rules for parental lock corrected for location Italy. 
+-----
+Header: Software
+-----
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r377859 | habelitzth | 2013-09-19 17:28:28 +0400 (Чт., 19 сент. 2013) | 29 lines
+
+Merged 376519, 376767, 376896, 376910, 377460, 377744 from https://develop.loewe.de/svn/tvsoft/codebasesl1/branches/develop/stabilization1 into https://develop.loewe.de/svn/tvsoft/codebasesl1/branches/release/sl210_mp_cw35
+
+376519 [schedelan] New interface to enable/disable the usage of audio output chains in bsp plugin.
+376767 [pechervo] Indicate active speakers to player control
+376896 [schedelan] Interface stubs added. 
+376910 [pechervo] Indicate HP and AUX speakers to player control
+377460 [pechervo] Only set SPDIF mode in case SPDIF speakers is activated
+377744 [pechervo] Cleanup - Remove commented out code previously used for workaround
+
+-----
+Header: Software
+-----
+-----
+Variant: all
+-----
+API-modification: Yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r377895 | habelitzth | 2013-09-19 18:19:04 +0400 (Чт., 19 сент. 2013) | 24 lines
+
+Merged 372501 from https://develop.loewe.de/svn/tvsoft/codebasesl1/branches/develop/stabilization1 into https://develop.loewe.de/svn/tvsoft/codebasesl1/branches/release/sl210_mp_cw35
+
+372501 [pechervo] Adjusted mute control and sound selection
+
+-----
+Header: Software
+-----
+-----
+Variant: all
+-----
+API-modification: Yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r377919 | habelitzth | 2013-09-19 18:50:42 +0400 (Чт., 19 сент. 2013) | 34 lines
+
+Merged 370514, 372498, 373027, 376519, 376763, 376908, 376955, 376955, 376990, 377008, 377572, 377743 from https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL1/develop/stabilization1 into https://develop.loewe.de/svn/tvsoft/codebase2011/branches/sl210/release/sl210_mp_cw35
+
+370514 [schedelan] Unmute audio on timeout, if no valid DVB signal is detected at BSP level.
+372498 [pechervo] Adjusted mute control and sound selection
+373027 [pechervo] Unmute audio when timeshift or HDR is started
+376519 [schedelan] New interface to enable/disable the usage of audio output chains in bsp plugin.
+376763 [pechervo] Indicate active speakers to player control
+376908 [pechervo] Indicate HP and AUX speakers to player control
+376955 [schedelan] Add audio connection handling in HDR module. 
+376990 [schedelan] Remove some ALWAYS prints.
+377008 [schedelan] Add audio connection handling in MEDIA module. 
+377572 [schedelan] Interface stubs added. 
+377743 [pechervo] Cleanup - Remove commented out code previously used for workaround
+
+-----
+Header: Software
+-----
+-----
+Variant: all
+-----
+API-modification: Yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r377938 | habelitzth | 2013-09-19 19:35:45 +0400 (Чт., 19 сент. 2013) | 23 lines
+
+Merged 377628 from https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_CW16 into https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL1/develop/stabilization1
+
+377628 [riedelin] Country rules for parental lock corrected for location Italy.
+
+-----
+Header: Software
+-----
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verification platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r377985 | habelitzth | 2013-09-20 09:47:45 +0400 (Пт., 20 сент. 2013) | 24 lines
+
+Merged revisions 377550 from codebasesl1/branches/develop/stabilization1 into codebasesl1/branches/release/stabilization1_release
+
+377550 [kleine] GUI build revision 10921 for SL210/DirectFB (last changed rev 10920 of Tara trunk)
+
+-----
+Header: Development
+-----
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verification platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378019 | habelitzth | 2013-09-20 11:17:17 +0400 (Пт., 20 сент. 2013) | 25 lines
+
+Merged revision 377880 from codebase2011/branches/SL1/develop/stabilization1 into
+codebase2011/branches/SL1/release/stabilization1_release
+
+377880 [riedelin] Check of active K mode for no signal switch off corrected.
+
+-----
+Header: Development
+-----
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verification platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378363 | habelitzth | 2013-09-23 11:48:59 +0400 (Пн., 23 сент. 2013) | 21 lines
+
+Reverted 377895, 377859 in https://develop.loewe.de/svn/tvsoft/codebasesl1/branches/release/sl210_mp_cw35
+-----
+Header: Software
+-----
+Polarion-ID:
+-----
+Variant: all
+-----
+API-modification: Yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378377 | habelitzth | 2013-09-23 11:58:22 +0400 (Пн., 23 сент. 2013) | 30 lines
+
+Merged 372501, 376519, 376767, 376896, 376910, 377460, 377744 from https://develop.loewe.de/svn/tvsoft/codebasesl1/branches/develop/stabilization1 into https://develop.loewe.de/svn/tvsoft/codebasesl1/branches/release/sl210_mp_cw35
+
+372501 [pechervo] Adjusted mute control and sound selection
+376519 [schedelan] New interface to enable/disable the usage of audio output chains in bsp plugin.
+376767 [pechervo] Indicate active speakers to player control
+376896 [schedelan] Interface stubs added. 
+376910 [pechervo] Indicate HP and AUX speakers to player control
+377460 [pechervo] Only set SPDIF mode in case SPDIF speakers is activated
+377744 [pechervo] Cleanup - Remove commented out code previously used for workaround
+
+-----
+Header: Software
+-----
+-----
+Variant: all
+-----
+API-modification: Yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378605 | habelitzth | 2013-09-23 18:49:47 +0400 (Пн., 23 сент. 2013) | 21 lines
+
+GUI r10936 SharpGUI2012
+
+Header: GUI
+-----
+Polarion-ID:
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verification platform: le65x
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378617 | habelitzth | 2013-09-23 19:12:03 +0400 (Пн., 23 сент. 2013) | 26 lines
+
+Merged revisions 378292, 378305, 378605 from codebasesl1/branches/develop/stabilization1 into codebasesl1/branches/release/stabilization1_release
+
+378292 [zhangju] Update stbsp lib of LE65x platform to baseline STBSP_V1.7X.5_E184
+378305 [zhangju] Update stbsp lib of SL210 platform to baseline STBSP_V1.7X.5_E184
+378605 [habelitzth] GUI r10936 SharpGUI2012
+
+-----
+Header: Development
+-----
+Polarion-ID: 
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verification platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378625 | habelitzth | 2013-09-23 19:17:25 +0400 (Пн., 23 сент. 2013) | 20 lines
+
+created tag https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL1/tags/v2.1.14 from https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL1/release/stabilization1_release@378617
+-----
+Header: System
+-----
+Polarion-ID: SSL1-1108
+-----
+Variant: LE65x SL210
+-----
+API-modification:
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verification platform:
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378626 | habelitzth | 2013-09-23 19:17:26 +0400 (Пн., 23 сент. 2013) | 20 lines
+
+created tag https://develop.loewe.de/svn/tvsoft/codebasesl1/tags/releases/v2.1.14 from https://develop.loewe.de/svn/tvsoft/codebasesl1/branches/release/stabilization1_release@378617
+-----
+Header: System
+-----
+Polarion-ID: SSL1-1108
+-----
+Variant: LE65x SL210
+-----
+API-modification:
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verification platform:
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378627 | habelitzth | 2013-09-23 19:17:28 +0400 (Пн., 23 сент. 2013) | 20 lines
+
+Changed externals to https://develop.loewe.de/svn/tvsoft/codebasesl1/tags/releases/v2.1.14@378626
+-----
+Header: System
+-----
+Polarion-ID:
+-----
+Variant: LE65x SL210
+-----
+API-modification:
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verification platform:
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378628 | habelitzth | 2013-09-23 19:17:30 +0400 (Пн., 23 сент. 2013) | 20 lines
+
+Changed externals to https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL1/tags/v2.1.14@378625
+-----
+Header: System
+-----
+Polarion-ID:
+-----
+Variant: LE65x SL210
+-----
+API-modification:
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verification platform:
+-----
+Merge to:
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r385108 | habelitzth | 2013-10-14 17:45:47 +0400 (Пн., 14 окт. 2013) | 23 lines
+
+Do not block remote access to concierge LAPI for energy efficiency quick start mode.
+
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4125
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+* Do not block remote access to concierge LAPI for energy efficiency quick start mode.
+-----
+External documentation:
+* Do not block remote access to concierge LAPI for energy efficiency quick start mode.
+-----
+Verification platform: le65x final
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r388157 | habelitzth | 2013-10-22 16:47:07 +0400 (Вт., 22 окт. 2013) | 23 lines
+
+Added period of active standby when leaving interactive state.
+
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4157
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+* Added period of active standby when leaving interactive state.
+-----
+External documentation:
+* Added period of active standby when leaving interactive state.
+-----
+Verification platform: le65x final
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r389058 | habelitzth | 2013-10-24 13:27:09 +0400 (Чт., 24 окт. 2013) | 23 lines
+
+Modified transition to interactive state when 3 minute active standby has timed out
+
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4157
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+* Modified transition to interactive state when 3 minute active standby has timed out
+-----
+External documentation:
+* Modified transition to interactive state when 3 minute active standby has timed out
+-----
+Verification platform: le65x final
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r389097 | habelitzth | 2013-10-24 13:58:14 +0400 (Чт., 24 окт. 2013) | 25 lines
+
+Modified Model API representation of chassis option VendorFactoryMode. Modified remote control key handling when quick start mode is active.
+
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4188 SSL1-4278
+-----
+Variant: all
+-----
+API-modification: Yes
+-----
+Internal documentation:
+* When configured, the Model API representation of chassis option VendorFactoryMode is replaced by FactoryMode.
+* When configured, block key handling in quick start mode for keys other than power key.
+-----
+External documentation:
+* When configured, the Model API representation of chassis option VendorFactoryMode is replaced by FactoryMode.
+* When configured, block key handling in quick start mode for keys other than power key.
+-----
+Verification platform: le65x final
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r389098 | habelitzth | 2013-10-24 13:58:27 +0400 (Чт., 24 окт. 2013) | 23 lines
+
+Added DCL keys to configure Model API representation of VendorFactoryMode and remote control key handling when quick start mode is active.
+
+Header: Software
+-----
+Polarion-ID: SSL1-4188 SSL1-4278
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+* Added DCL keys to configure Model API representation of VendorFactoryMode and remote control key handling when quick start mode is active.
+-----
+External documentation:
+* Added DCL keys to configure Model API representation of VendorFactoryMode and remote control key handling when quick start mode is active.
+-----
+Verification platform: le65x final
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r389521 | habelitzth | 2013-10-25 12:27:31 +0400 (Пт., 25 окт. 2013) | 21 lines
+
+Merged GUI message definitions up to revision 389397 from https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40 into https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL1/develop/stabilization1
+
+-----
+Header: Software
+-----
+Polarion-ID: 
+-----
+Variant: all
+-----
+API-modification: Yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verification platform:
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r389653 | habelitzth | 2013-10-25 14:37:20 +0400 (Пт., 25 окт. 2013) | 23 lines
+
+Added chassis specific new OSD message when energy efficiency quick start mode is selected
+
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4277 
+-----
+Variant: all
+-----
+API-modification: Yes
+-----
+Internal documentation:
+* Added chassis specific new OSD message when energy efficiency quick start mode is selected
+-----
+External documentation:
+* Added chassis specific new OSD message when energy efficiency quick start mode is selected
+-----
+Verification platform: le65x final
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r389654 | habelitzth | 2013-10-25 14:37:47 +0400 (Пт., 25 окт. 2013) | 23 lines
+
+Added new OSD message definition
+
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4277 
+-----
+Variant: all
+-----
+API-modification: Yes
+-----
+Internal documentation:
+* Added new OSD message definition
+-----
+External documentation:
+* Added new OSD message definition
+-----
+Verification platform:
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r390555 | habelitzth | 2013-10-29 16:39:43 +0400 (Вт., 29 окт. 2013) | 23 lines
+
+Added empty string as dynamic parameter of PIN request to actually show these OSD messages
+
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4314
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+* Added empty string as dynamic parameter of PIN request to actually show these OSD messages
+-----
+External documentation:
+* Added empty string as dynamic parameter of PIN request to actually show these OSD messages
+-----
+Verification platform: le65x final
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r390577 | habelitzth | 2013-10-29 17:12:14 +0400 (Вт., 29 окт. 2013) | 23 lines
+
+Update chassis options vector when chassis configuration is available
+
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4278
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+* Update chassis options vector when chassis configuration is available, do not wait for loreg change notification
+-----
+External documentation:
+* Update chassis options vector when chassis configuration is available, do not wait for loreg change notification
+-----
+Verification platform: le65x final
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r391399 | habelitzth | 2013-10-31 16:20:42 +0400 (Чт., 31 окт. 2013) | 23 lines
+
+Added DCL key values for quick start mode intervals
+
+Header: Software
+-----
+Polarion-ID: SSL1-4259 SSL1-4237
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+* Added DCL key values for quick start mode intervals
+-----
+External documentation:
+* Added DCL key values for quick start mode intervals
+-----
+Verification platform: sl210 final
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r391400 | habelitzth | 2013-10-31 16:20:54 +0400 (Чт., 31 окт. 2013) | 23 lines
+
+Added quick start mode interval logic implementation
+
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4259 SSL1-4237
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+* Added quick start mode interval logic implementation
+-----
+External documentation:
+* Added quick start mode interval logic implementation
+-----
+Verification platform: sl210 final
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r391704 | habelitzth | 2013-11-04 13:05:42 +0400 (Пн., 04 нояб. 2013) | 23 lines
+
+Modified quick start mode interval calculation
+
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4402
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+* Modified quick start mode interval calculation
+-----
+External documentation:
+* Modified quick start mode interval calculation
+-----
+Verification platform: sl210 final
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r392290 | habelitzth | 2013-11-05 14:43:05 +0400 (Вт., 05 нояб. 2013) | 26 lines
+
+Merged (parts of) revision 375671, 388157, 391400, 391704 from https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL1/develop/stabilization1 into https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40
+
+375671 [hopesth] Added puc quick start mode
+388157 [habelitzth] Added period of active standby when leaving interactive state.
+391400 [habelitzth] Added quick start mode interval logic implementation
+391704 [habelitzth] Modified quick start mode interval calculation
+
+-----
+Header: Software
+-----
+-----
+Variant: all
+-----
+API-modification: Yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verification platform: sl220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r392309 | habelitzth | 2013-11-05 15:07:38 +0400 (Вт., 05 нояб. 2013) | 23 lines
+
+Merged revision 392290 from https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40 into https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_stab_CW44
+
+392290 [habelitzth] Merged (parts of) revision 375671, 388157, 391400, 391704 from https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL1/develop/stabilization1 into https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40
+
+-----
+Header: Software
+-----
+-----
+Variant: sl2xx
+-----
+API-modification: Yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verification platform: sl220
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r392332 | habelitzth | 2013-11-05 16:18:12 +0400 (Вт., 05 нояб. 2013) | 23 lines
+
+Modified default values for quick start mode intervals according to spec Settings_3_Control V1.21
+
+-----
+Header: Software
+-----
+Polarion-ID: SL2-14972
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+* Modified default values for quick start mode intervals according to spec Settings_3_Control V1.21
+-----
+External documentation:
+* Modified default values for quick start mode intervals according to spec Settings_3_Control V1.21
+-----
+Verification platform: sl220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r392334 | habelitzth | 2013-11-05 16:20:00 +0400 (Вт., 05 нояб. 2013) | 23 lines
+
+Merged revision 392332 from https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40 into https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_stab_CW44
+
+392332 [habelitzth] Modified default values for quick start mode intervals according to spec Settings_3_Control V1.21
+
+-----
+Header: Software
+-----
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verification platform: sl220
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r392338 | habelitzth | 2013-11-05 16:24:06 +0400 (Вт., 05 нояб. 2013) | 24 lines
+
+Merged revision 392332 from https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40 into https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL1/develop/stabilization1
+
+392332 [habelitzth] Modified default values for quick start mode intervals according to spec Settings_3_Control V1.21
+
+-----
+Header: Software
+-----
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verification platform: sl210
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r392558 | habelitzth | 2013-11-05 19:36:26 +0400 (Вт., 05 нояб. 2013) | 24 lines
+
+Removed 10 second delay of quick start mode timed puc start
+
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4402
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+* Removed 10 second delay of quick start mode timed puc start
+-----
+External documentation:
+* Removed 10 second delay of quick start mode timed puc start
+-----
+Verification platform: sl220
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r392563 | habelitzth | 2013-11-05 19:39:29 +0400 (Вт., 05 нояб. 2013) | 23 lines
+
+Merged revision 392558 from https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL1/develop/stabilization1 into https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40
+
+392558 [habelitzth] Removed 10 second delay of quick start mode timed puc start
+
+-----
+Header: Software
+-----
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verification platform: sl220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r392564 | habelitzth | 2013-11-05 19:42:22 +0400 (Вт., 05 нояб. 2013) | 23 lines
+
+Merged revision 392558 from https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL1/develop/stabilization1 into https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_stab_CW44
+
+392558 [habelitzth] Removed 10 second delay of quick start mode timed puc start
+
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4402
+-----
+Variant: sl2xx
+-----
+API-modification: No
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verification platform: sl220
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r393239 | habelitzth | 2013-11-07 14:14:43 +0400 (Чт., 07 нояб. 2013) | 26 lines
+
+Added configuration for delay at transition from interactive to (active) standby
+
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4450
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+* Added configuration for delay at transition from interactive to (active) standby
+* Modified handling of quick start mode intervals at shutdown to depend on the configuration
+-----
+External documentation:
+* Added configuration for delay at transition from interactive to (active) standby
+* Modified handling of quick start mode intervals at shutdown to depend on the configuration
+-----
+Verification platform: sl210 le65x
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r393241 | habelitzth | 2013-11-07 14:15:09 +0400 (Чт., 07 нояб. 2013) | 23 lines
+
+Added DCL key values for quick start mode standby delay
+
+Header: Software
+-----
+Polarion-ID: SSL1-4450
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+* Added DCL key values for quick start mode standby delay
+-----
+External documentation:
+* Added DCL key values for quick start mode standby delay
+-----
+Verification platform: sl210 le65x
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r393896 | habelitzth | 2013-11-08 17:29:16 +0400 (Пт., 08 нояб. 2013) | 23 lines
+
+Merged revision 393891 from https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_stab_CW44 into https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL1/develop/stabilization1
+
+393891 [baueran] Quickstart mode for "6pm - 9pm" is deactivated by default now.
+-----
+Header: Software
+-----
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verification platform:
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r393899 | habelitzth | 2013-11-08 17:32:01 +0400 (Пт., 08 нояб. 2013) | 22 lines
+
+Merged revision 393891 from https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_stab_CW44 into https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40
+
+393891 [baueran] Quickstart mode for "6pm - 9pm" is deactivated by default now.
+-----
+Header: Software
+-----
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verification platform:
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r394253 | habelitzth | 2013-11-11 15:34:39 +0400 (Пн., 11 нояб. 2013) | 23 lines
+
+Added DCL key values for status display control in case of nightupdate tasks
+
+Header: Software
+-----
+Polarion-ID: SSL1-4366
+-----
+Variant: all
+-----
+API-modification: Yes
+-----
+Internal documentation:
+* Added DCL key values for status display control in case of nightupdate tasks
+-----
+External documentation:
+* Added DCL key values for status display control in case of nightupdate tasks
+-----
+Verification platform: le65x
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r394254 | habelitzth | 2013-11-11 15:34:48 +0400 (Пн., 11 нояб. 2013) | 24 lines
+
+Added configuration to control status display for nightupdate tasks
+
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4366
+-----
+Variant: all
+-----
+API-modification: Yes
+-----
+Internal documentation:
+* Added configuration to control status display for nightupdate tasks
+-----
+External documentation:
+* Added configuration to control status display for nightupdate tasks
+-----
+Verification platform: le65x
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r395744 | habelitzth | 2013-11-14 16:33:05 +0400 (Чт., 14 нояб. 2013) | 23 lines
+
+Added check at startup for chassis specific file and modify startup depending on its existence
+
+Header: Software
+-----
+Polarion-ID: SSL1-3994
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+* Added check at startup for chassis specific file and modify startup depending on its existence
+-----
+External documentation:
+* Added check at startup for chassis specific file and modify startup depending on its existence
+-----
+Verification platform: le65x
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r395745 | habelitzth | 2013-11-14 16:33:45 +0400 (Чт., 14 нояб. 2013) | 24 lines
+
+Added a file flag when energy efficiency mode is changed
+
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-3994
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+* Added a file flag when energy efficiency mode is changed. Cleanup at next complete system start. 
+-----
+External documentation:
+* Added a file flag when energy efficiency mode is changed. Cleanup at next complete system start. 
+-----
+Verification platform: le65x
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r395821 | habelitzth | 2013-11-14 17:53:36 +0400 (Чт., 14 нояб. 2013) | 27 lines
+
+Merged revisions 395022:395744 from codebasesl1/branches/develop/stabilization1 into codebasesl1/branches/release/stabilization1_release
+
+395534 [schedelan] Commit of mbrix binary release revision 395532
+395556 [kleine] GUI build revision 11441 for SL210/DirectFB (last changed rev 11439 of Tara branch 11295)
+395731 [prohaskajo] Remove unused member.
+395744 [habelitzth] Added check at startup for chassis specific file and modify startup depending on its existence
+
+-----
+Header: Development
+-----
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verification platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r395823 | habelitzth | 2013-11-14 17:54:42 +0400 (Чт., 14 нояб. 2013) | 36 lines
+
+Merged revisions 395282:395745 from codebase2011/branches/SL1/develop/stabilization1 into codebase2011/branches/SL1/release/stabilization1_release
+
+395310 [fresento] removed a debug print
+395343 [radikesa] Merged from SL220 2.3.X:
+395392 [fresento] after evaluation on SL210 and SL220, the last workarounds in 395282 can be
+395409 [trapperch] Inform netserver about metadata modification (merge from V2.3).
+395411 [trapperch] Do display childlocked entries on remote clients.
+395521 [hadi] Freeview/MME:  Filter handling improved to avoid possible crash (fast zapping).
+395523 [hadi] Freeview/MME:  Filter handling improved to avoid possible crash (fast zapping).
+395528 [selivanoig] Merge from 2.3.X: SL2_TVAPI_TABLE_ACTION_SERVICELIST_DELETE_PERMANENTLY_FOR_ITERATOR action is implemented/improved for GUI.
+395610 [vkuchuk] merge -c 395578 https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40
+395638 [riedelin] Stop of EPG nightupdate corrected.
+395681 [riedelin] Initialisation for location of TV set depending on OSD language added for Slovak/Slovakia;
+395693 [vkuchuk] merge -c 395679 https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_stab_CW44
+395745 [habelitzth] Added a file flag when energy efficiency mode is changed
+
+-----
+Header: Development
+-----
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verification platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r397714 | habelitzth | 2013-11-21 14:06:42 +0400 (Чт., 21 нояб. 2013) | 23 lines
+
+Added exception for resuming tvservice request when browser state is set to PLAYER_FREE
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4544
+-----
+Variant: all
+-----
+API-modification: Yes
+-----
+Internal documentation:
+* Added exception for resuming tvservice request when browser state is set to PLAYER_FREE
+-----
+External documentation:
+* Added exception for resuming tvservice request when browser state is set to PLAYER_FREE
+-----
+Verification platform: le65x sl210 sl220 final
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r398466 | habelitzth | 2013-11-22 18:10:08 +0400 (Пт., 22 нояб. 2013) | 22 lines
+
+Added DCL key values to suppress dynamic backlight from biz when OSD is visible
+
+Header: Software
+-----
+Polarion-ID: SSL1-4262
+-----
+Variant: all
+-----
+API-modification: Yes
+-----
+Internal documentation:
+* Added DCL key values to suppress dynamic backlight from biz when OSD is visible
+-----
+External documentation:
+* Added DCL key values to suppress dynamic backlight from biz when OSD is visible
+-----
+Verification platform: le65x
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r398468 | habelitzth | 2013-11-22 18:11:33 +0400 (Пт., 22 нояб. 2013) | 26 lines
+
+Merged revision 307065 from https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL1/release/stabilization0 and added chassis specific check
+
+307065 [fresento] suppress disabling dynamic backlight from biz. (biz was deciding on OSD% value to => setAutoDimmingVbd(0), something we do not want biz to decide)
+
+-----
+Header: Software
+-----
+-----
+Variant: all
+-----
+API-modification: Yes
+-----
+Internal documentation:
+* Suppress disabling dynamic backlight chassis specific from biz.
+-----
+External documentation:
+* Suppress disabling dynamic backlight chassis specific from biz.
+-----
+Verification platform: le65x
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401991 | habelitzth | 2013-12-05 19:45:35 +0400 (Чт., 05 дек. 2013) | 23 lines
+
+Added query for new Soundprojector Configuration command when an incomplete one is received
+
+-----
+Header: Software
+-----
+Polarion-ID: SL2-15406
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+* Added query for new Soundprojector Configuration command when an incomplete one is received
+-----
+External documentation:
+* Added query for new Soundprojector Configuration command when an incomplete one is received
+-----
+Verification platform: sl220
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r402008 | habelitzth | 2013-12-05 20:03:49 +0400 (Чт., 05 дек. 2013) | 23 lines
+
+Added query for new Soundprojector Configuration command when an incomplete one is received
+
+-----
+Header: Software
+-----
+Polarion-ID: SL2-15406
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+* Added query for new Soundprojector Configuration command when an incomplete one is received
+-----
+External documentation:
+* Added query for new Soundprojector Configuration command when an incomplete one is received
+-----
+Verification platform: sl220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r402227 | habelitzth | 2013-12-06 15:25:36 +0400 (Пт., 06 дек. 2013) | 23 lines
+
+Modified Soundprojector initialization when communication is enabled by homecontrol
+
+-----
+Header: Software
+-----
+Polarion-ID: SL2-15430 SL2-15432
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+* Modified Soundprojector initialization when communication is enabled by homecontrol
+-----
+External documentation:
+* Modified Soundprojector initialization when communication is enabled by homecontrol
+-----
+Verification platform: sl220
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r402228 | habelitzth | 2013-12-06 15:27:17 +0400 (Пт., 06 дек. 2013) | 23 lines
+
+Modified Soundprojector initialization when communication is enabled by homecontrol
+
+-----
+Header: Software
+-----
+Polarion-ID: SL2-15430 SL2-15432
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+* Modified Soundprojector initialization when communication is enabled by homecontrol
+-----
+External documentation:
+* Modified Soundprojector initialization when communication is enabled by homecontrol
+-----
+Verification platform: sl220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r402751 | habelitzth | 2013-12-09 17:31:09 +0400 (Пн., 09 дек. 2013) | 24 lines
+
+Set Soundprojector connection status once command data is received
+
+-----
+Header: Software
+-----
+Polarion-ID: SL2-15472
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+* Set Soundprojector connection status once command data is received
+-----
+External documentation:
+* Set Soundprojector connection status once command data is received
+-----
+Verification platform: sl220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403054 | habelitzth | 2013-12-10 15:01:59 +0400 (Вт., 10 дек. 2013) | 23 lines
+
+Set Soundprojector connection status once command data is received
+
+-----
+Header: Software
+-----
+Polarion-ID: SL2-15472
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+* Set Soundprojector connection status once command data is received
+-----
+External documentation:
+* Set Soundprojector connection status once command data is received
+-----
+Verification platform: sl220
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403440 | habelitzth | 2013-12-11 17:48:43 +0400 (Ср., 11 дек. 2013) | 22 lines
+
+Added call to reset dynamic backlight when panel is switched on
+
+Header: Software
+-----
+Polarion-ID: SSL1-4696
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+* Added call to reset dynamic backlight when panel is switched on
+-----
+External documentation:
+* Added call to reset dynamic backlight when panel is switched on
+-----
+Verification platform: le65x
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403452 | habelitzth | 2013-12-11 18:15:06 +0400 (Ср., 11 дек. 2013) | 24 lines
+
+Removed incorrect initialization of parameters which are not reported by Soundprojector
+
+-----
+Header: Software
+-----
+Polarion-ID: SL2-15422
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+* Removed incorrect initialization of parameters which are not reported by Soundprojector
+-----
+External documentation:
+* Removed incorrect initialization of parameters which are not reported by Soundprojector
+-----
+Verification platform: sl220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403488 | habelitzth | 2013-12-11 20:14:55 +0400 (Ср., 11 дек. 2013) | 22 lines
+
+Restore original dynamic backlight value when resetting the value for panel switch on
+
+Header: Software
+-----
+Polarion-ID: SSL1-4696
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+* Restore original dynamic backlight value when resetting the value for panel switch on
+-----
+External documentation:
+* Restore original dynamic backlight value when resetting the value for panel switch on
+-----
+Verification platform: le65x
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403607 | habelitzth | 2013-12-12 14:23:14 +0400 (Чт., 12 дек. 2013) | 24 lines
+
+Added parameter of TV set location to Loewe Remote API response for method getDeviceData
+
+-----
+Header: Software
+-----
+Polarion-ID: SL2-15507
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+* Added parameter of TV set location to Loewe Remote API response for method getDeviceData
+-----
+External documentation:
+* Added parameter of TV set location to Loewe Remote API response for method getDeviceData
+-----
+Verification platform: sl220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404387 | habelitzth | 2013-12-17 11:58:50 +0400 (Вт., 17 дек. 2013) | 22 lines
+
+Added removal of wakeup reason VGA when EPG_UPDATE is also set
+
+Header: Software
+-----
+Polarion-ID: SSL1-4719
+-----
+Variant: le65x
+-----
+API-modification: No
+-----
+Internal documentation:
+* Added removal of wakeup reason VGA when EPG_UPDATE is also set
+-----
+External documentation:
+* Added removal of wakeup reason VGA when EPG_UPDATE is also set
+-----
+Verification platform: le65x
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404481 | habelitzth | 2013-12-17 14:45:06 +0400 (Вт., 17 дек. 2013) | 23 lines
+
+Modified setting of electronic pop sticker depending on the panel size
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4709
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+* Modified setting of electronic pop sticker depending on the panel size
+-----
+External documentation:
+* Modified setting of electronic pop sticker depending on the panel size
+-----
+Verification platform: le65x
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404501 | habelitzth | 2013-12-17 15:44:33 +0400 (Вт., 17 дек. 2013) | 23 lines
+
+Added observer for inch setting value
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4709
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+* Added observer for inch setting value
+-----
+External documentation:
+* Added observer for inch setting value
+-----
+Verification platform: le65x
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404511 | habelitzth | 2013-12-17 16:13:27 +0400 (Вт., 17 дек. 2013) | 24 lines
+
+Added Remote API SOAP method call SetActionField
+
+-----
+Header: Software
+-----
+Polarion-ID: SL2-15140
+-----
+Variant: all
+-----
+API-modification: Yes
+-----
+Internal documentation:
+* Added Remote API SOAP method call SetActionField
+-----
+External documentation:
+* Added Remote API SOAP method call SetActionField
+-----
+Verification platform: sl220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404868 | habelitzth | 2013-12-19 12:33:28 +0400 (Чт., 19 дек. 2013) | 27 lines
+
+Merged revisions 402434:404862 from https://develop.loewe.de/svn/tvsoft/codebase2011/branches/develop/feature/double_rec_merge into trunk
+
+404391 [dlyubimov] Rebasing on trunk@403783
+402436 [dlyubimov] Introducing new API for double recording and initial support for it
+
+-----
+Header: Software
+-----
+-----
+Variant: sl2xx
+-----
+API-modification: Yes
+-----
+Internal documentation:
+404391 [dlyubimov] Rebasing on trunk@403783
+402436 [dlyubimov] Introducing new API for double recording and initial support for it
+-----
+External documentation:
+-----
+Verification platform: sl220
+-----
+Merge to:
+-----
+Reviewed by:
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404878 | habelitzth | 2013-12-19 13:14:00 +0400 (Чт., 19 дек. 2013) | 31 lines
+
+Merged revisions 403660:404869 from https://develop.loewe.de/svn/tvsoft/codebase2011/branches/develop/feature/hotelmode_new_features into trunk
+
+404385 [dlyubimov] Rebase on trunk@403783
+404351 [dlyubimov] Adding  Home screen model value SL2_TVAPI_HOTELMODE_I32_HOME_SCREEN
+404257 [dlyubimov] Adding separate enum for Welcome Menu and Timeout model value
+403814 [dlyubimov] Disabling epg night update in hotel mode with epg "off" state
+
+-----
+Header: Software
+-----
+-----
+Variant: sl2xx
+-----
+API-modification: Yes
+-----
+Internal documentation:
+404385 [dlyubimov] Rebase on trunk@403783
+404351 [dlyubimov] Adding  Home screen model value SL2_TVAPI_HOTELMODE_I32_HOME_SCREEN
+404257 [dlyubimov] Adding separate enum for Welcome Menu and Timeout model value
+403814 [dlyubimov] Disabling epg night update in hotel mode with epg "off" state
+-----
+External documentation:
+-----
+Verification platform: sl220
+-----
+Merge to:
+-----
+Reviewed by:
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405222 | habelitzth | 2014-01-02 17:22:52 +0400 (Чт., 02 янв. 2014) | 24 lines
+
+Added Remote API SOAP method call GetListOfChannelLists
+
+-----
+Header: Software
+-----
+Polarion-ID: SL2-15139
+-----
+Variant: all
+-----
+API-modification: Yes
+-----
+Internal documentation:
+* Added Remote API SOAP method call GetListOfChannelLists
+-----
+External documentation:
+* Added Remote API SOAP method call GetListOfChannelLists
+-----
+Verification platform: sl220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405392 | habelitzth | 2014-01-07 19:28:06 +0400 (Вт., 07 янв. 2014) | 23 lines
+
+Modified electronic pop sticker images to include UPC certification for all panels
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4733
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+* Modified electronic pop sticker images to include UPC certification for all panels
+-----
+External documentation:
+* Modified electronic pop sticker images to include UPC certification for all panels
+-----
+Verification platform: le65x final
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405723 | habelitzth | 2014-01-09 16:50:44 +0400 (Чт., 09 янв. 2014) | 23 lines
+
+Added new KPI values related to quick start mode
+-----
+Header: Software
+-----
+Polarion-ID: SL2-15158
+-----
+Variant: all
+-----
+API-modification: Yes
+-----
+Internal documentation:
+* Added new KPI values related to quick start mode
+-----
+External documentation:
+* Added new KPI values related to quick start mode
+-----
+Verification platform: sl220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405796 | habelitzth | 2014-01-09 20:16:25 +0400 (Чт., 09 янв. 2014) | 24 lines
+
+Merged revision 405723 from https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40 into https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL1/develop/stabilization1
+
+405723 [habelitzth] Added new KPI values related to quick start mode
+
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4493 SL2-15158
+-----
+Variant: all
+-----
+API-modification: Yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verification platform: sl210 final
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405797 | habelitzth | 2014-01-09 20:19:31 +0400 (Чт., 09 янв. 2014) | 22 lines
+
+Revert modification to quick start time slot
+
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4493 SL2-15158
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verification platform: sl210 final
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405798 | habelitzth | 2014-01-09 20:21:02 +0400 (Чт., 09 янв. 2014) | 22 lines
+
+Added chassis-specific KPI event related to quick start mode 
+
+Header: Software
+-----
+Polarion-ID: SSL1-4493
+-----
+Variant: sl210
+-----
+API-modification: No
+-----
+Internal documentation:
+* Added chassis-specific KPI event related to quick start mode
+-----
+External documentation:
+* Added chassis-specific KPI event related to quick start mode
+-----
+Verification platform: sl210
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406585 | habelitzth | 2014-01-15 14:05:58 +0400 (Ср., 15 янв. 2014) | 23 lines
+
+Added QueryParameters to method GetListOfChannelLists
+-----
+Header: Software
+-----
+Polarion-ID: SL2-15139
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+* Added QueryParameters to method GetListOfChannelLists
+-----
+External documentation:
+* Added QueryParameters to method GetListOfChannelLists
+-----
+Verification platform: sl220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407458 | habelitzth | 2014-01-22 12:29:50 +0400 (Ср., 22 янв. 2014) | 23 lines
+
+Added factory init flags for partial factory init
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-1752
+-----
+Variant: all
+-----
+API-modification: Yes
+-----
+Internal documentation:
+* Added factory init flags for partial factory init
+-----
+External documentation:
+* Added factory init flags for partial factory init
+-----
+Verification platform: le65x
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------

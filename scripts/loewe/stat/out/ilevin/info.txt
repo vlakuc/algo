@@ -1,0 +1,50 @@
+------------------------------------------------------------------------
+r377708 | ilevin | 2013-09-19 14:27:38 +0400 (Чт., 19 сент. 2013) | 21 lines
+
+Adding Antenna as a source for background download of SSU
+-----
+Header: Development
+-----
+Polarion-ID: SL2-13128
+-----
+Variant: 
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verification platform: -
+-----
+Merge to: -
+-----
+Reviewed by: 
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r377808 | ilevin | 2013-09-19 16:37:05 +0400 (Чт., 19 сент. 2013) | 21 lines
+
+Rollback of the temporary patch
+-----
+Header: Development
+-----
+Polarion-ID: SL2-13128
+-----
+Variant: 
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verification platform: -
+-----
+Merge to: -
+-----
+Reviewed by: 
+
+
+------------------------------------------------------------------------

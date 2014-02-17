@@ -1,0 +1,323 @@
+------------------------------------------------------------------------
+r374333 | friedl | 2013-09-10 10:55:59 +0400 (Вт., 10 сент. 2013) | 19 lines
+
+Overdrive settings corrected
+-----
+Header: System
+-----
+Polarion-ID: SSL1-3794
+-----
+Variant: Sl2x
+-----
+API-modification: No
+-----
+Internal documentation: Overdrive settings corrected
+-----
+External documentation: Overdrive settings corrected
+-----
+Verfication platform: Sl210-debug
+-----
+Merge to: trunk
+-----
+Reviewed by:  Bayer
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r374661 | friedl | 2013-09-10 18:11:33 +0400 (Вт., 10 сент. 2013) | 19 lines
+
+Switch backlight in FRC on when switch on from night update mode
+-----
+Header: System
+-----
+Polarion-ID: SSL1-3676
+-----
+Variant: Sl2x
+-----
+API-modification: No
+-----
+Internal documentation: Switch backlight in FRC on when switch on from night update mode
+-----
+External documentation: Switch backlight in FRC on when switch on from night update mode
+-----
+Verfication platform: Sl210-debug
+-----
+Merge to: trunk
+-----
+Reviewed by:  Bayer
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r374969 | friedl | 2013-09-11 13:55:38 +0400 (Ср., 11 сент. 2013) | 19 lines
+
+gpio switching at power off corrected
+-----
+Header: System
+-----
+Polarion-ID: SSL1-3912
+-----
+Variant: Sl2x
+-----
+API-modification: No
+-----
+Internal documentation: gpio switching at power off corrected
+-----
+External documentation: gpio switching at power off corrected
+-----
+Verfication platform: Sl210-debug
+-----
+Merge to: trunk
+-----
+Reviewed by:  Bayer
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376048 | friedl | 2013-09-13 12:40:02 +0400 (Пт., 13 сент. 2013) | 19 lines
+
+Handling of BLANK_BACKL modified
+-----
+Header: Video
+-----
+Polarion-ID: SSL1-3408
+-----
+Variant: Sl2x
+-----
+API-modification: No
+-----
+Internal documentation: Handling of BLANK_BACKL modified
+-----
+External documentation: Handling of BLANK_BACKL modified
+-----
+Verfication platform: Sl210-debug
+-----
+Merge to: trunk
+-----
+Reviewed by:  Bayer
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376050 | friedl | 2013-09-13 12:44:00 +0400 (Пт., 13 сент. 2013) | 19 lines
+
+Handling of BLANK_BACKL modified
+-----
+Header: Video
+-----
+Polarion-ID: SSL1-3408
+-----
+Variant: Sl2x
+-----
+API-modification: No
+-----
+Internal documentation: Handling of BLANK_BACKL modified
+-----
+External documentation: Handling of BLANK_BACKL modified
+-----
+Verfication platform: Sl210-debug
+-----
+Merge to: trunk
+-----
+Reviewed by:  Bayer
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r377411 | friedl | 2013-09-18 15:36:46 +0400 (Ср., 18 сент. 2013) | 19 lines
+
+don't change 3D mode if there is no signal
+-----
+Header: Video
+-----
+Polarion-ID: SSL1-3845
+-----
+Variant: Sl2x
+-----
+API-modification: No
+-----
+Internal documentation: don't change 3D mode if there is no signal
+-----
+External documentation: don't change 3D mode if there is no signal
+-----
+Verfication platform: Sl210-debug
+-----
+Merge to: trunk
+-----
+Reviewed by:  Bayer
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r382803 | friedl | 2013-10-08 16:43:14 +0400 (Вт., 08 окт. 2013) | 19 lines
+
+Delay I2C telegrams at startup until panel is ready
+-----
+Header: System
+-----
+Polarion-ID: SSL1-4129
+-----
+Variant: Sl2x
+-----
+API-modification: No
+-----
+Internal documentation: Delay I2C telegrams at startup until panel is ready
+-----
+External documentation: Delay I2C telegrams at startup until panel is ready
+-----
+Verfication platform: Sl210-debug
+-----
+Merge to: trunk
+-----
+Reviewed by:  Bayer
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r385679 | friedl | 2013-10-15 17:07:31 +0400 (Вт., 15 окт. 2013) | 19 lines
+
+Recommended workaround of Silicon Image implemented
+-----
+Header: HDMI
+-----
+Polarion-ID: SL2-14574
+-----
+Variant: Sl2x
+-----
+API-modification: No
+-----
+Internal documentation: Recommended workaround of Silicon Image implemented
+-----
+External documentation: Recommended workaround of Silicon Image implemented
+-----
+Verfication platform: Sl221-debug
+-----
+Merge to: trunk
+-----
+Reviewed by:  Bayer
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r402312 | friedl | 2013-12-06 17:33:19 +0400 (Пт., 06 дек. 2013) | 19 lines
+
+Mutex added,  EDID version incremented
+-----
+Header: HDMI
+-----
+Polarion-ID: SL2-15444
+-----
+Variant: Sl2x
+-----
+API-modification: No
+-----
+Internal documentation: Mutex added,  EDID version incremented
+-----
+External documentation: Mutex added,  EDID version incremented
+-----
+Verfication platform: Sl221-debug
+-----
+Merge to: trunk
+-----
+Reviewed by:  Bayer
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r402632 | friedl | 2013-12-09 13:03:37 +0400 (Пн., 09 дек. 2013) | 19 lines
+
+Mutex added,  EDID version incremented
+-----
+Header: HDMI
+-----
+Polarion-ID: SL2-15444
+-----
+Variant: Sl2x
+-----
+API-modification: No
+-----
+Internal documentation: Mutex added,  EDID version incremented
+-----
+External documentation: Mutex added,  EDID version incremented
+-----
+Verfication platform: Sl221-debug
+-----
+Merge to: 
+-----
+Reviewed by:  Bayer
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405683 | friedl | 2014-01-09 13:29:06 +0400 (Чт., 09 янв. 2014) | 19 lines
+
+EDID modification funtion waits until writing thread is ready,  EDID version incremented
+-----
+Header: HDMI
+-----
+Polarion-ID: SL2-15444
+-----
+Variant: Sl2x
+-----
+API-modification: No
+-----
+Internal documentation: EDID modification funtion waits until writing thread is ready,  EDID version incremented
+-----
+External documentation: EDID modification funtion waits until writing thread is ready,  EDID version incremented
+-----
+Verfication platform: Sl221-debug
+-----
+Merge to: trunk
+-----
+Reviewed by:  Bayer
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407390 | friedl | 2014-01-21 16:35:34 +0400 (Вт., 21 янв. 2014) | 19 lines
+
+VFrequency calculation corrected.
+-----
+Header: Video
+-----
+Polarion-ID: SSL1-4753
+-----
+Variant: Sl2x
+-----
+API-modification: No
+-----
+Internal documentation: VFrequency calculation corrected.
+-----
+External documentation: VFrequency calculation corrected.
+-----
+Verfication platform: Sl210-debug
+-----
+Merge to: trunk
+-----
+Reviewed by:  Murrmann
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409501 | friedl | 2014-02-06 17:12:22 +0400 (Чт., 06 февр. 2014) | 19 lines
+
+RC5 subsystem is checked too
+-----
+Header: Video
+-----
+Polarion-ID: SSL1-4775
+-----
+Variant: Sl2x
+-----
+API-modification: No
+-----
+Internal documentation: RC5 subsystem is checked too
+-----
+External documentation: RC5 subsystem is checked too
+-----
+Verfication platform: Sl210-debug
+-----
+Merge to: -
+-----
+Reviewed by:  Kleinert
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409506 | friedl | 2014-02-06 17:23:27 +0400 (Чт., 06 февр. 2014) | 20 lines
+
+Clear UART buffer when TV is switched off
+-----
+Header: Software
+-----
+Polarion-ID: SSL-4792
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Clear UART buffer when TV is switched off
+-----
+External documentation: Clear UART buffer when TV is switched off
+
+Verification platform: SL2xx
+-----
+Merge to: -
+-----
+Reviewed by: Bauer
+
+------------------------------------------------------------------------

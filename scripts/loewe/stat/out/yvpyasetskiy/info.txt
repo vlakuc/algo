@@ -1,0 +1,1052 @@
+------------------------------------------------------------------------
+r371904 | yvpyasetskiy | 2013-09-02 15:53:02 +0400 (Пн., 02 сент. 2013) | 20 lines
+
+version incremented to V2.0.10
+-----
+Header: System
+-----
+Polarion-ID: SL2-14416
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.0.10 (CW36 release)
+-----
+External documentation: version incremented to V2.0.10 (CW36 release)
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: yvpyasetskiy
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r371905 | yvpyasetskiy | 2013-09-02 15:53:15 +0400 (Пн., 02 сент. 2013) | 20 lines
+
+version set back to V1.99.0 (development SW from V2.0.X_CW16 branch)
+-----
+Header: System
+-----
+Polarion-ID: SL2-14416
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V1.99.0 (development SW from V2.0.X_CW16 branch)
+-----
+External documentation:
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: yvpyasetskiy
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r371993 | yvpyasetskiy | 2013-09-02 17:22:36 +0400 (Пн., 02 сент. 2013) | 20 lines
+
+version incremented to V1.12.18
+-----
+Header: System
+-----
+Polarion-ID: SL2-14418
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V1.12.18 (CW36 release)
+-----
+External documentation: version incremented to V1.12.18 (CW36 release)
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: yvpyasetskiy
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r371994 | yvpyasetskiy | 2013-09-02 17:22:59 +0400 (Пн., 02 сент. 2013) | 20 lines
+
+version set back to V1.11.99 (development SW from V1.12.X_CW13 branch)
+-----
+Header: System
+-----
+Polarion-ID: SL2-14418
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V1.11.99 (development SW from V1.12.X_CW13 branch)
+-----
+External documentation:
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: yvpyasetskiy
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r372840 | yvpyasetskiy | 2013-09-04 15:16:35 +0400 (Ср., 04 сент. 2013) | 20 lines
+
+version incremented to V2.1.26
+-----
+Header: System
+-----
+Polarion-ID: SL2-14440
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.1.26 (CW36 release)
+-----
+External documentation: version incremented to V2.1.26 (CW36 release)
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: yvpyasetskiy
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r372841 | yvpyasetskiy | 2013-09-04 15:17:07 +0400 (Ср., 04 сент. 2013) | 20 lines
+
+version set back to V2.0.99 (development SW V2.1.X_stab_CW28 branch)
+-----
+Header: System
+-----
+Polarion-ID: SL2-14440
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V2.0.99 (development SW V2.1.X_stab_CW28 branch)
+-----
+External documentation: version set back to V2.0.99 (development SW V2.1.X_stab_CW28 branch)
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: yvpyasetskiy
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r373499 | yvpyasetskiy | 2013-09-05 17:34:25 +0400 (Чт., 05 сент. 2013) | 74 lines
+
+https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_CW16 r370017:r370089--> tvsoft/codebase2011/trunk
+https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_CW16 r370091:r370236--> tvsoft/codebase2011/trunk
+https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_CW16 r370353:r370939--> tvsoft/codebase2011/trunk
+https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_CW16 r370947:r371123--> tvsoft/codebase2011/trunk
+https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_CW16 r371267:r371366--> tvsoft/codebase2011/trunk
+https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_CW16 r371378:r371762--> tvsoft/codebase2011/trunk
+https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_CW16 r371823:r372119--> tvsoft/codebase2011/trunk
+https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_CW16 r372232:r372495--> tvsoft/codebase2011/trunk
+https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_CW16 r372509:r372933--> tvsoft/codebase2011/trunk
+https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_CW16 r373093:r373265--> tvsoft/codebase2011/trunk
+-----
+Header: All
+-----
+Polarion-ID: SL2-10035, SL2-10962, SL2-11514, SL2-11710, SL2-11935, SL2-11936, SL2-12278, SL2-12673, SL2-13155, SL2-13313, SL2-13443, SL2-13503, SL2-13862, SL2-13918, SL2-13969, SL2-14008, SL2-14030, SL2-14062, SL2-14207, SL2-14273, SL2-14281, SL2-14289, SL2-14337, SL2-14339, SL2-14400, SL2-14413, SL2-14424, SL2-14429, SL2-14435, SL2-14440, SL2-9659, SSL1-1586, SSL1-1940, SSL1-2520, SSL1-2979, SSL1-3437, SSL1-3622, SSL1-3697, SSL1-3742
+-----
+Variant: SL2xx
+-----
+Internal documentation: Merged the following revisions from V2.1.X_CW16 branch to trunk:
+r370089 - Switch off Audio Device when TV goes into standby state
+r370112 - Removing duplicate, excessive code.
+r370171 - Change press&hold volume handling
+r370172 - Change press&hold volume handling
+r370219 - Input window cropping values check added.
+r370229 - Add driver to request power status from a logical device
+r370236 - Session id is modified by station scan only. DvbService doesn't change it.
+r370461 - Model channel saerch state is reset when search source is changed
+r370467 - Receivable flag is modified by station scan only. DvbService doesn't change it.
+r370566 - Ignore all virtual subsystems except "TV" for ch up/down in lapp-program.
+r370699 - Ignore automatically set indices in the range of < 10 secs in front of EOF.
+r370903 - Compare for new service fails without SDTother info - all scrambled services are "New Service" after DCM (Ziggo fieldtest)
+r370939 - Merge from https://develop.loewe.de/svn/tvsoft/codebase2011/branches/develop/domain/easyexp branch (r370453). Added SL2_TVAPI_STR_SOFTWARE_UPDATE_SFB_TIME values.
+r370956 - Removing duplicate, excessive code.
+r371009 - Ziggo / hidden channel: Model-values added for no banner/status.
+r371011 - Fixed build error.
+r371024 - Switch off Audio Device when TV goes into standby state
+r371063 - Browser now no longer invisible in video fullscreen mode (fixed invisible RTL HbbTv app)
+r371108 - Fixed build error.
+r371118 - Change i2s prescaler for scart out from 0 to -10 dB.
+r371123 - RTL HbbTV apps now no longer blocked for SAT (removed hardcoded workaround)
+r371335 - Merge from easyexp branch (r371271:r371286). Added SL2_TVAPI_STR_NETWORK_WASU_ADAPTER_IP_ADDRESS and SL2_TVAPI_I32_NETWORK_WASU_ADAPTER_STATE values for SFB network settings.
+r371341 - Avoid crashes caused by invalid interface pointers. 
+r371353 - add inactivity timeout in pucman if no use of the system is detected in the first 30 minutes
+r371354 - avoid trustlevel changes caused by datetime settings from UI if time is not changed
+r371366 - Add and map ENUM_EPG_THEME_USER.
+r371441 - Prepared browser for javascript functions setOpenWebBrowsingMode/getOpenWebBrowsingMode requested by Netrange
+r371445 - Added javascript wrapper functions for setOpenWebBrowsingMode/getOpenWebBrowsingMode requested by Netrange
+r371461 - Private descriptor test for EPG themes and new mappings.
+r371495 - Convert illegal DVB chars in netwop of legacy metadata to DVBCHARSET_STANDARD.
+r371605 - UTF8 favorite list uuid generation for China is fixed.
+r371619 - now player is explicitly stopped after end of playback and end of stream notification
+r371640 - Avoiding NULL pointer exception.
+r371699 - Debug print corrected.
+r371711 - Disable limiter for linear amplifier configuration.
+r371724 - Limiter must not be activated before the volume shadow register is set the first time.
+r371762 - Fixed determination of current channel info: HbbTV no longer visible on non-DVB channels.
+r372116 - Added forwarding of VK_PAGE_UP/VK_PAGE_DOWN to HbbTv app
+r372119 - Number of new found and not found services is fixed, if services are not found.
+r372358 - EPG/EIT genres: 'not supported' added ... merged into V2.1.X_CW16.
+r372495 - Added buffer histeresys.
+r372543 - Consider all found services for DVB-T Italy, not filtering unique ids according to best mux best service to allow user selection
+r372546 - SL2-14207 - FreeView: DTR Ext 1.1. Serial event is scheduled as single if schedule was execute via "detailed info" screen
+r372682 - Added sanity check to tv position function. Fixes black loading screen in RTL HbbTV app.
+r372697 - Set source every time when play audio clips (ST request).
+r372933 - Improve alarm sounds for connected Hifi AV amplifier.
+r373265 - Removed obsolete LightUpDown lapp. UP/DOWN keys are handled by GUI.
+-----
+External documentation: -
+-----
+Verification platform: SL220 final
+-----
+Merge to: -
+-----
+Reviewed by: yvpyasetskiy
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r373907 | yvpyasetskiy | 2013-09-06 17:51:43 +0400 (Пт., 06 сент. 2013) | 21 lines
+
+Reverted commit 370348
+----
+Header: System
+-----
+Polarion-ID: SL2-1527
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: SECURE STBSP M25 binaries for SL220 to V2.1.X_stab_CW28 branch. Binaries based on external/com/stm/stbsp-sl2-m25 Revision 368473, kernel linux-sh4-2.6.32.46_stm24_0209 Revision 330009.
+-----
+External documentation: SECURE STBSP M25 binaries for SL220 to V2.1.X_stab_CW28 branch. Binaries based on external/com/stm/stbsp-sl2-m25 Revision 368473, kernel linux-sh4-2.6.32.46_stm24_0209 Revision 330009.
+-----
+Verification platform: SL220 final
+-----
+Merge to: -
+-----
+Reviewed by: akosteltsev
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r374073 | yvpyasetskiy | 2013-09-09 13:07:21 +0400 (Пн., 09 сент. 2013) | 21 lines
+
+Reverted commit 370947
+----
+Header: System
+-----
+Polarion-ID: SL2-1527
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: SECURE STBSP M25 binaries for SL220 to V2.1.X_stab_CW28 branch. Binaries based on external/com/stm/stbsp-sl2-m25 Revision 368473, kernel linux-sh4-2.6.32.46_stm24_0209 Revision 330009.
+-----
+External documentation: SECURE STBSP M25 binaries for SL220 to V2.1.X_stab_CW28 branch. Binaries based on external/com/stm/stbsp-sl2-m25 Revision 368473, kernel linux-sh4-2.6.32.46_stm24_0209 Revision 330009.
+-----
+Verification platform: SL220 final
+-----
+Merge to: -
+-----
+Reviewed by: akosteltsev
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r374630 | yvpyasetskiy | 2013-09-10 17:34:58 +0400 (Вт., 10 сент. 2013) | 20 lines
+
+version incremented to V2.1.27
+-----
+Header: System
+-----
+Polarion-ID: SL2-14477
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.1.27 (CW37 release)
+-----
+External documentation: version incremented to V2.1.27 (CW37 release)
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: yvpyasetskiy
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r374631 | yvpyasetskiy | 2013-09-10 17:35:08 +0400 (Вт., 10 сент. 2013) | 20 lines
+
+version set back to V2.0.99 (development SW V2.1.X_stab_CW28 branch)
+-----
+Header: System
+-----
+Polarion-ID: SL2-14477
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V2.0.99 (development SW V2.1.X_stab_CW28 branch)
+-----
+External documentation: version set back to V2.0.99 (development SW V2.1.X_stab_CW28 branch)
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: yvpyasetskiy
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r374854 | yvpyasetskiy | 2013-09-11 12:05:22 +0400 (Ср., 11 сент. 2013) | 21 lines
+
+creating Tag for V2.1.27
+-----
+Header: System
+-----
+Polarion-ID: SL2-14477
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: creating Tag for V2.1.27, based on branch "https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_stab_CW28"; revision 374630.
+-----
+External documentation: creating Tag for V2.1.27, based on branch "https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_stab_CW28"; revision 374630.
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: yvpyasetskiy
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r374868 | yvpyasetskiy | 2013-09-11 12:17:47 +0400 (Ср., 11 сент. 2013) | 21 lines
+
+creating Tag for V1.12.18
+-----
+Header: System
+-----
+Polarion-ID: SL2-14418
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: creating Tag for V1.12.18, based on branch "https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V1.12.X_stab_CW13"; revision 371993.
+-----
+External documentation: creating Tag for V1.12.18, based on branch "https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V1.12.X_stab_CW13"; revision 371993.
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: yvpyasetskiy
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r374877 | yvpyasetskiy | 2013-09-11 12:24:38 +0400 (Ср., 11 сент. 2013) | 21 lines
+
+creating Tag for V2.0.9
+-----
+Header: System
+-----
+Polarion-ID: SL2-14416
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: creating Tag for V2.0.9, based on branch "https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.0.X_CW13"; revision 371904.
+-----
+External documentation: creating Tag for V2.0.9, based on branch "https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.0.X_CW13"; revision 371904.
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: yvpyasetskiy
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r374882 | yvpyasetskiy | 2013-09-11 12:27:30 +0400 (Ср., 11 сент. 2013) | 20 lines
+
+version incremented to V2.0.11
+-----
+Header: System
+-----
+Polarion-ID: SL2-14485
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.0.11 (CW37 release)
+-----
+External documentation: version incremented to V2.0.11 (CW37 release)
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: yvpyasetskiy
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r374884 | yvpyasetskiy | 2013-09-11 12:27:43 +0400 (Ср., 11 сент. 2013) | 20 lines
+
+version set back to V1.99.0 (development SW from V2.0.X_CW16 branch)
+-----
+Header: System
+-----
+Polarion-ID: SL2-14485
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V1.99.0 (development SW from V2.0.X_CW16 branch)
+-----
+External documentation:
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: yvpyasetskiy
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r374888 | yvpyasetskiy | 2013-09-11 12:30:07 +0400 (Ср., 11 сент. 2013) | 21 lines
+
+creating Tag for V2.0.10
+-----
+Header: System
+-----
+Polarion-ID: SL2-14416
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: creating Tag for V2.0.10, based on branch "https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.0.X_CW13"; revision 371904.
+-----
+External documentation: creating Tag for V2.0.10, based on branch "https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.0.X_CW13"; revision 371904.
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: yvpyasetskiy
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r374892 | yvpyasetskiy | 2013-09-11 12:31:19 +0400 (Ср., 11 сент. 2013) | 21 lines
+
+creating Tag for V2.0.9
+-----
+Header: System
+-----
+Polarion-ID: SL2-14392
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: creating Tag for V2.0.9, based on branch "https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.0.X_CW13"; revision 370672.
+-----
+External documentation: creating Tag for V2.0.9, based on branch "https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.0.X_CW13"; revision 370672.
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: yvpyasetskiy
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r374903 | yvpyasetskiy | 2013-09-11 12:40:23 +0400 (Ср., 11 сент. 2013) | 21 lines
+
+creating Tag for V2.0.9
+-----
+Header: System
+-----
+Polarion-ID: SL2-14392
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: creating Tag for V2.0.9, based on branch "https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.0.X_CW16"; revision 370672.
+-----
+External documentation: creating Tag for V2.0.9, based on branch "https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.0.X_CW16"; revision 370672.
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: yvpyasetskiy
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r374906 | yvpyasetskiy | 2013-09-11 12:41:50 +0400 (Ср., 11 сент. 2013) | 21 lines
+
+creating Tag for V2.0.10
+-----
+Header: System
+-----
+Polarion-ID: SL2-14416
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: creating Tag for V2.0.10, based on branch "https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.0.X_CW16"; revision 371904.
+-----
+External documentation: creating Tag for V2.0.10, based on branch "https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.0.X_CW16"; revision 371904.
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: yvpyasetskiy
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r375123 | yvpyasetskiy | 2013-09-11 17:14:58 +0400 (Ср., 11 сент. 2013) | 21 lines
+
+creating Tag for V2.0.11
+-----
+Header: System
+-----
+Polarion-ID: SL2-14485
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: creating Tag for V2.0.11, based on branch "https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.0.X_CW16"; revision 374882.
+-----
+External documentation: creating Tag for V2.0.11, based on branch "https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.0.X_CW16"; revision 374882.
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: yvpyasetskiy
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r375208 | yvpyasetskiy | 2013-09-11 19:43:14 +0400 (Ср., 11 сент. 2013) | 48 lines
+
+https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_CW16 r373265:r373338--> tvsoft/codebase2011/trunk
+https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_CW16 r373381:r373735--> tvsoft/codebase2011/trunk
+https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_CW16 r373789:r374063--> tvsoft/codebase2011/trunk
+https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_CW16 r374073:r374089--> tvsoft/codebase2011/trunk
+https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_CW16 r374148:r374299--> tvsoft/codebase2011/trunk
+https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_CW16 r374534:r375062--> tvsoft/codebase2011/trunk
+-----
+Header: All
+-----
+Polarion-ID: SL2-10269, SL2-10722, SL2-11514, SL2-12562, SL2-13569, SL2-14129, SL2-14220, SL2-14221, SL2-14248, SL2-14337, SL2-14404, SL2-14446, SL2-14448, SL2-14451, SL2-14454, SL2-14456, SL2-14459, SL2-8131, SL2-9659, SSL1-2699, SSL1-3659, SSL1-3877
+-----
+Variant: SL2xx
+-----
+Internal documentation: Merged the following revisions from V2.1.X_CW16 branch to trunk:
+r373282 - fixed the return code handling of stash prepareStatement
+r373322 - Changed event forwarding.
+r373338 - kpi: Fixed stack corruption in case KPI message exceeds the temporary buffer.
+r373407 - Improved CI Plus re-authentication mechanism.
+r373469 - cleanup pucman and added moving to standby after stopping if the device is still in use
+r373513 - Removing excessive code.
+r373540 - move to standby mode after auto shutdown cancelation and following wakeup/shutdown
+r373660 - Only activate MMI suppressing workaround on scrambled channels and if more than one CAM is inserted.
+r373662 - Supporting of multiply services with same SID, NID, TID on different frequency added for service list.
+r373689 - PMT hub stopping behavior (stop pending) improved.
+r373702 - Two phase confilct resolution added. First pass considers Italian Nid as prefered, second other Nid
+r373735 - window handling improved as done for SSL1-2965 (r373724)
+r373823 - Clear currently stored URI if a CAM is stopped.
+r373925 - NULL pointer check is added.
+r373942 - Added site-patch for google which hides blocking popup in search results
+r374063 - Fixed SL2-13569 - fixed wrong behaviour in timers re-scheduling procedure which cause activation of timer of all types.; Refactored time calculation algorithm.; Moved helper functions to separate module.; Fixed code style.; Added alarm sound player interface.
+r374083 - netcfg: Fixed possible stack corruption while scanning for APs.
+r374086 - chassis: Fixed possible stack corruption in loshell output formatting.
+r374089 - mbrix: Fixed possible stack corruption in loshell output formatting.
+r374224 - Implemented CI service test frame application.
+r374299 - Corrected append calls.
+r374688 - reactivate nightupdate support for quick start mode; some bugfixes for nightupdate corner cases
+r374727 - Aftr DCM nightupdate servicelist changes are checked before checking LCN conflicts. If there were no changes in service list, no LCN conflict will be shown.
+r374917 - Frequency field is added for GUI.
+r375062 - Merge r371326, r371395, r372437, r372440, r372503, r372650, r372767, r373010, r373710, r374537, r374910 from stab1 to V2.1_CW16
+-----
+External documentation: -
+-----
+Verification platform: SL220 final
+-----
+Merge to: -
+-----
+Reviewed by: yvpyasetskiy
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376179 | yvpyasetskiy | 2013-09-13 16:05:32 +0400 (Пт., 13 сент. 2013) | 20 lines
+
+version incremented to V2.1.28
+-----
+Header: System
+-----
+Polarion-ID: SL2-14513
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.1.28 (CW37 release)
+-----
+External documentation: version incremented to V2.1.28 (CW37 release)
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: yvpyasetskiy
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376180 | yvpyasetskiy | 2013-09-13 16:05:45 +0400 (Пт., 13 сент. 2013) | 20 lines
+
+version set back to V2.0.99 (development SW V2.1.X_stab_CW28 branch)
+-----
+Header: System
+-----
+Polarion-ID: SL2-14513
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V2.0.99 (development SW V2.1.X_stab_CW28 branch)
+-----
+External documentation: version set back to V2.0.99 (development SW V2.1.X_stab_CW28 branch)
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: yvpyasetskiy
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376257 | yvpyasetskiy | 2013-09-13 18:31:01 +0400 (Пт., 13 сент. 2013) | 21 lines
+
+creating Tag for V2.1.28
+-----
+Header: System
+-----
+Polarion-ID: SL2-14513
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: creating Tag for V2.1.28, based on branch "https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_stab_CW28"; revision 376179.
+-----
+External documentation: creating Tag for V2.1.28, based on branch "https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_stab_CW28"; revision 376179.
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: yvpyasetskiy
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376889 | yvpyasetskiy | 2013-09-17 15:29:05 +0400 (Вт., 17 сент. 2013) | 39 lines
+
+https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_CW16 r375086:r375692--> tvsoft/codebase2011/trunk
+https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_CW16 r375940:r376458--> tvsoft/codebase2011/trunk
+https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_CW16 r376533:r376580--> tvsoft/codebase2011/trunk
+-----
+Header: All
+-----
+Polarion-ID: SL2-10786, SL2-11723, SL2-13699, SL2-13891, SL2-14158, SL2-14213, SL2-14235, SL2-14474, SL2-14483, SL2-14491, SL2-14516, SL2-2381, SL2-7370, SL2-8174, SL2-9283, SL2-9715, SSL1-3796
+-----
+Variant: SL2xx
+-----
+Internal documentation: Merged the following revisions from V2.1.X_CW16 branch to trunk:
+r375139 - Fix unmatching array new to delete scalar combinations.
+r375140 - Add missing xkey handling. 
+r375145 - Fix a race condition in lapp-app.
+r375161 - Provide CA system IDs via CI service.
+r375185 - Fix unmatching array new - scalar delete combinations.
+r375188 - Suppress "Username in URL" browser security warning in portal mode
+r375199 - SL2-14235 - FreeView: DTR Ext6. Event title is incorrect in timers list
+r375216 - action with iterator as a parameter corrected
+r375221 - Notification for leqacy query is fixed.
+r375451 - NI code for "Investigation Discovery" (Netherlands) removed, because used by RTL.
+r375468 - Moved second reading of CIS in front of writing COR.
+r375679 - https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL1/develop/stabilization1 -r375555 --> https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_CW16 
+r375692 - Correct restart of renderer on sl2xx
+r376096 - Video scaling factors corrected.
+r376265 - Avoiding unnecessary re-tuning if uri string is changed.
+r376394 - Evaluation of network rules for age-related lock while DR archive playback corrected.
+r376458 - Set SPDIF category code and L bit correctly.
+r376537 - Don't switch off last active playback device if it's the amplifier - Merge from stab1
+r376580 - Update Renderer state from stab1
+-----
+External documentation: -
+-----
+Verification platform: SL220 final
+-----
+Merge to: -
+-----
+Reviewed by: yvpyasetskiy
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r377349 | yvpyasetskiy | 2013-09-18 13:34:55 +0400 (Ср., 18 сент. 2013) | 20 lines
+
+version incremented to V2.1.29
+-----
+Header: System
+-----
+Polarion-ID: SL2-14545
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.1.29 (CW38 release)
+-----
+External documentation: version incremented to V2.1.29 (CW38 release)
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: yvpyasetskiy
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r377351 | yvpyasetskiy | 2013-09-18 13:35:08 +0400 (Ср., 18 сент. 2013) | 20 lines
+
+version set back to V2.0.99 (development SW V2.1.X_stab_CW28 branch)
+-----
+Header: System
+-----
+Polarion-ID: SL2-14545
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V2.0.99 (development SW V2.1.X_stab_CW28 branch)
+-----
+External documentation: version set back to V2.0.99 (development SW V2.1.X_stab_CW28 branch)
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: yvpyasetskiy
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r377483 | yvpyasetskiy | 2013-09-18 17:16:27 +0400 (Ср., 18 сент. 2013) | 21 lines
+
+creating Tag for V2.1.29
+-----
+Header: System
+-----
+Polarion-ID: SL2-14545
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: creating Tag for V2.1.29, based on branch "https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_stab_CW28"; revision 377349.
+-----
+External documentation: creating Tag for V2.1.29, based on branch "https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_stab_CW28"; revision 377349.
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: yvpyasetskiy
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378145 | yvpyasetskiy | 2013-09-20 15:40:20 +0400 (Пт., 20 сент. 2013) | 35 lines
+
+https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_CW16 r376580:r377151--> tvsoft/codebase2011/trunk
+https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_CW16 r377158:r377228--> tvsoft/codebase2011/trunk
+https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_CW16 r377380:r377670--> tvsoft/codebase2011/trunk
+-----
+Header: All
+-----
+Polarion-ID: SL2-12160, SL2-13354, SL2-14235, SL2-14481, SL2-14506, SL2-14522, SL2-14524, SL2-14527, SL2-14538, SL2-14542, SL2-14543, SL2-9715, SSL1-3553
+-----
+Variant: SL2xx
+-----
+Internal documentation: Merged the following revisions from V2.1.X_CW16 branch to trunk:
+r376849 - cleanup ALWAYS message on system start
+r376873 - Corrected max value for model-value: "de.loewe.sl2.tvapi.i32.channel.search.search.state"
+r376888 - Evaluation of country information for parental rating while playback corrected.
+r376900 - Component tag  and audio clip handling ("PlayerSetSource") revised.
+r376913 - Don't assign LCNs out of range [1..999] 
+r376925 - fixed method description for powercontrol interface
+r376952 - Update seek position
+r377028 - SL2-14235 - FreeView: DTR Ext6. Event title is incorrect in timers list
+r377151 - Always use memory saving mode for IFrames to get rid of AVMEM shortage
+r377228 - Use cspOsalGetUptime() for operation time counters.
+r377454 - Correct fforward and fbackward handling
+r377476 - Don't assign LCNs out of range [1..999] 
+r377505 - Check for empty()  stored LCN list added 
+r377628 - Country rules for parental lock corrected for location Italy.
+r377670 - Fixed CI Plus error handling.
+-----
+External documentation: -
+-----
+Verification platform: SL220 final
+-----
+Merge to: -
+-----
+Reviewed by: yvpyasetskiy
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378231 | yvpyasetskiy | 2013-09-20 18:42:01 +0400 (Пт., 20 сент. 2013) | 20 lines
+
+version incremented to V2.1.30
+-----
+Header: System
+-----
+Polarion-ID: SL2-14570
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version incremented to V2.1.30 (CW38 release)
+-----
+External documentation: version incremented to V2.1.30 (CW38 release)
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: yvpyasetskiy
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378232 | yvpyasetskiy | 2013-09-20 18:42:23 +0400 (Пт., 20 сент. 2013) | 20 lines
+
+version set back to V2.0.99 (development SW V2.1.X_stab_CW28 branch)
+-----
+Header: System
+-----
+Polarion-ID: SL2-14570
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: version set back to V2.0.99 (development SW V2.1.X_stab_CW28 branch)
+-----
+External documentation: version set back to V2.0.99 (development SW V2.1.X_stab_CW28 branch)
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: yvpyasetskiy
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378249 | yvpyasetskiy | 2013-09-20 21:28:57 +0400 (Пт., 20 сент. 2013) | 21 lines
+
+creating Tag for V2.1.30
+-----
+Header: System
+-----
+Polarion-ID: SL2-14570
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: creating Tag for V2.1.30, based on branch "https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_stab_CW28"; revision 378231.
+-----
+External documentation: creating Tag for V2.1.30, based on branch "https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_stab_CW28"; revision 378231.
+-----
+Verfication platform: n/a
+-----
+Merge to: -
+-----
+Reviewed by: yvpyasetskiy
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378872 | yvpyasetskiy | 2013-09-24 15:26:25 +0400 (Вт., 24 сент. 2013) | 31 lines
+
+https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_CW16 r377670:r378189--> tvsoft/codebase2011/trunk
+https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_CW16 r378233:r378392--> tvsoft/codebase2011/trunk
+https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_CW16 r378446:r378694--> tvsoft/codebase2011/trunk
+-----
+Header: All
+-----
+Polarion-ID: SL2-1100, SL2-1101, SL2-12219, SL2-14522, SL2-14560, SL2-14576, SSL1-3724, SSL1-3810
+-----
+Variant: SL2xx
+-----
+Internal documentation: Merged the following revisions from V2.1.X_CW16 branch to trunk:
+r377832 - Removed unused code.
+r377915 - Enable backward wrap around for infinite loop mode (merge from stab1).
+r378168 - NDT: Fix for issues "no audio" and "system crashes".
+r378189 - Handling of country and network rules for DVB charset and subtitles corrected.
+r378357 - reactivated mutex checker for non release builds
+r378392 - Only send ask release required event to newly registered listeners.
+r378491 - Handling of CEC audio info for sound component selection corrected.
+r378494 - NDT: Fix for issue "IC streaming".
+r378512 - Handling of country rules for DVB settings corrected.
+r378551 - Parental lock handling for update of already checked event improved.
+r378694 - removed obsolete conditional initialisation of "caller" (merged from http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL1/develop/stabilization1)
+-----
+External documentation: -
+-----
+Verification platform: SL220 final
+-----
+Merge to: -
+-----
+Reviewed by: yvpyasetskiy
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r380952 | yvpyasetskiy | 2013-09-30 19:01:51 +0400 (Пн., 30 сент. 2013) | 43 lines
+
+https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_CW16 r378694:r378877--> tvsoft/codebase2011/trunk
+https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_CW16 r378888:r379188--> tvsoft/codebase2011/trunk
+https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_CW16 r379255:r379258--> tvsoft/codebase2011/trunk
+https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_CW16 r379338:r379961--> tvsoft/codebase2011/trunk
+https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_CW16 r379999:r380570--> tvsoft/codebase2011/trunk
+https://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.1.X_CW16 r380621:r380699--> tvsoft/codebase2011/trunk
+-----
+Header: All
+-----
+Polarion-ID: SL2-12126, SL2-12278, SL2-13699, SL2-13714, SL2-14101, SL2-14411, SL2-14444, SL2-14558, SL2-14572, SL2-14575, SL2-14630, SL2-14638, SL2-8536, SL2-9283, SSL1-3366
+-----
+Variant: SL2xx
+-----
+Internal documentation: Merged the following revisions from V2.1.X_CW16 branch to trunk:
+r378877 - sl220: Added option bit to keep WiFi module power supply on even if not in use.
+r378969 - merged sl210 changes to sl220 for faster boot
+r379172 - reduce number of active puc notifications
+r379188 - Start of parental lock switch off timer corrected.
+r379258 - moved chassis common header gpio_ids and nvram_ids to chassis-common module
+r379370 - removed unused libraries from codebase
+r379448 - SPDIF TX settings corrected for alarm usecase
+r379452 - StreamDev: refactorings to optimize stop mechanism
+r379462 - String for new software version(s) corrected.
+r379534 - LCN conflict attribute is added for new found services
+r379722 - Limit the amount of subtitles to 6, keeping current selected subtitle.
+r379943 - Added commentary with investigation results for SPDIF behavior.
+r379961 - Improvements on host control ask release mechanism.
+r380201 - Hotel ISB2M: OSD text is displayed now ... finished.
+r380279 - moved sipc from sysstart to systools
+r380388 - Video input cropping info is used for all inputs now.
+r380497 - Added possibility to reset system by STC.
+r380570 - New request for services with LCN conflicts in case of manual scan
+r380649 - Fixed condition for service flushing in nightupdate use cases.
+r380699 - Activation of switch on channel in monitor mode corrected.
+-----
+External documentation: -
+-----
+Verification platform: SL220 final
+-----
+Merge to: -
+-----
+Reviewed by: yvpyasetskiy
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403418 | yvpyasetskiy | 2013-12-11 16:52:50 +0400 (Ср., 11 дек. 2013) | 20 lines
+
+Initial implementation region selection for Spain
+-----
+Header: Biz
+-----
+Polarion-ID: SL2-10903
+-----
+Variant: SL2xx
+-----
+API-modification: -
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: SL220
+-----
+Merge to: 
+-----
+Reviewed by:
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403796 | yvpyasetskiy | 2013-12-13 11:35:04 +0400 (Пт., 13 дек. 2013) | 21 lines
+
+Initial implementation region selection for Spain
+-----
+Header: Biz
+-----
+Polarion-ID: SL2-10903
+-----
+Variant: SL2xx
+-----
+API-modification: -
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: SL220
+-----
+Merge to: 
+-----
+Reviewed by:
+
+
+------------------------------------------------------------------------

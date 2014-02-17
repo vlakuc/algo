@@ -1,0 +1,148 @@
+------------------------------------------------------------------------
+r373905 | aalanov | 2013-09-06 17:47:34 +0400 (Пт., 06 сент. 2013) | 32 lines
+
+Introduced NIT monitoring module that parses frequency_list_descriptor and sends notification to the stationscan
+-----
+Header: Software
+-----
+SL2-13122 - [CHI] Implement frequency_list_descriptor
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: 
+ - Minor fix in the routine that extracts frequency_list_descriptor from NIT;
+ - Introduced NITMON module;
+ - NITMON subscribes to NIT data using section acquisition interface;
+ - NITMON sends parsed frequency_list_descriptor to the stationscan module;
+ - stationscan module receives these messages (but does not do any significant processing yet);
+
+External documentation:
+ - Minor fix in the routine that extracts frequency_list_descriptor from NIT;
+ - Introduced NITMON module;
+ - NITMON subscribes to NIT data using section acquisition interface;
+ - NITMON sends parsed frequency_list_descriptor to the stationscan module;
+ - stationscan module receives these messages (but does not do any significant processing yet);
+
+-----
+Verfication platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r374002 | aalanov | 2013-09-09 09:37:37 +0400 (Пн., 09 сент. 2013) | 23 lines
+
+Removed code used for testing
+-----
+Header: Software
+-----
+SL2-13122 - [CHI] Implement frequency_list_descriptor
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: 
+ - Removed code used for testing;
+
+External documentation:
+ - Removed code used for testing;
+-----
+Verfication platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r374706 | aalanov | 2013-09-10 19:16:22 +0400 (Вт., 10 сент. 2013) | 24 lines
+
+Fixed frequency_list_descriptor parsing in the NITMON module
+-----
+Header: Software
+-----
+SL2-13122 - [CHI] Implement frequency_list_descriptor
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: 
+ - Fixed frequency_list_descriptor parsing in the NITMON module;
+ - Introduced a new routine that can be used to extract frequency_list_descriptor by ONID and TSID without parsing the whole transport stream info;
+
+External documentation:
+
+-----
+Verfication platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r374841 | aalanov | 2013-09-11 11:55:41 +0400 (Ср., 11 сент. 2013) | 23 lines
+
+Removed code used for debugging and testing
+-----
+Header: Software
+-----
+SL2-13122 - [CHI] Implement frequency_list_descriptor
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: 
+ - Removed code used for debugging and testing;
+
+External documentation:
+
+-----
+Verfication platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r375328 | aalanov | 2013-09-12 11:22:22 +0400 (Чт., 12 сент. 2013) | 26 lines
+
+Frequency list descriptor is invalidated every time when channel is switched
+-----
+Header: Software
+-----
+SL2-13122 - [CHI] Implement frequency_list_descriptor
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: 
+ - Introduced FLD invalidation message;
+ - NitMon sends FLD invalidation message every time when it is started;
+ - StationScan task receives FLD invalidation messages;
+
+External documentation:
+ - Frequency list descriptor is invalidated every time when channel is switched
+
+-----
+Verfication platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------

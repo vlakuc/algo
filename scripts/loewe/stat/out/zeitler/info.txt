@@ -1,0 +1,1343 @@
+------------------------------------------------------------------------
+r372543 | zeitler | 2013-09-03 19:04:03 +0400 (Вт., 03 сент. 2013) | 20 lines
+
+Consider all found services for DVB-T Italy, not filtering unique ids according to best mux best service to allow user selection
+-----
+Header: DVB
+-----
+Polarion-ID: SL2-14435, SL2-14220
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Consider all found services for DVB-T Italy, not filtering unique ids according to best mux best service to allow user selection
+-----
+External documentation: Consider all found services for DVB-T Italy, not filtering unique ids according to best mux best service to allow user selection
+
+Verfication platform: SL220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r372809 | zeitler | 2013-09-04 14:16:07 +0400 (Ср., 04 сент. 2013) | 20 lines
+
+Consider all found services for DVB-T Italy, not filtering unique ids according to best mux best service to allow user selection
+-----
+Header: DVB
+-----
+Polarion-ID: SL2-14435, SSL1-3603
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Consider all found services for DVB-T Italy, not filtering unique ids according to best mux best service to allow user selection
+-----
+External documentation: Consider all found services for DVB-T Italy, not filtering unique ids according to best mux best service to allow user selection
+
+Verfication platform: SL220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r373702 | zeitler | 2013-09-06 13:18:18 +0400 (Пт., 06 сент. 2013) | 20 lines
+
+Two phase confilct resolution added. First pass considers Italian Nid as prefered, second other Nid
+-----
+Header: DVB
+-----
+Polarion-ID: SL2-14129
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Two phase confilct resolution added. First pass considers Italian Nid as prefered, second other Nid
+-----
+External documentation: Two phase confilct resolution added. First pass considers Italian Nid as prefered, second other Nid
+
+Verfication platform: SL220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r373796 | zeitler | 2013-09-06 15:41:16 +0400 (Пт., 06 сент. 2013) | 20 lines
+
+PMT hub stopping behavior (stop pending) improved. 
+-----
+Header: DVB
+-----
+Polarion-ID: SL2-14454
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: PMT hub stopping behavior (stop pending) improved. 
+-----
+External documentation: PMT hub stopping behavior (stop pending) improved. 
+
+Verfication platform: SL220 final
+-----
+Merge to: trunk
+-----
+Reviewed by:  T. Weggen
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r374093 | zeitler | 2013-09-09 13:40:31 +0400 (Пн., 09 сент. 2013) | 20 lines
+
+Consider all found services for DVB-T Italy, not filtering unique ids according to best mux best service to allow user selection
+-----
+Header: DVB
+-----
+Polarion-ID: SL2-14435, SSL1-3851
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Consider all found services for DVB-T Italy, not filtering unique ids according to best mux best service to allow user selection
+-----
+External documentation: Consider all found services for DVB-T Italy, not filtering unique ids according to best mux best service to allow user selection
+
+Verfication platform: SL220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r374266 | zeitler | 2013-09-09 19:27:53 +0400 (Пн., 09 сент. 2013) | 20 lines
+
+Merge changes for rev.  372543, 373702
+-----
+Header: DVB
+-----
+Polarion-ID: SL2-14220, SL2-14129, SL2-14435
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Merge changes for rev.  372543, 373702 
+-----
+External documentation: Merge changes for rev.  372543, 373702
+
+Verfication platform: SL220 final
+-----
+Merge to: trunk
+-----
+Reviewed by:  -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376913 | zeitler | 2013-09-17 15:53:39 +0400 (Вт., 17 сент. 2013) | 20 lines
+
+Don't assign LCNs out of range [1..999] 
+-----
+Header: DVB
+-----
+Polarion-ID: SL2-14506
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Don't assign LCNs out of range [1..999]
+-----
+External documentation: Don't assign LCNs out of range [1..999]
+
+Verfication platform: SL220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r377476 | zeitler | 2013-09-18 17:00:12 +0400 (Ср., 18 сент. 2013) | 20 lines
+
+Don't assign LCNs out of range [1..999] 
+-----
+Header: DVB
+-----
+Polarion-ID: SL2-14506, SL2-14538
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Don't assign LCNs out of range [1..999]
+-----
+External documentation: Don't assign LCNs out of range [1..999]
+
+Verfication platform: SL220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r377505 | zeitler | 2013-09-18 18:31:45 +0400 (Ср., 18 сент. 2013) | 20 lines
+
+Check for empty()  stored LCN list added 
+-----
+Header: DVB
+-----
+Polarion-ID: SL2-14542
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Check for empty()  stored LCN list added 
+-----
+External documentation: Check for empty()  stored LCN list added 
+
+Verfication platform: SL220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r386047 | zeitler | 2013-10-16 15:56:20 +0400 (Ср., 16 окт. 2013) | 19 lines
+
+Added "TV Vlaanderen" and "CanalDigitaal" _HD and _SD as separate networks
+-----
+Header: DVB
+-----
+Polarion-ID: SL2-14850
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Added "TV Vlaanderen" and "CanalDigitaal" _HD and _SD as separate networks
+-----
+External documentation: Added "TV Vlaanderen" and "CanalDigitaal" _HD and _SD as separate networks
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r386049 | zeitler | 2013-10-16 15:57:19 +0400 (Ср., 16 окт. 2013) | 19 lines
+
+Added "TV Vlaanderen" and "CanalDigitaal" _HD and _SD as separate networks
+-----
+Header: DVB
+-----
+Polarion-ID: SL2-14850
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Added "TV Vlaanderen" and "CanalDigitaal" _HD and _SD as separate networks
+-----
+External documentation: Added "TV Vlaanderen" and "CanalDigitaal" _HD and _SD as separate networks
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r386051 | zeitler | 2013-10-16 15:59:47 +0400 (Ср., 16 окт. 2013) | 19 lines
+
+Added "TV Vlaanderen" and "CanalDigitaal" _HD and _SD as separate networks
+-----
+Header: DVB
+-----
+Polarion-ID: SL2-14850
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Added "TV Vlaanderen" and "CanalDigitaal" _HD and _SD as separate networks
+-----
+External documentation: Added "TV Vlaanderen" and "CanalDigitaal" _HD and _SD as separate networks
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r386145 | zeitler | 2013-10-16 17:31:41 +0400 (Ср., 16 окт. 2013) | 19 lines
+
+Added "TV Vlaanderen" and "CanalDigitaal" _HD and _SD as separate networks
+-----
+Header: DVB
+-----
+Polarion-ID: SSL1-4159
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Added "TV Vlaanderen" and "CanalDigitaal" _HD and _SD as separate networks
+-----
+External documentation: Added "TV Vlaanderen" and "CanalDigitaal" _HD and _SD as separate networks
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r386146 | zeitler | 2013-10-16 17:32:38 +0400 (Ср., 16 окт. 2013) | 19 lines
+
+Added "TV Vlaanderen" and "CanalDigitaal" _HD and _SD as separate networks
+-----
+Header: DVB
+-----
+Polarion-ID: SSL1-4159
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Added "TV Vlaanderen" and "CanalDigitaal" _HD and _SD as separate networks
+-----
+External documentation: Added "TV Vlaanderen" and "CanalDigitaal" _HD and _SD as separate networks
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r386611 | zeitler | 2013-10-17 16:29:29 +0400 (Чт., 17 окт. 2013) | 19 lines
+
+Tidy up interfaces and remove unsused code 
+-----
+Header: DVB
+-----
+Polarion-ID: SL2-14850
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Tidy up interfaces and remove unsused code 
+-----
+External documentation: Tidy up interfaces and remove unsused code 
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r386664 | zeitler | 2013-10-17 17:16:59 +0400 (Чт., 17 окт. 2013) | 22 lines
+
+Merged revision 386611 http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40 to  http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL1/develop/stabilization1
+-----
+Header: DVB
+-----
+Polarion-ID: SSL1-4159
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Merged revision 386611 http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40 to  http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL1/develop/stabilization1
+-----
+External documentation: 
+-----
+Verfication platform: SL220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: 
+----
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r388076 | zeitler | 2013-10-22 15:29:44 +0400 (Вт., 22 окт. 2013) | 19 lines
+
+Ignore LCN zero for conflict resolving 
+-----
+Header: DVB
+-----
+Polarion-ID: SL2-14633, SL2-14632
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Ignore LCN zero for conflict resolving 
+-----
+External documentation: Ignore LCN zero for conflict resolving 
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r388080 | zeitler | 2013-10-22 15:35:46 +0400 (Вт., 22 окт. 2013) | 19 lines
+
+Tidy up - remove warning
+-----
+Header: DVB
+-----
+Polarion-ID: SL2-14633, SL2-14632
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Tidy up - remove warning 
+-----
+External documentation: Tidy up - remove warning 
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r388081 | zeitler | 2013-10-22 15:38:04 +0400 (Вт., 22 окт. 2013) | 19 lines
+
+Ignore LCN zero for conflict resolving ; Tidy up - remove warning 
+-----
+Header: DVB
+-----
+Polarion-ID: SL2-14633, SL2-14632
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Ignore LCN zero for conflict resolving ; Tidy up - remove warning
+-----
+External documentation: Ignore LCN zero for conflict resolving ; Tidy up - remove warning 
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r388753 | zeitler | 2013-10-23 17:06:24 +0400 (Ср., 23 окт. 2013) | 19 lines
+
+Ignore LCN zero for conflict resolving; don't assign LCNs out of range [1--999]
+-----
+Header: DVB
+-----
+Polarion-ID: SSL1-4290, SL2-14506
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Ignore LCN zero for conflict resolving; don't assign LCNs out of range [1--999]
+-----
+External documentation: Ignore LCN zero for conflict resolving; don't assign LCNs out of range [1--999]
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r389306 | zeitler | 2013-10-24 18:01:58 +0400 (Чт., 24 окт. 2013) | 19 lines
+
+Handling of overflow zone improved
+-----
+Header: DVB
+-----
+Polarion-ID: SL2-14604
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Handling of overflow zone improved 
+-----
+External documentation: Handling of overflow zone improved 
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r389721 | zeitler | 2013-10-25 16:14:31 +0400 (Пт., 25 окт. 2013) | 19 lines
+
+Handling of overflow zone improved
+-----
+Header: DVB
+-----
+Polarion-ID: SL2-14604
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Handling of overflow zone improved 
+-----
+External documentation: Handling of overflow zone improved 
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r389749 | zeitler | 2013-10-25 16:46:22 +0400 (Пт., 25 окт. 2013) | 19 lines
+
+Handling of overflow zone improved
+-----
+Header: DVB
+-----
+Polarion-ID: SL2-14604
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Handling of overflow zone improved 
+-----
+External documentation: Handling of overflow zone improved 
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r389752 | zeitler | 2013-10-25 16:50:42 +0400 (Пт., 25 окт. 2013) | 19 lines
+
+Overwriting existing LCN looser in overflow prevented 
+-----
+Header: DVB
+-----
+Polarion-ID: SL2-14913
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Overwriting existing LCN looser in overflow prevented 
+-----
+External documentation: Overwriting existing LCN looser in overflow prevented  
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r389761 | zeitler | 2013-10-25 17:02:44 +0400 (Пт., 25 окт. 2013) | 19 lines
+
+Overwriting existing LCN looser in overflow prevented 
+-----
+Header: DVB
+-----
+Polarion-ID: SL2-14913
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Overwriting existing LCN looser in overflow prevented 
+-----
+External documentation: Overwriting existing LCN looser in overflow prevented  
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r389763 | zeitler | 2013-10-25 17:04:39 +0400 (Пт., 25 окт. 2013) | 19 lines
+
+Overwriting existing LCN looser in overflow prevented 
+-----
+Header: DVB
+-----
+Polarion-ID: SL2-14913
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Overwriting existing LCN looser in overflow prevented 
+-----
+External documentation: Overwriting existing LCN looser in overflow prevented  
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r397547 | zeitler | 2013-11-20 19:07:02 +0400 (Ср., 20 нояб. 2013) | 19 lines
+
+Wrong sorting used before conflict resolution - now BestMux is used
+-----
+Header: DVB
+-----
+Polarion-ID: SL2-14537
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Wrong sorting used before conflict resolution - now BestMux is used
+-----
+External documentation: Wrong sorting used before conflict resolution - now BestMux is used 
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r397629 | zeitler | 2013-11-21 11:15:27 +0400 (Чт., 21 нояб. 2013) | 22 lines
+
+Merged revision 397547 from  http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.2.X_CW40 to http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40.
+-----
+Header: DVB
+-----
+Polarion-ID: SL2-14658
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Merged revision 397547 from  http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.2.X_CW40 to http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40.
+-----
+External documentation: 
+-----
+Verfication platform: SL220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: 
+----
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r397648 | zeitler | 2013-11-21 11:49:13 +0400 (Чт., 21 нояб. 2013) | 20 lines
+
+Merged revision 397547 from  http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.2.X_CW40 to http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40.
+-----
+Header: DVB
+-----
+Polarion-ID: SL2-14537
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Merged revision 397547 from  http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.2.X_CW40 to http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40.
+-----
+External documentation: 
+-----
+Verfication platform: SL220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: 
+----
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r397960 | zeitler | 2013-11-21 18:54:07 +0400 (Чт., 21 нояб. 2013) | 19 lines
+
+Add VOO as separate network
+-----
+Header: DVB
+-----
+Polarion-ID: SL2-14067
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Add VOO as separate network
+-----
+External documentation: Add VOO as separate network  
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r398115 | zeitler | 2013-11-22 11:59:47 +0400 (Пт., 22 нояб. 2013) | 21 lines
+
+Merged revision 397960 from  http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40 to http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL1/develop/stabilization1
+-----
+Header: DVB
+-----
+Polarion-ID: SL2-14067
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Merged revision 397960 from  http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40 to http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL1/develop/stabilization1
+-----
+External documentation: 
+-----
+Verfication platform: SL220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: 
+----
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400298 | zeitler | 2013-11-29 11:52:00 +0400 (Пт., 29 нояб. 2013) | 19 lines
+
+Add LCN awareness to manual scan
+-----
+Header: DVB
+-----
+Polarion-ID: SL2-14927
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Add LCN awareness to manual scan
+-----
+External documentation: Add LCN awareness to manual scan
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400321 | zeitler | 2013-11-29 12:32:22 +0400 (Пт., 29 нояб. 2013) | 22 lines
+
+Merged revision 400298 from  http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.2.X_CW40 to http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40
+-----
+Header: DVB
+-----
+Polarion-ID: SL2-14927
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Merged revision 400298 from  http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.2.X_CW40 to http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40
+-----
+External documentation: 
+-----
+Verfication platform: SL220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: 
+----
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400327 | zeitler | 2013-11-29 12:59:45 +0400 (Пт., 29 нояб. 2013) | 20 lines
+
+Merged revision 400298 from  http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.2.X_CW40 to http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL1/develop/stabilization1
+-----
+Header: DVB
+-----
+Polarion-ID: SL2-14927
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Merged revision 400298 from  http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.2.X_CW40 to http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL1/develop/stabilization1
+-----
+External documentation: 
+-----
+Verfication platform: SL220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: 
+----
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400755 | zeitler | 2013-12-02 16:23:35 +0400 (Пн., 02 дек. 2013) | 19 lines
+
+Add frequency sorting - improve debug output
+-----
+Header: DVB
+-----
+Polarion-ID: SL2-15291
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Add frequency sorting - improve debug output
+-----
+External documentation: Add frequency sorting - improve debug output
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400771 | zeitler | 2013-12-02 17:22:15 +0400 (Пн., 02 дек. 2013) | 20 lines
+
+Merged revision 400755 from  http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.2.X_CW40 to http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL1/develop/stabilization1
+-----
+Header: DVB
+-----
+Polarion-ID: SL2-15291
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation:Merged revision 400755 from  http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.2.X_CW40 to http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL1/develop/stabilization1
+-----
+External documentation: 
+-----
+Verfication platform: SL220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: 
+----
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400773 | zeitler | 2013-12-02 17:27:39 +0400 (Пн., 02 дек. 2013) | 22 lines
+
+Merged revision 400755 from  http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.2.X_CW40 to http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40
+-----
+Header: DVB
+-----
+Polarion-ID: SL2-15291
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Merged revision 400755 from  http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.2.X_CW40 to http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40
+-----
+External documentation: 
+-----
+Verfication platform: SL220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: 
+----
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400915 | zeitler | 2013-12-03 11:42:21 +0400 (Вт., 03 дек. 2013) | 19 lines
+
+Correct debug output
+-----
+Header: DVB
+-----
+Polarion-ID: SL2-15291
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Correct debug output
+-----
+External documentation: Correct debug output 
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401088 | zeitler | 2013-12-03 16:51:06 +0400 (Вт., 03 дек. 2013) | 19 lines
+
+Remove frequency sorting due to crash, start channel list at position 1 for LCN not selected.
+-----
+Header: DVB
+-----
+Polarion-ID: SL2-15291, SL2-15377
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Remove frequency sorting due to crash, start channel list at position 1 for LCN not selected.
+-----
+External documentation: Remove frequency sorting due to crash, start channel list at position 1 for LCN not selected.
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401331 | zeitler | 2013-12-04 13:03:32 +0400 (Ср., 04 дек. 2013) | 22 lines
+
+Merged revision 401088 from  http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.2.X_CW40 to http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40
+-----
+Header: DVB
+-----
+Polarion-ID: SL2-15291, SL2-15377
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Merged revision 401088 from  http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.2.X_CW40 to http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40
+-----
+External documentation: 
+-----
+Verfication platform: SL220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: 
+----
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401332 | zeitler | 2013-12-04 13:04:28 +0400 (Ср., 04 дек. 2013) | 20 lines
+
+Merged revision 401088 from  http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.2.X_CW40 to http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40
+-----
+Header: DVB
+-----
+Polarion-ID: SL2-15291, SL2-15377
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Merged revision 401088 from  http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.2.X_CW40 to http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40
+-----
+External documentation: 
+-----
+Verfication platform: SL220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: 
+----
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401392 | zeitler | 2013-12-04 14:59:11 +0400 (Ср., 04 дек. 2013) | 19 lines
+
+Add frequency sorting - reduce debug output
+-----
+Header: DVB
+-----
+Polarion-ID: SL2-15291
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Add frequency sorting - reduce debug output
+-----
+External documentation: Add frequency sorting - reduce debug output
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401410 | zeitler | 2013-12-04 15:55:18 +0400 (Ср., 04 дек. 2013) | 22 lines
+
+Merged revision 401392 from  http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.2.X_CW40 to http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40
+-----
+Header: DVB
+-----
+Polarion-ID: SL2-15291
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Merged revision 401392 from  http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.2.X_CW40 to http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40
+-----
+External documentation: 
+-----
+Verfication platform: SL220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: 
+----
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401430 | zeitler | 2013-12-04 16:17:09 +0400 (Ср., 04 дек. 2013) | 21 lines
+
+Merged revision 401392 from  http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.2.X_CW40 to http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40
+-----
+Header: DVB
+-----
+Polarion-ID: SL2-15291
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Merged revision 401392 from  http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.2.X_CW40 to http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.3.X_CW40
+-----
+External documentation: 
+-----
+Verfication platform: SL220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: 
+----
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405506 | zeitler | 2014-01-08 15:12:16 +0400 (Ср., 08 янв. 2014) | 19 lines
+
+Check shared pointer 
+-----
+Header: DVB
+-----
+Polarion-ID: SL2-15599
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Check shared pointer
+-----
+External documentation: Check shared pointer
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405527 | zeitler | 2014-01-08 16:55:15 +0400 (Ср., 08 янв. 2014) | 21 lines
+
+Merged revision 405506 from  http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.2.X_CW40 to http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL1/develop/stabilization1
+-----
+Header: DVB
+-----
+Polarion-ID: SL2-15599
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Merged revision 405506 from  http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL2xx/release/V2.2.X_CW40 to http://develop.loewe.de/svn/tvsoft/codebase2011/branches/SL1/develop/stabilization1
+-----
+External documentation: 
+-----
+Verfication platform: SL220 final
+-----
+Merge to: trunk
+-----
+Reviewed by: 
+----
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405536 | zeitler | 2014-01-08 17:16:50 +0400 (Ср., 08 янв. 2014) | 19 lines
+
+Check shared pointer 
+-----
+Header: DVB
+-----
+Polarion-ID: SL2-15599
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Check shared pointer
+-----
+External documentation: Check shared pointer
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407166 | zeitler | 2014-01-20 13:00:29 +0400 (Пн., 20 янв. 2014) | 21 lines
+
+Check shared pointer 
+-----
+Header: DVB
+-----
+Polarion-ID: SL2-15599
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Check shared pointer
+-----
+External documentation: Check shared pointer
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407353 | zeitler | 2014-01-21 14:48:55 +0400 (Вт., 21 янв. 2014) | 21 lines
+
+DCM silent YOUSEE 
+-----
+Header: DVB
+-----
+Polarion-ID: SL2-15498
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: DCM silent YOUSEE 
+-----
+External documentation: DCM silent YOUSEE 
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407591 | zeitler | 2014-01-22 19:26:12 +0400 (Ср., 22 янв. 2014) | 21 lines
+
+DCM silent Telenet
+-----
+Header: DVB
+-----
+Polarion-ID: SL2-15498
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: DCM silent Telenet 
+-----
+External documentation: DCM silent Telenet 
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407830 | zeitler | 2014-01-23 18:29:36 +0400 (Чт., 23 янв. 2014) | 21 lines
+
+Tivu DVB-S Italy fast scan 
+-----
+Header: DVB
+-----
+Polarion-ID: SL2-15498
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Tivu DVB-S Italy fast scan  
+-----
+External documentation: Tivu DVB-S Italy fast scan  
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407831 | zeitler | 2014-01-23 18:31:32 +0400 (Чт., 23 янв. 2014) | 21 lines
+
+Tivu DVB-S Italy fast scan 
+-----
+Header: DVB
+-----
+Polarion-ID: SL2-5429
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Tivu DVB-S Italy fast scan  
+-----
+External documentation: Tivu DVB-S Italy fast scan  
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409191 | zeitler | 2014-02-05 20:43:50 +0400 (Ср., 05 февр. 2014) | 21 lines
+
+Add option for SDT cross carriage
+-----
+Header: DVB
+-----
+Polarion-ID: SL2-15659
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Add option for SDT cross carriage
+-----
+External documentation: Add option for SDT cross carriage 
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409201 | zeitler | 2014-02-05 21:09:32 +0400 (Ср., 05 февр. 2014) | 21 lines
+
+Add option for SDT cross carriage
+-----
+Header: DVB
+-----
+Polarion-ID: SL2-15498
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Add option for SDT cross carriage
+-----
+External documentation: Add option for SDT cross carriage 
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409584 | zeitler | 2014-02-06 20:11:46 +0400 (Чт., 06 февр. 2014) | 21 lines
+
+Uncomment lines in stationscan-task @@@ ToDo
+-----
+Header: DVB
+-----
+Polarion-ID: SL2-15728
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Uncomment lines in stationscan-task @@@ ToDo
+-----
+External documentation: Uncomment lines in stationscan-task @@@ ToDo 
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r410605 | zeitler | 2014-02-13 16:20:21 +0400 (Чт., 13 февр. 2014) | 21 lines
+
+Disable manual scan if silent DCM is used
+-----
+Header: DVB
+-----
+Polarion-ID: SL2-15760
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Disable manual scan if silent DCM is used
+-----
+External documentation: Disable manual scan if silent DCM is used
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+------------------------------------------------------------------------

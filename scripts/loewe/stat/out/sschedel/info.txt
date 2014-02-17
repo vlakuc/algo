@@ -1,0 +1,1551 @@
+------------------------------------------------------------------------
+r373381 | sschedel | 2013-09-05 16:08:45 +0400 (Чт., 05 сент. 2013) | 22 lines
+
+Fixed use of an invalid iterator.
+-----
+Header: User Interface Layer
+-----
+Polarion-ID: SSL1-3660
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+Fixed use of an invalid iterator.
+-----
+External documentation:
+Fixed use of an invalid iterator.
+-----
+Verification platform: sl210
+-----
+Merge to: -
+-----
+Reviewed by: astahl
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378217 | sschedel | 2013-09-20 18:15:39 +0400 (Пт., 20 сент. 2013) | 19 lines
+
+workaround: propagate stream sample rate to SPDIF player to select free ord dec1 clock.
+-----
+Header: UPnP
+-----
+Polarion-ID: STF-828
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: workaround: propagate stream sample rate to SPDIF player to select free ord dec1 clock.
+-----
+External documentation: workaround: propagate stream sample rate to SPDIF player to select free ord dec1 clock.
+-----
+Verfication platform: SL220 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r379055 | sschedel | 2013-09-24 19:50:21 +0400 (Вт., 24 сент. 2013) | 19 lines
+
+workaround: store correct CLKRV handle on change of CLKRV source.
+-----
+Header: BSP
+-----
+Polarion-ID: STF-828, STF-865
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: workaround: store correct CLKRV handle on change of CLKRV source.
+-----
+External documentation: workaround: store correct CLKRV handle on change of CLKRV source.
+-----
+Verfication platform: SL220 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r379063 | sschedel | 2013-09-24 20:14:06 +0400 (Вт., 24 сент. 2013) | 19 lines
+
+connect clock fs256_dec_2 to clock compare IP.
+-----
+Header: BSP
+-----
+Polarion-ID: STF-828, STF-865
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: connect clock fs256_dec_2 to clock compare IP.
+-----
+External documentation: connect clock fs256_dec_2 to clock compare IP.
+-----
+Verfication platform: SL220 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r379377 | sschedel | 2013-09-25 16:49:48 +0400 (Ср., 25 сент. 2013) | 19 lines
+
+switch off AV scart output on start of USB recording.
+-----
+Header: BSP
+-----
+Polarion-ID: SSL1-3888
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: switch off AV scart output on start of USB recording.
+-----
+External documentation: switch off AV scart output on start of USB recording.
+-----
+Verfication platform: le65x debug
+-----
+Merge to: trunk
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r379630 | sschedel | 2013-09-26 10:54:04 +0400 (Чт., 26 сент. 2013) | 19 lines
+
+switch off AV scart output on start of USB recording.
+-----
+Header: BSP
+-----
+Polarion-ID: SSL1-3888
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: switch off AV scart output on start of USB recording.
+-----
+External documentation: switch off AV scart output on start of USB recording.
+-----
+Verfication platform: le65x debug
+-----
+Merge to: trunk
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r379705 | sschedel | 2013-09-26 12:24:40 +0400 (Чт., 26 сент. 2013) | 19 lines
+
+Limit the amount of subtitles to 6, keeping current selected subtitle.
+-----
+Header: hdr
+-----
+Polarion-ID: SSL1-3366
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: Limit the amount of subtitles to 6, keeping current selected subtitle.
+-----
+External documentation: Limit the amount of subtitles to 6, keeping current selected subtitle.
+-----
+Verfication platform: le65x debug
+-----
+Merge to: trunk
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r379722 | sschedel | 2013-09-26 12:32:53 +0400 (Чт., 26 сент. 2013) | 19 lines
+
+Limit the amount of subtitles to 6, keeping current selected subtitle.
+-----
+Header: hdr
+-----
+Polarion-ID: SSL1-3366
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: Limit the amount of subtitles to 6, keeping current selected subtitle.
+-----
+External documentation: Limit the amount of subtitles to 6, keeping current selected subtitle.
+-----
+Verfication platform: sl220 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r380667 | sschedel | 2013-09-30 11:39:25 +0400 (Пн., 30 сент. 2013) | 19 lines
+
+remove miss-programming of audio clock in mme-audiostream decoder.
+-----
+Header: BSP
+-----
+Polarion-ID: STF-828, STF-865
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: remove miss-programming of audio clock in mme-audiostream decoder.
+-----
+External documentation: remove miss-programming of audio clock in mme-audiostream decoder.
+-----
+Verfication platform: SL220 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r381584 | sschedel | 2013-10-02 13:33:40 +0400 (Ср., 02 окт. 2013) | 19 lines
+
+fix audio selection in case of less available audio elementary streams.
+-----
+Header: HDR
+-----
+Polarion-ID: SL2-14628
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: fix audio selection in case of less available audio elementary streams.
+-----
+External documentation: fix audio selection in case of less available audio elementary streams.
+-----
+Verfication platform: SL220 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r381589 | sschedel | 2013-10-02 13:38:22 +0400 (Ср., 02 окт. 2013) | 19 lines
+
+revert switch off AV scart output on start of USB recording.
+-----
+Header: BSP
+-----
+Polarion-ID: SSL1-3888
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: revert switch off AV scart output on start of USB recording.
+-----
+External documentation: revert switch off AV scart output on start of USB recording.
+-----
+Verfication platform: le65x debug
+-----
+Merge to: trunk
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r381735 | sschedel | 2013-10-02 16:43:51 +0400 (Ср., 02 окт. 2013) | 19 lines
+
+limit maximum jump distance to 8 minutes.
+-----
+Header: HDR
+-----
+Polarion-ID: SL2-7930
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: limit maximum jump distance to 8 minutes.
+-----
+External documentation: limit maximum jump distance to 8 minutes.
+-----
+Verfication platform: SL220 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r381998 | sschedel | 2013-10-03 18:40:17 +0400 (Чт., 03 окт. 2013) | 19 lines
+
+Remove invalid & obsolete code.
+-----
+Header: HDR
+-----
+Polarion-ID: SL2-14504
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation: Remove invalid & obsolete code.
+-----
+External documentation: Remove invalid & obsolete code.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r382835 | sschedel | 2013-10-08 17:45:26 +0400 (Вт., 08 окт. 2013) | 19 lines
+
+calculate audio input clocks also for UNCOMPRESSED mode.
+-----
+Header: BSP
+-----
+Polarion-ID: STF-828, STF-865
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: calculate audio input clocks also for UNCOMPRESSED mode.
+-----
+External documentation: calculate audio input clocks also for UNCOMPRESSED mode.
+-----
+Verfication platform: SL220 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r383404 | sschedel | 2013-10-09 19:20:11 +0400 (Ср., 09 окт. 2013) | 19 lines
+
+Zapping performance: delay start of recorder and SI data aquisition by 6 seconds.
+-----
+Header: HDR
+-----
+Polarion-ID: SL2-11974
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: Zapping performance: delay start of recorder and SI data aquisition by 6 seconds.
+-----
+External documentation: Zapping performance: delay start of recorder and SI data aquisition by 6 seconds.
+-----
+Verfication platform: SL220 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r385206 | sschedel | 2013-10-14 19:38:24 +0400 (Пн., 14 окт. 2013) | 19 lines
+
+added missing merge for: model value SL2_TVAPI_HDR_I32_LIVESTREAM_POSITION and livestream plugin.
+-----
+Header: Hdr
+-----
+Polarion-ID: SL2-13358
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: added missing merge for: model value SL2_TVAPI_HDR_I32_LIVESTREAM_POSITION and livestream plugin.
+-----
+External documentation: added missing merge for: model value SL2_TVAPI_HDR_I32_LIVESTREAM_POSITION and livestream plugin.
+-----
+Verfication platform: SL220 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r385616 | sschedel | 2013-10-15 16:01:50 +0400 (Вт., 15 окт. 2013) | 21 lines
+
+increase video sync threshold (21 ms -> 23 ms).
+-----
+Header: BSP
+-----
+Polarion-ID: STF-871
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: increase video sync threshold (21 ms -> 23 ms).
+-----
+External documentation: increase video sync threshold (21 ms -> 23 ms).
+-----
+Verfication platform: SL220 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r386009 | sschedel | 2013-10-16 15:22:14 +0400 (Ср., 16 окт. 2013) | 21 lines
+
+increase video sync threshold (23 ms -> 24 ms).
+-----
+Header: BSP
+-----
+Polarion-ID: STF-871
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: increase video sync threshold (23 ms -> 24 ms).
+-----
+External documentation: increase video sync threshold (23 ms -> 24 ms).
+-----
+Verfication platform: SL220 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r386063 | sschedel | 2013-10-16 16:04:17 +0400 (Ср., 16 окт. 2013) | 21 lines
+
+fix audio PTS_EVT handling in PRM (initialization, invalid PTS detection).
+-----
+Header: BSP
+-----
+Polarion-ID: STF-872
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: fix audio PTS_EVT handling in PRM (initialization, invalid PTS detection).
+-----
+External documentation: fix audio PTS_EVT handling in PRM (initialization, invalid PTS detection).
+-----
+Verfication platform: SL220 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r387134 | sschedel | 2013-10-18 15:07:35 +0400 (Пт., 18 окт. 2013) | 21 lines
+
+Suppress unneccesary change of SPDIF channel status bits (compression mode). 
+-----
+Header: BSP
+-----
+Polarion-ID: STF-876
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: Suppress unneccesary change of SPDIF channel status bits (compression mode).
+-----
+External documentation: Suppress unneccesary change of SPDIF channel status bits (compression mode).
+-----
+Verfication platform: SL220 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r387687 | sschedel | 2013-10-21 17:39:40 +0400 (Пн., 21 окт. 2013) | 21 lines
+
+Suppress unneccesary change of SPDIF channel status bits (compression mode). 
+-----
+Header: BSP
+-----
+Polarion-ID: STF-876
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: Suppress unneccesary change of SPDIF channel status bits (compression mode).
+-----
+External documentation: Suppress unneccesary change of SPDIF channel status bits (compression mode).
+-----
+Verfication platform: SL220 debug
+-----
+Merge to:
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r388357 | sschedel | 2013-10-22 19:22:43 +0400 (Вт., 22 окт. 2013) | 21 lines
+
+Disable the hardcoded sample rate conversion of audio content to 48 kHz. 
+-----
+Header: BSP
+-----
+Polarion-ID: STF-879
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: Disable the hardcoded sample rate conversion of audio content to 48 kHz. 
+-----
+External documentation: Disable the hardcoded sample rate conversion of audio content to 48 kHz. 
+-----
+Verfication platform: SL220 debug
+-----
+Merge to:
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r388535 | sschedel | 2013-10-23 12:12:16 +0400 (Ср., 23 окт. 2013) | 21 lines
+
+set MODULE_TRACE_LEVEL to LEVEL_WARN.
+-----
+Header: BSP
+-----
+Polarion-ID: 
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: set MODULE_TRACE_LEVEL to LEVEL_WARN.
+-----
+External documentation: set MODULE_TRACE_LEVEL to LEVEL_WARN.
+-----
+Verfication platform: SL220 debug
+-----
+Merge to:
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r389613 | sschedel | 2013-10-25 13:32:02 +0400 (Пт., 25 окт. 2013) | 21 lines
+
+media player: update SPDIF mode every change of stream type.
+-----
+Header: BSP
+-----
+Polarion-ID: STF-885
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: media player: update SPDIF mode every change of stream type.
+-----
+External documentation: media player: update SPDIF mode every change of stream type.
+-----
+Verfication platform: SL220 debug
+-----
+Merge to:
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r392023 | sschedel | 2013-11-04 19:46:53 +0400 (Пн., 04 нояб. 2013) | 19 lines
+
+update infotext (user friendly name) for language and subtitle.
+-----
+Header: DR+
+-----
+Polarion-ID: SL2-13556
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: update infotext (user friendly name) for language and subtitle.
+-----
+External documentation: update infotext (user friendly name) for language and subtitle.
+-----
+Verfication platform: SL220 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r392115 | sschedel | 2013-11-05 11:23:24 +0400 (Вт., 05 нояб. 2013) | 19 lines
+
+update infotext (user friendly name) for language and subtitle.
+-----
+Header: DR+
+-----
+Polarion-ID: SSL1-3955
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: update infotext (user friendly name) for language and subtitle.
+-----
+External documentation: update infotext (user friendly name) for language and subtitle.
+-----
+Verfication platform: SL220 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r393531 | sschedel | 2013-11-07 20:18:45 +0400 (Чт., 07 нояб. 2013) | 21 lines
+
+fix mute logic in BSP engine.
+-----
+Header: BSP
+-----
+Polarion-ID: STF-890
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: fix mute logic in BSP engine.
+-----
+External documentation: fix mute logic in BSP engine.
+-----
+Verfication platform: SL220 debug
+-----
+Merge to:
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r393540 | sschedel | 2013-11-07 21:14:23 +0400 (Чт., 07 нояб. 2013) | 21 lines
+
+STAPIX makefile misses compiler switch for DISABLE_FREE_RUN_CLOCK.
+-----
+Header: BSP
+-----
+Polarion-ID: STF-828
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: STAPIX makefile misses compiler switch for DISABLE_FREE_RUN_CLOCK.
+-----
+External documentation: STAPIX makefile misses compiler switch for DISABLE_FREE_RUN_CLOCK.
+-----
+Verfication platform: SL220 debug
+-----
+Merge to:
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r393838 | sschedel | 2013-11-08 16:21:39 +0400 (Пт., 08 нояб. 2013) | 21 lines
+
+media player: update SPDIF mode every change of stream type.
+-----
+Header: BSP
+-----
+Polarion-ID: STF-885 STF-890
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: media player: update SPDIF mode every change of stream type.
+-----
+External documentation: media player: update SPDIF mode every change of stream type.
+-----
+Verfication platform: SL220 debug
+-----
+Merge to:
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r394020 | sschedel | 2013-11-08 20:42:22 +0400 (Пт., 08 нояб. 2013) | 21 lines
+
+Reset change dectector for setting new nominal frequency on STCLKRV.
+-----
+Header: BSP
+-----
+Polarion-ID: STF-878 - No audio after PIP main exchange
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: Reset change dectector for setting new nominal frequency on STCLKRV.
+-----
+External documentation: Reset change dectector for setting new nominal frequency on STCLKRV.
+-----
+Verfication platform: SL220 debug
+-----
+Merge to:
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r394021 | sschedel | 2013-11-08 20:43:44 +0400 (Пт., 08 нояб. 2013) | 21 lines
+
+media player: unmute audio player after start.
+-----
+Header: BSP
+-----
+Polarion-ID: STF-890
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: media player: unmute audio player after start.
+-----
+External documentation: media player: unmute audio player after start.
+-----
+Verfication platform: SL220 debug
+-----
+Merge to:
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r394054 | sschedel | 2013-11-09 16:45:46 +0400 (Сб., 09 нояб. 2013) | 21 lines
+
+Reset change dectector for setting new nominal frequency on STCLKRV.
+-----
+Header: BSP
+-----
+Polarion-ID: STF-878 - No audio after PIP main exchange
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: Reset change dectector for setting new nominal frequency on STCLKRV.
+-----
+External documentation: Reset change dectector for setting new nominal frequency on STCLKRV.
+-----
+Verfication platform: SL220 debug
+-----
+Merge to:
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r397814 | sschedel | 2013-11-21 16:04:39 +0400 (Чт., 21 нояб. 2013) | 21 lines
+
+fix 3 different issues regarding delayed audio (see comments in polarionfor details).
+-----
+Header: BSP
+-----
+Polarion-ID: STF-876 - Sometimes no audio for long time after channel change.
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: fix 3 different issues regarding delayed audio (see comments in polarionfor details).
+-----
+External documentation: fix 3 different issues regarding delayed audio (see comments in polarionfor details).
+-----
+Verfication platform: SL220 debug
+-----
+Merge to:
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r398277 | sschedel | 2013-11-22 15:07:21 +0400 (Пт., 22 нояб. 2013) | 21 lines
+
+enable SEAMLESS mode again.
+-----
+Header: BSP
+-----
+Polarion-ID: STF-876 - Sometimes no audio for long time after channel change.
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: enable SEAMLESS mode again.
+-----
+External documentation: enable SEAMLESS mode again.
+-----
+Verfication platform: SL220 debug
+-----
+Merge to:
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r398773 | sschedel | 2013-11-25 13:02:54 +0400 (Пн., 25 нояб. 2013) | 21 lines
+
+remove limitation of master clock frequency control.
+-----
+Header: BSP
+-----
+Polarion-ID: STF-895 - STCLKRVs drift management is limited to STCLKRV_CLIPPING_THRESHOLD.
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: remove limitation of master clock frequency control.
+-----
+External documentation: remove limitation of master clock frequency control.
+-----
+Verfication platform: SL220 debug
+-----
+Merge to:
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399422 | sschedel | 2013-11-26 17:26:22 +0400 (Вт., 26 нояб. 2013) | 21 lines
+
+fix typo (must read '==' intead of '!=').
+-----
+Header: BSP
+-----
+Polarion-ID: STF-876 - Sometimes no audio for long time after channel change.
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: fix typo (must read '==' intead of '!=').
+-----
+External documentation: fix typo (must read '==' intead of '!=').
+-----
+Verfication platform: SL220 debug
+-----
+Merge to:
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400057 | sschedel | 2013-11-28 16:35:14 +0400 (Чт., 28 нояб. 2013) | 19 lines
+
+handle default authority.
+-----
+Header: DR+
+-----
+Polarion-ID: SL2-15302 - Provide and handle default authority
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: handle default authority.
+-----
+External documentation: handle default authority.
+-----
+Verfication platform: SL220 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400302 | sschedel | 2013-11-29 11:56:48 +0400 (Пт., 29 нояб. 2013) | 19 lines
+
+handle default authority.
+-----
+Header: DR+
+-----
+Polarion-ID: SL2-15302 - Provide and handle default authority
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: handle default authority.
+-----
+External documentation: handle default authority.
+-----
+Verfication platform: SL220 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400856 | sschedel | 2013-12-02 20:05:57 +0400 (Пн., 02 дек. 2013) | 21 lines
+
+fix HDMI coding type notification.
+-----
+Header: BSP
+-----
+Polarion-ID: STF-898 - No sound with DTS via HDMI, only PCM on SPDIF out with AC3 via HDMI.
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: fix HDMI coding type notification.
+-----
+External documentation: fix HDMI coding type notification.
+-----
+Verfication platform: SL220 debug
+-----
+Merge to:
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400970 | sschedel | 2013-12-03 13:11:13 +0400 (Вт., 03 дек. 2013) | 21 lines
+
+set clock recovery source for input parser.
+-----
+Header: BSP
+-----
+Polarion-ID: STF-900 - No audio after PIP exchange.
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: set clock recovery source for input parser.
+-----
+External documentation: set clock recovery source for input parser.
+-----
+Verfication platform: SL220 debug
+-----
+Merge to:
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r402018 | sschedel | 2013-12-05 20:15:26 +0400 (Чт., 05 дек. 2013) | 21 lines
+
+workaround to support media players sync/mute logic.
+-----
+Header: BSP
+-----
+Polarion-ID: STF-901 - Media player has no lip-sync after pause/resume
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: workaround to support media players sync/mute logic
+-----
+External documentation: workaround to support media players sync/mute logic
+-----
+Verfication platform: SL220 debug
+-----
+Merge to:
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403652 | sschedel | 2013-12-12 16:44:20 +0400 (Чт., 12 дек. 2013) | 21 lines
+
+compensate audio decoder latency for stream type HEAAC.
+-----
+Header: BSP
+-----
+Polarion-ID: STF-904 - Audio dropouts and missing audio in HEAAC.
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: compensate audio decoder latency for stream type HEAAC.
+-----
+External documentation: compensate audio decoder latency for stream type HEAAC.
+-----
+Verfication platform: SL220 debug
+-----
+Merge to:
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404679 | sschedel | 2013-12-18 12:25:36 +0400 (Ср., 18 дек. 2013) | 21 lines
+
+support file systems without O_DIRECT support (ram disk).
+-----
+Header: BSP
+-----
+Polarion-ID: SL2-15557 - Support livestreaming on platforms without integrated hard disk.
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: support file systems without O_DIRECT support (ram disk).
+-----
+External documentation: support file systems without O_DIRECT support (ram disk).
+-----
+Verfication platform: SL220 debug
+-----
+Merge to:
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404820 | sschedel | 2013-12-18 20:06:59 +0400 (Ср., 18 дек. 2013) | 21 lines
+
+Support recording to ram disk for livestreams.
+-----
+Header: BSP
+-----
+Polarion-ID: SL2-15557 - Support livestreaming on platforms without integrated hard disk.
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: Support recording to ram disk for livestreams.
+-----
+External documentation: Support recording to ram disk for livestreams.
+-----
+Verfication platform: SL220 debug
+-----
+Merge to: trunk
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407152 | sschedel | 2014-01-20 11:19:35 +0400 (Пн., 20 янв. 2014) | 23 lines
+
+Fix deletion ID key generation.
+-----
+Header: HDR
+-----
+Polarion-ID: SL2-15645 - Deletion of multiple recordings does not work.
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: Fix deletion ID key generation.
+-----
+External documentation: Fix deletion ID key generation.
+-----
+Verfication platform: SL220 debug
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407168 | sschedel | 2014-01-20 13:01:45 +0400 (Пн., 20 янв. 2014) | 23 lines
+
+Fix deletion ID key generation.
+-----
+Header: HDR
+-----
+Polarion-ID: SL2-15645 - Deletion of multiple recordings does not work.
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: Fix deletion ID key generation.
+-----
+External documentation: Fix deletion ID key generation.
+-----
+Verfication platform: SL220 debug
+-----
+Merge to: -
+-----
+Source move/rename: no
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407285 | sschedel | 2014-01-20 20:27:50 +0400 (Пн., 20 янв. 2014) | 23 lines
+
+Provide security areas behind several PES buffers.
+-----
+Header: BSP
+-----
+Polarion-ID: STF-909 - STBSP_Recording: video freeze during playback.
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: Provide security areas behind several PES buffers.
+-----
+External documentation: Provide security areas behind several PES buffers.
+-----
+Verfication platform: SL220 debug
+-----
+Merge to: 
+-----
+Source move/rename: no
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407504 | sschedel | 2014-01-22 16:46:33 +0400 (Ср., 22 янв. 2014) | 23 lines
+
+Fix missing initialization. Keep AV distance on switch to audio as sync master.
+-----
+Header: BSP
+-----
+Polarion-ID: STF-910 - STBSP_Recording: sometimes lipsync issue in playback after navigation or trickmode.
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: Keep AV distance on switch to audio as sync master.
+-----
+External documentation: Keep AV distance on switch to audio as sync master.
+-----
+Verfication platform: SL220 debug
+-----
+Merge to: 
+-----
+Source move/rename: no
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407713 | sschedel | 2014-01-23 16:26:27 +0400 (Чт., 23 янв. 2014) | 23 lines
+
+Merge from V2.1.X_CW16 to stabilisation1 to support UPnP live streaming
+-----
+Header: HDR
+-----
+Polarion-ID: SL2-13588 - Support UPnP live streaming
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: Merged from V2.1.X_CW16 to stabilisation1: r346485,r347151,r347435,r349553,r350178,r350229,r350530,r353422,r353523,r353531,r353644,r353968,r354144,r355748,r355980,r360750,r361185,r361187,r361439,r366876,r367646,r368354
+-----
+External documentation: Merged from V2.1.X_CW16 to stabilisation1: r346485,r347151,r347435,r349553,r350178,r350229,r350530,r353422,r353523,r353531,r353644,r353968,r354144,r355748,r355980,r360750,r361185,r361187,r361439,r366876,r367646,r368354
+-----
+Verfication platform: SL220 debug
+-----
+Merge to: -
+-----
+Source move/rename: no
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407757 | sschedel | 2014-01-23 16:51:36 +0400 (Чт., 23 янв. 2014) | 23 lines
+
+Merge from V2.3.X_CW40 to stabilisation1 to support UPnP live streaming
+-----
+Header: HDR
+-----
+Polarion-ID: SL2-13588 - Support UPnP live streaming
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: Merged from V2.3.X_CW40 to stabilisation1: r404820
+-----
+External documentation: Merged from V2.3.X_CW40 to stabilisation1: r404820
+-----
+Verfication platform: SL220 debug
+-----
+Merge to: -
+-----
+Source move/rename: no
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407791 | sschedel | 2014-01-23 17:21:45 +0400 (Чт., 23 янв. 2014) | 24 lines
+
+Merge from V2.3.X_CW40 to stabilisation1 to support UPnP live streaming
+-----
+Header: HDR
+-----
+Polarion-ID: SL2-13588 - Support UPnP live streaming
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: Merged from V2.3.X_CW40 to stabilisation1:
+-----
+External documentation: Merged from V2.3.X_CW40 to stabilisation1:
+-----
+Verfication platform: SL220 debug
+-----
+Merge to: -
+-----
+Source move/rename: no
+-----
+Reviewed by: sschedel
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407792 | sschedel | 2014-01-23 17:23:32 +0400 (Чт., 23 янв. 2014) | 24 lines
+
+Merge from V2.3.X_CW40 to stabilisation1 to support UPnP live streaming
+-----
+Header: HDR
+-----
+Polarion-ID: SL2-13588 - Support UPnP live streaming
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: Merged from V2.3.X_CW40 to stabilisation1.
+-----
+External documentation: Merged from V2.3.X_CW40 to stabilisation1.
+-----
+Verfication platform: SL220 debug
+-----
+Merge to: -
+-----
+Source move/rename: no
+-----
+Reviewed by: sschedel
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407807 | sschedel | 2014-01-23 17:45:11 +0400 (Чт., 23 янв. 2014) | 23 lines
+
+Merge from V2.3.X_CW40 to stabilisation1 to support UPnP live streaming
+-----
+Header: HDR
+-----
+Polarion-ID: SL2-13588 - Support UPnP live streaming
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: Merged from V2.3.X_CW40 to stabilisation1: fix for r404820
+-----
+External documentation: Merged from V2.3.X_CW40 to stabilisation1: fix for r404820
+-----
+Verfication platform: SL220 debug
+-----
+Merge to: -
+-----
+Source move/rename: no
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407829 | sschedel | 2014-01-23 18:22:35 +0400 (Чт., 23 янв. 2014) | 23 lines
+
+Merge from V2.3.X_CW40 to stabilisation1 to support UPnP live streaming
+-----
+Header: HDR
+-----
+Polarion-ID: SL2-13588 - Support UPnP live streaming
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: Merged from V2.3.X_CW40 to stabilisation1: fix for r404820
+-----
+External documentation: Merged from V2.3.X_CW40 to stabilisation1: fix for r404820
+-----
+Verfication platform: SL220 debug
+-----
+Merge to: -
+-----
+Source move/rename: no
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408512 | sschedel | 2014-01-30 19:52:09 +0400 (Чт., 30 янв. 2014) | 23 lines
+
+Increase graphic memory for mali from 32MB to 40MB.
+-----
+Header: HDR
+-----
+Polarion-ID: SL2-15666 - Accelerate EPG display 
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: Increase graphic memory for mali from 32MB to 40MB.
+-----
+External documentation: Increase graphic memory for mali from 32MB to 40MB.
+-----
+Verfication platform: SL220 debug
+-----
+Merge to: -
+-----
+Source move/rename: no
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408518 | sschedel | 2014-01-30 20:36:55 +0400 (Чт., 30 янв. 2014) | 23 lines
+
+Increase graphic memory for mali from 32MB to 40MB.
+-----
+Header: HDR
+-----
+Polarion-ID: SL2-15666 - Accelerate EPG display 
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: Increase graphic memory for mali from 32MB to 40MB.
+-----
+External documentation: Increase graphic memory for mali from 32MB to 40MB.
+-----
+Verfication platform: SL220 debug
+-----
+Merge to: -
+-----
+Source move/rename: no
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409012 | sschedel | 2014-02-05 16:48:07 +0400 (Ср., 05 февр. 2014) | 23 lines
+
+Print serviceId for each biz component.
+-----
+Header: DVB Networks
+-----
+Polarion-ID: SL2-15714 - TV hangs after scan for Telenet network
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: Print serviceId for each biz component.
+-----
+External documentation: Print serviceId for each biz component.
+-----
+Verfication platform: SL220 debug
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409227 | sschedel | 2014-02-06 12:05:34 +0400 (Чт., 06 февр. 2014) | 23 lines
+
+Increase graphic memory for mali from 40MB to 48MB.
+-----
+Header: HDR
+-----
+Polarion-ID: SL2-15666 - Accelerate EPG display 
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: Increase graphic memory for mali from 40MB to 48MB.
+-----
+External documentation: Increase graphic memory for mali from 40MB to 48MB.
+-----
+Verfication platform: SL220 debug
+-----
+Merge to: -
+-----
+Source move/rename: no
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409228 | sschedel | 2014-02-06 12:07:02 +0400 (Чт., 06 февр. 2014) | 23 lines
+
+Increase graphic memory for mali from 40MB to 48MB.
+-----
+Header: HDR
+-----
+Polarion-ID: SL2-15666 - Accelerate EPG display 
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: Increase graphic memory for mali from 40MB to 48MB.
+-----
+External documentation: Increase graphic memory for mali from 40MB to 48MB.
+-----
+Verfication platform: SL220 debug
+-----
+Merge to: -
+-----
+Source move/rename: no
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r410144 | sschedel | 2014-02-11 13:09:13 +0400 (Вт., 11 февр. 2014) | 23 lines
+
+partial enable of HDR_FIXME_FOR_HL1 code.
+-----
+Header: HDR
+-----
+Polarion-ID: SL2-15601 - Timeshift doesn't work on trunk
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: partial enable of HDR_FIXME_FOR_HL1 code.
+-----
+External documentation: partial enable of HDR_FIXME_FOR_HL1 code.
+-----
+Verfication platform: SL220 debug
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r410547 | sschedel | 2014-02-13 11:52:46 +0400 (Чт., 13 февр. 2014) | 23 lines
+
+use correct file id (m_deletionFileID) to remove renamed folder.
+-----
+Header: HDR
+-----
+Polarion-ID: SL2-15601 - Timeshift doesn't work on trunk
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: use correct file id (m_deletionFileID) to remove renamed folder.
+-----
+External documentation: use correct file id (m_deletionFileID) to remove renamed folder.
+-----
+Verfication platform: SL220 debug
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r410723 | sschedel | 2014-02-14 14:50:12 +0400 (Пт., 14 февр. 2014) | 23 lines
+
+Use dedicated HDD_task for PRM player object, to avoid PRM recorder suffering from blocking http access. 
+-----
+Header: BSP
+-----
+Polarion-ID: SL2-15725 - TV not longer operable in HbbTV mode ZDF Olympia
+-----
+Origin: LOEWE.
+-----
+Variant: SL2xx
+-----
+API-modification: no
+-----
+Internal documentation: Use dedicated HDD_task for PRM player object, to avoid PRM recorder suffering from blocking http access. 
+-----
+External documentation: Use dedicated HDD_task for PRM player object, to avoid PRM recorder suffering from blocking http access. 
+-----
+Verfication platform: SL220 debug
+-----
+Merge to:  2.3.X_stab_CW44
+-----
+Source move/rename: no
+-----
+Reviewed by: sschedel
+------------------------------------------------------------------------

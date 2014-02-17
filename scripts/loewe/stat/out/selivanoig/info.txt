@@ -1,0 +1,1931 @@
+------------------------------------------------------------------------
+r372119 | selivanoig | 2013-09-02 20:35:13 +0400 (Пн., 02 сент. 2013) | 17 lines
+
+Number of new found and not found services is fixed, if services are not found.
+-----
+Header: Service list
+-----
+Polarion-ID:SL2-12967 - Number of new found services is incorrect if live DCM performed after nightupdate DCM, SL2-13443 - Wrong channel search result displayed for user, SSL1-1586 - [OSD][Automatic Autoinstallation] New stations found number is not correct, in automatic autoinstallation
+-----
+API-modification: Yes
+-----
+Internal documentation: Number of new found and not found services is fixed, if services are not found.
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r372124 | selivanoig | 2013-09-02 21:05:22 +0400 (Пн., 02 сент. 2013) | 17 lines
+
+Merge revision 372119. Number of new found and not found services is fixed, if services are not found.
+-----
+Header: Service list
+-----
+Polarion-ID:SL2-12967 - Number of new found services is incorrect if live DCM performed after nightupdate DCM, SL2-13443 - Wrong channel search result displayed for user, SSL1-1586 - [OSD][Automatic Autoinstallation] New stations found number is not correct, in automatic autoinstallation
+-----
+API-modification: Yes
+-----
+Internal documentation: Merge revision 372119. Number of new found and not found services is fixed, if services are not found.
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: -
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r373662 | selivanoig | 2013-09-06 12:10:41 +0400 (Пт., 06 сент. 2013) | 17 lines
+
+Supporting of multiply services with same SID, NID, TID on different frequency added for service list.
+-----
+Header: Service list
+-----
+Polarion-ID: SSL1-2699 - [DVB-S][Turksat 42ºE][Market claim] Some services are not found by auto or manual search, SL2-14220 - [DVB-T Italy] LCN conflicts shall be reported for multiple services with same TSID/ONID/SID.
+-----
+API-modification: No
+-----
+Internal documentation: Supporting of multiply services with same SID, NID, TID on different frequency added for service list.
+-----
+External documentation: Supporting of multiply services with same SID, NID, TID on different frequency added for service list.
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r373925 | selivanoig | 2013-09-06 18:30:42 +0400 (Пт., 06 сент. 2013) | 17 lines
+
+NULL pointer check is added.
+-----
+Header: Service list
+-----
+Polarion-ID: SL2-14248 - TF: Crash in biz during automatic stationscan test
+-----
+API-modification: No
+-----
+Internal documentation: NULL pointer check is added.
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r374901 | selivanoig | 2013-09-11 12:38:40 +0400 (Ср., 11 сент. 2013) | 17 lines
+
+Merge from V.2.1.x: After DCM nightupdate servicelist changes are checked before checking LCN conflicts. If there were no changes in service list, no LCN conflict will be shown.
+-----
+Header: Service list
+-----
+Polarion-ID: SL2-14456 - [DVB-T Italy] Update search result menus with conflict resolution appear always
+-----
+API-modification: No
+-----
+Internal documentation: Merge from V.2.1.x: After DCM nightupdate servicelist changes are checked before checking LCN conflicts. If there were no changes in service list, no LCN conflict will be shown.
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: -
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r374917 | selivanoig | 2013-09-11 12:49:26 +0400 (Ср., 11 сент. 2013) | 17 lines
+
+Frequency field is added for GUI.
+-----
+Header: Service list
+-----
+Polarion-ID: SL2-14221 - [DVB-T Italy] Frequency shall be displayed in the manual LCN conflict resolution menu	
+-----
+API-modification: No
+-----
+Internal documentation: Frequency field is added for GUI.
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r375212 | selivanoig | 2013-09-11 19:54:44 +0400 (Ср., 11 сент. 2013) | 17 lines
+
+Merge from V2.1.X: Supporting of multiply services with same SID, NID, TID on different frequency added for service list. 
+-----
+Header: Service list
+-----
+Polarion-ID: SSL1-2699 - [DVB-S][Turksat 42ºE][Market claim] Some services are not found by auto or manual search	
+-----
+API-modification: No
+-----
+Internal documentation: Merge from V2.1.X: Supporting of multiply services with same SID, NID, TID on different frequency added for service list. 
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: -
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r375221 | selivanoig | 2013-09-11 20:29:08 +0400 (Ср., 11 сент. 2013) | 17 lines
+
+Notification for leqacy query is fixed.
+-----
+Header: Service list
+-----
+Polarion-ID: SL2-14158 - Mediaset: LCN conflict resolution with unexpected results	
+-----
+API-modification: No
+-----
+Internal documentation: Notification for leqacy query is fixed.
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r375483 | selivanoig | 2013-09-12 13:49:18 +0400 (Чт., 12 сент. 2013) | 17 lines
+
+Merge from 2.1.x: Notification for leqacy query is fixed.
+-----
+Header: Service list
+-----
+Polarion-ID: SL2-14158 - Mediaset: LCN conflict resolution with unexpected results	
+-----
+API-modification: No
+-----
+Internal documentation: Merge from 2.1.x: Notification for leqacy query is fixed.
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: -
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r375760 | selivanoig | 2013-09-12 18:22:16 +0400 (Чт., 12 сент. 2013) | 17 lines
+
+TURKSAT frequency parameters are added.
+-----
+Header: Service list
+-----
+Polarion-ID: SSL1-2699 - [DVB-S][Turksat 42ºE][Market claim] Some services are not found by auto or manual search
+-----
+API-modification: No
+-----
+Internal documentation: TURKSAT frequency parameters are added.
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: -
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376118 | selivanoig | 2013-09-13 14:00:55 +0400 (Пт., 13 сент. 2013) | 17 lines
+
+Merge from 2.1.x: Notification for leqacy query is fixed.
+-----
+Header: Service list
+-----
+Polarion-ID: SL2-14158 - Mediaset: LCN conflict resolution with unexpected results	
+-----
+API-modification: No
+-----
+Internal documentation: Merge from 2.1.x: Notification for leqacy query is fixed.
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: -
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376265 | selivanoig | 2013-09-13 19:24:44 +0400 (Пт., 13 сент. 2013) | 17 lines
+
+Avoiding unnecessary re-tuning if uri string is changed.
+-----
+Header: Service list
+-----
+Polarion-ID: SSL1-3796 - Fieldtest Poland: Video dropping after channel switch over with UPC
+-----
+API-modification: No
+-----
+Internal documentation: Avoiding unnecessary re-tuning if uri string is changed.
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376268 | selivanoig | 2013-09-13 20:09:01 +0400 (Пт., 13 сент. 2013) | 17 lines
+
+Merge from 2.1.x: Avoiding unnecessary re-tuning if uri string is changed.
+-----
+Header: Service list
+-----
+Polarion-ID: SSL1-3796 - Fieldtest Poland: Video dropping after channel switch over with UPC
+-----
+API-modification: No
+-----
+Internal documentation: Merge from 2.1.x: Avoiding unnecessary re-tuning if uri string is changed.
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: -
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376416 | selivanoig | 2013-09-16 13:38:29 +0400 (Пн., 16 сент. 2013) | 17 lines
+
+Merge from 2.1.x: Avoiding unnecessary re-tuning if uri string is changed.
+-----
+Header: Service list
+-----
+Polarion-ID: SSL1-3796 - Fieldtest Poland: Video dropping after channel switch over with UPC
+-----
+API-modification: No
+-----
+Internal documentation: Merge from 2.1.x: Avoiding unnecessary re-tuning if uri string is changed.
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: -
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r377536 | selivanoig | 2013-09-18 20:59:27 +0400 (Ср., 18 сент. 2013) | 17 lines
+
+Merge from 2.1.x revisions 377505: Check for empty() stored LCN list added and 377476: Don't assign LCNs out of range [1..999].  
+-----
+Header: Service list
+-----
+Polarion-ID: SL2-14542,  SL2-14506, SL2-14538
+-----
+API-modification: No
+-----
+Internal documentation: Merge from 2.1.x revisions 377505: Check for empty() stored LCN list added and 377476: Don't assign LCNs out of range [1..999].  
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: -
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r377537 | selivanoig | 2013-09-18 21:28:31 +0400 (Ср., 18 сент. 2013) | 17 lines
+
+Merge from 2.1.x revisions 377505: Check for empty() stored LCN list added and 377476: Don't assign LCNs out of range [1..999].  
+-----
+Header: Service list, Station Scan
+-----
+Polarion-ID: SL2-14542,  SL2-14506, SL2-14538
+-----
+API-modification: No
+-----
+Internal documentation: Merge from 2.1.x revisions 377505: Check for empty() stored LCN list added and 377476: Don't assign LCNs out of range [1..999].  
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: -
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378233 | selivanoig | 2013-09-20 18:43:30 +0400 (Пт., 20 сент. 2013) | 17 lines
+
+Number of found station in BIZ for DCM scan is corrected.
+-----
+Header: BIZ
+-----
+Polarion-ID: SSL1-3882 - [UPC-Pretest][P1][5444] TV message after a channel scan does not indicate the correct amount of new channels found, SL2-14563 - UPC: TV message after a channel scan does not indicate the correct amount of new channels found
+-----
+API-modification: No
+-----
+Internal documentation: Number of found station in BIZ for DCM scan is corrected.
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: -
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378242 | selivanoig | 2013-09-20 19:13:05 +0400 (Пт., 20 сент. 2013) | 17 lines
+
+Merged from 2.1.X: Number of found station in BIZ for DCM scan is corrected.
+-----
+Header: BIZ
+-----
+Polarion-ID: SSL1-3882 - [UPC-Pretest][P1][5444] TV message after a channel scan does not indicate the correct amount of new channels found, SL2-14563 - UPC: TV message after a channel scan does not indicate the correct amount of new channels found
+-----
+API-modification: No
+-----
+Internal documentation: Merged from 2.1.X: Number of found station in BIZ for DCM scan is corrected.
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: -
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378445 | selivanoig | 2013-09-23 13:48:50 +0400 (Пн., 23 сент. 2013) | 17 lines
+
+Reset for calculating number of found station in BIZ is added. 
+-----
+Header: BIZ
+-----
+Polarion-ID: SSL1-3882 - [UPC-Pretest][P1][5444] TV message after a channel scan does not indicate the correct amount of new channels found, SL2-14563 - UPC: TV message after a channel scan does not indicate the correct amount of new channels found
+-----
+API-modification: No
+-----
+Internal documentation: Reset for calculating number of found station in BIZ is added.
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: -
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378464 | selivanoig | 2013-09-23 14:15:13 +0400 (Пн., 23 сент. 2013) | 17 lines
+
+Merge from 2.1.X: Reset for calculating number of found station in BIZ is added. 
+-----
+Header: BIZ
+-----
+Polarion-ID: SSL1-3882 - [UPC-Pretest][P1][5444] TV message after a channel scan does not indicate the correct amount of new channels found, SL2-14563 - UPC: TV message after a channel scan does not indicate the correct amount of new channels found
+-----
+API-modification: No
+-----
+Internal documentation: Merge from 2.1.X: Reset for calculating number of found station in BIZ is added. 
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: -
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r379534 | selivanoig | 2013-09-25 23:24:38 +0400 (Ср., 25 сент. 2013) | 17 lines
+
+LCN conflict attribute is added for new found services
+-----
+Header: BIZ
+-----
+Polarion-ID: SL2-14558 - [DVB-T Italy] Manual conflict resolution menu shows too many conflicts	
+-----
+API-modification: No
+-----
+Internal documentation: LCN conflict attribute is added for new found services
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r379535 | selivanoig | 2013-09-25 23:39:49 +0400 (Ср., 25 сент. 2013) | 17 lines
+
+Merge from 2.1.X: LCN conflict attribute is added for new found services
+-----
+Header: BIZ
+-----
+Polarion-ID: SL2-14558 - [DVB-T Italy] Manual conflict resolution menu shows too many conflicts	
+-----
+API-modification: No
+-----
+Internal documentation: Merge from 2.1.X: LCN conflict attribute is added for new found services
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r379895 | selivanoig | 2013-09-26 16:55:59 +0400 (Чт., 26 сент. 2013) | 17 lines
+
+Merged from stabilization1: Supporting multilpy SID/NID/TID for services.
+-----
+Header: Servicelist, DVB Scan
+-----
+Polarion-ID: SSL1-2699 - [DVB-S][Turksat 42ºE][Market claim] Some services are not found by auto or manual search	
+-----
+API-modification: No
+-----
+Internal documentation: Merged from stabilization1: Supporting multilpy SID/NID/TID for services.
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r381389 | selivanoig | 2013-10-01 20:09:47 +0400 (Вт., 01 окт. 2013) | 17 lines
+
+Invisible services are excluded from LCN conflict menu
+-----
+Header: Servicelist
+-----
+Polarion-ID: SL2-14631 - [DVB-T Italy] Manual conflict resolution is available for invisible services		
+-----
+API-modification: No
+-----
+Internal documentation: Invisible services are excluded from LCN conflict menu
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r381390 | selivanoig | 2013-10-01 20:20:05 +0400 (Вт., 01 окт. 2013) | 17 lines
+
+Merge from V.2.1.X: Invisible services are excluded from LCN conflict menu
+-----
+Header: Servicelist
+-----
+Polarion-ID: SL2-14631 - [DVB-T Italy] Manual conflict resolution is available for invisible services		
+-----
+API-modification: No
+-----
+Internal documentation: Merge from V.2.1.X: Invisible services are excluded from LCN conflict menu
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r381395 | selivanoig | 2013-10-01 20:45:58 +0400 (Вт., 01 окт. 2013) | 17 lines
+
+Merge from V.2.1.X to 2.3.X : Invisible services are excluded from LCN conflict menu
+-----
+Header: Servicelist
+-----
+Polarion-ID: SL2-14631 - [DVB-T Italy] Manual conflict resolution is available for invisible services		
+-----
+API-modification: No
+-----
+Internal documentation: Merge from V.2.1.X to 2.3.X : Invisible services are excluded from LCN conflict menu
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r381613 | selivanoig | 2013-10-02 14:18:36 +0400 (Ср., 02 окт. 2013) | 17 lines
+
+Merged from 2.1.X to 2.3.X: Number of found station in BIZ for DCM scan is corrected. Reset for calculating number of found station in BIZ is added.
+-----
+Header: BIZ
+-----
+Polarion-ID: SSL1-3882 - [UPC-Pretest][P1][5444] TV message after a channel scan does not indicate the correct amount of new channels found, SL2-14563 - UPC: TV message after a channel scan does not indicate the correct amount of new channels found
+-----
+API-modification: No
+-----
+Internal documentation: Merged from 2.1.X to 2.3.X: Number of found station in BIZ for DCM scan is corrected. Reset for calculating number of found station in BIZ is added.
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r381850 | selivanoig | 2013-10-02 17:58:06 +0400 (Ср., 02 окт. 2013) | 17 lines
+
+Merge from V.2.1.X to 2.2.X : Invisible services are excluded from LCN conflict menu
+-----
+Header: Servicelist
+-----
+Polarion-ID: SL2-14631 - [DVB-T Italy] Manual conflict resolution is available for invisible services		
+-----
+API-modification: No
+-----
+Internal documentation: Merge from V.2.1.X to 2.2.X : Invisible services are excluded from LCN conflict menu
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r388386 | selivanoig | 2013-10-22 20:38:12 +0400 (Вт., 22 окт. 2013) | 17 lines
+
+TURKSAT multiple SID/NID/TID for services is optimized.
+-----
+Header: Servicelist, DVB Scan
+-----
+Polarion-ID: SSL1-2699 - [DVB-S][Turksat 42ºE][Market claim] Some services are not found by auto or manual search	
+-----
+API-modification: No
+-----
+Internal documentation: TURKSAT multiple SID/NID/TID for services is optimized.
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r388738 | selivanoig | 2013-10-23 16:22:22 +0400 (Ср., 23 окт. 2013) | 17 lines
+
+kpi: Fixed stack corruption in case KPI message exceeds the temporary buffer (in stabilization0)
+-----
+Header: Support Layer
+-----
+Polarion-ID: SSL1-3659	
+-----
+API-modification: No
+-----
+Internal documentation: kpi: Fixed stack corruption in case KPI message exceeds the temporary buffer (in stabilization0)
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: -
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r388995 | selivanoig | 2013-10-24 12:31:58 +0400 (Чт., 24 окт. 2013) | 17 lines
+
+Removing magic number for TURKSAT identification
+-----
+Header: Servicelist, DVB Scan
+-----
+Polarion-ID: SSL1-2699 - [DVB-S][Turksat 42ºE][Market claim] Some services are not found by auto or manual search	
+-----
+API-modification: No
+-----
+Internal documentation: Removing magic number for TURKSAT identification
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r389000 | selivanoig | 2013-10-24 12:35:12 +0400 (Чт., 24 окт. 2013) | 17 lines
+
+Multiple triplet support for SDT name recognition
+-----
+Header: Servicelist, DVB Scan
+-----
+Polarion-ID: SSL1-2699 - [DVB-S][Turksat 42ºE][Market claim] Some services are not found by auto or manual search	
+-----
+API-modification: No
+-----
+Internal documentation: Multiple triplet support for SDT name recognition
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r389178 | selivanoig | 2013-10-24 16:06:36 +0400 (Чт., 24 окт. 2013) | 17 lines
+
+Merging TURKSAT bug-fixes from stab0 to stab1: 388386, 388738, 388995, 389000
+-----
+Header: Servicelist, DVB Scan
+-----
+Polarion-ID: SSL1-2699 - [DVB-S][Turksat 42ºE][Market claim] Some services are not found by auto or manual search	
+-----
+API-modification: No
+-----
+Internal documentation: Merging TURKSAT bug-fixes from stab0 to stab1: 388386, 388738, 388995, 389000
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r390010 | selivanoig | 2013-10-28 13:59:36 +0400 (Пн., 28 окт. 2013) | 17 lines
+
+TURKSAT multiple SID/NID/TID merge from stabilization1 (tested in Turkey)
+-----
+Header: Servicelist, DVB Scan
+-----
+Polarion-ID: SSL1-2699 - [DVB-S][Turksat 42ºE][Market claim] Some services are not found by auto or manual search, SL2-14674 - Two stations from Turksat "TRT" and "Samanyolu" cannot be stored at the same time.		
+-----
+API-modification: No
+-----
+Internal documentation: TURKSAT multiple SID/NID/TID merge from stabilization1 (tested in Turkey)
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r390746 | selivanoig | 2013-10-29 20:19:25 +0400 (Вт., 29 окт. 2013) | 17 lines
+
+Frequency field is added for GUI. Merged from 2.1.X_CW16
+-----
+Header: Service list, BIZ
+-----
+Polarion-ID: SL2-14221 - [DVB-T Italy] Frequency shall be displayed in the manual LCN conflict resolution menu
+-----
+API-modification: No
+-----
+Internal documentation: Frequency field is added for GUI. Merged from 2.1.X_CW16
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r390748 | selivanoig | 2013-10-29 20:28:42 +0400 (Вт., 29 окт. 2013) | 17 lines
+
+LCN conflict queries are fixed and don't include not receivable services any more.
+-----
+Header: Service list
+-----
+Polarion-ID: SL2-14708 - [DVB-T Italy] Reassign channel position according to LCN
+-----
+API-modification: No
+-----
+Internal documentation: LCN conflict queries are fixed and don't include not receivable services any more.
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r390754 | selivanoig | 2013-10-29 20:40:12 +0400 (Вт., 29 окт. 2013) | 17 lines
+
+Removing overwriting services after LCN swap in LCN conflict menu. 
+-----
+Header: Station scan
+-----
+Polarion-ID: SL2-14604 - [DVB-T Italy] Conflict menu with single entry for LCN 999
+-----
+API-modification: No
+-----
+Internal documentation: Removing overwriting services after LCN swap in LCN conflict menu. 
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r390771 | selivanoig | 2013-10-29 21:15:54 +0400 (Вт., 29 окт. 2013) | 17 lines
+
+Gap detection method is used for Italy manual scan.
+-----
+Header: Station scan
+-----
+Polarion-ID: SL2-14615 - [DVB-T Italy] Manual search allows services above 999	
+-----
+API-modification: No
+-----
+Internal documentation: Gap detection method is used for Italy manual scan.
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r390773 | selivanoig | 2013-10-29 21:43:01 +0400 (Вт., 29 окт. 2013) | 17 lines
+
+Merged for DVB-Italy 390748,390754, 390771 from 2.2.X_CW40.
+-----
+Header: Service list
+-----
+Polarion-ID: SL2-14708 - [DVB-T Italy] Reassign channel position according to LCN,  SL2-14615 - [DVB-T Italy] Manual search allows services above 999, SL2-14604 - [DVB-T Italy] Conflict menu with single entry for LCN 999
+-----
+API-modification: No
+-----
+Internal documentation: Merged for DVB-Italy 390748,390754, 390771 from 2.2.X_CW40.
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r391152 | selivanoig | 2013-10-30 19:57:47 +0400 (Ср., 30 окт. 2013) | 17 lines
+
+Merged for DVB-Italy 390748,390754, 390771 from 2.2.X_CW40.
+-----
+Header: Service list
+-----
+Polarion-ID: SL2-14708 - [DVB-T Italy] Reassign channel position according to LCN,  SL2-14615 - [DVB-T Italy] Manual search allows services above 999, SL2-14604 - [DVB-T Italy] Conflict menu with single entry for LCN 999
+-----
+API-modification: No
+-----
+Internal documentation: Merged for DVB-Italy 390748,390754, 390771 from 2.2.X_CW40.
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r391609 | selivanoig | 2013-11-01 21:04:18 +0400 (Пт., 01 нояб. 2013) | 17 lines
+
+Resolving LCN Conflicts for DVB-T Italy is corrected
+-----
+Header: Service list, DVB Scan
+-----
+Polarion-ID: SL2-14678 - [DVB-T Italy] New found services are placed before previous saved services in the conflict menu.	SL2-14508 - [DVB-T Italy] Mediaset: channel numbers are not updated after conflict vanishing. SL2-14962 - Mediaset: LCN update test #4 fails.
+-----
+API-modification: Yes
+-----
+Internal documentation: Resolving LCN Conflicts for DVB-T Italy is corrected
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r391722 | selivanoig | 2013-11-04 13:19:33 +0400 (Пн., 04 нояб. 2013) | 17 lines
+
+Resolving LCN Conflicts for DVB-T Italy is corrected. Merged from 2.2.X
+-----
+Header: Service list, DVB Scan
+-----
+Polarion-ID: SL2-14678 - [DVB-T Italy] New found services are placed before previous saved services in the conflict menu.	SL2-14508 - [DVB-T Italy] Mediaset: channel numbers are not updated after conflict vanishing. SL2-14962 - Mediaset: LCN update test #4 fails.
+-----
+API-modification: Yes
+-----
+Internal documentation: Resolving LCN Conflicts for DVB-T Italy is corrected. Merged from 2.2.X
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r391763 | selivanoig | 2013-11-04 14:06:58 +0400 (Пн., 04 нояб. 2013) | 17 lines
+
+Resolving LCN Conflicts for DVB-T Italy is corrected. Merged from 2.2.X
+-----
+Header: Service list, DVB Scan
+-----
+Polarion-ID: SL2-14678 - [DVB-T Italy] New found services are placed before previous saved services in the conflict menu.	SL2-14508 - [DVB-T Italy] Mediaset: channel numbers are not updated after conflict vanishing. SL2-14962 - Mediaset: LCN update test #4 fails.
+-----
+API-modification: Yes
+-----
+Internal documentation: Resolving LCN Conflicts for DVB-T Italy is corrected. Merged from 2.2.X
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r392234 | selivanoig | 2013-11-05 13:39:12 +0400 (Вт., 05 нояб. 2013) | 17 lines
+
+Adding 'no longer found' station to LCN conflict menu for DVB-T Italy.
+-----
+Header: Service list
+-----
+Polarion-ID: SL2-14508 - [DVB-T Italy] Mediaset: channel numbers are not updated after conflict vanishing, SL2-15063 - [DVB-T Italy] LCN conflict does not show services not found any longer, SL2-15062 - [DVB-T Italy] Illegal test case not handled as expected	
+-----
+API-modification: Yes
+-----
+Internal documentation: Adding 'no longer found' station to LCN conflict menu for DVB-T Italy.
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r392577 | selivanoig | 2013-11-05 19:54:41 +0400 (Вт., 05 нояб. 2013) | 17 lines
+
+Adding 'no longer found' station to LCN conflict menu for DVB-T Italy. Merged from 2.2.X.
+-----
+Header: Service list
+-----
+Polarion-ID: SL2-14508 - [DVB-T Italy] Mediaset: channel numbers are not updated after conflict vanishing, SL2-15063 - [DVB-T Italy] LCN conflict does not show services not found any longer, SL2-15062 - [DVB-T Italy] Illegal test case not handled as expected
+-----
+API-modification: No
+-----
+Internal documentation: Adding 'no longer found' station to LCN conflict menu for DVB-T Italy. Merged from 2.2.X.
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r392595 | selivanoig | 2013-11-05 20:21:19 +0400 (Вт., 05 нояб. 2013) | 17 lines
+
+Adding 'no longer found' station to LCN conflict menu for DVB-T Italy. Merged from 2.2.X.
+-----
+Header: Service list
+-----
+Polarion-ID: SL2-14508 - [DVB-T Italy] Mediaset: channel numbers are not updated after conflict vanishing, SL2-15063 - [DVB-T Italy] LCN conflict does not show services not found any longer, SL2-15062 - [DVB-T Italy] Illegal test case not handled as expected
+-----
+API-modification: No
+-----
+Internal documentation: Adding 'no longer found' station to LCN conflict menu for DVB-T Italy. Merged from 2.2.X.
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r392785 | selivanoig | 2013-11-06 15:22:53 +0400 (Ср., 06 нояб. 2013) | 17 lines
+
+Action "resolveLCNConflicts" is added to Biz and service list.
+-----
+Header: Service list
+-----
+Polarion-ID: SL2-14508 - [DVB-T Italy] Mediaset: channel numbers are not updated after conflict vanishing, SL2-15063 - [DVB-T Italy] LCN conflict does not show services not found any longer, SL2-15062 - [DVB-T Italy] Illegal test case not handled as expected
+-----
+API-modification: No
+-----
+Internal documentation: Action "resolveLCNConflicts" is added to Biz and service list.
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r392891 | selivanoig | 2013-11-06 18:25:16 +0400 (Ср., 06 нояб. 2013) | 17 lines
+
+Action "resolveLCNConflicts" is added to Biz and service list. Merged from 2.2.X
+-----
+Header: Service list, BIZ
+-----
+Polarion-ID: SL2-14508 - [DVB-T Italy] Mediaset: channel numbers are not updated after conflict vanishing, SL2-15063 - [DVB-T Italy] LCN conflict does not show services not found any longer, SL2-15062 - [DVB-T Italy] Illegal test case not handled as expected
+-----
+API-modification: Yes
+-----
+Internal documentation: Action "resolveLCNConflicts" is added to Biz and service list. Merged from 2.2.X
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r392971 | selivanoig | 2013-11-06 20:03:02 +0400 (Ср., 06 нояб. 2013) | 17 lines
+
+Action "resolveLCNConflicts" is added to Biz and service list. Merged from 2.2.X
+-----
+Header: Service list, BIZ
+-----
+Polarion-ID: SL2-14508 - [DVB-T Italy] Mediaset: channel numbers are not updated after conflict vanishing, SL2-15063 - [DVB-T Italy] LCN conflict does not show services not found any longer, SL2-15062 - [DVB-T Italy] Illegal test case not handled as expected
+-----
+API-modification: Yes
+-----
+Internal documentation: Action "resolveLCNConflicts" is added to Biz and service list. Merged from 2.2.X
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r393989 | selivanoig | 2013-11-08 19:39:22 +0400 (Пт., 08 нояб. 2013) | 17 lines
+
+SL2_TVAPI_TABLE_ACTION_SERVICELIST_DELETE_PERMANENTLY_FOR_ITERATOR action is added for GUI.
+-----
+Header: Service list, BIZ
+-----
+Polarion-ID: SL2-14508 - [DVB-T Italy] Mediaset: channel numbers are not updated after conflict vanishing, SL2-15063 - [DVB-T Italy] LCN conflict does not show services not found any longer, SL2-15062 - [DVB-T Italy] Illegal test case not handled as expected
+-----
+API-modification: Yes
+-----
+Internal documentation: SL2_TVAPI_TABLE_ACTION_SERVICELIST_DELETE_PERMANENTLY_FOR_ITERATOR action is added for GUI.
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r394034 | selivanoig | 2013-11-08 21:21:22 +0400 (Пт., 08 нояб. 2013) | 17 lines
+
+SL2_TVAPI_TABLE_ACTION_SERVICELIST_DELETE_PERMANENTLY_FOR_ITERATOR action is added for GUI.
+-----
+Header: Service list, BIZ
+-----
+Polarion-ID: SL2-15014 - Ziggo: 0004573 (major): the channel list is not correct after reinstallation	
+-----
+API-modification: Yes
+-----
+Internal documentation: SL2_TVAPI_TABLE_ACTION_SERVICELIST_DELETE_PERMANENTLY_FOR_ITERATOR action is added for GUI.
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r394435 | selivanoig | 2013-11-11 18:58:33 +0400 (Пн., 11 нояб. 2013) | 17 lines
+
+Restore deleted services in BIZ is fixed.
+-----
+Header: BIZ
+-----
+Polarion-ID: SSL1-4007 - Delete/Move Block doesn't work for Radio lists.	
+-----
+API-modification: No
+-----
+Internal documentation: Restore deleted services in BIZ is fixed.
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: -
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r395005 | selivanoig | 2013-11-12 21:06:20 +0400 (Вт., 12 нояб. 2013) | 17 lines
+
+Sorting by name (QUERN_FIELD_TITLE) is corrected. 
+-----
+Header: Service list
+-----
+Polarion-ID: SL2-15108 - QUERN_FIELD_TITLE ordering for services is wrong.	
+-----
+API-modification: No
+-----
+Internal documentation: Sorting by name (QUERN_FIELD_TITLE) is corrected. 
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r395010 | selivanoig | 2013-11-12 21:26:51 +0400 (Вт., 12 нояб. 2013) | 17 lines
+
+Merging from 2.3.X: Sorting by name (QUERN_FIELD_TITLE) is corrected. 
+-----
+Header: Service list
+-----
+Polarion-ID: SL2-15108 - QUERN_FIELD_TITLE ordering for services is wrong.	
+-----
+API-modification: No
+-----
+Internal documentation: Merging from 2.3.X: Sorting by name (QUERN_FIELD_TITLE) is corrected. 
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r395410 | selivanoig | 2013-11-13 18:35:15 +0400 (Ср., 13 нояб. 2013) | 17 lines
+
+SL2_TVAPI_TABLE_ACTION_SERVICELIST_DELETE_PERMANENTLY_FOR_ITERATOR action is improved for GUI.
+-----
+Header: BIZ
+-----
+Polarion-ID: SL2-15014 - Ziggo: 0004573 (major): the channel list is not correct after reinstallation	
+-----
+API-modification: Yes
+-----
+Internal documentation: SL2_TVAPI_TABLE_ACTION_SERVICELIST_DELETE_PERMANENTLY_FOR_ITERATOR action is improved for GUI.
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r395450 | selivanoig | 2013-11-13 19:14:51 +0400 (Ср., 13 нояб. 2013) | 17 lines
+
+SL2_TVAPI_TABLE_ACTION_SERVICELIST_DELETE_PERMANENTLY_FOR_ITERATOR action is improved for GUI.
+-----
+Header: BIZ
+-----
+Polarion-ID: SL2-15014 - Ziggo: 0004573 (major): the channel list is not correct after reinstallation	
+-----
+API-modification: Yes
+-----
+Internal documentation: SL2_TVAPI_TABLE_ACTION_SERVICELIST_DELETE_PERMANENTLY_FOR_ITERATOR action is improved for GUI.
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r395528 | selivanoig | 2013-11-13 21:04:50 +0400 (Ср., 13 нояб. 2013) | 17 lines
+
+Merge from 2.3.X: SL2_TVAPI_TABLE_ACTION_SERVICELIST_DELETE_PERMANENTLY_FOR_ITERATOR action is implemented/improved for GUI.
+-----
+Header: BIZ, Service list
+-----
+Polarion-ID: SL2-15014 - Ziggo: 0004573 (major): the channel list is not correct after reinstallation	
+-----
+API-modification: Yes
+-----
+Internal documentation: SL2_TVAPI_TABLE_ACTION_SERVICELIST_DELETE_PERMANENTLY_FOR_ITERATOR action is improved for GUI.
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r398750 | selivanoig | 2013-11-25 12:43:05 +0400 (Пн., 25 нояб. 2013) | 17 lines
+
+Valid LCNs from 1 to 999 for DVB-T-Italy is added to service list.
+-----
+Header: BIZ, Service list
+-----
+Polarion-ID: SL2-15285 - [DVB-T Italy] Radio services have channels numbers >1000, SL2-15286 - [DVB-T Italy] Service LCN1000 has channel number 1000
+-----
+API-modification: No
+-----
+Internal documentation: Valid LCNs from 1 to 999 for DVB-T-Italy is added to service list.
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r398782 | selivanoig | 2013-11-25 13:09:53 +0400 (Пн., 25 нояб. 2013) | 17 lines
+
+Valid LCNs from 1 to 999 for DVB-T-Italy is added to service list.
+-----
+Header:  Service list
+-----
+Polarion-ID: SL2-15285 - [DVB-T Italy] Radio services have channels numbers >1000, SL2-15286 - [DVB-T Italy] Service LCN1000 has channel number 1000
+-----
+API-modification: No
+-----
+Internal documentation: Valid LCNs from 1 to 999 for DVB-T-Italy is added to service list.
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r398811 | selivanoig | 2013-11-25 13:35:33 +0400 (Пн., 25 нояб. 2013) | 17 lines
+
+Valid LCNs from 1 to 999 for DVB-T-Italy is added to service list.
+-----
+Header:  Service list
+-----
+Polarion-ID: SL2-15285 - [DVB-T Italy] Radio services have channels numbers >1000, SL2-15286 - [DVB-T Italy] Service LCN1000 has channel number 1000
+-----
+API-modification: No
+-----
+Internal documentation: Valid LCNs from 1 to 999 for DVB-T-Italy is added to service list.
+-----
+External documentation: -
+-----
+Verification platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399434 | selivanoig | 2013-11-26 17:49:32 +0400 (Вт., 26 нояб. 2013) | 17 lines
+
+LCN DB storing fix:  allowing same LCN for different services. Merge from 1.12 (2.1.x)
+-----
+Header: Service list
+-----
+Polarion-ID: SL2-15215 - [DVB-T Italy] LCN conflict menu isn't display after scan, SL2-6137 - FreeView: service scan according to UK D-Book rules	, SL2-11663 - Ziggo: DVB-C list is displayed instead of personal after update lcn to 0 and removing lcn. 
+-----
+API-modification: No
+-----
+Internal documentation: LCN DB storing fix:  allowing same LCN for different services.
+-----
+External documentation: -
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399510 | selivanoig | 2013-11-26 20:45:14 +0400 (Вт., 26 нояб. 2013) | 17 lines
+
+Accepting existing channel number for services without LCN for DVB-T(Italy)
+-----
+Header: Scan
+-----
+Polarion-ID: SL2-15288 - [DVB-T Italy] Channel number is absent in service list	
+-----
+API-modification: No
+-----
+Internal documentation: Accepting existing channel number for services without LCN for DVB-T(Italy)
+-----
+External documentation: -
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399511 | selivanoig | 2013-11-26 21:04:55 +0400 (Вт., 26 нояб. 2013) | 17 lines
+
+Accepting existing channel number for services without LCN for DVB-T(Italy)
+-----
+Header: Scan
+-----
+Polarion-ID: SL2-15288 - [DVB-T Italy] Channel number is absent in service list	
+-----
+API-modification: No
+-----
+Internal documentation: Accepting existing channel number for services without LCN for DVB-T(Italy)
+-----
+External documentation: -
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399517 | selivanoig | 2013-11-26 21:31:56 +0400 (Вт., 26 нояб. 2013) | 17 lines
+
+Accepting existing channel number for services without LCN for DVB-T(Italy)
+-----
+Header: Scan
+-----
+Polarion-ID: SL2-15288 - [DVB-T Italy] Channel number is absent in service list	
+-----
+API-modification: No
+-----
+Internal documentation: Accepting existing channel number for services without LCN for DVB-T(Italy)
+-----
+External documentation: -
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399782 | selivanoig | 2013-11-27 19:01:23 +0400 (Ср., 27 нояб. 2013) | 17 lines
+
+Changing receivable flag of service is permitted in BIZ.
+-----
+Header: BIZ
+-----
+Polarion-ID: SL2-15320 - [DVB-T Italy] Restrict conditions of the confirmation menu for the deletion of services	
+-----
+API-modification: No
+-----
+Internal documentation: Changing receivable flag of service is permitted in BIZ.
+-----
+External documentation: -
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399859 | selivanoig | 2013-11-27 21:03:26 +0400 (Ср., 27 нояб. 2013) | 17 lines
+
+Changing receivable flag of service is permitted in BIZ.
+-----
+Header: BIZ
+-----
+Polarion-ID: SL2-15320 - [DVB-T Italy] Restrict conditions of the confirmation menu for the deletion of services	
+-----
+API-modification: No
+-----
+Internal documentation: Changing receivable flag of service is permitted in BIZ.
+-----
+External documentation: -
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399884 | selivanoig | 2013-11-27 23:12:36 +0400 (Ср., 27 нояб. 2013) | 17 lines
+
+Changing receivable flag of service is permitted in BIZ.
+-----
+Header: BIZ
+-----
+Polarion-ID: SL2-15320 - [DVB-T Italy] Restrict conditions of the confirmation menu for the deletion of services	
+-----
+API-modification: No
+-----
+Internal documentation: Changing receivable flag of service is permitted in BIZ.
+-----
+External documentation: -
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399892 | selivanoig | 2013-11-28 00:55:23 +0400 (Чт., 28 нояб. 2013) | 17 lines
+
+Frequency is added as selection field for service list queries.
+-----
+Header: BIZ, Service list
+-----
+Polarion-ID: SL2-15336 - [DVB-T Italy] List of deleted issues contains not only services of current transport stream	
+-----
+API-modification: No
+-----
+Internal documentation: Frequency is added as selection field for service list queries.
+-----
+External documentation: -
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399894 | selivanoig | 2013-11-28 01:52:54 +0400 (Чт., 28 нояб. 2013) | 17 lines
+
+Frequency is added as selection field for service list queries.
+-----
+Header: BIZ, Service list
+-----
+Polarion-ID: SL2-15336 - [DVB-T Italy] List of deleted issues contains not only services of current transport stream	
+-----
+API-modification: No
+-----
+Internal documentation: Frequency is added as selection field for service list queries.
+-----
+External documentation: -
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399895 | selivanoig | 2013-11-28 02:14:00 +0400 (Чт., 28 нояб. 2013) | 17 lines
+
+Frequency is added as selection field for service list queries.
+-----
+Header: BIZ, Service list
+-----
+Polarion-ID: SL2-15336 - [DVB-T Italy] List of deleted issues contains not only services of current transport stream	
+-----
+API-modification: No
+-----
+Internal documentation: Frequency is added as selection field for service list queries.
+-----
+External documentation: -
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400487 | selivanoig | 2013-11-29 20:33:16 +0400 (Пт., 29 нояб. 2013) | 17 lines
+
+Marking moved services as new found after automatic conflict resolving for DVB-T Italy.
+-----
+Header: Service list
+-----
+Polarion-ID: SL2-15362 - [DVB-T Italy] Conflicts for moved services not reported in DCM result
+-----
+API-modification: No
+-----
+Internal documentation: Marking moved services as new found after automatic conflict resolving for DVB-T Italy.
+-----
+External documentation: -
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401136 | selivanoig | 2013-12-03 18:28:25 +0400 (Вт., 03 дек. 2013) | 17 lines
+
+Session Id is corrected after DCM scan for marking moved services for DVB-T Italy.
+-----
+Header: Service list
+-----
+Polarion-ID: SL2-15362 - [DVB-T Italy] Conflicts for moved services not reported in DCM result
+-----
+API-modification: No
+-----
+Internal documentation: Session Id is corrected after DCM scan for marking moved services for DVB-T Italy.
+-----
+External documentation: -
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401375 | selivanoig | 2013-12-04 14:21:25 +0400 (Ср., 04 дек. 2013) | 17 lines
+
+DCM DVB-T Italy conflict detection reworked. Modification session is added to LCN Table.
+-----
+Header: Service list
+-----
+Polarion-ID: SL2-15362 - [DVB-T Italy] Conflicts for moved services not reported in DCM result
+-----
+API-modification: No
+-----
+Internal documentation: DCM DVB-T Italy conflict detection reworked. Modification session is added to LCN Table.
+-----
+External documentation: -
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401538 | selivanoig | 2013-12-04 18:44:24 +0400 (Ср., 04 дек. 2013) | 17 lines
+
+Renaming service name is fixed independent on short name.
+-----
+Header: Service list
+-----
+Polarion-ID: SL2-15119 - rename of analog programs thru station-list menu demanded	
+-----
+API-modification: No
+-----
+Internal documentation: Renaming service name is fixed independent on short name.
+-----
+External documentation: -
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401577 | selivanoig | 2013-12-04 19:28:04 +0400 (Ср., 04 дек. 2013) | 17 lines
+
+Renaming service name is fixed independent on short name.
+-----
+Header: Service list
+-----
+Polarion-ID: SL2-15119 - rename of analog programs thru station-list menu demanded	
+-----
+API-modification: No
+-----
+Internal documentation: Renaming service name is fixed independent on short name.
+-----
+External documentation: -
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401591 | selivanoig | 2013-12-04 19:46:51 +0400 (Ср., 04 дек. 2013) | 17 lines
+
+Better debug output for DVB-T Italy certification
+-----
+Header: Station scan
+-----
+Polarion-ID: SL2-15362 - [DVB-T Italy] Conflicts for moved services not reported in DCM result
+-----
+API-modification: No
+-----
+Internal documentation: Better debug output for DVB-T Italy certification
+-----
+External documentation: -
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401615 | selivanoig | 2013-12-04 20:14:06 +0400 (Ср., 04 дек. 2013) | 17 lines
+
+Merge from V.2.2.X for DVB-T Italy: Conflicts for moved services
+-----
+Header: Station scan / Service list
+-----
+Polarion-ID: SL2-15362 - [DVB-T Italy] Conflicts for moved services not reported in DCM result
+-----
+API-modification: No
+-----
+Internal documentation: Merge from V.2.2.X for DVB-T Italy: Conflicts for moved services
+-----
+External documentation: -
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401635 | selivanoig | 2013-12-04 20:39:26 +0400 (Ср., 04 дек. 2013) | 17 lines
+
+Merge from V.2.2.X for DVB-T Italy: Conflicts for moved services
+-----
+Header: Station scan / Service list
+-----
+Polarion-ID: SL2-15362 - [DVB-T Italy] Conflicts for moved services not reported in DCM result
+-----
+API-modification: No
+-----
+Internal documentation: Merge from V.2.2.X for DVB-T Italy: Conflicts for moved services
+-----
+External documentation: -
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401657 | selivanoig | 2013-12-04 21:32:52 +0400 (Ср., 04 дек. 2013) | 17 lines
+
+Merging missing service list-commits from V.2.3.X
+-----
+Header: Station scan / Service list
+-----
+Polarion-ID: SL2-15105 - Implement programlist interface for storing services in hotelmode	
+-----
+API-modification: No
+-----
+Internal documentation: Merging missing service-list commits from V.2.3.X
+-----
+External documentation: -
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403015 | selivanoig | 2013-12-10 14:01:37 +0400 (Вт., 10 дек. 2013) | 17 lines
+
+Action to add services to favorite list is added for BIZ/GUI.
+-----
+Header: Service list, BIZ
+-----
+Polarion-ID: SL2-15107 - Append any station while currently viewing to any fav list which can be selected in TV mode, SL2-15105 - Implement programlist interface for storing services in hotelmode	
+-----
+API-modification: Yes
+-----
+Internal documentation: Action to add services to favorite list is added for BIZ/GUI.
+-----
+External documentation: -
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403086 | selivanoig | 2013-12-10 16:49:53 +0400 (Вт., 10 дек. 2013) | 17 lines
+
+Merging missing service list-commits from V.2.3.X
+-----
+Header: Service list
+-----
+Polarion-ID: SL2-15105 - Implement programlist interface for storing services in hotelmode	
+-----
+API-modification: No
+-----
+Internal documentation: Merging missing service-list commits from V.2.3.X
+-----
+External documentation: -
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403230 | selivanoig | 2013-12-10 21:56:37 +0400 (Вт., 10 дек. 2013) | 17 lines
+
+Protected attribute is added for service list queries.
+-----
+Header: Service list, BIZ
+-----
+Polarion-ID: SL2-15105 - Implement programlist interface for storing services in hotelmode	
+-----
+API-modification: Yes
+-----
+Internal documentation: Protected attribute is added for service list queries.
+-----
+External documentation: -
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403720 | selivanoig | 2013-12-12 19:36:10 +0400 (Чт., 12 дек. 2013) | 17 lines
+
+Overwiring of services is permitted.
+-----
+Header: Service list
+-----
+Polarion-ID: SL2-15105 - Implement programlist interface for storing services in hotelmode			
+-----
+API-modification: No
+-----
+Internal documentation: Overwiring of services is permitted.
+-----
+External documentation: -
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405941 | selivanoig | 2014-01-10 17:10:55 +0400 (Пт., 10 янв. 2014) | 17 lines
+
+Frontend handling by adding services to favorite list. DVBS2, DVBC2, DVBT2 will be added if DVBS,DVBC,DVBT are not found.
+-----
+Header: Service list, BIZ
+-----
+Polarion-ID: SL2-15105 - Implement programlist interface for storing services in hotelmode	
+-----
+API-modification: No
+-----
+Internal documentation: Protected attribute is added for service list queries.
+-----
+External documentation: -
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406046 | selivanoig | 2014-01-10 20:09:42 +0400 (Пт., 10 янв. 2014) | 17 lines
+
+Crash in BIZ is fixed.
+-----
+Header: BIZ
+-----
+Polarion-ID: SL2-13868 - Ziggo: 0004349 (block): TV got stuck with no response to RC keys	
+-----
+API-modification: No
+-----
+Internal documentation: Crash in BIZ is fixed.
+-----
+External documentation: Crash in BIZ is fixed.
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406538 | selivanoig | 2014-01-14 21:23:28 +0400 (Вт., 14 янв. 2014) | 17 lines
+
+Merge from V2.3.X: Crash in BIZ is fixed.
+-----
+Header: BIZ
+-----
+Polarion-ID: SL2-13868 - Ziggo: 0004349 (block): TV got stuck with no response to RC keys	
+-----
+API-modification: No
+-----
+Internal documentation: Merge from V2.3.X: Crash in BIZ is fixed.
+-----
+External documentation: Merge from V2.3.X: Crash in BIZ is fixed.
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406623 | selivanoig | 2014-01-15 16:24:31 +0400 (Ср., 15 янв. 2014) | 17 lines
+
+Delivering Protected Flag to BIZ/GUI as attribute
+-----
+Header: Service list
+-----
+Polarion-ID: SL2-15105 - Implement programlist interface for storing services in hotelmode	
+-----
+API-modification: No
+-----
+Internal documentation: Delivering Protected Flag to BIZ/GUI as attribute
+-----
+External documentation: -
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408579 | selivanoig | 2014-01-31 14:05:28 +0400 (Пт., 31 янв. 2014) | 22 lines
+
+GUI build revision 11795 for V2.3.x (Tara branch #11295)
+-----
+Header: Tara GUI build (LoeweGUI2012)
+-----
+Polarion-ID: SL2-617
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Tara GUI 
+-----
+External documentation: Tara GUI
+-----
+Verfication platform: SL2xx target
+-----
+Source move/rename: no
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408589 | selivanoig | 2014-01-31 15:19:54 +0400 (Пт., 31 янв. 2014) | 22 lines
+
+GUI build revision 11795 for V2.3.x (Tara branch: LoeweGUI2012_trunk)
+-----
+Header: Tara GUI build (LoeweGUI2012)
+-----
+Polarion-ID: SL2-617
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Tara GUI 
+-----
+External documentation: Tara GUI
+-----
+Verfication platform: SL2xx target
+-----
+Source move/rename: no
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408672 | selivanoig | 2014-01-31 21:40:39 +0400 (Пт., 31 янв. 2014) | 22 lines
+
+GUI build revision 11796 for V2.3.x (Tara branch: LoeweGUI2012_trunk)
+-----
+Header: Tara GUI build (LoeweGUI2012)
+-----
+Polarion-ID: SL2-617
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Tara GUI 
+-----
+External documentation: Tara GUI
+-----
+Verfication platform: SL2xx target
+-----
+Source move/rename: no
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409202 | selivanoig | 2014-02-05 23:05:51 +0400 (Ср., 05 февр. 2014) | 22 lines
+
+Merging revision 406623 from homecontrol_V.2.3.X_CW46 ready merging to trunk
+-----
+Header: Servicelist
+-----
+Polarion-ID: SL2-15105 - Implement programlist interface for storing services in hotelmode	
+-----
+Variant: SL2xx
+-----
+API-modification: No
+-----
+Internal documentation: Merging revision 406623 from homecontrol_V.2.3.X_CW46 ready merging to trunk
+-----
+External documentation: -
+-----
+Verfication platform: SL2xx target
+-----
+Source move/rename: no
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------

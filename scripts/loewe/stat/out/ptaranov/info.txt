@@ -1,0 +1,744 @@
+------------------------------------------------------------------------
+r373134 | ptaranov | 2013-09-05 11:20:13 +0400 (Чт., 05 сент. 2013) | 22 lines
+
+Browser, YT Player:
+ - Updating seel logic
+ - Doesn't fix 3451 but still the very firts UT's seek pass, the next one fails 
+-----
+Header: Development
+-----
+Polarion-ID: SSL1-3451 SSL1-3648 SSL1-3439
+-----
+Variant: SL1
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verification platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r374395 | ptaranov | 2013-09-10 12:10:55 +0400 (Вт., 10 сент. 2013) | 21 lines
+
+Browser, YT Player:
+ - Fixes 3451
+-----
+Header: Development
+-----
+Polarion-ID: SSL1-3451 SSL1-3648 SSL1-3439
+-----
+Variant: SL1
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verification platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r374465 | ptaranov | 2013-09-10 13:48:28 +0400 (Вт., 10 сент. 2013) | 20 lines
+
+YT Player: lowering some ALWAYS traces
+-----
+Header: Development
+-----
+Polarion-ID: SSL1-850
+-----
+Variant: SL1
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verification platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r374928 | ptaranov | 2013-09-11 13:00:09 +0400 (Ср., 11 сент. 2013) | 20 lines
+
+YT Player: Fixing some failing Conformanse MSE UTs: 51, 53, 61,62 
+-----
+Header: Development
+-----
+Polarion-ID: SSL1-3451 SSL1-3439 SSL1-3648 SSL1-3859 SSL1-3862 SSL1-3863 SSL1-3898 SSL1-3905
+-----
+Variant: SL1
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verification platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r375456 | ptaranov | 2013-09-12 13:22:55 +0400 (Чт., 12 сент. 2013) | 20 lines
+
+common/biz/sl2: Disabling spinner in case of YT 
+-----
+Header: Development
+-----
+Polarion-ID: SSL1-850
+-----
+Variant: -
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verification platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r377496 | ptaranov | 2013-09-18 17:35:16 +0400 (Ср., 18 сент. 2013) | 23 lines
+
+YT player:
+ - removing while loop which can cause infinite player lifecycle
+ - decreasing audio buffer size
+-----
+Header: Development
+-----
+Polarion-ID: SSL1-850
+-----
+Variant: SL1
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verification platform: -
+-----
+Merge to: -
+-----
+Reviewed by: vkatunin
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378031 | ptaranov | 2013-09-20 11:52:26 +0400 (Пт., 20 сент. 2013) | 20 lines
+
+lobster: lowering some trace levels 
+-----
+Header: Development
+-----
+Polarion-ID: SSL1-850
+-----
+Variant: -
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verification platform: -
+-----
+Merge to: -
+-----
+Reviewed by: vkatunin
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378033 | ptaranov | 2013-09-20 11:56:12 +0400 (Пт., 20 сент. 2013) | 20 lines
+
+stbspplugin: lowering some trace levels 
+-----
+Header: Development
+-----
+Polarion-ID: SSL1-850
+-----
+Variant: SL1
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verification platform: -
+-----
+Merge to: -
+-----
+Reviewed by: vkatunin
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r378044 | ptaranov | 2013-09-20 12:25:10 +0400 (Пт., 20 сент. 2013) | 23 lines
+
+YT player:
+ - close media queue upon stop
+ - changing audio buffer size to value defined by stbsp API
+ - syncronization changes
+-----
+Header: Development
+-----
+Polarion-ID: SSL1-850, SSL1-3905, SSL1-3439, SSL1-3859, SSL1-3451, SSL1-3897, SSL1-3440, SSL1-3528, SSL1-3648, SSL1-3832
+-----
+Variant: SL1
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verification platform: -
+-----
+Merge to: -
+-----
+Reviewed by: vkatunin
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r384038 | ptaranov | 2013-10-10 17:06:51 +0400 (Чт., 10 окт. 2013) | 25 lines
+
+Fixing seek accuracy
+ - Change BSP audio and video buffer sizes
+ - Change maxPts workaround
+ - flush queue upon seek
+-----
+Header: Development
+-----
+Polarion-ID: SSL1-850, SSL1-3451, SSL1-3442, SSL1-4021, SSL1-3439, SSL1-3859, SSL1-3451
+-----
+Variant: SL1
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verification platform: -
+-----
+Merge to: -
+-----
+Reviewed by: vkatunin
+
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r384389 | ptaranov | 2013-10-11 12:56:25 +0400 (Пт., 11 окт. 2013) | 22 lines
+
+Removing obsolete/non productional stuff from av5 plugin
+-----
+Header: Development
+-----
+Polarion-ID: SSL1-850
+-----
+Variant: -
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verification platform: -
+-----
+Merge to: -
+-----
+Reviewed by: vkatunin
+
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r395596 | ptaranov | 2013-11-14 11:47:52 +0400 (Чт., 14 нояб. 2013) | 24 lines
+
+Player: 
+ - Fixing potential memory/queue leak
+ - Move freeBuffer to IncomingData's destructor 
+-----
+Header: Development
+-----
+Polarion-ID: SSL1-850, SSL-4449
+-----
+Variant: SL1
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verification platform: -
+-----
+Merge to: -
+-----
+Reviewed by: vkatunin
+
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404674 | ptaranov | 2013-12-18 12:12:39 +0400 (Ср., 18 дек. 2013) | 20 lines
+
+YT player: reverting revision meant to fix SSL1-4533 and causing SSL1-4716 and SSL1-4700 
+-----
+Header: Development
+-----
+Polarion-ID: SSL1-4533 SSL1-4716 SSL1-4700
+-----
+Variant: SL1
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verification platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404676 | ptaranov | 2013-12-18 12:14:04 +0400 (Ср., 18 дек. 2013) | 20 lines
+
+AV5Plugins: reverting revisions 402243 and 402826 meant to fix SSL1-4533 and causing SSL1-4716 and SSL1-4700 
+-----
+Header: Development
+-----
+Polarion-ID: SSL1-4533 SSL1-4716 SSL1-4700
+-----
+Variant: -
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verification platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405102 | ptaranov | 2013-12-24 13:15:40 +0400 (Вт., 24 дек. 2013) | 20 lines
+
+YTV4 player: keep streams PTS aligned, peek only stream per time, peek the stream with less PTS'es 
+-----
+Header: Development
+-----
+Polarion-ID: SSL1-4533
+-----
+Variant: -
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verification platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409734 | ptaranov | 2014-02-07 17:03:09 +0400 (Пт., 07 февр. 2014) | 22 lines
+
+Defining browser chassis options API 
+-----
+Header: Development
+-----
+Polarion-ID: HL1-67
+-----
+Variant: -
+-----
+API-modification: no
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verfication platform: -
+-----
+Merge to: -
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409735 | ptaranov | 2014-02-07 17:07:04 +0400 (Пт., 07 февр. 2014) | 22 lines
+
+Implementing mock version of browser chassis options API 
+-----
+Header: Development
+-----
+Polarion-ID: HL1-67
+-----
+Variant: -
+-----
+API-modification: no
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verfication platform: -
+-----
+Merge to: -
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409898 | ptaranov | 2014-02-10 13:20:15 +0400 (Пн., 10 февр. 2014) | 22 lines
+
+Cleaning up lobster, start using chassis options API 
+-----
+Header: Development
+-----
+Polarion-ID: HL1-67
+-----
+Variant: -
+-----
+API-modification: no
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verfication platform: -
+-----
+Merge to: -
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409918 | ptaranov | 2014-02-10 14:41:17 +0400 (Пн., 10 февр. 2014) | 22 lines
+
+Fixing a build brake caused by rev. 409898
+-----
+Header: Development
+-----
+Polarion-ID: HL1-67
+-----
+Variant: -
+-----
+API-modification: no
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verfication platform: -
+-----
+Merge to: -
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409920 | ptaranov | 2014-02-10 14:50:37 +0400 (Пн., 10 февр. 2014) | 22 lines
+
+Cleaning up common/biz and common/uiapp
+-----
+Header: Development
+-----
+Polarion-ID: HL1-67
+-----
+Variant: -
+-----
+API-modification: no
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verfication platform: -
+-----
+Merge to: -
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409939 | ptaranov | 2014-02-10 15:46:32 +0400 (Пн., 10 февр. 2014) | 22 lines
+
+Cleaning up obsolete API values.
+-----
+Header: Development
+-----
+Polarion-ID: HL1-67
+-----
+Variant: -
+-----
+API-modification: yes 
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verfication platform: -
+-----
+Merge to: -
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r410470 | ptaranov | 2014-02-12 17:22:47 +0400 (Ср., 12 февр. 2014) | 22 lines
+
+Re-arranging fetching chassis stuff from jsplugins. 
+-----
+Header: Development
+-----
+Polarion-ID: HL1-67
+-----
+Variant: -
+-----
+API-modification: yes 
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verfication platform: -
+-----
+Merge to: -
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r410491 | ptaranov | 2014-02-12 17:57:46 +0400 (Ср., 12 февр. 2014) | 22 lines
+
+Defining new DCL keys.
+-----
+Header: Development
+-----
+Polarion-ID: HL1-67
+-----
+Variant: -
+-----
+API-modification: yes 
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verfication platform: -
+-----
+Merge to: -
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r410492 | ptaranov | 2014-02-12 17:59:05 +0400 (Ср., 12 февр. 2014) | 22 lines
+
+Support new DCL keys for sl220 chassis.
+-----
+Header: Development
+-----
+Polarion-ID: HL1-67
+-----
+Variant: sl220
+-----
+API-modification: yes 
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verfication platform: -
+-----
+Merge to: -
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r410494 | ptaranov | 2014-02-12 18:08:30 +0400 (Ср., 12 февр. 2014) | 22 lines
+
+Remove "OEM" stuff since it's pretty much the same as manufacturer
+-----
+Header: Development
+-----
+Polarion-ID: HL1-67
+-----
+Variant: - 
+-----
+API-modification: yes 
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verfication platform: -
+-----
+Merge to: -
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r410613 | ptaranov | 2014-02-13 16:39:56 +0400 (Чт., 13 февр. 2014) | 22 lines
+
+1st draft BrowserChassisOptions implementation
+-----
+Header: Development
+-----
+Polarion-ID: HL1-67
+-----
+Variant: - 
+-----
+API-modification: - 
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verfication platform: -
+-----
+Merge to: -
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r410632 | ptaranov | 2014-02-13 17:43:48 +0400 (Чт., 13 февр. 2014) | 22 lines
+
+Implementing firmware stuff.
+-----
+Header: Development
+-----
+Polarion-ID: HL1-67
+-----
+Variant: - 
+-----
+API-modification: - 
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verfication platform: -
+-----
+Merge to: -
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r410714 | ptaranov | 2014-02-14 14:27:47 +0400 (Пт., 14 февр. 2014) | 22 lines
+
+Cleanuing up fetching dcl values, cleaning up traces
+-----
+Header: Development
+-----
+Polarion-ID: HL1-67
+-----
+Variant: - 
+-----
+API-modification: - 
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verfication platform: -
+-----
+Merge to: -
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r410740 | ptaranov | 2014-02-14 15:40:42 +0400 (Пт., 14 февр. 2014) | 22 lines
+
+Fixing a minor error caused by rev. 409898 
+-----
+Header: Development
+-----
+Polarion-ID: HL1-67
+-----
+Variant: - 
+-----
+API-modification: - 
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verfication platform: -
+-----
+Merge to: -
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------

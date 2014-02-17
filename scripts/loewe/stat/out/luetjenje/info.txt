@@ -1,0 +1,2279 @@
+------------------------------------------------------------------------
+r375139 | luetjenje | 2013-09-11 17:38:59 +0400 (Ср., 11 сент. 2013) | 20 lines
+
+Fix unmatching array new to delete scalar combinations.
+-----
+Header: System
+-----
+Polarion-ID: SL2-2381 - fix memory allocation and free errors 
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: timmmo
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r375145 | luetjenje | 2013-09-11 17:47:49 +0400 (Ср., 11 сент. 2013) | 22 lines
+
+Fix a race condition in lapp-app.
+-----
+Header: Zapping
+-----
+Polarion-ID: SL2-14213 - UI delays channel change
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation:
+Issue: we get an answer from gui/mme before the timeout was started. 
+Normally the answer resets the timeout. If the timeout is started after we received the answer it was not reseted (and the timeout triggers).
+-----
+External documentation:
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: timmmo
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r375185 | luetjenje | 2013-09-11 19:09:21 +0400 (Ср., 11 сент. 2013) | 20 lines
+
+Fix unmatching array new - scalar delete combinations.
+-----
+Header: System
+-----
+Polarion-ID: SL2-2381 - fix memory allocation and free errors 
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: timmmo
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r379366 | luetjenje | 2013-09-25 16:40:18 +0400 (Ср., 25 сент. 2013) | 20 lines
+
+Youtube: Enable scaling a movie in GEOMETRY_MODE_AUTO
+-----
+Header: System
+-----
+Polarion-ID: SSL1-2693 - [TP2] [YouTube V4] Video Input and Output cropping requirements
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: le65x
+-----
+Merge to: trunk
+-----
+Reviewed by: fresento
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r379853 | luetjenje | 2013-09-26 16:35:50 +0400 (Чт., 26 сент. 2013) | 20 lines
+
+Youtube: in case of frame cropping: handle input rectangle for setting the geometry correctly.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-2693 - [TP2] [YouTube V4] Video Input and Output cropping requirements
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: le65x
+-----
+Merge to: trunk
+-----
+Reviewed by: fresento
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r379854 | luetjenje | 2013-09-26 16:36:06 +0400 (Чт., 26 сент. 2013) | 20 lines
+
+Youtube: in case of frame cropping: handle input rectangle for setting the geometry correctly.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-2693 - [TP2] [YouTube V4] Video Input and Output cropping requirements
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: le65x
+-----
+Merge to: trunk
+-----
+Reviewed by: fresento
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r385503 | luetjenje | 2013-10-15 13:48:10 +0400 (Вт., 15 окт. 2013) | 20 lines
+
+Use different playready handles for different streams
+-----
+Header: System
+-----
+Polarion-ID: SSL1-3044 - [TP4] [YouTube V4] PlayReady integration
+-----
+Variant: all
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: le65x
+-----
+Merge to: trunk
+-----
+Reviewed by: timmmo
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r385874 | luetjenje | 2013-10-16 12:20:19 +0400 (Ср., 16 окт. 2013) | 20 lines
+
+Avoid crash in setKey()
+-----
+Header: System
+-----
+Polarion-ID: SSL1-3044 - [TP4] [YouTube V4] PlayReady integration
+-----
+Variant: all
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: le65x
+-----
+Merge to: trunk
+-----
+Reviewed by: timmmo
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r386800 | luetjenje | 2013-10-17 19:24:58 +0400 (Чт., 17 окт. 2013) | 20 lines
+
+Limit the output window to screen size.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-4207 - [TP5][YouTube V4] YT video cannot be played (only audio)
+-----
+Variant: all
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: le65x
+-----
+Merge to: trunk
+-----
+Reviewed by: murrma
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r387048 | luetjenje | 2013-10-18 12:55:00 +0400 (Пт., 18 окт. 2013) | 20 lines
+
+Fixed potential crash. Remove call to freed class member.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-4196 - [TP1][Youtube V4][MS & EME test][MS&EME AutomaticTest nº 50] device reboots
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: le65x
+-----
+Merge to: trunk
+-----
+Reviewed by: fresento
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r387325 | luetjenje | 2013-10-18 18:19:58 +0400 (Пт., 18 окт. 2013) | 20 lines
+
+Updated the io window calculation.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-4207 - [TP5][YouTube V4] YT video cannot be played (only audio)
+-----
+Variant: all
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: le65x
+-----
+Merge to: trunk
+-----
+Reviewed by: murrma
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r388780 | luetjenje | 2013-10-23 18:05:25 +0400 (Ср., 23 окт. 2013) | 20 lines
+
+Fixed a crash due to simultaneous access to unprotected members. 
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-3451 - [TP1] [YouTube V4][Performance test][BIGFO][2-49] Test 13 (SeekBackwards test) fails
+-----
+Variant: SL1
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: le65x
+-----
+Merge to: trunk
+-----
+Reviewed by: fresento
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r389806 | luetjenje | 2013-10-25 18:03:50 +0400 (Пт., 25 окт. 2013) | 22 lines
+
+Need to start the movie after prepare. Always call play after setting the URL.
+-----
+Header: Software
+-----
+Polarion-ID: 
+SSL1-3983 - [TP1][YouTube V4][Progressive test] Test "25. autoplay" fails
+SSL1-3653 - [TP5] [YouTube V4][VOD] Not possible to playback VOD content
+-----
+Variant: SL1
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: le65x
+-----
+Merge to: trunk
+-----
+Reviewed by: fresento
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r389943 | luetjenje | 2013-10-28 12:32:34 +0400 (Пн., 28 окт. 2013) | 22 lines
+
+Replace tab with space
+-----
+Header: Software
+-----
+Polarion-ID: 
+SSL1-3983 - [TP1][YouTube V4][Progressive test] Test "25. autoplay" fails
+SSL1-3653 - [TP5] [YouTube V4][VOD] Not possible to playback VOD content
+-----
+Variant: SL1
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: le65x
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r390713 | luetjenje | 2013-10-29 19:51:57 +0400 (Вт., 29 окт. 2013) | 20 lines
+
+Reset the "buffering" flag, if media playback stops.
+-----
+Header: GUI
+-----
+Polarion-ID: SL2-13982 - Rotating ring (from previous video-loading) appears in TV picture 
+-----
+Variant: SL220
+-----
+API-modification: no
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl220
+-----
+Merge to: trunk
+-----
+Reviewed by: fresento
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r390760 | luetjenje | 2013-10-29 20:49:17 +0400 (Вт., 29 окт. 2013) | 20 lines
+
+Reset the "buffering" flag, if media playback stops.
+-----
+Header: GUI
+-----
+Polarion-ID: SL2-13982 - Rotating ring (from previous video-loading) appears in TV picture 
+-----
+Variant: SL220
+-----
+API-modification: no
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl220
+-----
+Merge to: -
+-----
+Reviewed by: fresento
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r391410 | luetjenje | 2013-10-31 16:45:19 +0400 (Чт., 31 окт. 2013) | 23 lines
+
+Seems to a missing "not". "media text" is available again.
+I could not test the "China Changes" as I do not have a SFB.
+-----
+Header: GUI
+-----
+Polarion-ID: 
+SL2-14957 - Media Text via TEXT key not available
+SL2-12893 - China changes in GUI
+-----
+Variant: SL220
+-----
+API-modification: no
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl220
+-----
+Merge to: -
+-----
+Reviewed by: fresento
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r391415 | luetjenje | 2013-10-31 16:49:43 +0400 (Чт., 31 окт. 2013) | 23 lines
+
+Seems to a missing "not". "media text" is available again.
+I could not test the "China Changes" as I do not have a SFB.
+-----
+Header: GUI
+-----
+Polarion-ID: 
+SL2-14957 - Media Text via TEXT key not available
+SL2-12893 - China changes in GUI
+-----
+Variant: SL220
+-----
+API-modification: no
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl220
+-----
+Merge to: trunk
+-----
+Reviewed by: fresento
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r394182 | luetjenje | 2013-11-11 13:30:10 +0400 (Пн., 11 нояб. 2013) | 20 lines
+
+Inject correct data packets after seek. Without the fix old packets (with totally wrong timestampes) could be injected after seek.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-3451 - [TP1] [YouTube V4][Performance test][BIGFO][2-49] Test 13 (SeekBackwards test) fails
+-----
+Variant: all
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: le65x
+-----
+Merge to: trunk
+-----
+Reviewed by: fresento
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r394187 | luetjenje | 2013-11-11 13:31:25 +0400 (Пн., 11 нояб. 2013) | 20 lines
+
+Inject correct data packets after seek. Without the fix old packets (with totally wrong timestampes) could be injected after seek.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-3451 - [TP1] [YouTube V4][Performance test][BIGFO][2-49] Test 13 (SeekBackwards test) fails
+-----
+Variant: all
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: le65x
+-----
+Merge to: trunk
+-----
+Reviewed by: fresento
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r394418 | luetjenje | 2013-11-11 18:41:27 +0400 (Пн., 11 нояб. 2013) | 20 lines
+
+Force bufferLowLevel to 1024 to pass YT-Unit Test.
+-----
+Header: System
+-----
+Polarion-ID: SSL1-3451 - [TP1] [YouTube V4][Performance test][BIGFO][2-49] Test 13 (SeekBackwards test) fails
+-----
+Variant: all
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: le65x
+-----
+Merge to: trunk
+-----
+Reviewed by: fresento
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r396665 | luetjenje | 2013-11-18 18:35:31 +0400 (Пн., 18 нояб. 2013) | 28 lines
+
+Avoid injection of false (too old, too new) audio and video data.
+-----
+Header: System
+-----
+Polarion-ID: 
+SSL1-4021 - [TP5][YouTube V4][BIGFO][2-59] The video stops after rewind
+SSL1-4500 - [YouTube V4] After seek (backwards), video + audio are out of sync for 15s
+-----
+Variant: all
+-----
+API-modification: yes
+-----
+Internal documentation:
+For debug reasons the define INJECT_DATA_BEFORE_START_AFTER_SEEK can be enabled.
+If enabled:
+- wait before start until enought data is buffered to start smooth
+- after seek, wait before start until enought data is buffered to start smooth
+- buffer start level is calculated by video resolutiion instead of using fixed 1024 bytes
+Problem: the playback start async, the video moves fast to catch audio. This has to be fixed inside the BSP. 
+-----
+External documentation:
+-----
+Verfication platform: le65x
+-----
+Merge to: trunk
+-----
+Reviewed by: fresento
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r396666 | luetjenje | 2013-11-18 18:36:05 +0400 (Пн., 18 нояб. 2013) | 28 lines
+
+Avoid injection of false (too old, too new) audio and video data.
+-----
+Header: System
+-----
+Polarion-ID: 
+SSL1-4021 - [TP5][YouTube V4][BIGFO][2-59] The video stops after rewind
+SSL1-4500 - [YouTube V4] After seek (backwards), video + audio are out of sync for 15s
+-----
+Variant: all
+-----
+API-modification: yes
+-----
+Internal documentation:
+For debug reasons the define INJECT_DATA_BEFORE_START_AFTER_SEEK can be enabled.
+If enabled:
+- wait before start until enought data is buffered to start smooth
+- after seek, wait before start until enought data is buffered to start smooth
+- buffer start level is calculated by video resolutiion instead of using fixed 1024 bytes
+Problem: the playback start async, the video moves fast to catch audio. This has to be fixed inside the BSP. 
+-----
+External documentation:
+-----
+Verfication platform: le65x
+-----
+Merge to: trunk
+-----
+Reviewed by: fresento
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r397137 | luetjenje | 2013-11-19 21:00:25 +0400 (Вт., 19 нояб. 2013) | 20 lines
+
+Make stbspplugin compilable
+-----
+Header: DCL
+-----
+Polarion-ID: -
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r397272 | luetjenje | 2013-11-20 14:10:35 +0400 (Ср., 20 нояб. 2013) | 20 lines
+
+Make system compilable
+-----
+Header: DCL
+-----
+Polarion-ID: -
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r397448 | luetjenje | 2013-11-20 17:13:55 +0400 (Ср., 20 нояб. 2013) | 20 lines
+
+Make startup/main compilable
+-----
+Header: DCL
+-----
+Polarion-ID: -
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r397956 | luetjenje | 2013-11-21 18:48:54 +0400 (Чт., 21 нояб. 2013) | 20 lines
+
+Make startup/main compilable
+-----
+Header: DCL
+-----
+Polarion-ID: -
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r398445 | luetjenje | 2013-11-22 17:55:17 +0400 (Пт., 22 нояб. 2013) | 20 lines
+
+Make startup/main compilable
+-----
+Header: DCL
+-----
+Polarion-ID: -
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r398567 | luetjenje | 2013-11-22 20:07:50 +0400 (Пт., 22 нояб. 2013) | 20 lines
+
+Make startup/main compilable
+-----
+Header: DCL
+-----
+Polarion-ID: -
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r398818 | luetjenje | 2013-11-25 13:38:31 +0400 (Пн., 25 нояб. 2013) | 20 lines
+
+Integrate THAL initialization
+-----
+Header: DCL
+-----
+Polarion-ID: -
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r398993 | luetjenje | 2013-11-25 18:06:52 +0400 (Пн., 25 нояб. 2013) | 20 lines
+
+Integrate patch to enable DTS audio.
+-----
+Header: System
+-----
+Polarion-ID: STF-860 - No DTS audio with mediaplayer
+-----
+Variant: all
+-----
+API-modification: no
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: SL220
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399498 | luetjenje | 2013-11-26 19:54:09 +0400 (Вт., 26 нояб. 2013) | 20 lines
+
+Set panel to 120Hz (Connect ID 40)
+-----
+Header: DCL
+-----
+Polarion-ID: -
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399575 | luetjenje | 2013-11-27 12:05:41 +0400 (Ср., 27 нояб. 2013) | 21 lines
+
+Set panel to 120Hz (Connect ID 40).
+Create SHLib directory.
+-----
+Header: DCL
+-----
+Polarion-ID: -
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399650 | luetjenje | 2013-11-27 14:34:42 +0400 (Ср., 27 нояб. 2013) | 20 lines
+
+Enable debug output for THAL
+-----
+Header: DCL
+-----
+Polarion-ID: -
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399765 | luetjenje | 2013-11-27 18:30:51 +0400 (Ср., 27 нояб. 2013) | 20 lines
+
+Initalize display. Add start screen. Cleanup old ui.
+-----
+Header: DCL
+-----
+Polarion-ID: -
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399790 | luetjenje | 2013-11-27 19:09:59 +0400 (Ср., 27 нояб. 2013) | 20 lines
+
+Add directfb module directory.
+-----
+Header: DCL
+-----
+Polarion-ID: -
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399798 | luetjenje | 2013-11-27 19:25:29 +0400 (Ср., 27 нояб. 2013) | 20 lines
+
+Add directfb module directory.
+-----
+Header: DCL
+-----
+Polarion-ID: -
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399807 | luetjenje | 2013-11-27 19:48:23 +0400 (Ср., 27 нояб. 2013) | 20 lines
+
+Do not copy .svn directories.
+-----
+Header: DCL
+-----
+Polarion-ID: -
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399818 | luetjenje | 2013-11-27 20:22:55 +0400 (Ср., 27 нояб. 2013) | 20 lines
+
+Adjust directfb module directory.
+-----
+Header: DCL
+-----
+Polarion-ID: -
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399959 | luetjenje | 2013-11-28 13:07:36 +0400 (Чт., 28 нояб. 2013) | 20 lines
+
+Cleanup old gui stuff
+-----
+Header: DCL
+-----
+Polarion-ID: -
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r399965 | luetjenje | 2013-11-28 13:15:49 +0400 (Чт., 28 нояб. 2013) | 20 lines
+
+Adjust directfb module directory.
+-----
+Header: DCL
+-----
+Polarion-ID: -
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400126 | luetjenje | 2013-11-28 18:09:43 +0400 (Чт., 28 нояб. 2013) | 20 lines
+
+remove exports from common.sh
+-----
+Header: DCL
+-----
+Polarion-ID: -
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400366 | luetjenje | 2013-11-29 14:44:28 +0400 (Пт., 29 нояб. 2013) | 21 lines
+
+Enable name resolving (/etc/resolv.conf).
+Get time via ntp.
+-----
+Header: DCL
+-----
+Polarion-ID: -
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r400466 | luetjenje | 2013-11-29 18:45:08 +0400 (Пт., 29 нояб. 2013) | 20 lines
+
+Enable ssh access.
+-----
+Header: DCL
+-----
+Polarion-ID: -
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401143 | luetjenje | 2013-12-03 18:45:26 +0400 (Вт., 03 дек. 2013) | 21 lines
+
+Timeout for LoregOptionBindingsComponent to continue dvbmain start.
+Avoid crash due to missing port objects.
+-----
+Header: DCL
+-----
+Polarion-ID: -
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401180 | luetjenje | 2013-12-03 19:23:28 +0400 (Вт., 03 дек. 2013) | 20 lines
+
+Add GUI and dependent library
+-----
+Header: DCL
+-----
+Polarion-ID: -
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401190 | luetjenje | 2013-12-03 19:36:40 +0400 (Вт., 03 дек. 2013) | 20 lines
+
+Wrong path to mips sound database sound_preset.bin
+-----
+Header: DCL
+-----
+Polarion-ID: -
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401583 | luetjenje | 2013-12-04 19:36:57 +0400 (Ср., 04 дек. 2013) | 20 lines
+
+Make compilable (in modvar-debug)
+-----
+Header: DCL
+-----
+Polarion-ID: -
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401946 | luetjenje | 2013-12-05 18:50:51 +0400 (Чт., 05 дек. 2013) | 20 lines
+
+Avoid crash due to small stack
+-----
+Header: DCL
+-----
+Polarion-ID: -
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401952 | luetjenje | 2013-12-05 19:02:06 +0400 (Чт., 05 дек. 2013) | 20 lines
+
+Do not use gcc specific extension (case 1 ... 2: )
+-----
+Header: DCL
+-----
+Polarion-ID: -
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r401971 | luetjenje | 2013-12-05 19:36:52 +0400 (Чт., 05 дек. 2013) | 20 lines
+
+Set environment DIRECTFBPATH for startup animation and gui
+-----
+Header: DCL
+-----
+Polarion-ID: -
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r402072 | luetjenje | 2013-12-06 11:55:53 +0400 (Пт., 06 дек. 2013) | 20 lines
+
+Create /var/run/lock directory
+-----
+Header: DCL
+-----
+Polarion-ID: -
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r402104 | luetjenje | 2013-12-06 12:59:03 +0400 (Пт., 06 дек. 2013) | 20 lines
+
+Merged HdrMetadata
+-----
+Header: DCL
+-----
+Polarion-ID: -
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r402350 | luetjenje | 2013-12-06 18:21:04 +0400 (Пт., 06 дек. 2013) | 22 lines
+
+In no real tuner is detected, than fake two tuner.
+Debug output for loshell "tuner_equipment".
+Allow path-routing If no ts-switch is installed.
+-----
+Header: DCL
+-----
+Polarion-ID: -
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r402424 | luetjenje | 2013-12-06 20:00:30 +0400 (Пт., 06 дек. 2013) | 20 lines
+
+Implement thal HDMI support
+-----
+Header: DCL
+-----
+Polarion-ID: -
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r402899 | luetjenje | 2013-12-09 22:07:04 +0400 (Пн., 09 дек. 2013) | 21 lines
+
+More thal initialization.
+Run RS232Server at startup.
+Enable audio for HDMI output (not working now).
+-----
+Header: 
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: No
+-----
+Internal documentation: 
+----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: trunk
+-----
+Reviewed by: 
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403215 | luetjenje | 2013-12-10 20:33:44 +0400 (Вт., 10 дек. 2013) | 20 lines
+
+Fix bug in Thal_Sound_Init.
+-----
+Header: DCL
+-----
+Polarion-ID: -
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403420 | luetjenje | 2013-12-11 16:55:09 +0400 (Ср., 11 дек. 2013) | 20 lines
+
+Fix boost error. https://svn.boost.org/trac/boost/ticket/8795
+-----
+Header: DCL
+-----
+Polarion-ID: -
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403441 | luetjenje | 2013-12-11 17:52:22 +0400 (Ср., 11 дек. 2013) | 20 lines
+
+Correct GUI and StartupUI positon
+-----
+Header: DCL
+-----
+Polarion-ID: -
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403475 | luetjenje | 2013-12-11 19:26:26 +0400 (Ср., 11 дек. 2013) | 20 lines
+
+Start UI via launchd
+-----
+Header: DCL
+-----
+Polarion-ID: -
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403699 | luetjenje | 2013-12-12 18:31:48 +0400 (Чт., 12 дек. 2013) | 20 lines
+
+Avoid crash in boost.
+-----
+Header: DCL
+-----
+Polarion-ID: HL1-3 - add DCP_SYS V1.1 release
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403712 | luetjenje | 2013-12-12 19:01:30 +0400 (Чт., 12 дек. 2013) | 20 lines
+
+Receive trident remote control commands.
+-----
+Header: DCL
+-----
+Polarion-ID: HL1-3 - add DCP_SYS V1.1 release
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404014 | luetjenje | 2013-12-13 18:16:14 +0400 (Пт., 13 дек. 2013) | 20 lines
+
+Simulate ir key-released for trident remote control.
+Handle every ir key. Until now ir events could be dropped unprocessed.
+-----
+Header: 
+-----
+Polarion-ID: 
+-----
+Variant: 
+-----
+API-modification: No
+-----
+Internal documentation: 
+----
+External documentation: 
+-----
+Verification platform: 
+-----
+Merge to: trunk
+-----
+Reviewed by: 
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404171 | luetjenje | 2013-12-16 13:23:07 +0400 (Пн., 16 дек. 2013) | 20 lines
+
+Activate audio for DVBT
+-----
+Header: DCL
+-----
+Polarion-ID: HL1-3 - add DCP_SYS V1.1 release
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404344 | luetjenje | 2013-12-16 18:50:37 +0400 (Пн., 16 дек. 2013) | 20 lines
+
+Set audio volume via remote control
+-----
+Header: DCL
+-----
+Polarion-ID: HL1-3 - add DCP_SYS V1.1 release
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404354 | luetjenje | 2013-12-16 19:23:08 +0400 (Пн., 16 дек. 2013) | 20 lines
+
+Separate Headphone/Main Speaker
+-----
+Header: DCL
+-----
+Polarion-ID: HL1-3 - add DCP_SYS V1.1 release
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404485 | luetjenje | 2013-12-17 14:53:01 +0400 (Вт., 17 дек. 2013) | 20 lines
+
+Set volume during system start.
+----
+Header: DCL
+-----
+Polarion-ID: HL1-3 - add DCP_SYS V1.1 release
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404486 | luetjenje | 2013-12-17 14:57:09 +0400 (Вт., 17 дек. 2013) | 20 lines
+
+Shutdown audio, video on channel change.
+-----
+Header: DCL
+-----
+Polarion-ID: HL1-3 - add DCP_SYS V1.1 release
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404702 | luetjenje | 2013-12-18 14:51:46 +0400 (Ср., 18 дек. 2013) | 20 lines
+
+If only one tuner is available than limit the tuner index.
+-----
+Header: DCL
+-----
+Polarion-ID: HL1-3 - add DCP_SYS V1.1 release
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404883 | luetjenje | 2013-12-19 13:30:29 +0400 (Чт., 19 дек. 2013) | 23 lines
+
+More keys for trident remote control:
+Teletext -> Text
+Display  -> Info
+CCD      -> EPG
+-----
+Header: DCL
+-----
+Polarion-ID: HL1-3 - add DCP_SYS V1.1 release
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r404892 | luetjenje | 2013-12-19 14:04:49 +0400 (Чт., 19 дек. 2013) | 22 lines
+
+Moved Demux_Data_Path creation to DemuxDev.
+Implemented section and pes filter.
+Disable audio for HDMI (still not working on sx6)
+-----
+Header: DCL
+-----
+Polarion-ID: HL1-3 - add DCP_SYS V1.1 release
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405015 | luetjenje | 2013-12-20 12:12:41 +0400 (Пт., 20 дек. 2013) | 20 lines
+
+Avoid copying of std::string. Use ref instead.
+-----
+Header: DCL
+-----
+Polarion-ID: HL1-3 - add DCP_SYS V1.1 release
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405022 | luetjenje | 2013-12-20 12:47:30 +0400 (Пт., 20 дек. 2013) | 21 lines
+
+Implement source type for playerdev.
+Start PCR, audio and video if stream pids are known.
+-----
+Header: DCL
+-----
+Polarion-ID: HL1-3 - add DCP_SYS V1.1 release
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405047 | luetjenje | 2013-12-20 18:19:48 +0400 (Пт., 20 дек. 2013) | 21 lines
+
+More debug output for demux.
+Cleanup PID guessing.
+-----
+Header: DCL
+-----
+Polarion-ID: HL1-3 - add DCP_SYS V1.1 release
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405056 | luetjenje | 2013-12-20 19:32:19 +0400 (Пт., 20 дек. 2013) | 20 lines
+
+Fixed crash when guessing PIDs
+-----
+Header: DCL
+-----
+Polarion-ID: HL1-3 - add DCP_SYS V1.1 release
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405483 | luetjenje | 2014-01-08 13:56:20 +0400 (Ср., 08 янв. 2014) | 20 lines
+
+Set the vampplugin capabilities according to STBSP
+-----
+Header: DVB
+-----
+Polarion-ID: HL1-35 - thal-vampplugin DVB bring-up
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: timmmo
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405485 | luetjenje | 2014-01-08 13:56:44 +0400 (Ср., 08 янв. 2014) | 20 lines
+
+Adjust section aquisition filter and mask to thal (additional 2 Byte for length requried)
+-----
+Header: DVB
+-----
+Polarion-ID: HL1-35 - thal-vampplugin DVB bring-up
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: timmmo
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405572 | luetjenje | 2014-01-08 18:57:22 +0400 (Ср., 08 янв. 2014) | 20 lines
+
+Fix Pes Filter bug. Subtitle working now.
+-----
+Header: DVB
+-----
+Polarion-ID: HL1-35 - thal-vampplugin DVB bring-up
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: timmmo
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405574 | luetjenje | 2014-01-08 18:58:57 +0400 (Ср., 08 янв. 2014) | 20 lines
+
+Use SI information to choose correct decoder for audio and video. H264 and AC3 working now.
+-----
+Header: DVB
+-----
+Polarion-ID: HL1-35 - thal-vampplugin DVB bring-up
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: timmmo
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405728 | luetjenje | 2014-01-09 17:12:59 +0400 (Чт., 09 янв. 2014) | 22 lines
+
+Move thal value conversion to Utils class.
+Test for audio sync callbacks.
+Deliver current stream pids.
+-----
+Header: DVB
+-----
+Polarion-ID: HL1-35 - thal-vampplugin DVB bring-up
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r405730 | luetjenje | 2014-01-09 17:17:05 +0400 (Чт., 09 янв. 2014) | 20 lines
+
+Revert to syslog output.
+-----
+Header: DVB
+-----
+Polarion-ID: HL1-35 - thal-vampplugin DVB bring-up
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406413 | luetjenje | 2014-01-14 14:41:37 +0400 (Вт., 14 янв. 2014) | 22 lines
+
+Cleanup debug output
+Preparation for PIP
+Open Audio/Video only for required streams (e.g. only video and no audio for pip)
+-----
+Header: DVB
+-----
+Polarion-ID: HL1-35 - thal-vampplugin DVB bring-up
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation:
+-----
+External documentation:
+-----
+Verfication platform: sl3xx
+-----
+Merge to: trunk
+-----
+Reviewed by: timmmo
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406892 | luetjenje | 2014-01-16 19:08:39 +0400 (Чт., 16 янв. 2014) | 25 lines
+
+Add video event handler.
+Add video format changed event.
+Scale video to screen according to format. 4/3 with black bars. Small window in extended station list.
+Video mute on startup.
+-----
+Header: DVB
+-----
+Polarion-ID: HL1-35 - thal-vampplugin DVB bring-up
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verfication platform: sx6 ref board
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: timmmo
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r406934 | luetjenje | 2014-01-16 20:23:50 +0400 (Чт., 16 янв. 2014) | 22 lines
+
+Implement getGeometry
+-----
+Header: DVB
+-----
+Polarion-ID: HL1-35 - thal-vampplugin DVB bring-up
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verfication platform: sx6 ref board
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: timmmo
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r407055 | luetjenje | 2014-01-17 18:00:54 +0400 (Пт., 17 янв. 2014) | 22 lines
+
+Add audio event handler.
+-----
+Header: DVB
+-----
+Polarion-ID: HL1-35 - thal-vampplugin DVB bring-up
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verfication platform: sx6 ref board
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: timmmo
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408222 | luetjenje | 2014-01-28 17:05:56 +0400 (Вт., 28 янв. 2014) | 22 lines
+
+Disable RS232Sever. It undermines the communication with the MCU (standby controler) and prevents the delievery of remote control keys.
+-----
+Header: DVB
+-----
+Polarion-ID: HL1-58 - add DCP_SYS v1.2 release
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verfication platform: sx6 ref board
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: timmmo
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408339 | luetjenje | 2014-01-29 14:34:04 +0400 (Ср., 29 янв. 2014) | 22 lines
+
+Update IR translation table for Loewe remote control
+-----
+Header: DVB
+-----
+Polarion-ID: HL1-58 - add DCP_SYS v1.2 release
+-----
+Variant: sx6eval
+-----
+API-modification: no
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verfication platform: sx6 ref board
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409626 | luetjenje | 2014-02-07 12:10:06 +0400 (Пт., 07 февр. 2014) | 22 lines
+
+Translate and forward audio events to the middleware
+-----
+Header: DVB
+-----
+Polarion-ID: HL1-35 - thal-vampplugin DVB bring-up
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verfication platform: sx6 ref board
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: timmmo
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r409924 | luetjenje | 2014-02-10 14:55:33 +0400 (Пн., 10 февр. 2014) | 24 lines
+
+Add AFD (Active Format) event.
+Move Thal to Lo conversion of video event data from event to eventhandler.
+Replace videoInfoChanged(), storeVideoInfo with fireIfChanged(videoInfo).
+-----
+Header: DVB
+-----
+Polarion-ID: HL1-213 - Implement vamp event handlers (Zapping)
+-----
+Variant: sx6eval
+-----
+API-modification: yes
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verfication platform: sx6 ref board
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: timmmo
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r410174 | luetjenje | 2014-02-11 13:59:27 +0400 (Вт., 11 февр. 2014) | 22 lines
+
+Default pannel id to FHD. The sigma refboard has no NVRAM and need to be initialized as FHD.
+-----
+Header: DVB
+-----
+Polarion-ID: HL1-156 - Selection of panel (UHD or FHD) made runtime switchable
+-----
+Variant: sx6eval
+-----
+API-modification: no
+-----
+Internal documentation: 
+-----
+External documentation: 
+-----
+Verfication platform: sx6 ref board
+-----
+Merge to: trunk
+-----
+Source move/rename: no
+-----
+Reviewed by: timmmo
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r410757 | luetjenje | 2014-02-14 16:38:12 +0400 (Пт., 14 февр. 2014) | 22 lines
+
+Hotfix: emoved data corruption by map modification during iteration.
+-----
+Header: System Control Layer
+-----
+Polarion-ID: SL2-15714
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+Removed data corruption by map modification during iteration.
+-----
+External documentation:
+Removed data corruption by map modification during iteration.
+-----
+Verification platform: -
+-----
+Merge to: trunk
+-----
+Reviewed by: fresento
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r410765 | luetjenje | 2014-02-14 17:01:24 +0400 (Пт., 14 февр. 2014) | 23 lines
+
+HotHotFix: emoved data corruption by map modification during iteration.
+Always check for map.end()
+-----
+Header: System Control Layer
+-----
+Polarion-ID: SL2-15714
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+Removed data corruption by map modification during iteration.
+-----
+External documentation:
+Removed data corruption by map modification during iteration.
+-----
+Verification platform: -
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------

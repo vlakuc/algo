@@ -1,0 +1,400 @@
+------------------------------------------------------------------------
+r371830 | hopesth | 2013-09-02 13:49:03 +0400 (Пн., 02 сент. 2013) | 22 lines
+
+Fix build of LE65x variant.
+-----
+Header: Software
+-----
+Polarion-ID:
+-----
+Variant: SL1
+-----
+API-modification: No
+-----
+Internal documentation:
+* The table module has to be built in advance of the sidec module. common.mods was changed accordingly.
+-----
+External documentation:
+* The table module has to be built in advance of the sidec module. common.mods was changed accordingly.
+-----
+Verification platform: le65x final
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r372482 | hopesth | 2013-09-03 17:24:03 +0400 (Вт., 03 сент. 2013) | 23 lines
+
+Added enum for quick start mode for active standby.
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-3799
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+* Added enum for quick start mode for active standby.
+-----
+External documentation:
+* Added enum for quick start mode for active standby.
+-----
+Verification platform: le65x final
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r372509 | hopesth | 2013-09-03 18:09:29 +0400 (Вт., 03 сент. 2013) | 23 lines
+
+Added enum for quick start mode for active standby.
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-3799
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+* Added enum for quick start mode for active standby.
+-----
+External documentation:
+* Added enum for quick start mode for active standby.
+-----
+Verification platform: -
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r375658 | hopesth | 2013-09-12 16:51:56 +0400 (Чт., 12 сент. 2013) | 24 lines
+
+
+Added puc quick start mode.
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-3877
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+* Added puc quick start mode.
+-----
+External documentation:
+* Added puc quick start mode.
+-----
+Verification platform: le65x final
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r375665 | hopesth | 2013-09-12 16:59:33 +0400 (Чт., 12 сент. 2013) | 23 lines
+
+Added puc quick start mode.
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-3877
+-----
+Variant: sl210
+-----
+API-modification: No
+-----
+Internal documentation:
+* Added puc quick start mode.
+-----
+External documentation:
+* Added puc quick start mode.
+-----
+Verification platform: le65x final
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r375671 | hopesth | 2013-09-12 17:03:24 +0400 (Чт., 12 сент. 2013) | 24 lines
+
+
+Added puc quick start mode.
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-3877
+-----
+Variant: all
+-----
+API-modification: Yes
+-----
+Internal documentation:
+* Added puc quick start mode.
+-----
+External documentation:
+* Added puc quick start mode.
+-----
+Verification platform: le65x final
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376878 | hopesth | 2013-09-17 15:07:22 +0400 (Вт., 17 сент. 2013) | 23 lines
+
+
+Fixed using wrong options tag.
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-3877 SSL1-3799
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+* Fixed using wrong option tag.
+-----
+External documentation:
+* Fixed using wrong option tag.
+-----
+Verification platform: le65x final
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376886 | hopesth | 2013-09-17 15:25:19 +0400 (Вт., 17 сент. 2013) | 23 lines
+
+Merged quick start from revision 375665 from codebasesl1/branches/develop/stabilization1 to codebasesl1/branches/release/sl210_mp_cw35.
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-3877 SSL1-3799
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+* Added quick start.
+-----
+External documentation:
+* Added quick start.
+-----
+Verification platform:
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r376892 | hopesth | 2013-09-17 15:32:05 +0400 (Вт., 17 сент. 2013) | 23 lines
+
+Merged quick start from from codebase2011/branches/SL1/develop/stabilization1 to codebase2011/branches/sl210/release/sl210_mp_cw35
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-3877 SSL1-3799
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+* Merged quick start from from codebase2011/branches/SL1/develop/stabilization1 to codebase2011/branches/sl210/release/sl210_mp_cw35
+-----
+External documentation:
+* Merged quick start from from codebase2011/branches/SL1/develop/stabilization1 to codebase2011/branches/sl210/release/sl210_mp_cw35
+-----
+Verification platform:
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r377336 | hopesth | 2013-09-18 13:24:06 +0400 (Ср., 18 сент. 2013) | 23 lines
+
+Merged quick start from from codebase2011/branches/SL1/develop/stabilization1 to codebase2011/branches/SL2xx/release/V2.1.X_stab_CW28  
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-3877 SSL1-3799
+-----
+Variant: all
+-----
+API-modification: Yes
+-----
+Internal documentation:
+* Merged quick start from from codebase2011/branches/SL1/develop/stabilization1 to codebase2011/branches/SL2xx/release/V2.1.X_stab_CW28 
+-----
+External documentation:
+* Merged quick start from from codebase2011/branches/SL1/develop/stabilization1 to codebase2011/branches/SL2xx/release/V2.1.X_stab_CW28 
+-----
+Verification platform:
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r381264 | hopesth | 2013-10-01 16:40:55 +0400 (Вт., 01 окт. 2013) | 20 lines
+
+Creating branch for quick start
+-----
+Header: System
+-----
+Polarion-ID: SL2-14653
+-----
+Variant: sl220
+-----
+API-modification: No
+-----
+Internal documentation: -
+-----
+External documentation: -
+-----
+Verification platform: n/a
+-----
+Merge to: trunk
+-----
+Reviewed by: 
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r382786 | hopesth | 2013-10-08 16:18:03 +0400 (Вт., 08 окт. 2013) | 23 lines
+
+Added model values for new quick start gui including the time intervals.
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-3877 SL2-14567
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+* Added model values for new quick start gui including the time intervals. SL2_TVAPI_I32_BASIC_SETTINGS_QUICKSTART_TIME_INTERVAL_MORNING,SL2_TVAPI_I32_BASIC_SETTINGS_QUICKSTART_TIME_INTERVAL_AFTERNOON,SL2_TVAPI_I32_BASIC_SETTINGS_QUICKSTART_TIME_INTERVAL_EVENING
+-----
+External documentation:
+* Added model values for new quick start gui including the time intervals.
+-----
+Verification platform:
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r382826 | hopesth | 2013-10-08 17:16:53 +0400 (Вт., 08 окт. 2013) | 22 lines
+
+Added model values for new quick start gui including the time intervals.
+-----
+Header: Software
+-----
+Polarion-ID: SL2-14567
+-----
+Variant: all
+-----
+API-modification: No
+-----
+Internal documentation:
+* Added model values for new quick start gui including the time intervals. SL2_TVAPI_I32_BASIC_SETTINGS_QUICKSTART_TIME_INTERVAL_MORNING,SL2_TVAPI_I32_BASIC_SETTINGS_QUICKSTART_TIME_INTERVAL_AFTERNOON,SL2_TVAPI_I32_BASIC_SETTINGS_QUICKSTART_TIME_INTERVAL_EVENING
+-----
+External documentation:
+* Added model values for new quick start gui including the time intervals.
+-----
+Verification platform:
+-----
+Merge to: trunk
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r403107 | hopesth | 2013-12-10 17:39:22 +0400 (Вт., 10 дек. 2013) | 22 lines
+
+Changed file name to appropriate chassis file name.
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4629
+-----
+Variant: sl210
+-----
+API-modification: No
+-----
+Internal documentation:
+* Changed file name to appropriate chassis file name.
+-----
+External documentation:
+* Changed file name to appropriate chassis file name.
+-----
+Verification platform:sl210
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+r408463 | hopesth | 2014-01-30 15:05:28 +0400 (Чт., 30 янв. 2014) | 22 lines
+
+Copy hotel config from usb now sets option initial installation to off as default.
+-----
+Header: Software
+-----
+Polarion-ID: SSL1-4623
+-----
+Variant: sl210
+-----
+API-modification: No
+-----
+Internal documentation:
+* Copy hotel config from usb now sets option initial installation to off as default.
+-----
+External documentation:
+* Copy hotel config from usb now sets option initial installation to off as default.
+-----
+Verification platform:sl210
+-----
+Merge to: -
+-----
+Reviewed by: -
+
+------------------------------------------------------------------------
