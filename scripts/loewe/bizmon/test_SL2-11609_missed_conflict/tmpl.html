@@ -1,0 +1,88 @@
+<%inherit file="base.html"/>
+
+
+<%block name="run_script">
+    window.serviceListTable = de.loewe.sl2.table.servicelist.list
+
+    window.mainInterval = 500
+
+    setInterval(function(){ main() }, mainInterval)
+</%block>
+
+<%block name="script_data">
+    waitingList = [ 
+    "de.loewe.sl2.table.servicelist.list"
+    ]
+
+    var STATE = {
+      STATE_INIT: {value: 0, name: "State init"},
+      STATE_REQUEST_SERVICE_LIST: {value: 0, name: "Requesting services"},
+      STATE_REQUEST_PROGRAMS: {value: 0, name: "Requesting programs"}
+    };
+
+    window.currentState = STATE.STATE_INIT
+    window.isServiceListReady = false
+
+    window.serviceList = []
+
+    function main()
+    {
+        print("State: " + currentState.name)
+
+        switch(currentState)
+        {
+        case STATE.STATE_INIT:
+            queryList()
+            currentState = STATE.STATE_REQUEST_SERVICE_LIST
+            break
+        case STATE.STATE_REQUEST_SERVICE_LIST:
+            if(isServiceListReady) 
+            {
+                currentState = STATE.STATE_REQUEST_PROGRAMS
+            }
+            //jbiz.exit()
+            break
+        case STATE.STATE_REQUEST_PROGRAMS:
+            //jbiz.exit()
+            break
+        }
+    }
+
+    function queryList()
+    {
+        var queryDef  =  {
+                                        selections:   [
+                                             { field: 0, conditionType: 2, condition: "HD" }
+                                            
+                                                      ],
+                                            fields:       [0, 2, 7], // name uri uuid
+
+                                        orders:       [
+                                                            // {field: 2007, direction: 1}
+                                                      ]
+                                     }
+        query = serviceListTable.createQuery(queryDef);
+        query.onQueryReady.connect(this,onQueryReady);
+        query.execute();
+    }
+
+    function onQueryReady(count){
+        query.onRows.connect(this,onRows);
+        query.readAllRows();
+    }
+
+    function onRows(id, rows){
+        for(var i=0;i<rows.length;i++){
+            print(" Row "+ i);
+            var row = rows[i];
+            for(var j=0;j<row.length;j++){
+                print("  Column "+j);
+                print("       "+ row[j])
+            }
+            serviceList.push(rows[i]) 
+        }
+        isServiceListReady = true
+        //jbiz.exit();
+    }
+
+</%block>

@@ -1,0 +1,137 @@
+<%inherit file="base.html"/>
+<%namespace file="volume_id.tmpl" import="get_volume_id"/>
+<%namespace file="recording_list.tmpl" import="recording_list"/>
+
+<%block name="run_script">
+    window.directoryTable = de.loewe.sl2.table.directory
+    window.recRemoveAction = de.loewe.sl2.hdr.action.archive.remove
+    window.messageId = de.loewe.sl2.messages.messageid
+    window.actionConfirm = de.loewe.sl2.messages.action.confirm
+    window.tableMain = de.loewe.sl2.volume.table.main
+    window.recRemoveAction.onResult.connect(this, onRecRemoveActionResult);
+    window.recRemoveAction.onError.connect(this, onRecRemoveActionError);
+
+    window.mainInterval = 500
+
+    setInterval(function(){ main() }, mainInterval)
+</%block>
+
+<%block name="script_data">
+    waitingList = [ 
+    "de.loewe.sl2.table.directory",
+    "de.loewe.sl2.hdr.action.archive.remove",
+    "de.loewe.sl2.messages.messageid",
+    "de.loewe.sl2.messages.action.confirm",
+    "de.loewe.sl2.volume.table.main"
+    ]
+
+    window.recIds = [];
+
+    var STATE = {
+      TIMER_LIST_INIT : {value: 0, name: "Timer list init"},
+      TIMER_LIST_GET_VOLUME_ID : {value: 0, name: "Get volume ID"},
+      TIMER_LIST_CLEAN_RECS_START : {value: 0, name: "Recs deleting"},
+      TIMER_LIST_CLEAN_RECS_CHECK : {value: 0, name: "Recs deleting in prog..."},
+      TIMER_LIST_CLEAN_RECS_CONFIRM_NEEDED : {value: 0, name: "Recs deleting to be confirmed..."},
+      TIMER_LIST_CLEAN_RECS_CONFIRMED : {value: 0, name: "Recs deleting confirmed..."},
+      TIMER_LIST_CLEAN_RECS_DONE : {value: 0, name: "Recs deleting done"},
+      TIMER_CHECK_RESULTS_FAIL : {value: 0, name: "Timer check results: FAIL"},
+      TIMER_CHECK_RESULTS_PASSED : {value: 0, name: "Timer check results: PASSED"}
+    };
+
+    window.currentState = STATE.TIMER_LIST_INIT
+    window.isEmptyDirectory = false 
+    window.isDirectoryListed = false
+    window.isDeletionConfirmed = false
+    window.volumeID = ""
+
+    ${get_volume_id()}
+    ${recording_list()}
+
+    function main()
+    {
+        print("State: " + currentState.name)
+
+        switch(currentState)
+        {
+        case STATE.TIMER_LIST_INIT:
+            getVolumeId()
+            currentState = STATE.TIMER_LIST_GET_VOLUME_ID
+        case STATE.TIMER_LIST_GET_VOLUME_ID:
+            if(window.volumeID != "")
+            {
+                getRecs(volumeID)
+                currentState = STATE.TIMER_LIST_CLEAN_RECS_START
+            }
+            break
+        case STATE.TIMER_LIST_CLEAN_RECS_START:
+            if(window.isEmptyDirectory == true)
+            {
+                currentState = STATE.TIMER_CHECK_RESULTS_PASSED
+            }
+            if(window.isDirectoryListed == true)
+            {
+                currentState = STATE.TIMER_LIST_CLEAN_RECS_CHECK
+            }
+            break
+        case STATE.TIMER_LIST_CLEAN_RECS_CHECK:
+            if(recIds.length == 0)
+            {
+                currentState = STATE.TIMER_LIST_CLEAN_RECS_DONE 
+            }
+            else
+            {
+                currentState = STATE.TIMER_LIST_CLEAN_RECS_CONFIRM_NEEDED 
+                deleteOneRec()
+            }
+            break
+        case STATE.TIMER_LIST_CLEAN_RECS_CONFIRM_NEEDED:
+            break
+        case STATE.TIMER_LIST_CLEAN_RECS_CONFIRMED:
+            window.currentState = STATE.TIMER_LIST_CLEAN_RECS_CHECK
+            break
+        case STATE.TIMER_LIST_CLEAN_RECS_DONE:
+            window.currentState = STATE.TIMER_CHECK_RESULTS_PASSED
+            break
+        case STATE.TIMER_CHECK_RESULTS_FAIL:
+            break
+        case STATE.TIMER_CHECK_RESULTS_PASSED:
+            jbiz.exit()
+                break
+
+        }
+        //print("Hello: new state " + currentState.name)
+    }
+
+    function deleteOneRec(){
+        print("\tGoing to delete recording " + recIds[0])
+        window.recRemoveAction.call(recIds[0])
+        recIds.splice(0, 1);
+    }
+
+
+
+
+    function onRecRemoveActionResult(actionCallId, results){
+        print("\tonRecRemoveActionResult: (id: "+ actionCallId+" arg count: "+ results.length +")", 1 ,31,0);
+        for(var i=0;i<results.length;i++){
+            //print(" Result "+ i);
+            //print("   "+ results[i], 1 ,33,0);
+            //print("");
+        }
+        var id = window.messageId.getValue();
+        print(id);
+        print("Sending confirm action")
+        //setTimeout(function(){window.actionConfirm.call([(0,id),(1,"2")])}, mainInterval/3);
+        window.actionConfirm.call([(0,id),(1,"2")])
+        print("Confirm action sent")
+        currentState = STATE.TIMER_LIST_CLEAN_RECS_CONFIRMED 
+    }
+
+    function onRecRemoveActionError(actionCallId, errorCode){
+        window.currentState = STATE.TIMER_CHECK_RESULTS_FAIL
+        print("onRecRemoveActionError: "+ errorCode+"\n", 1 ,31,0);
+    }
+
+
+</%block>

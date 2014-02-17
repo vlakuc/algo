@@ -1,0 +1,352 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+        <title>Title</title>
+        <style type="text/css">
+            body { margin: 0; font-size: 16px; background-color:rgba(240,255,255,1);    }
+        </style>      
+     
+        <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+        <script type="text/javascript">		
+            var waitingList = [];
+            var idList = "";
+
+            function print(str){
+                idList = idList.concat(str, "<br />" );
+                document.getElementById('idList').innerHTML =  idList;
+            }        
+
+			window.onload = function() {
+				webiz.move( 100, 100 );
+				webiz.resize( 600, 600 );
+				webiz.show();
+				connector = biz.createConnector();
+				connector.onConnectionStateChanged.connect( this, onConnectionStateChanged );
+				connector.connect( "localhost", 12321, false );
+				document.getElementById('idConnecting').innerHTML = 'Connecting...';
+            }
+
+                        
+            function onConnectionStateChanged( state ) {
+                if( state == 2 ) {
+					document.getElementById('idConnected').innerHTML = 'Connected...';
+                    connector.dataModel.onObjectAdded.connect( this, onObjectAdded );
+                }
+            }
+            function onObjectAdded(o){
+                var i = waitingList.indexOf(o.getFullName());
+                if(i>-1){
+                    print(o.getFullName())
+                    o.connect();
+                    waitingList.splice(i, 1);
+                    if( waitingList.length == 0 ) {
+                        onAllRequiredValuesReady();
+                    }
+                }
+            }        
+
+            function onAllRequiredValuesReady() {
+                print(" Ready ");
+                dataModel = connector.dataModel;
+                de = dataModel.de;
+                                               
+                
+    window.serviceListTable = de.loewe.sl2.table.servicelist.list
+    window.epgTable = de.loewe.sl2.epg
+    window.addTimer = de.loewe.sl2.timer.list.entry.add
+    window.sysTime = de.loewe.sl2.i64.datetime.time.utc
+    addTimer.onResult.connect(this, onAddTimerActionResult);
+    addTimer.onError.connect(this, onAddTimerActionError);
+
+    window.mainInterval = 500
+
+    setInterval(function(){ main() }, mainInterval)
+
+            }
+
+            
+    waitingList = [ 
+    "de.loewe.sl2.table.servicelist.list",
+    "de.loewe.sl2.epg",
+    "de.loewe.sl2.timer.list.entry.add",
+    "de.loewe.sl2.i64.datetime.time.utc"
+    ]
+
+    var STATE = {
+      STATE_INIT: {value: 0, name: "State init"},
+      STATE_REQUEST_SERVICE_LIST: {value: 0, name: "Requesting services"},
+      STATE_SERVICE_LIST_READY: {value: 0, name: "Services ready"},
+      STATE_REQUEST_EPG: {value: 0, name: "Requesting EPG"},
+      STATE_EPG_READY: {value: 0, name: "EPG ready"},
+      STATE_CREATING_TIMERS: {value: 0, name: "Creating timers"},
+      STATE_TIMERS_CREADED: {value: 0, name: "Timers created"},
+      STATE_ERROR: {value: 0, name: "Error"},
+    };
+
+    window.currentState = STATE.STATE_INIT
+
+    window.serviceList = []
+    window.eventList = []
+    window.eventIds = [ "1002", "1004"]
+    window.eventTitles = [ "EVENT 1", "EVENT 3"]
+    window.epgPattern = "UTC"
+    window.timersAdded = 0
+    var minStartTime = 1162086983
+    var endTestTime  = 1162087437
+
+    function main()
+    {
+        var curTime = parseInt(sysTime.getValue())
+        print("State: " + currentState.name + " Time: " + curTime)
+
+        switch(currentState)
+        {
+        case STATE.STATE_INIT:
+            if( curTime > minStartTime )
+            {
+                currentState = STATE.STATE_ERROR
+                return
+            }
+            queryList()
+            currentState = STATE.STATE_REQUEST_SERVICE_LIST
+            break
+        case STATE.STATE_REQUEST_SERVICE_LIST:
+            if(serviceList.length > 0) 
+            {
+                currentState = STATE.STATE_SERVICE_LIST_READY
+            }
+            break
+        case STATE.STATE_SERVICE_LIST_READY:
+            var data = serviceList[0][1].match(/[-+]?[0-9]*\.?[0-9]+/g);
+
+            window.onid = data[6]
+            window.sid = data[7]
+            window.tsid = data[8]
+
+            queryEPG(onid, tsid, sid)
+            currentState = STATE.STATE_REQUEST_EPG
+
+            //jbiz.exit()
+            break
+        case STATE.STATE_REQUEST_EPG:
+            if(eventList.length > 0) 
+            {
+                currentState = STATE.STATE_EPG_READY
+            }
+            break
+        case STATE.STATE_EPG_READY:
+            createTimers()
+            currentState = STATE.STATE_CREATING_TIMERS
+            //createTimer(timerType, eventTitle, sourceUUID, startTime, endTime  
+            break
+        case STATE.STATE_CREATING_TIMERS:
+           if(timersAdded == 2)  
+           {
+                currentState = STATE.STATE_TIMERS_CREADED
+           }
+           break
+        case STATE.STATE_TIMERS_CREADED:
+            break
+        case STATE.STATE_ERROR:
+            break
+        }
+    }
+
+    function createTimers()
+    {
+        for(var i = 0; i < eventList.length; i++)
+        {
+            if(eventIds.indexOf(eventList[i][0]) > -1 &&
+               eventTitles.indexOf(eventList[i][1]) > -1)
+            {
+                var timerData = {
+                                timerType: 1,
+                                sourceUUID: serviceList[0][2],
+                                sourceName: serviceList[0][0],
+                                eventId: eventList[i][0],
+                                eventTitle: eventList[i][1],
+                                startTime: eventList[i][2],
+                                endTime: eventList[i][3]
+                                }  
+                createTimer(timerData)
+            }
+        }
+    }
+
+    function createTimer(timerData)
+    {
+        //print(timerData)
+
+        var source_UUID                = timerData.sourceUUID
+        var uniqueID                   = ""
+        var timerType                  = timerData.timerType
+        var title                      = timerData.eventTitle
+        var CRID                       = ""
+        var parentalLockPin            = "0"
+        var CAMLockPin                 = "0"
+        var varAttrs                   = "2"
+        var source_ancestor_UUID       = ""
+        var source_URI                 = ""
+        var channel_Name               = timerData.sourceName
+        var arg_15                     = "false"
+        var arg_16                     = "false"
+        var arg_17                     = "false"
+        var EPG_EVENT_ID               = timerData.eventId
+        var startTime                  = timerData.startTime
+        var endTime                    = timerData.endTime
+        var descramblingTime           = "0"
+        var destination_Rec_URI        = "0"
+
+        var result = addTimer.call([uniqueID,
+                                  title,
+                                  source_UUID,
+                                  destination_Rec_URI,
+                                  startTime,
+                                  endTime,
+                                  descramblingTime,
+                                  timerType,
+                                  CRID,
+                                  parentalLockPin,
+                                  CAMLockPin,
+                                  varAttrs,
+                                  source_ancestor_UUID,
+                                  source_URI,
+                                  channel_Name,
+                                  arg_15,
+                                  arg_16,
+                                  arg_17,
+                                  EPG_EVENT_ID
+                                ])
+    }
+
+    function queryList()
+    {
+        var queryDef  =  {
+                                        selections:   [
+                                             { field: 0, conditionType: 2, condition: epgPattern }
+                                            
+                                                      ],
+                                            fields:       [0, 2, 7],
+
+                                        orders:       [
+                                                            // {field: 2007, direction: 1}
+                                                      ]
+                                     }
+        query = serviceListTable.createQuery(queryDef);
+        query.onQueryReady.connect(this,onQueryReady);
+        query.execute();
+    }
+
+    function onQueryReady(count){
+            print("onQueryReady");
+        if((count == 0) || (serviceList.length > 0))
+        {
+           return
+        }
+        query.onRows.connect(this,onRows);
+        query.readAllRows();
+    }
+
+    function onRows(id, rows){
+            print("onRows");
+        for(var i=0;i<rows.length;i++){
+            //print(" Row "+ i);
+            var row = rows[i];
+            for(var j=0;j<row.length;j++){
+                //print("  Column "+j);
+                //print("       "+ row[j])
+            }
+            serviceList.push(rows[i]) 
+        }
+    }
+
+    function queryEPG(onid, tsid, sid)
+    {
+
+        var queryDef  =  {
+                                selections:   [
+                                    { field: 2000, conditionType: 1, condition: sid}, //service ID
+                                    { field: 2001, conditionType: 1, condition: tsid}, //transport stream ID
+                                    { field: 2002, conditionType: 1, condition: onid},
+                                            
+                                                      ],
+                                             //id title startTime endTime sid tsid onid 
+                                             fields:       [2003, 2004, 2007, 2008, 2000, 2001, 2002],
+
+                                        orders:       [
+                                                            {field: 2007, direction: 1}
+                                                      ]
+                             }
+        query = epgTable.createQuery(queryDef);
+        query.onQueryReady.connect(this,onEpgQueryReady);
+        query.execute();
+    }
+
+    function onEpgQueryReady(count){
+            print("onEpgQueryReady");
+        if((count == 0) || (eventList.length > 0))
+        {
+           return
+        }
+        print("EPG ready " + count)
+        query.onRows.connect(this, onEpgRows);
+        query.readAllRows();
+    }
+
+    function onEpgRows(id, rows){
+            print(" onEpgRows ");
+        for(var i=0;i<rows.length;i++){
+            //print(" Row "+ i);
+            var row = rows[i];
+            for(var j=0;j<row.length;j++){
+                //print("  Column "+j);
+                //print("       "+ row[j])
+            }
+             //id title startTime endTime sid tsid onid 
+             if(rows[i][4] == sid &&
+                rows[i][5] == tsid &&
+                rows[i][6] == onid) 
+                {
+                    eventList.push(rows[i]) 
+                }
+        }
+    }
+
+    function onAddTimerActionResult(actionCallId, results){
+        //print("onActionResult: (id: "+ actionCallId+" arg count: "+ results.length +")\n", 1 ,31,0);
+        for(var i=0;i<results.length;i++){
+            //print(" Result "+ i);
+            //print("   "+ results[i], 1 ,33,0);
+            //print("");
+        }
+        timersAdded++ 
+    }
+
+    function onAddTimerActionError(actionCallId, errorCode){
+        //print("onActionError: "+ errorCode+"\n", 1 ,31,0);
+    }
+
+
+        </script>
+    </head>
+    <body>
+        <div style="float:left; width:100%; text-align:left;">
+            <div id='idList'></div>
+        </div>
+
+        <div id='idState' style="width:100%; text-align:center;">
+             Ziggo NIT 10 step 6
+        </div>
+
+        <div style="float:left; width:50%; text-align:center;">
+            <div id='idConnecting'></div>
+        </div>
+        
+        <div style="float:left; width:50%; text-align:center;">
+            <div id='idConnected'></div>
+        </div>
+                       
+    </body>
+</html>
+

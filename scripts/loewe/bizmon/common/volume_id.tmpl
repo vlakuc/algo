@@ -1,0 +1,42 @@
+
+<%def name="get_volume_id()">
+    function getVolumeId()
+    {
+        var queryDef  =  {
+                                    selections:   [
+
+                                        //{ field: 4, conditionType: 7, condition: 0x00000400},
+                                        { field: 1, conditionType: 1, condition: "TV_DRIVE"},
+     
+                                                  ],
+                                    fields:       [0],
+                                    orders:       [
+                                                        //{field: 2, direction: 1}
+                                                  ]
+      
+                                 }
+        query = tableMain.createQuery(queryDef);
+        query.onQueryReady.connect(this,onVolumeQueryReady);
+        query.execute();
+    }
+
+    function onVolumeQueryReady(count){
+        print("onVolumeQueryReady " + count)   
+        if(count == 0 || volumeID != "")
+        {
+            return;
+        }
+        query.onRows.connect(this,onVolumeRows);
+        query.readAllRows();
+    }
+
+    function onVolumeRows(id, rows){
+        if(rows.length > 1)
+        {
+            print("Volume ID not unique")
+            return
+        }
+        window.volumeID = rows[0][0]
+
+    }
+</%def>

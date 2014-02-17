@@ -1,0 +1,50 @@
+<%inherit file="base.html"/>
+
+<%block name="header">
+    this is some header content
+</%block>
+
+<%block name="run_script">
+    var epgTable = de.loewe.sl2.epg;
+    window.epgTable = epgTable; 
+    //start test
+    query = epgTable.createQuery(queryDef);
+    query.onQueryReady.connect(this,onQueryReady);
+    query.execute();
+</%block>
+
+<%block name="script_data">
+    var _epgTable = "de.loewe.sl2.epg";
+    waitingList = [_epgTable] ;
+
+    var queryDef  =  {
+                                selections:   [
+                                    { field: 2000, conditionType: 1, condition: 10301}, //service ID
+                                    { field: 2001, conditionType: 1, condition: 1019}, //transport stream ID
+                                    { field: 2002, conditionType: 1, condition: 1},
+                                    
+                                              ],
+                                fields:       [2003, 2004, 2013,2021, 2022],
+
+                                orders:       [
+                                                    {field: 2007, direction: 1}
+                                              ]
+
+                             }
+    function onQueryReady(count){
+        query.onRows.connect(this,onRows);
+        query.readAllRows();
+    }
+
+    function onRows(id, rows){
+        for(var i=0;i<rows.length;i++){
+                idList = idList.concat(" Row ", i, "<br />" );
+                document.getElementById('idList').innerHTML =  idList;
+            var row = rows[i];
+            for(var j=0;j<row.length;j++){
+                idList = idList.concat("   Column ", j, "<br />", "     ", row[j], "<br />" );
+                document.getElementById('idList').innerHTML =  idList;
+            }
+        }
+    }
+</%block>

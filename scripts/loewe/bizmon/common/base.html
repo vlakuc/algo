@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+        <title>Title</title>
+        <style type="text/css">
+            body { margin: 0; font-size: 16px; background-color:rgba(240,255,255,1);    }
+        </style>      
+     
+        <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+        <script type="text/javascript">		
+            var waitingList = [];
+            var idList = "";
+
+            function print(str){
+                idList = idList.concat(str, "<br />" );
+                document.getElementById('idList').innerHTML =  idList;
+            }        
+
+			window.onload = function() {
+				webiz.move( 100, 100 );
+				webiz.resize( 600, 600 );
+				webiz.show();
+				connector = biz.createConnector();
+				connector.onConnectionStateChanged.connect( this, onConnectionStateChanged );
+				connector.connect( "localhost", 12321, false );
+				document.getElementById('idConnecting').innerHTML = 'Connecting...';
+            }
+
+                        
+            function onConnectionStateChanged( state ) {
+                if( state == 2 ) {
+					document.getElementById('idConnected').innerHTML = 'Connected...';
+                    connector.dataModel.onObjectAdded.connect( this, onObjectAdded );
+                }
+            }
+            function onObjectAdded(o){
+                var i = waitingList.indexOf(o.getFullName());
+                if(i>-1){
+                    print(o.getFullName())
+                    o.connect();
+                    waitingList.splice(i, 1);
+                    if( waitingList.length == 0 ) {
+                        onAllRequiredValuesReady();
+                    }
+                }
+            }        
+
+            function onAllRequiredValuesReady() {
+                print(" Ready ");
+                dataModel = connector.dataModel;
+                de = dataModel.de;
+                                               
+                <%block name="run_script"/>
+            }
+
+            <%block name="script_data"/>
+
+        </script>
+    </head>
+    <body>
+        <div style="float:left; width:100%; text-align:left;">
+            <div id='idList'></div>
+        </div>
+
+        <div id='idState' style="width:100%; text-align:center;">
+             Ziggo NIT 10 step 6
+        </div>
+
+        <div style="float:left; width:50%; text-align:center;">
+            <div id='idConnecting'></div>
+        </div>
+        
+        <div style="float:left; width:50%; text-align:center;">
+            <div id='idConnected'></div>
+        </div>
+                       
+    </body>
+</html>

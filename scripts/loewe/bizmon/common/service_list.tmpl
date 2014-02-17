@@ -1,0 +1,45 @@
+<%def name="service_list()">
+
+    window.serviceList = []
+
+    function queryList(epgPattern)
+    {
+        var queryDef  =  {
+                                        selections:   [
+                                             { field: 0, conditionType: 2, condition: epgPattern }
+                                            
+                                                      ],
+                                            fields:       [0, 2, 7],
+
+                                        orders:       [
+                                                            // {field: 2007, direction: 1}
+                                                      ]
+                                     }
+        query = serviceListTable.createQuery(queryDef);
+        query.onQueryReady.connect(this,onQueryReady);
+        query.execute();
+    }
+
+    function onQueryReady(count){
+            print("onQueryReady");
+        if((count == 0) || (serviceList.length > 0))
+        {
+           return
+        }
+        query.onRows.connect(this,onRows);
+        query.readAllRows();
+    }
+
+    function onRows(id, rows){
+            print("onRows");
+        for(var i=0;i<rows.length;i++){
+            //print(" Row "+ i);
+            var row = rows[i];
+            for(var j=0;j<row.length;j++){
+                //print("  Column "+j);
+                //print("       "+ row[j])
+            }
+            serviceList.push(rows[i]) 
+        }
+    }
+</%def>

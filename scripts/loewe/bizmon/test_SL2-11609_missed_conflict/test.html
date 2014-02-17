@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+        <title>Title</title>
+        <style type="text/css">
+            body { margin: 0; font-size: 16px; background-color:rgba(240,255,255,1);    }
+        </style>      
+     
+        <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+        <script type="text/javascript">		
+            var waitingList = [];
+            var idList = "";
+
+            function print(str){
+                idList = idList.concat(str, "<br />" );
+                document.getElementById('idList').innerHTML =  idList;
+            }        
+
+			window.onload = function() {
+				webiz.move( 100, 100 );
+				webiz.resize( 600, 600 );
+				webiz.show();
+				connector = biz.createConnector();
+				connector.onConnectionStateChanged.connect( this, onConnectionStateChanged );
+				connector.connect( "localhost", 12321, false );
+				document.getElementById('idConnecting').innerHTML = 'Connecting...';
+            }
+
+                        
+            function onConnectionStateChanged( state ) {
+                if( state == 2 ) {
+					document.getElementById('idConnected').innerHTML = 'Connected...';
+                    connector.dataModel.onObjectAdded.connect( this, onObjectAdded );
+                }
+            }
+            function onObjectAdded(o){
+                var i = waitingList.indexOf(o.getFullName());
+                if(i>-1){
+                    print(o.getFullName())
+                    o.connect();
+                    waitingList.splice(i, 1);
+                    if( waitingList.length == 0 ) {
+                        onAllRequiredValuesReady();
+                    }
+                }
+            }        
+
+            function onAllRequiredValuesReady() {
+                print(" Ready ");
+                dataModel = connector.dataModel;
+                de = dataModel.de;
+                                               
+                
+    window.serviceListTable = de.loewe.sl2.table.servicelist.list
+
+    window.mainInterval = 500
+
+    setInterval(function(){ main() }, mainInterval)
+
+            }
+
+            
+    waitingList = [ 
+    "de.loewe.sl2.table.servicelist.list"
+    ]
+
+    var STATE = {
+      STATE_INIT: {value: 0, name: "State init"},
+      STATE_REQUEST_SERVICE_LIST: {value: 0, name: "Requesting services"},
+      STATE_SERVICE_LIST_READY: {value: 0, name: "Services ready"}
+    };
+
+    window.currentState = STATE.STATE_INIT
+    window.isServiceListReady = false
+
+    window.serviceList = []
+
+    function main()
+    {
+        print("State: " + currentState.name)
+
+        switch(currentState)
+        {
+        case STATE.STATE_INIT:
+            queryList()
+            currentState = STATE.STATE_REQUEST_SERVICE_LIST
+            break
+        case STATE.STATE_REQUEST_SERVICE_LIST:
+            if(isServiceListReady) 
+            {
+                currentState = STATE.STATE_SERVICE_LIST_READY
+            }
+            //jbiz.exit()
+            break
+        case STATE.STATE_SERVICE_LIST_READY:
+            //jbiz.exit()
+            break
+        }
+    }
+
+    function queryList()
+    {
+        var queryDef  =  {
+                                        selections:   [
+                                             { field: 0, conditionType: 2, condition: "HD" }
+                                            
+                                                      ],
+                                            fields:       [0, 2, 7],
+
+                                        orders:       [
+                                                            // {field: 2007, direction: 1}
+                                                      ]
+                                     }
+        query = serviceListTable.createQuery(queryDef);
+        query.onQueryReady.connect(this,onQueryReady);
+        query.execute();
+    }
+
+    function onQueryReady(count){
+        query.onRows.connect(this,onRows);
+        query.readAllRows();
+    }
+
+    function onRows(id, rows){
+        for(var i=0;i<rows.length;i++){
+            print(" Row "+ i);
+            var row = rows[i];
+            for(var j=0;j<row.length;j++){
+                print("  Column "+j);
+                print("       "+ row[j])
+            }
+            serviceList.push(rows[i]) 
+        }
+        isServiceListReady = true
+        //jbiz.exit();
+    }
+
+
+
+        </script>
+    </head>
+    <body>
+        <div style="float:left; width:100%; text-align:left;">
+            <div id='idList'></div>
+        </div>
+
+        <div id='idState' style="width:100%; text-align:center;">
+             Ziggo NIT 10 step 6
+        </div>
+
+        <div style="float:left; width:50%; text-align:center;">
+            <div id='idConnecting'></div>
+        </div>
+        
+        <div style="float:left; width:50%; text-align:center;">
+            <div id='idConnected'></div>
+        </div>
+                       
+    </body>
+</html>
+

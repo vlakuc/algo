@@ -1,0 +1,287 @@
+<%inherit file="base.html"/>
+<%namespace file="service_list.tmpl" import="service_list"/>
+
+
+<%block name="run_script">
+    window.serviceListTable = de.loewe.sl2.table.servicelist.list
+    window.directoryTable = de.loewe.sl2.table.directory
+    window.epgTable = de.loewe.sl2.epg
+    window.addTimer = de.loewe.sl2.timer.list.entry.add
+    window.sysTime = de.loewe.sl2.i64.datetime.time.utc
+    addTimer.onResult.connect(this, onAddTimerActionResult);
+    addTimer.onError.connect(this, onAddTimerActionError);
+
+    window.mainInterval = 500
+
+    setInterval(function(){ main() }, mainInterval)
+</%block>
+
+<%block name="script_data">
+    waitingList = [ 
+    "de.loewe.sl2.table.servicelist.list",
+    "de.loewe.sl2.epg",
+    "de.loewe.sl2.timer.list.entry.add",
+    "de.loewe.sl2.table.directory",
+    "de.loewe.sl2.i64.datetime.time.utc"
+    ]
+
+    var STATE = {
+      STATE_INIT: {value: 0, name: "State init"},
+      STATE_REQUEST_SERVICE_LIST: {value: 0, name: "Requesting services"},
+      STATE_SERVICE_LIST_READY: {value: 0, name: "Services ready"},
+      STATE_REQUEST_EPG: {value: 0, name: "Requesting EPG"},
+      STATE_EPG_READY: {value: 0, name: "EPG ready"},
+      STATE_CREATING_TIMERS: {value: 0, name: "Creating timers"},
+      STATE_TIMERS_CREADED: {value: 0, name: "Timers created"},
+      STATE_ERROR: {value: 0, name: "Error"},
+    };
+
+    window.currentState = STATE.STATE_INIT
+
+    window.isDirectoryListed = false
+    window.serviceList = []
+    window.eventList = []
+    window.eventIds = [ "1002", "1004"]
+    window.eventTitles = [ "EVENT 1", "EVENT 3"]
+    window.timersAdded = 0
+
+    ${service_list()}
+
+    function main()
+    {
+        var curTime = parseInt(sysTime.getValue())
+        print("State: " + currentState.name + " Time: " + curTime)
+
+        switch(currentState)
+        {
+        case STATE.STATE_INIT:
+            queryList("HD")
+            currentState = STATE.STATE_REQUEST_SERVICE_LIST
+            break
+        case STATE.STATE_REQUEST_SERVICE_LIST:
+            if(serviceList.length > 2) 
+            {
+                print("Found services: " + serviceList.length)
+                currentState = STATE.STATE_SERVICE_LIST_READY
+            }
+            break
+        case STATE.STATE_SERVICE_LIST_READY:
+            for(var i = 0; i < 2; i++)
+            {
+                var data = serviceList[i][1].match(/[-+]?[0-9]*\.?[0-9]+/g);
+
+                var onid = data[6]
+                var sid = data[7]
+                var tsid = data[8]
+
+                queryEPG(onid, tsid, sid)
+            }
+            currentState = STATE.STATE_REQUEST_EPG
+            break
+        case STATE.STATE_REQUEST_EPG:
+            if(eventList.length > 0) 
+            {
+                print("Found programs " + eventList.length)
+                //currentState = STATE.STATE_EPG_READY
+            }
+            break
+        case STATE.STATE_EPG_READY:
+            createTimers()
+            currentState = STATE.STATE_CREATING_TIMERS
+            //createTimer(timerType, eventTitle, sourceUUID, startTime, endTime  
+            break
+        case STATE.STATE_CREATING_TIMERS:
+           if(timersAdded == 2)  
+           {
+                currentState = STATE.STATE_TIMERS_CREADED
+           }
+           break
+        case STATE.STATE_TIMERS_CREADED:
+            break
+        case STATE.STATE_ERROR:
+            window.mainInterval = Number.MAX_VALUE
+            break
+        }
+    }
+
+    function createTimers()
+    {
+        for(var i = 0; i < eventList.length; i++)
+        {
+            if(eventIds.indexOf(eventList[i][0]) > -1 &&
+               eventTitles.indexOf(eventList[i][1]) > -1)
+            {
+                var timerData = {
+                                timerType: 1,
+                                sourceUUID: serviceList[0][2],
+                                sourceName: serviceList[0][0],
+                                eventId: eventList[i][0],
+                                eventTitle: eventList[i][1],
+                                startTime: eventList[i][2],
+                                endTime: eventList[i][3]
+                                }  
+                createTimer(timerData)
+            }
+        }
+    }
+
+    function createTimer(timerData)
+    {
+        //print(timerData)
+
+        var source_UUID                = timerData.sourceUUID
+        var uniqueID                   = ""
+        var timerType                  = timerData.timerType
+        var title                      = timerData.eventTitle
+        var CRID                       = ""
+        var parentalLockPin            = "0"
+        var CAMLockPin                 = "0"
+        var varAttrs                   = "2"
+        var source_ancestor_UUID       = ""
+        var source_URI                 = ""
+        var channel_Name               = timerData.sourceName
+        var arg_15                     = "false"
+        var arg_16                     = "false"
+        var arg_17                     = "false"
+        var EPG_EVENT_ID               = timerData.eventId
+        var startTime                  = timerData.startTime
+        var endTime                    = timerData.endTime
+        var descramblingTime           = "0"
+        var destination_Rec_URI        = "0"
+
+        var result = addTimer.call([uniqueID,
+                                  title,
+                                  source_UUID,
+                                  destination_Rec_URI,
+                                  startTime,
+                                  endTime,
+                                  descramblingTime,
+                                  timerType,
+                                  CRID,
+                                  parentalLockPin,
+                                  CAMLockPin,
+                                  varAttrs,
+                                  source_ancestor_UUID,
+                                  source_URI,
+                                  channel_Name,
+                                  arg_15,
+                                  arg_16,
+                                  arg_17,
+                                  EPG_EVENT_ID
+                                ])
+    }
+
+
+    function queryEPG(onid, tsid, sid)
+    {
+
+        var queryDef  =  {
+                                selections:   [
+                                    { field: 2000, conditionType: 1, condition: sid}, //service ID
+                                    { field: 2001, conditionType: 1, condition: tsid}, //transport stream ID
+                                    { field: 2002, conditionType: 1, condition: onid},
+                                            
+                                                      ],
+                                             //id title startTime endTime sid tsid onid 
+                                             fields:       [2003, 2004, 2007, 2008, 2000, 2001, 2002],
+
+                                        orders:       [
+                                                            {field: 2007, direction: 1}
+                                                      ]
+                             }
+        query = epgTable.createQuery(queryDef);
+        query.onQueryReady.connect(this,onEpgQueryReady);
+        query.execute();
+    }
+
+    function onEpgQueryReady(count){
+            print("onEpgQueryReady");
+        if(count == 0)
+        {
+           return
+        }
+        print("EPG ready " + count)
+        query.onRows.connect(this, onEpgRows);
+        query.readAllRows();
+    }
+
+    function onEpgRows(id, rows){
+            print(" onEpgRows ");
+        for(var i=0;i<rows.length;i++){
+            //print(" Row "+ i);
+            var row = rows[i];
+            for(var j=0;j<row.length;j++){
+                //print("  Column "+j);
+                //print("       "+ row[j])
+            }
+             //id title startTime endTime sid tsid onid 
+            eventList.push(rows[i]) 
+        }
+    }
+
+    function onAddTimerActionResult(actionCallId, results){
+        //print("onActionResult: (id: "+ actionCallId+" arg count: "+ results.length +")\n", 1 ,31,0);
+        for(var i=0;i<results.length;i++){
+            //print(" Result "+ i);
+            //print("   "+ results[i], 1 ,33,0);
+            //print("");
+        }
+        timersAdded++ 
+    }
+
+    function onAddTimerActionError(actionCallId, errorCode){
+        //print("onActionError: "+ errorCode+"\n", 1 ,31,0);
+    }
+
+    function getRecs()
+    {
+        // SPB var HDR_ID = "FSL2://fe4bb369-cbe0-4449-8520-c65b16c54064"
+        var HDR_ID = "FSL2://06b32824-c818-4c81-a7ec-1fc978f1718f"
+        var queryDef  =  {
+                                    selections:   [
+
+                                        { field: 25, conditionType: 1, condition: HDR_ID},
+                                        { field: 2, conditionType: 1, condition: 4},
+                                        { field: 3, conditionType: 1, condition: 12}
+     
+                                                  ],
+                                    fields:       [29, 1], //uuid title
+                                    orders:       [
+                                                        //{field: 2, direction: 1}
+                                                  ]
+      
+                                 }
+        query = directoryTable.createQuery(queryDef);
+        query.onQueryReady.connect(this,onDirQueryReady);
+        query.execute();
+    }
+
+    function onDirQueryReady(count){
+        print("onDirQueryReady " + count)
+        if(count == 0)
+        {
+            window.isEmptyDirectory = true
+            return;
+        }
+        query.onRows.connect(this,onDirRows);
+        query.readAllRows();
+    }
+
+    function onDirRows(id, rows){
+        for(var i=0;i<rows.length;i++){
+            var row = rows[i];
+            for(var j=0;j<row.length;j++){
+               var rec_id = row[j]
+                var i = recIds.indexOf(rec_id);
+                if(i > -1)
+                {
+                    continue
+                }
+                print("\tFound rec id " + rec_id)
+                recIds.push(rec_id)
+            }
+        }
+        window.isDirectoryListed = true
+    }
+
+</%block>
