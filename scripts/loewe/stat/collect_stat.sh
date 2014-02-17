@@ -57,7 +57,7 @@ GREP_PATT=${GREP_PATT%??}
 echo $GREP_PATT
 #echo ${GREP_PATT}
 #svn log ${BRANCH} -r${START_REVISION}:${END_REVISION}| grep ^r | grep "${GREP_PATT}" | grep -v ") | [1-9] line" > $ALL_COMMITS_FILE 
-#svn log ${BRANCH} -r${START_REVISION}:${END_REVISION}| grep ^r | grep ") | [0-9][0-9] line" > $ALL_COMMITS_FILE 
+svn log ${BRANCH} -r${START_REVISION}:${END_REVISION}| grep ^r | grep ") | [0-9][0-9] line" > $ALL_COMMITS_FILE 
 echo "All" > $STAT_FILE
 all_n=`cat $ALL_COMMITS_FILE | wc -l`
 all=$(printf "%s %s" "All" "$all_n")
