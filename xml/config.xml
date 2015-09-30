@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TimerEntries><Entry><id>the_id</id><uri>the_uri</uri><aliases><alias>1</alias><alias>2</alias></aliases></Entry><Entry><id>id2</id><uri>uri2</uri><aliases><alias>3</alias><alias>4</alias></aliases></Entry></TimerEntries>
