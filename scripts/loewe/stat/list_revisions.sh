@@ -12,10 +12,11 @@ do
     mkdir -p $OUT_DIR/$p
     REV_FILE=$OUT_DIR/$p/revs.txt
     INFO_FILE=$OUT_DIR/$p/info.txt 
-    cat $ALL_COMMITS_FILE | grep $p | cut -f1 -d'|' > $REV_FILE
+    #cat $ALL_COMMITS_FILE | grep "$p " | cut -f1 -d'|' > $REV_FILE
+    cat $ALL_COMMITS_FILE | grep ^r |  grep "$p " | grep lines | cut -f1 -d " "| cut -f2 -d"r" > $REV_FILE
     for r in `cat $REV_FILE` 
     do
-       svn log -$r $BRANCH >> $INFO_FILE 
+       svn log -r$r $BRANCH >> $INFO_FILE 
     done
 done
 

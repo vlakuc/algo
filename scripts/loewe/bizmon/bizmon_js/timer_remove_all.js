@@ -91,4 +91,4 @@ function onActionDeleteError(actionCallId, errorCode){
 
 
 getTimers()
-setTimeout(function(){ removeAll() }, 3000)
+setTimeout(function(){ removeAll() }, 1000)

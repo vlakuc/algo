@@ -1,8 +1,8 @@
 
-if filereadable("~/proj/tags")
-    set tags=~/proj/tags
+if filereadable("/export/builds/gnx834/tags/tags")
+    " cs add /export/builds/gnx834/tags/
+    set tags=/export/builds/gnx834/tags/tags
 endif
-set tags=/home/vkuchuk/proj/tags
 
 
 set softtabstop =2
@@ -12,7 +12,7 @@ set nowrap
 set sidescroll  =1
 filetype plugin indent on
 syntax on
-"set cinoptions=:0,g0,i0,(s,m1
+set cinoptions=:0,g0,i0,(s,m1
 
 set history     =50
 set ruler
@@ -26,7 +26,7 @@ let &path = &path . "," . substitute($INCL, ';', ',', 'g')
 "colorscheme darkblue
 if has('gui_running')
 "    set guifont=console8x16:h14
-"    set guifont=console8x16 14
+    set guifont=console8x16 14
 endif
 
 
@@ -50,23 +50,16 @@ fun! GrepWorkSpace()
   vimgrep /<C-R>=expand("<cword>")<CR>/gj `cat file.names`
   "cl
 endfun
-fun! MyFun()
-    let shellcmd = '~/proj/rebuild_comp.sh'
-    let out = system( shellcmd  )
-endfun
 map <F2> :cl <CR>
 map <F3> :s/\.c_str()//g<CR>
 "map <F3> :vimgrep /<C-R>=expand("<cword>")<CR>/gj `find ./ -name "*[ph]"` \| cl<CR>
 map <F4> :e %:p:s,.h$,.X123X,:s,.cpp$,.h,:s,.X123X$,.cpp,<CR>
 map <F5> :call ShowFuncName() <CR>
 map <F6> :cn <CR>
-"map <F7> : wa \| make -j 4 -f post_make <CR>
-"map <F7> : !~/proj/rebuild_comp.sh \| !~/proj/rebuild_main.sh<CR>
-map <F7> : !~/proj/rebuild_and_run.sh <CR>
-"map <F7> : call MyFun() <CR>
-map <F8> :  !~/proj/rebuild_comp.sh <CR>
+map <F7> : wa \| make -j 4 -f post_make <CR>
+map <F8> : !ctags -R \| set tags=tags <CR>
 "map <C-f> : !cat /home/gnx834/tags/cscope.files \| xargs grep  <C-R>=expand("<cword>")<CR> \|  cl<CR>
-map <C-f> : !cat /home/vkuchuk/proj/cscope.files \| xargs grep  <C-R>=expand("<cword>")<CR>
+map <C-f> : !cat /export/builds/gnx834/tags/cscope.files \| xargs grep  <C-R>=expand("<cword>")<CR>
 map <C-i> : !ct lsview -cview <CR>
 "map <F11> :tabnew  <C-R>=expand("<cfile>")<CR><CR>
 map <F11> :!ct co -nc  %<CR>

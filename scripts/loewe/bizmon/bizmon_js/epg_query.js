@@ -85,14 +85,28 @@ var print = jbiz.writeLine;
 // rec://plain/dvbt?frontend=2&dvbtpriority=0&frequency=490017&bandwidth=1&inversion=2&modulation=6&onid=9018&sid=256&tsid=4134
 //SID=11110, TSID=1011, NID=1 //ZDF HD
 //SID=10301, TSID=1019, NID=1 //Erste HD
-SID=256, TSID=4134, NID=9018 
+
+//   nId: 9018
+//   tsId: 4134
+//    sId: 1024
+// progId: 4003
+
+// Link  : 233A102603000BB93
+//    nId: 9018
+//   tsId: 4134
+//    sId: 768
+// progId: 3001
+
+
+SID=1024, TSID=4134, NID=9018 
+//SID=768, TSID=4134, NID=9018 
 var sysTime = dataModel.de.loewe.sl2.i64.datetime.time.utc;
 var queryDef  =  {
                                 selections:   [
                                     { field: 2000, conditionType: 1, condition: SID}, //service ID
                                     { field: 2001, conditionType: 1, condition: TSID}, //transport stream ID
                                     { field: 2002, conditionType: 1, condition: NID},
-                                    //{ field: 2004, conditionType: 2, condition: "Rote"},
+                                   // { field: 2004, conditionType: 1, condition: 2689976},
                                     //{ field: 2004, conditionType: 2, condition: "Tagesschau"},
                                     //{ field: 2007, conditionType: 5, condition: sysTime.getValue()},
                                     //{ field: 2019, conditionType: 1, condition: "fff7a1671e77e93b16c"},
@@ -125,7 +139,7 @@ function onRows(id, rows){
 						
 						if(j > 0 && row[j] != "")
             {
-								stop = true;
+							//	stop = true;
 						}
 						
         }

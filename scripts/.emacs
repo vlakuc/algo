@@ -1,15 +1,3 @@
-(custom-set-variables
-  ;; custom-set-variables was added by Custom.
-  ;; If you edit it by hand, you could mess it up, so be careful.
-  ;; Your init file should contain only one such instance.
-  ;; If there is more than one, they won't work right.
- )
-;;(custom-set-faces
-  ;; custom-set-faces was added by Custom.
-  ;; If you edit it by hand, you could mess it up, so be careful.
-  ;; Your init file should contain only one such instance.
-  ;; If there is more than one, they won't work right.
-;; '(default ((t (:inherit nil :stipple nil :background "white" :foreground "black" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 145 :width normal :foundry "misc" :family "fixed")))))
 
 ;;Make searches case sensitive by default (in all buffers that do not override this). 
 (setq-default case-fold-search nil)
@@ -17,69 +5,11 @@
 ;;all indentation  can be made from spaces only
 (setq-default indent-tabs-mode nil)
 
-;;Cedit settings
-;;(load-file "~/bin/cedet-1.0pre7/common/cedet.el")
+ (setq-default c-electric-flag nil)
 
-;; Enable EDE (Project Management) features
-;;(global-ede-mode 1)
-
-;; Enable EDE for a pre-existing C++ project
-;;(ede-cpp-root-project "dlna" :file "/vobs/motocap_base/network/dlna/Makefile")
-
-;; Enabling Semantic (code-parsing, smart completion) features
-;; Select one of the following:
-
-;; * This enables the database and idle reparse engines
-;;(semantic-load-enable-minimum-features)
-
-;; * This enables some tools useful for coding, such as summary mode
-;;   imenu support, and the semantic navigator
-;;(semantic-load-enable-code-helpers)
-
-;; * This enables even more coding tools such as intellisense mode
-;;   decoration mode, and stickyfunc mode (plus regular code helpers)
-;; (semantic-load-enable-gaudy-code-helpers)
-
-;; * This enables the use of Exuberent ctags if you have it installed.
-;;   If you use C++ templates or boost, you should NOT enable it.
-;; (semantic-load-enable-all-exuberent-ctags-support)
-;;   Or, use one of these two types of support.
-;;   Add support for new languges only via ctags.
-;; (semantic-load-enable-primary-exuberent-ctags-support)
-;;   Add support for using ctags as a backup parser.
-;; (semantic-load-enable-secondary-exuberent-ctags-support)
-
-;; Enable SRecode (Template management) minor-mode.
-;; (global-srecode-minor-mode 1)
-
-;;(require 'semantic-ia)
-;;(require 'semantic-gcc)
-
-;;(semantic-add-system-include "~/exp/include/boost_1_37" 'c++-mode)
-
-;; (defun my-semantic-hook ()
-;;   (imenu-add-to-menubar "TAGS"))
-;; (add-hook 'semantic-init-hooks 'my-semantic-hook)
-
-;; ;; если вы хотите включить поддержку gnu global
-;; (require 'semanticdb-global)
-;; (semanticdb-enable-gnu-global-databases 'c-mode)
-;; (semanticdb-enable-gnu-global-databases 'c++-mode)
-
-;; ;; включить поддержку ctags для основных языков:
-;; ;;  Unix Shell, Perl, Pascal, Tcl, Fortran, Asm
-;; (semantic-load-enable-primary-exuberent-ctags-support)
-
-;; (defun my-cedet-hook ()
-;;   (local-set-key [(control return)] 'semantic-ia-complete-symbol)
-;;   (local-set-key "\C-c?" 'semantic-ia-complete-symbol-menu)
-;;   (local-set-key "\C-c>" 'semantic-complete-analyze-inline)
-;;   (local-set-key "\C-cp" 'semantic-analyze-proto-impl-toggle))
-;; (add-hook 'c-mode-common-hook 'my-cedet-hook)
-
-(add-to-list 'load-path
-                     "/home/vkuchuk/proj/tools/cscope-15.8a/contrib/xcscope")
-(require 'xcscope)
+;; (add-to-list 'load-path
+;;                      "/home/vkuchuk/proj/tools/cscope-15.8a/contrib/xcscope")
+;; (require 'xcscope)
 
 ; Show full file path in minibuffer
 (defun show-file-name ()
@@ -100,6 +30,15 @@
 (global-set-key [C-f3] 'tags-apropos-word)
 
 ;;END OF tags-apropos
+
+; Run grep-find with current word
+(defun grep-word ()
+  "Run grep-find with current word"
+  (interactive)
+  (find-grep (thing-at-point 'word)))
+
+(global-set-key (kbd "C-c g") 'grep-word)
+
 
 ; Run occur with current word
 (defun occur-word ()
@@ -156,8 +95,8 @@
 
 ;; LOEWE
 ;; Open tags and cscope
-(visit-tags-table "/home/vkuchuk/proj/TAGS")
-(cscope-set-initial-directory "/home/vkuchuk/proj/")
+;; (visit-tags-table "/home/vkuchuk/proj/TAGS")
+;; (cscope-set-initial-directory "/home/vkuchuk/proj/")
 
 ; git-emacs
 ;(add-to-list 'load-path "~/bin/tsgates-git-emacs-86369ba")
@@ -177,8 +116,10 @@
 ;;(load-file "~/bin/jtags.el")
 
 ;; c-style
-(setq c-default-style "linux"
+(setq c-default-style "stroustrup"
           c-basic-offset 4)
+
+;;(c-set-offset 'substatement-open 0)
 
 ;; colors for ls otput
 (add-hook 'shell-mode-hook 'ansi-color-for-comint-mode-on)
@@ -326,3 +267,24 @@ up from a thesaurus only."
                      )
                    )
                 )
+
+
+(setq c-electric-pound-behavior nil)
+
+
+;; Package manager
+;; (require 'package)
+;; (package-initialize)
+
+;; (add-to-list 'package-archives
+
+
+;;;; '("melpa" . "http://melpa.milkbox.net/packages/") t)
+
+;; cppcheck
+(defun cpp-check ()
+  "Run cpp-check on current file the buffer is visiting."
+  (interactive)
+  (let (compile-command)
+    (compile
+         (concat "cppcheck --enable=all --template='{file}:{line}: {severity}: {message}' " (buffer-file-name)))))

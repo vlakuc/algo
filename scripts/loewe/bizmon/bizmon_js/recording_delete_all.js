@@ -2,122 +2,72 @@
 
 var print = jbiz.writeLine;
 
-var mainInterval = 2000
-
 
 var directoryTable = dataModel.de.loewe.sl2.table.directory
-
+var volumeTable = dataModel.de.loewe.sl2.volume.table.main
 
 var recRemoveAction = dataModel.de.loewe.sl2.hdr.action.archive.remove
-recRemoveAction.onResult.connect(this, onRecRemoveActionResult);
-recRemoveAction.onError.connect(this, onRecRemoveActionError);
+recRemoveAction.onResult.connect(this, onRecRemoveActionResult)
+recRemoveAction.onError.connect(this, onRecRemoveActionError)
 
 
 
-var recIds = {};
 
-var STATE = {
-  TIMER_LIST_INIT : {value: 0, name: "Timer list init"},
-  TIMER_LIST_CLEAN_RECS_START : {value: 0, name: "Recs deleting"},
-  TIMER_LIST_CLEAN_RECS_CHECK : {value: 0, name: "Recs deleting in prog..."},
-  TIMER_LIST_CLEAN_RECS_DONE : {value: 0, name: "Recs deleting done"},
-  TIMER_LIST_UPDATED : {value: 0, name: "Timer list updated"}, 
+var HDR_ID = ""
 
-  TIMER_CHECK_RESULTS : {value: 0, name: "Timer check results"},
-  TIMER_CHECK_RESULTS_FAIL : {value: 0, name: "Timer check results: FAIL"},
-  TIMER_CHECK_RESULTS_PASSED : {value: 0, name: "Timer check results: PASSED"}
-};
 
-var currentState = STATE.TIMER_LIST_INIT
+var recIds = [];
 
-setInterval(function(){ main() }, mainInterval)
 
-function main(){
-print("State: " + currentState.name)
 
-switch(currentState)
-{
-case STATE.TIMER_LIST_INIT:
-    currentState.value = currentState.value + 1
-    print("Iteration: " + currentState.value)
-    currentState = STATE.TIMER_LIST_CLEAN_RECS_START
-    break
-case STATE.TIMER_LIST_CLEAN_RECS_START:
+// var HDR_TYPE = "USB1" // use # for integrated hdr 
+
+var HDR_TYPE = "#"
+
+getHdrId()
+
+function getHdrId() {
+    var volumeQueryDef  =  {
+        selections:   [
+
+            { field: 1, conditionType: 2, condition: HDR_TYPE},
+            { field: 0, conditionType: 2, condition: "FSL2"}
+            
+        ],
+        fields:       [0],
+        orders:       []
+    }
+
+    query = volumeTable.createQuery(volumeQueryDef);
+    query.onQueryReady.connect(this,onVolumeQueryReady);
+    query.execute();
+}
+
+function onVolumeQueryReady(count){
+    print("onQueryReady count=" + count)
+    query.onRows.connect(this,onVolumeRows);
+    query.readAllRows();
+}
+
+function onVolumeRows(id, rows){
+    print("onRows rows=" + rows.length)
+    HDR_ID = rows[0][0]
+    print(HDR_ID)
     getRecs()
-    currentState = STATE.TIMER_LIST_CLEAN_RECS_CHECK
-    break
-case STATE.TIMER_LIST_CLEAN_RECS_CHECK:
-    if(getRecCount() == 0)
-    {
-        //currentState = STATE.TIMER_LIST_CLEAN_RECS_DONE
-        currentState = STATE.TIMER_CHECK_RESULTS_PASSED
-    }
-    else
-    {
-        deleteOneRec()
-        currentState = STATE.TIMER_LIST_CLEAN_RECS_START
-    }
-    break
-
-case STATE.TIMER_CHECK_RESULTS:
-    if(getRecCount() != 1)
-				currentState = STATE.TIMER_CHECK_RESULTS_FAIL
-		else
-        currentState = STATE.	TIMER_CHECK_RESULTS_PASSED
-        //currentState = STATE.TIMER_LIST_INIT
-		break
-case STATE.TIMER_CHECK_RESULTS_FAIL:
-    jbiz.exit()
-		break
-case STATE.TIMER_CHECK_RESULTS_PASSED:
-    //currentState = STATE.TIMER_LIST_INIT
-    jbiz.exit()
-		break
-
-}
-//print("Hello: new state " + currentState.name)
-
-}
-
-function deleteOneRec(){
-    for(var p in recIds)
-    {
-        print("\tGoing to delete recording " + p)
-        recRemoveAction.call(p)
-        //print("Remove action sent for " + p)
-        break
-    }
-}
-
-
-function getRecCount()
-{
-    var res = 0
-    for(var p in recIds)
-    {
-         res++
-    }
-    return res
 }
 
 function getRecs()
 {
-    recIds = {};
-    // SPB var HDR_ID = "FSL2://fe4bb369-cbe0-4449-8520-c65b16c54064"
-     var HDR_ID = //"FSL2://78db14a6-645a-4bee-a9de-fc5a4738321f"
-"FSL2://5b0eb671-4eb4-4792-b1e1-d60ef5a541b1"
     var queryDef  =  {
                                 selections:   [
 
                                     { field: 25, conditionType: 1, condition: HDR_ID},
-                                    { field: 2, conditionType: 1, condition: 4},
+                                    { field: 2, conditionType: 1, condition: 68},
                                     { field: 3, conditionType: 1, condition: 12}
  
                                               ],
                                 fields:       [29],
-                                orders:       [
-                                                    //{field: 2, direction: 1}
-                                              ]
+                                orders:       []
   
                              }
     query = directoryTable.createQuery(queryDef);
@@ -142,9 +92,10 @@ function onDirRows(id, rows){
                 continue
             }
             print("\tFound rec id " + rec_id)
-            recIds[rec_id] = true
+            recIds.push(rec_id)
         }
     }
+    recRemoveAction.call(recIds)
 }
 
 
@@ -193,7 +144,7 @@ function onRecRemoveActionResult(actionCallId, results){
     var action = dataModel.de.loewe.sl2.messages.action.confirm;
     //action.call([(0,id),(1,2)])
     //print("Sending confirm action")
-	  setTimeout(function(){action.call([(0,id),(1,"2")])}, mainInterval/3);
+	//  setTimeout(function(){action.call([(0,id),(1,"2")])}, 1000);
     //print("Confirm action sent")
 
 }
