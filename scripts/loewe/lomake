@@ -1,0 +1,505 @@
+#!/bin/bash
+
+# NOTE. Before using this script please adjust some settings below:
+#       1. Create a directory for toolchain, put toolchain archive there then set
+#          environment variable LO_TOOLCHAIN_DIR accordingly. For permanent usage put it into your .bashrc file
+#          example:
+#          mkdir -p /extra/toolchain
+#          echo "export LO_TOOLCHAIN_DIR=/extra/toolchain/archives" >> ~/.bashrc
+#       2. Create a directory where build results are stored and set environment variable LO_EXPORT_DIR accordingly
+#          example:
+#          mkdir -p /extra/export
+#          echo "export LO_EXPORT_DIR=/extra/export" >> ~/.bashrc
+#       3. It's also possble to set separate directory for build logs (LO_LOGS_DIR environment variable)
+#          but it's not mandatory.
+#          By default all build logs are stored in /tmp/buildlogs
+
+#       Using variable TRAGET it's possible to set environement for host, sharp, sl210, etc projects.
+#       example:
+#       >$ TRAGET=sharp lomake final
+#       Otherwise environment will be automatically set for sl2 project.
+
+
+# directories definition
+
+default_toolchain_dir=/home/$USER/extra/toolchain/archives
+default_export_dir=/home/$USER/extra/export
+default_logs_dir=/tmp/buildlogs
+
+toolchain_dir=$default_toolchain_dir
+if [ $LO_TOOLCHAIN_DIR ]; then
+    toolchain_dir=$LO_TOOLCHAIN_DIR
+fi
+
+export_dir=$default_export_dir
+if [ $LO_EXPORT_DIR ]; then
+    export_dir=$LO_EXPORT_DIR
+fi
+
+logs_dir=$default_logs_dir
+if [ $LO_LOGS_DIR ]; then
+    logs_dir=$LO_LOGS_DIR
+fi
+
+echo "LOGS_DIR=$logs_dir"
+echo "TOOLCHAIN_DIR=$toolchain_dir"
+echo "EXPORT_DIR=$export_dir"
+
+
+wc_dir=""
+branch=""
+
+if [ "`svn info 2> /dev/null`" ]; then
+
+    wc_dir=`svn info | grep "Working Copy Root Path: " | sed -n 's|Working Copy Root Path: \(.*\)|\1|p'`
+    branch=`svn info | grep "Working Copy Root Path"| sed -n 's|.*\: .*\/\(.*\)$|\1|p'`
+
+elif [ "`git rev-parse --show-toplevel 2> /dev/null`" ]; then
+
+    wc_dir=`git rev-parse --show-toplevel`
+    branch=`git rev-parse --show-toplevel | sed -n 's|.*\/\(.*\)$|\1|p'`
+
+else
+    echo "`pwd` is not a working copy of the source tree"
+    exit 1
+fi 
+
+
+branch=`pwd | cut -d/ -f5`
+#wc_dir="$branches_dir/$branch"
+wc_dir=`pwd`
+
+date=`date +%d%m%y%H%M%S`
+
+
+num_of_cores=`grep processor /proc/cpuinfo | wc -l`
+
+build_in_parallell="-j$num_of_cores"
+
+build_cmd="make $build_in_parallell -f projectmakefile"
+bjam_build_cmd="make $build_in_parallell -f projectmakefile"
+
+set_sl2_compenv()
+{
+
+    export COMPENV_PROJECT_VARIANT=sl220
+    export BUILDENV_PROJECT_VARIANT=sl220
+    export BUILDENV_PROJECT_NAME=sl22x
+
+    export COMPENV_PROJECT_LOCATION=$wc_dir/loewe/chassis/sl200/project
+}
+
+set_hl1_compenv()
+{
+
+    export BUILDENV_PROJECT_NAME=hl1
+    #export BUILDENV_PROJECT_VARIANT=sx6eval
+    #export BUILDENV_PROJECT_VARIANT=hl1indexa
+    export BUILDENV_PROJECT_VARIANT=hl1_loewe
+    export BUILDENV_MACADDR=c8:16:bd:70:aa:d1
+
+}
+
+
+set_sl210_compenv()
+{
+    export COMPENV_PROJECT_VARIANT=sl210
+    export COMPENV_PROJECT_LOCATION=$wc_dir/loewe/chassis/sl1_sl210/project
+}
+
+set_sharp_compenv()
+{
+    export COMPENV_PROJECT_VARIANT=le65x
+    export COMPENV_PROJECT_LOCATION=$wc_dir/loewe/chassis/sl1/project
+}
+
+set_biz_compenv()
+{
+    export COMPENV=$CODEBASE_PATH/loewe/buildtools/compenv/linux-hosttools
+    export COMPENV_PROJECT_VARIANT=hosttools
+    export COMPENV_PROJECT_LOCATION=$wc_dir/loewe/buildtools/projects/tara/uiapp/host
+    export BUILDENV_PROJECT_NAME=linuxhost
+    export BUILDENV_PROJECT_VARIANT=host
+}
+
+set_testenv_compenv()
+{
+    export COMPENV=$CODEBASE_PATH/loewe/buildtools/compenv/linux-hosttools
+    export COMPENV_PROJECT_VARIANT=hosttools
+    export COMPENV_PROJECT_LOCATION=$wc_dir/loewe/buildtools/projects/loewe/biz-test-env
+}
+
+set_modeltest_compenv()
+{
+    export COMPENV=$CODEBASE_PATH/loewe/buildtools/compenv/linux-hosttools
+    export COMPENV_PROJECT_VARIANT=hosttools
+    export COMPENV_PROJECT_LOCATION=$wc_dir/loewe/buildtools/projects/loewe/modeltest
+}
+
+
+set_host_compenv()
+{
+    export COMPENV_DEF_LOGMODE=both
+    export COMPENV=$CODEBASE_PATH/loewe/buildtools/compenv/linux-hosttools
+    export COMPENV_PROJECT_VARIANT=hosttools
+    export COMPENV_PROJECT_LOCATION=$wc_dir/loewe/buildtools/projects/loewe/hosttools
+
+    export BUILDENV_PROJECT_VARIANT=host
+    export BUILDENV_PROJECT_NAME=linuxhost
+
+}
+
+
+set_default_compenv()
+{
+    export CODEBASE_PATH=$wc_dir
+    export BUILDENV_PROJECT_DIR=$wc_dir
+
+    export COMPENV=$CODEBASE_PATH/loewe/buildtools/compenv/stlinux-2.4
+
+    export COMPENV_INSTALL_DIR=$export_dir/$branch
+    export BUILDENV_INSTALL_DIR=$export_dir/$branch
+
+    export COMPENV_OS_DETECTED=linux
+    export COMPENV_NFSSERVER=`/sbin/ifconfig eth0 |sed -n 's/.*inet addr:\([0-9\.]*\).*/\1/p'`
+    export BUILDENV_NFSSERVER=$COMPENV_NFSSERVER
+
+    export CODEBASE_DIR=$CODEBASE_PATH
+
+    # 0483 - vendor ID
+    export COMPENV_STCONNECT_IP=`lsusb -d 0483: -v | sed -n 's/.*\(STMCLT[0-9]\{4\}$\)/\1/p'`-A
+    export BUILDENV_STCONNECT_IP=$COMPENV_STCONNECT_IP
+    #export COMPENV_STCONNECT_IP=STMCLT1490-A
+
+
+    export CCACHE=ccache
+}
+
+set_compenv()
+{
+    set_default_compenv
+    echo "TARGET=$TARGET"
+    case $TARGET in
+	sharp)
+	    set_sharp_compenv
+	    ;;
+	biz)
+	    set_biz_compenv
+	    ;;
+	testenv)
+	    set_testenv_compenv
+	    ;;
+	modeltest)
+	    set_modeltest_compenv
+	    ;;
+	host)
+	    set_host_compenv
+	    ;;
+        sl210)
+            set_sl210_compenv
+            ;;
+        hl1)
+            set_hl1_compenv
+            ;;
+
+        *)
+            #default is SL2
+            set_sl2_compenv
+	    ;;
+    esac
+}
+
+
+print_compenv()
+{
+    echo "----- COMPILATION ENVIRONMENT -----"
+    echo "CODEBASE_PATH=$CODEBASE_PATH"
+    echo "COMPENV=$COMPENV"
+    echo "COMPENV_INSTALL_DIR=$COMPENV_INSTALL_DIR"
+    echo "COMPENV_OS_DETECTED=$COMPENV_OS_DETECTED"
+    echo "COMPENV_PROJECT_VARIANT=$COMPENV_PROJECT_VARIANT"
+    echo "COMPENV_PROJECT_LOCATION=$COMPENV_PROJECT_LOCATION"
+    echo "COMPENV_NFSSERVER=$COMPENV_NFSSERVER"
+    echo "COMPENV_STCONNECT_IP=$COMPENV_STCONNECT_IP"
+    echo "CODEBASE_DIR=$CODEBASE_DIR"
+    echo "BUILDENV_PROJECT_VARIANT=$BUILDENV_PROJECT_VARIANT"
+    echo "BUILDENV_PROJECT_NAME=$BUILDENV_PROJECT_NAME"
+    echo "BUILDENV_PROJECT_DIR=$BUILDENV_PROJECT_DIR"
+    echo "BUILDENV_INSTALL_DIR=$BUILDENV_INSTALL_DIR"
+    echo "BUILDENV_NFSSERVER=$BUILDENV_NFSSERVER"
+    echo "BUILDENV_STCONNECT_IP=$BUILDENV_STCONNECT_IP"
+    echo "-----------------------------------"
+}
+
+install_toolchain()
+{
+    echo "Installing toolchain"
+    # -t specifies target directory
+    ln -sft $wc_dir/loewe/buildtools/compenv/ $toolchain_dir
+
+    make -C $wc_dir/loewe/buildtools/compenv install 2>&1 | tee $logs_dir/toolchain_$date.log 2>&1
+    echo "Toolchain installation completed"
+}
+
+install_bjam_toolchain()
+{
+    echo "Installing bjam toolchain"
+    # -t specifies target directory
+    #ln -sft $wc_dir/loewe/buildtools/compenv/ $toolchain_dir
+
+    #make -C $wc_dir/loewe/buildtools/compenv install 2>&1 | tee $logs_dir/toolchain_$date.log 2>&1
+    cd $wc_dir ; ./be prepareprj
+    echo "Toolchain installation completed"
+}
+
+
+# set compilation environment
+set_compenv
+
+#
+print_compenv
+
+# Cretae log directory
+if [ ! -d $logs_dir ];
+then
+    mkdir -p $logs_dir
+fi
+
+# Install toolchain if it is new working copy
+if [ ! -d $wc_dir/loewe/buildtools/compenv/archives ];
+then
+    install_toolchain
+fi
+
+
+# choose what to build and how to build
+case $1 in
+    toolchain)
+	echo "Install toolchain"
+	install_toolchain
+	;;
+    bjam_toolchain)
+	echo "Install toolchain"
+        #set_sl2_compenv
+	install_bjam_toolchain
+	;;
+
+
+    debug)
+	echo "Build debug project variant"
+	$build_cmd -C $COMPENV_PROJECT_LOCATION debug-variant install 2>&1 | tee $logs_dir/debug_$date.log 
+	;;
+    # debug_comp)
+    #     echo "Run \"make $build_in_parallell $@\""
+    #     make $build_in_parallell $@ debug-variant install
+	#;;
+
+    final)
+	echo "Build final project variant"
+	$build_cmd -C $COMPENV_PROJECT_LOCATION final-variant install 2>&1 | tee $logs_dir/final_$date.log 
+	;;
+    build)
+	echo "Build default project variant"
+	$build_cmd -C $COMPENV_PROJECT_LOCATION 2>&1 | tee $logs_dir/build_$date.log 
+	;;
+    bjam_build_biz)
+	echo "Build biz on host"
+        #cd $wc_dir; bjam -q $build_in_parallell build define=DISABLE_BIZ  ; bjam -q  $build_in_parallell install define=DISABLE_BIZ
+        set_biz_compenv
+        #cd $wc_dir; export ENABLE_BROWSER=0; bjam -q $build_in_parallell build define=ENABLE_BROWSER=0;
+        #cd $wc_dir; bjam -q $build_in_parallell install define=DISABLE_BIZ
+        cd $wc_dir; bjam -q $build_in_parallell build && bjam -q $build_in_parallell install
+        #cd $wc_dir/loewe/common/ma/quern/core; bjam modvar-debug -q $build_in_parallell install define=DISABLE_BIZ
+        #cd $wc_dir/loewe/common/biz/sl2/application; bjam modvar-debug -q $build_in_parallell install define=DISABLE_BIZ define=USE_LAUNCHD=0 define=ENABLE_LAUNCHD=0
+        #cd $wc_dir/loewe/chassis/sl200/startup/biz; bjam modvar-debug && bjam -q build define=DISABLE_BIZ define=ENABLE_LAUNCHD=0 && bjam -q install define=DISABLE_BIZ define=ENABLE_LAUNCHD=0
+	;;
+    bjam_host_nfs)
+        #set_biz_compenv
+        cd $wc_dir; ./be preparenfs run-tgt 
+	;;
+
+    bjam_build)
+	echo "Build bjam default project variant"
+        cd $wc_dir; bjam  $build_in_parallell -q build #&& bjam  $build_in_parallell -q install
+	;;
+    bjam_build_dvbmain)
+	echo "Build bjam default project variant"
+        cd $wc_dir; bjam $build_in_parallell -q build define=DISABLE_BIZ && bjam $build_in_parallell -q install define=DISABLE_BIZ
+	;;
+
+    bjam_build_dvbmain_comp_debug)
+	echo "Build bjam default project variant"
+        cd $wc_dir; cd $2; bjam modvar-debug $build_in_parallell -q install define=DISABLE_BIZ 2>&1 | tee $logs_dir/build_$date.log
+	;;
+
+    bjam_build_comp)
+	echo "Build bjam default project variant"
+        cd $wc_dir; cd $2;  bjam modvar-final -q $build_in_parallell install 2>&1
+	;;
+    bjam_build_comp_ex)
+        cd $wc_dir; cd $2;  bjam -q build
+        ;;
+
+    bjam_clean_comp)
+	echo "Cleaning objects"
+        cd $wc_dir; cd $2;  bjam -q $build_in_parallell build --clean 2>&1
+	;;
+
+    bjam_clean)
+	echo "Cleaning objects"
+        cd $wc_dir; bjam distclean projectclean
+	;;
+
+
+    bjam_build_comp_debug)
+	echo "Build bjam default project variant"
+        cd $wc_dir; cd $2;  bjam modvar-debug; bjam  $build_in_parallell -q build; bjam  $build_in_parallell -q install
+	;;
+
+    bjam_build_comp_debug_host)
+        set_biz_compenv
+	echo "Build bjam default project variant"
+        #cd $wc_dir; cd $2;  bjam modvar-debug; bjam -d2 build define=USE_LAUNCHD=0 2>&1 ; bjam -d2 install define=USE_LAUNCHD=0 2>&1
+        #cd $wc_dir; cd $2;  bjam modvar-debug; bjam -d2 build ; bjam -d2 install
+        cd $wc_dir; cd $2; bjam -d2 install 
+	;;
+
+    bjam_inc_build)
+        bjam build -j4 -q
+        #cd $wc_dir; bjam $build_in_parallell build 2>&1 | tee $logs_dir/build_$date.log ; bjam  $build_in_parallell install 2>&1 | tee $logs_dir/build_$date.log
+	#$build_cmd -C $COMPENV_PROJECT_LOCATION 2>&1 | tee $logs_dir/build_$date.log 
+        #cd $wc_dir; ./be installprj
+	;;
+    clean)
+	echo "Clean project"
+	$build_cmd -C $COMPENV_PROJECT_LOCATION prefixclean distclean 2>&1 | tee $logs_dir/clean_$date.log
+	;;
+    img)
+	echo "Create image"
+	make $build_in_parallell -C $COMPENV_PROJECT_LOCATION jtag-img 2>&1
+
+	#set compenv again just in case
+	set_compenv
+	echo "Falsh image via JTAG"
+	make -C $COMPENV_PROJECT_LOCATION jtag-prog 2>&1
+	;;
+    bjam_img)
+	echo "Create image"
+	set_compenv
+        #set_sl2_compenv
+        #cd $wc_dir; ./be prepareprj install installprj flash-img flash-prog
+        cd $wc_dir && ./be installprj flash-img flash-prog
+	;;
+    bjam_hwid)
+	echo "Generate hw id"
+	set_compenv
+        cd $wc_dir; ./be hwid-patch
+	;;
+
+    bjam_init)
+	echo "Generate hw id"
+	set_compenv
+        cd $wc_dir; ./be flash-img init-prog
+	;;
+
+    bjam_jtag)
+	echo "Create image"
+	set_compenv
+        set_sl2_compenv
+        #cd $wc_dir; ./be installprj flash-prog
+        cd $wc_dir; ./be flash-prog
+	;;
+
+
+    jtag)
+	echo "Falsh image via JTAG"
+	make $build_in_parallell -C $COMPENV_PROJECT_LOCATION jtag-prog 2>&1
+	;;
+    nfs)
+	echo "Boot via NFS"
+	make -C $COMPENV_PROJECT_LOCATION run-tgt 2>&1
+	;;
+    bjam_nfs)
+	echo "Boot via NFS"
+	set_compenv
+        #set_sl2_compenv
+        cd $wc_dir; ./be preparenfs ; ./be run-tgt
+	;;
+
+    hl1_nfs)
+	echo "Boot via NFS"
+	set_compenv
+        cd $wc_dir; ./be preparenfs
+	;;
+
+    svn_up)
+	echo "Boot via NFS"
+	set_compenv
+        cd $wc_dir; svn up
+	;;
+
+
+    biz)
+	echo "Build BizMon"
+	TARGET=biz
+	set_compenv
+	print_compenv
+	$wc_dir/loewe/buildtools/projects/tara/uiapp/bizmon/buildBizMon.sh
+	;;
+    webiz)
+	echo "Build WeBiz"
+	TARGET=biz
+	set_compenv
+	print_compenv
+	qmake -makefile -o $wc_dir/loewe/tools/projects/lconnect/Resources/WeBiz/Makefile \
+            $wc_dir/loewe/tools/projects/lconnect/Resources/WeBiz/WeBiz.pro
+        make -C $wc_dir/loewe/tools/projects/lconnect/Resources/WeBiz/
+	;;
+
+    create-biz-pkg)
+        echo "Create deb package contining BizMon and WeBiz"
+	TARGET=biz
+	set_compenv
+        . create_deb.sh
+        ;;
+    testenv)
+	echo "Test enviroment"
+	TARGET=testenv
+	set_compenv
+	print_compenv
+	$build_cmd  -C $COMPENV_PROJECT_LOCATION  2>&1 | tee $logs_dir/build_$date.log
+	;;
+    testenv_inc)
+	echo "Test enviroment"
+	TARGET=testenv
+	set_compenv
+	print_compenv
+	make -C $wc_dir/loewe/common/biz/tests/test-env install  2>&1 | tee $logs_dir/build_$date.log
+	;;
+    bjam_testenv)
+	echo "Test enviroment"
+        set_biz_compenv
+	print_compenv
+	#$build_cmd  -C $COMPENV_PROJECT_LOCATION  2>&1 | tee $logs_dir/build_$date.log
+        cd $wc_dir/loewe/common/biz/tests/test-env; bjam modvar-debug; bjam -q -d2 build ; bjam -d2 install
+	;;
+
+    modeltest)
+	echo "Model test"
+	TARGET=modeltest
+	set_compenv
+	print_compenv
+	$build_cmd -C $COMPENV_PROJECT_LOCATION  2>&1 | tee $logs_dir/build_$date.log
+	;;
+
+    env)
+        echo "Set environment"
+        set_compenv
+        print_compenv
+        ;;
+    *)
+	echo "Run \"make $build_in_parallell $@\""
+	make $build_in_parallell final-variant install $@
+        #bjam $@ build
+	;;
+esac
