@@ -1,0 +1,10 @@
+ffprobe -rtsp_flags prefer_tcp -print_format json -show_streams 'rtsp://user:123456@172.31.14.145:1935/rtsp_server_auth/fargo.s01e01.mp4'
+
+
+curl http://admin:''@172.31.14.157/admin/ajax/get_input_status.cgi?id=RTSP20
+
+# Check branding content
+configdb dump | sed -r -n 's/^::source[A-Za-z0-9.-]+:NOSIGNAL::(.+)/\1/p' | sort -u
+
+configdb dump | sed -r -n 's/^::vgabroadcasterlite[0-9]+\/layouts\/[0-9]+:SETTINGS::(\{.+\})$/\1/p' | jq -r '.video|map(select(.type == "picture"))[].settings.id' | sort -u
+

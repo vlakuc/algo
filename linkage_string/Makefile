@@ -1,5 +1,5 @@
 
 LDFLAGS = -lboost_regex
-CPPFLAGS = -g
+CPPFLAGS = -g -std=c++11
 
 main:

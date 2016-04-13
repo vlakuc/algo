@@ -1,0 +1,12 @@
+D2P281122.hdmi-a<--->D2P280665.hdmi-a
+D2P281122.hdmi-b<--->D2P280665.hdmi-b
+D2P281122.sdi-a<--->D2P280665.sdi-a
+D2P281122.sdi-b<--->D2P280665.sdi-b
+D2P281122.vga-a<--->D2P280665.vga-a
+D2P281122.vga-b<--->D2P280665.vga-b
+D2P281122.analog-a<--->D2P280665.analog-a
+D2P281122.analog-b<--->D2P280665.analog-b
+D2P281122.hdmi-a-audio<--->D2P280665.hdmi-a-audio
+D2P281122.hdmi-b-audio<--->D2P280665.hdmi-b-audio
+D2P281122.sdi-a-audio<--->D2P280665.sdi-a-audio
+D2P281122.sdi-b-audio<--->D2P280665.sdi-b-audio

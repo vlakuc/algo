@@ -1,6 +1,7 @@
 
 #include <string>
 #include <iostream>
+#include <fstream>
 #include <iomanip>
 #include <queue>
 #include <boost/lexical_cast.hpp>
@@ -146,10 +147,38 @@ void printOut< std::vector<int> >(std::vector<int>& v)
     std::copy(v.begin(), v.end(), std::ostream_iterator<int>(std::cout, "\n"));
 }
 
+void testIfstream(const std::vector<std::string>& vec)
+{
+    std::string configsrc;
+    for(auto& s : vec) {
+    std::unique_ptr<std::istream> is;
+    is.reset(new std::ifstream(s));
+    if (! is->good())
+    {
+        std::cout << "Bad stream: " << s << std::endl;
+        continue;
+    }
+    while(!is->eof()) {
+        std::string tmp;
+        std::getline(*is, tmp);
+        configsrc += tmp;
+    }
+    }
+    std::cout << configsrc;
+}
+
+void testDiv()
+{
+    std::cout << 20 / (double)3 << std::endl;
+}
 
 int main()
 {
+    std::vector<std::string> vec = { "./json.txt", "two" };
 
+    //testIfstream(vec);
+    testDiv();
+    return 0;
     //std::cout << hasLcnLinkage("00000000006507D130000AAAAAA6507D13") << std::endl;
     //std::cout << hasLcnLinkage("") << std::endl;
 

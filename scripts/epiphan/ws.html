@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <script>
+
+var byteArrayToBase64 = function(byteArr, offset){
+    var base64s = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
+    var encOut = "";
+    var bits;
+    var i = offset;
+    var length = byteArr.length - offset;
+
+    while(length >= i+3){
+        bits = (byteArr[i++] & 0xff) << 16 | (byteArr[i++] & 0xff) << 8 | byteArr[i++] & 0xff;
+        encOut += base64s.charAt((bits & 0x00fc0000) >> 18) + base64s.charAt((bits & 0x0003f000) >> 12) + base64s.charAt((bits & 0x00000fc0) >> 6) + base64s.charAt((bits & 0x0000003f));
+    }
+    if(length-i > 0 && length-i < 3){
+        var dual = Boolean(length - i - offset);
+        bits = ((byteArr[i++] & 0xff) << 16) | (dual ? (byteArr[i] & 0xff) << 8 : 0);
+        encOut += base64s.charAt((bits & 0x00fc0000) >> 18) + base64s.charAt((bits & 0x0003f000) >> 12) + (dual ? base64s.charAt((bits & 0x00000fc0) >> 6) : '=') + '=';
+    }
+    return encOut;
+};
+
+            var webSocket = new WebSocket('ws://172.31.14.141:8889/preview/channel?id=3&layout=1&resolution=640x480&fps=15&streamId=0');
+
+ alert('created');
+webSocket.binaryType = 'arraybuffer';
+
+            webSocket.onopen = function(event) {
+                alert('onopen');
+                webSocket.send("Hello Web Socket!");
+//webSocket.send("stop-listening");
+            };
+
+            webSocket.onmessage = function(event) {
+
+               var serverData = new Uint8Array(event.data);
+
+                var headerLength = serverData[0];
+                
+                headerLength = headerLength << 8;
+                headerLength |= serverData[1];
+   
+
+                
+
+document.getElementById("my_pic").src= "data:image/jpeg;base64," + byteArrayToBase64(serverData, 12);
+            };
+
+            webSocket.onclose = function(event) {
+                alert('onclose');
+            };
+        </script>
+<img src="" id="my_pic"/>
+    </head>
+    <body>
+    </body>
+</html>

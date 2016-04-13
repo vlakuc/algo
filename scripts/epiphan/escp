@@ -1,0 +1,55 @@
+#DEV_IP=172.31.14.148
+DEV_IP=172.31.14.148
+SRC_ROOT=/home/vkuchuk/proj/epiphan_svn_trunk
+SUBSYS_PATH=$SRC_ROOT/epiphan/vga2cpu/ltib/vga2web/subsys
+TEST_PATH=$SUBSYS_PATH/base/skell-v2c.1.0/opt/tests/presets
+DEST="root@$DEV_IP:"
+
+
+# scp -r  $TEST_PATH/*                                                        $DEST/data/tests/presets
+# scp $SUBSYS_PATH/grid/presets/channels                                      $DEST/etc/presets/
+# scp $SUBSYS_PATH/grid/presets/sources                                       $DEST/etc/presets/
+# scp $SUBSYS_PATH/episcreen/episcreen/presets/frontscreen                    $DEST/etc/presets/
+# scp $SUBSYS_PATH/extdisplay/extdisplay/presets/displays                     $DEST/etc/presets/
+# scp $SUBSYS_PATH//grid/presets/edid                                         $DEST/etc/presets/
+# scp $SUBSYS_PATH/base/skell-v2c.1.0/sbin/profiles                           $DEST/sbin
+# scp $SUBSYS_PATH/grid/scripts/print_grabbers                                $DEST/sbin
+# scp $SUBSYS_PATH/grid/scripts/print_grabbers_php                            $DEST/sbin
+# scp $SUBSYS_PATH/grid/scripts/print_audio_sources                           $DEST/sbin
+# scp $SUBSYS_PATH/webadmin/phplib/configdb.php                               $DEST/wui/phplib/
+# scp $SUBSYS_PATH/webadmin/cgi/webadmin.cgi                                    $DEST/wui/wwwroot/admin/ 
+# scp $SUBSYS_PATH/webadmin/phplib/grid_lib.php                               $DEST/wui/phplib/
+# scp $SUBSYS_PATH/base/webadmin/cfg/maintenancecfg.php                       $DEST/wui/wwwroot/admin/cat/cat_01_config/
+# scp $SUBSYS_PATH/grid/webadmin/admin/cat/cat_00_channels/category_code        $DEST/wui/wwwroot/admin/cat/cat_00_channels/
+# scp $SUBSYS_PATH/grid/webadmin/admin/cat/cat_00_sources/category_code         $DEST/wui/wwwroot/admin/cat/cat_00_sources/
+
+# scp $SUBSYS_PATH/grid/webadmin/admin/cat/cat_00_sources/setup_rtsp.php          $DEST/wui/wwwroot/admin/cat/cat_00_sources/
+# scp $SUBSYS_PATH/grid/webadmin/admin/cat/cat_01_config/extgrabber.php         $DEST/wui/wwwroot/admin/cat/cat_01_config/
+# scp $SUBSYS_PATH/grid/webadmin/admin/add_device.cgi                           $DEST/wui/wwwroot/admin/
+# scp $SUBSYS_PATH/grid/webadmin/admin/add_rtsp_source.cgi                      $DEST/wui/wwwroot/admin/
+# scp $SUBSYS_PATH/grid/webadmin/admin/ajax/get_rtsp_source_status.cgi          $DEST/wui/wwwroot/admin/ajax/
+# scp $SUBSYS_PATH/grid/webadmin/admin/ajax/get_input_status.cgi                $DEST/wui/wwwroot/admin/ajax/
+# scp $SUBSYS_PATH/base/webadmin/ajax/profiles.cgi                            $DEST/wui/wwwroot/admin/ajax/
+# scp $SUBSYS_PATH/base/skell-v2c.1.0/etc/presets/common/utilities            $DEST/etc/presets/common/
+# scp $SUBSYS_PATH/base/skell-v2c.1.0/etc/scripts/print_matching_sources.php  $DEST/etc/scripts/
+# scp $SUBSYS_PATH/grid/webadmin/admin/cat/cat_00_sources/source.php          $DEST/wui/wwwroot/admin/cat/cat_00_sources/
+# scp $SUBSYS_PATH/upnpmediaserver/upnpmediaserver/service_upnp/run           $DEST/service/upnp
+# scp $SUBSYS_PATH/upnpmediaserver/upnpmediaserver/webadmin/ajax/upnp_wrap.cgi $DEST/wui/wwwroot/admin/ajax/
+
+# scp $SRC_ROOT/epiphan/vga2cpu/ltib/rpm/BUILD/wsms/src/wsms/wsms               $DEST/usr/bin
+# scp $SUBSYS_PATH/wsms/wsms/phplib/wsms_pipeline_cfg.php                       $DEST/wui/phplib/
+# scp $SUBSYS_PATH/grid/phplib/pipeline_cfg.php                                 $DEST/wui/phplib/
+# scp $SUBSYS_PATH//wsms/wsms/scripts/wsms_producer                             $DEST/usr/bin
+# scp $SUBSYS_PATH/webadmin/api/api.utils.php                                   $DEST/wui/wwwroot/apiw
+# scp $SUBSYS_PATH/wsms/wsms/service/run                                        $DEST/service/wsms/
+# scp $SRC_ROOT/epiphan/vga2cpu/ltib/rootfs.vga2cpu_x86_64/usr/bin/pipeline    $DEST/usr/bin
+# scp $SRC_ROOT/epiphan/vga2cpu/ltib/rpm/BUILD/grid/src/pipeline/pipeline       $DEST/usr/bin
+# scp $SRC_ROOT/epiphan/vga2cpu/ltib/rpm/BUILD/grid/src/ffinfo/ffinfo           $DEST/usr/bin
+# scp $SUBSYS_PATH/webadmin/phplib/forms.php                                     $DEST/wui/phplib/
+
+# scp $SRC_ROOT/epiphan/vga2cpu/ltib/rpm/BUILD/grid/src/ffinput/build/x86_64/release/ffinput $DEST/usr/bin
+# scp $SUBSYS_PATH/grid/services/inputs/svc_templates/rtsp/run                  $DEST/service/inputs/ffinput_RTSP33
+
+# scp $SRC_ROOT/epiphan/vga2cpu/ltib/rpm/BUILD/libshm/lib/libshm.so               $DEST//usr/lib64/
+ scp $SUBSYS_PATH/grid/webadmin/admin/cat/cat_00_sources/source.php            $DEST/wui/wwwroot/admin/cat/cat_00_sources/
+ scp $SUBSYS_PATH/grid/webadmin/admin/ajax/get_source_usage.cgi               $DEST/wui/wwwroot/admin/ajax/

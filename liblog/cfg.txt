@@ -1,0 +1,248 @@
+{
+    "elements": [
+        {
+            "id": "switcher_switcher_B",
+            "type": "switcher",
+            "input": [
+                "nosignal_D2P281122.hdmi-b",
+                "nosignal_D2P281122.sdi-b",
+                "nosignal_D2P281122.vga-b",
+                "audio_resampler_1",
+                "audio_resampler_2",
+                "audio_resampler_3"
+            ],
+            "settings": {
+                "affinity_key": "AutoB",
+                "delay_before_switch": 1,
+                "av_map": [
+                    {
+                        "video": "nosignal:nosignal_D2P281122.hdmi-b",
+                        "audio": "audio_resampler:audio_resampler_1"
+                    },
+                    {
+                        "video": "nosignal:nosignal_D2P281122.sdi-b",
+                        "audio": "audio_resampler:audio_resampler_2"
+                    },
+                    {
+                        "video": "nosignal:nosignal_D2P281122.vga-b",
+                        "audio": "audio_resampler:audio_resampler_3"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "shm_reader_D2P281122_hdmi-b",
+            "type": "shm_reader",
+            "settings": {
+                "shm_name": "D2P281122.hdmi-b"
+            }
+        },
+        {
+            "id": "nosignal_D2P281122.hdmi-b",
+            "type": "nosignal",
+            "input": [
+                "shm_reader_D2P281122_hdmi-b"
+            ],
+            "settings": {
+                "url": "/etc/pipeline/nosignal.jpg",
+                "timeout": 5
+            }
+        },
+        {
+            "id": "shm_reader_D2P281122_sdi-b",
+            "type": "shm_reader",
+            "settings": {
+                "shm_name": "D2P281122.sdi-b"
+            }
+        },
+        {
+            "id": "nosignal_D2P281122.sdi-b",
+            "type": "nosignal",
+            "input": [
+                "shm_reader_D2P281122_sdi-b"
+            ],
+            "settings": {
+                "url": "/etc/pipeline/nosignal.jpg",
+                "timeout": 5
+            }
+        },
+        {
+            "id": "shm_reader_D2P281122_vga-b",
+            "type": "shm_reader",
+            "settings": {
+                "shm_name": "D2P281122.vga-b"
+            }
+        },
+        {
+            "id": "nosignal_D2P281122.vga-b",
+            "type": "nosignal",
+            "input": [
+                "shm_reader_D2P281122_vga-b"
+            ],
+            "settings": {
+                "url": "/etc/pipeline/nosignal.jpg",
+                "timeout": 5
+            }
+        },
+        {
+            "id": "sysinfo_framesizeReporter",
+            "type": "sysinfo",
+            "input": [
+                "switcher_switcher_B"
+            ],
+            "settings": {
+                "keys": [
+                    "input_resolution"
+                ],
+                "channel": "2"
+            }
+        },
+        {
+            "id": "place_AutoB_1",
+            "type": "place",
+            "input": [
+                "sysinfo_framesizeReporter"
+            ],
+            "settings": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "keep_aspect_ratio": true
+            }
+        },
+        {
+            "id": "last_frame_AutoB_1",
+            "type": "last_frame",
+            "input": [
+                "place_AutoB_1"
+            ]
+        },
+        {
+            "id": "composer",
+            "type": "composer",
+            "input": [
+                "last_frame_AutoB_1"
+            ],
+            "settings": {
+                "background-color": "#000000"
+            }
+        },
+        {
+            "id": "shm_reader_A_D2P281122_hdmi-b-audio",
+            "type": "shm_reader",
+            "settings": {
+                "shm_name": "A_D2P281122.hdmi-b-audio"
+            }
+        },
+        {
+            "id": "audio_resampler_1",
+            "type": "audio_resampler",
+            "input": [
+                "shm_reader_A_D2P281122_hdmi-b-audio"
+            ]
+        },
+        {
+            "id": "shm_reader_A_D2P281122_sdi-b-audio",
+            "type": "shm_reader",
+            "settings": {
+                "shm_name": "A_D2P281122.sdi-b-audio"
+            }
+        },
+        {
+            "id": "audio_resampler_2",
+            "type": "audio_resampler",
+            "input": [
+                "shm_reader_A_D2P281122_sdi-b-audio"
+            ]
+        },
+        {
+            "id": "shm_reader_A_D2P281122_analog-b",
+            "type": "shm_reader",
+            "settings": {
+                "shm_name": "A_D2P281122.analog-b"
+            }
+        },
+        {
+            "id": "audio_resampler_3",
+            "type": "audio_resampler",
+            "input": [
+                "shm_reader_A_D2P281122_analog-b"
+            ]
+        },
+        {
+            "id": "audio_mixer",
+            "type": "audio_mixer",
+            "input": [
+                "switcher_switcher_B"
+            ]
+        },
+        {
+            "id": "shm_writer",
+            "type": "shm_writer",
+            "input": [
+                "composer",
+                "audio_mixer"
+            ],
+            "settings": {
+                "shm_name": "channel2"
+            }
+        },
+        {
+            "id": "sysinfo",
+            "type": "sysinfo",
+            "input": [
+                "shm_writer"
+            ],
+            "settings": {
+                "channel": "2",
+                "keys": [
+                    "fps",
+                    "pipeline_cfg_time"
+                ]
+            }
+        }
+    ],
+    "profiler_output": "/wui/wwwroot/ajax/pipeline_status_2.json",
+
+    "output": {
+        "url": "http://localhost:8001/feed1.ffm",
+        "format": "rawpacket",
+        "encoders": [
+            {
+                "codec": "libmfxhw64",
+                "width": "1920",
+                "height": "1080",
+                "timebase_num": 1,
+                "timebase_den": "30",
+                "input_queue_size": 2,
+                "output_queue_size": "30",
+                "options": {
+                    "b": 6467000,
+                    "g": 30,
+                    "profile": "high",
+                    "rc-lookahead": 1,
+                    "flags": "+global_header",
+                    "bf": 0,
+                    "qmin": 1,
+                    "qmax": 51
+                }
+            },
+            {
+                "codec": "libfaac",
+                "sample_rate": "44100",
+                "sample_fmt": 1,
+                "output_queue_size": 500,
+                "input_queue_size": 4,
+                "options": {
+                    "profile": "aac_low",
+                    "b": "320k",
+                    "ar": "44100",
+                    "ac": "2",
+                    "flags": "+global_header"
+                }
+            }
+        ]
+    }
+}
+}
