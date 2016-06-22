@@ -1,9 +1,14 @@
-#DEV_IP=172.31.14.148
-DEV_IP=172.31.14.148
+DEV_IP=172.31.14.140
+
+#DEV_IP=office.epiphan.com
+
 SRC_ROOT=/home/vkuchuk/proj/epiphan_svn_trunk
 SUBSYS_PATH=$SRC_ROOT/epiphan/vga2cpu/ltib/vga2web/subsys
+SRC_PATH=$SRC_ROOT/epiphan/vga2cpu/ltib/vga2web/src
 TEST_PATH=$SUBSYS_PATH/base/skell-v2c.1.0/opt/tests/presets
+FFMPEG_TESTS=$SRC_PATH/ffmpeg/ffmpeg-2.2.1/epiphan_tests
 DEST="root@$DEV_IP:"
+
 
 
 # scp -r  $TEST_PATH/*                                                        $DEST/data/tests/presets
@@ -18,12 +23,10 @@ DEST="root@$DEV_IP:"
 # scp $SUBSYS_PATH/grid/scripts/print_audio_sources                           $DEST/sbin
 # scp $SUBSYS_PATH/webadmin/phplib/configdb.php                               $DEST/wui/phplib/
 # scp $SUBSYS_PATH/webadmin/cgi/webadmin.cgi                                    $DEST/wui/wwwroot/admin/ 
-# scp $SUBSYS_PATH/webadmin/phplib/grid_lib.php                               $DEST/wui/phplib/
 # scp $SUBSYS_PATH/base/webadmin/cfg/maintenancecfg.php                       $DEST/wui/wwwroot/admin/cat/cat_01_config/
 # scp $SUBSYS_PATH/grid/webadmin/admin/cat/cat_00_channels/category_code        $DEST/wui/wwwroot/admin/cat/cat_00_channels/
 # scp $SUBSYS_PATH/grid/webadmin/admin/cat/cat_00_sources/category_code         $DEST/wui/wwwroot/admin/cat/cat_00_sources/
 
-# scp $SUBSYS_PATH/grid/webadmin/admin/cat/cat_00_sources/setup_rtsp.php          $DEST/wui/wwwroot/admin/cat/cat_00_sources/
 # scp $SUBSYS_PATH/grid/webadmin/admin/cat/cat_01_config/extgrabber.php         $DEST/wui/wwwroot/admin/cat/cat_01_config/
 # scp $SUBSYS_PATH/grid/webadmin/admin/add_device.cgi                           $DEST/wui/wwwroot/admin/
 # scp $SUBSYS_PATH/grid/webadmin/admin/add_rtsp_source.cgi                      $DEST/wui/wwwroot/admin/
@@ -35,7 +38,6 @@ DEST="root@$DEV_IP:"
 # scp $SUBSYS_PATH/grid/webadmin/admin/cat/cat_00_sources/source.php          $DEST/wui/wwwroot/admin/cat/cat_00_sources/
 # scp $SUBSYS_PATH/upnpmediaserver/upnpmediaserver/service_upnp/run           $DEST/service/upnp
 # scp $SUBSYS_PATH/upnpmediaserver/upnpmediaserver/webadmin/ajax/upnp_wrap.cgi $DEST/wui/wwwroot/admin/ajax/
-
 # scp $SRC_ROOT/epiphan/vga2cpu/ltib/rpm/BUILD/wsms/src/wsms/wsms               $DEST/usr/bin
 # scp $SUBSYS_PATH/wsms/wsms/phplib/wsms_pipeline_cfg.php                       $DEST/wui/phplib/
 # scp $SUBSYS_PATH/grid/phplib/pipeline_cfg.php                                 $DEST/wui/phplib/
@@ -46,10 +48,39 @@ DEST="root@$DEV_IP:"
 # scp $SRC_ROOT/epiphan/vga2cpu/ltib/rpm/BUILD/grid/src/pipeline/pipeline       $DEST/usr/bin
 # scp $SRC_ROOT/epiphan/vga2cpu/ltib/rpm/BUILD/grid/src/ffinfo/ffinfo           $DEST/usr/bin
 # scp $SUBSYS_PATH/webadmin/phplib/forms.php                                     $DEST/wui/phplib/
-
 # scp $SRC_ROOT/epiphan/vga2cpu/ltib/rpm/BUILD/grid/src/ffinput/build/x86_64/release/ffinput $DEST/usr/bin
 # scp $SUBSYS_PATH/grid/services/inputs/svc_templates/rtsp/run                  $DEST/service/inputs/ffinput_RTSP33
-
 # scp $SRC_ROOT/epiphan/vga2cpu/ltib/rpm/BUILD/libshm/lib/libshm.so               $DEST//usr/lib64/
- scp $SUBSYS_PATH/grid/webadmin/admin/cat/cat_00_sources/source.php            $DEST/wui/wwwroot/admin/cat/cat_00_sources/
- scp $SUBSYS_PATH/grid/webadmin/admin/ajax/get_source_usage.cgi               $DEST/wui/wwwroot/admin/ajax/
+# scp $SUBSYS_PATH/grid/webadmin/admin/cat/cat_00_sources/source.php            $DEST/wui/wwwroot/admin/cat/cat_00_sources/
+
+# scp $SUBSYS_PATH/grid/webadmin/admin/ajax/get_branding_usage.cgi             $DEST/wui/wwwroot/admin/ajax/
+# scp $SUBSYS_PATH/grid/webadmin/admin/ajax/remove_branding_content.cgi       $DEST/wui/wwwroot/admin/ajax/
+# scp $SRC_ROOT/epiphan/vga2cpu/ltib/rpm/BUILD/grid/src/ffinfo/ffinfo           $DEST/usr/bin
+
+
+# scp $SUBSYS_PATH/webadmin/phplib/grid_lib.php                               $DEST/wui/phplib/
+# scp $SUBSYS_PATH/fflite/webadmin/cfg/cat_01_config/cms.php                   $DEST/wui/wwwroot/admin/cat/cat_01_config/
+
+
+# scp $SUBSYS_PATH/grid/phplib/layout_validator.php                             $DEST/wui/phplib/
+# scp $SUBSYS_PATH/grid/webadmin/admin/ajax/get_source_usage.cgi               $DEST/wui/wwwroot/admin/ajax/
+# scp $SUBSYS_PATH/grid/webadmin/admin/cat/cat_00_sources/source.php            $DEST/wui/wwwroot/admin/cat/cat_00_sources/
+
+# scp $SUBSYS_PATH/webadmin/api/branding.php                                      $DEST/wui/wwwroot/api/
+
+# scp $SUBSYS_PATH/grid/webadmin/admin/cat/cat_01_config/cms.php                 $DEST/wui/wwwroot/admin/cat/cat_01_config/
+
+# scp $SUBSYS_PATH/grid/webadmin/admin/cat/cat_00_sources/setup_rtsp.php        $DEST/wui/wwwroot/admin/cat/cat_00_sources/
+
+# scp -P 2277 $SRC_ROOT/epiphan/vga2cpu/ltib/rpm/BUILD/ffmpeg-2.2.1/libavformat/libavformat.so* $DEST/usr/lib64/
+
+#scp $SRC_ROOT/epiphan/vga2cpu/ltib/rpm/BUILD/grid/src/ffinput/build/x86_64/debug/ffinput_d $DEST/usr/bin
+#scp $SRC_ROOT/epiphan/vga2cpu/ltib/rpm/BUILD/grid/src/pipeline/pipeline       $DEST/usr/bin
+
+#scp $SRC_ROOT/epiphan/vga2cpu/ltib/rpm/BUILD/grid/src/ffinput/build/x86_64/release/ffinput $DEST/usr/bin
+#scp $SRC_ROOT/epiphan/vga2cpu/ltib/rpm/BUILD/libepiqt/tests/app/shmaplay $DEST/data/tests/libepiqt
+#scp $SRC_ROOT/epiphan/vga2cpu/ltib/rpm/BUILD/libepiqt/lib/libepiqt.so $DEST/usr/lib64
+
+# scp -r  $FFMPEG_TESTS/*                                                   $DEST/data/tests/ffmpeg2-epiphan
+
+scp $SRC_ROOT/epiphan/vga2cpu/ltib/rpm/BUILD/grid/src/shm_tools/build/shm_tools $DEST/usr/bin

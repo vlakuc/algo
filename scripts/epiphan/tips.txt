@@ -8,3 +8,6 @@ configdb dump | sed -r -n 's/^::source[A-Za-z0-9.-]+:NOSIGNAL::(.+)/\1/p' | sort
 
 configdb dump | sed -r -n 's/^::vgabroadcasterlite[0-9]+\/layouts\/[0-9]+:SETTINGS::(\{.+\})$/\1/p' | jq -r '.video|map(select(.type == "picture"))[].settings.id' | sort -u
 
+
+# Run ffinput on RTSP
+gdb --args ffinput -i rtsp://172.31.14.145:1935/rtsp_server/bar.mp4 -in RTSP3 shm://RTSP3 -v 5 -lct 5000
